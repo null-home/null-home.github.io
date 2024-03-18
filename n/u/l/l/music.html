@@ -11,7 +11,6 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/audio.css" rel="stylesheet">
 </head>
 
 <body id="body">
@@ -33,7 +32,7 @@
                 <div class="mw-1200px h-100 w-100 d-flex flex-column ">
                     <div class="content__header d-flex flex-row justify-content-between align-items-center mx-3"
                         style="height: 50px;">
-                        <button class="fs-3 bi bi-arrow-left-short"></button>
+                        <button class="fs-3 bi bi-arrow-left-short" onclick="viewHome()"></button>
                         <div class="d-flex flex-row border-bottom border-light pb-1">
                             <input class="search-box cursor-arrow default" role="button" type="text">
                             <button class="bi bi-search-heart mx-1 "></button>
@@ -41,20 +40,24 @@
                     </div>
                     <div class="flex-grow ">
                         <div class="w-100 h-100 ">
-                            <div id="content-view-home" class="overflow-auto">
+                            <div id="content-view" class="overflow-auto">
                                 <script>
-                                    var div = document.getElementById('content-view-home');
-                                    var body = document.getElementById('body');
-                                    var header = document.getElementById('header');
+                                    let div = document.getElementById('content-view');
+                                    let body = document.getElementById('body');
+                                    let header = document.getElementById('header');
                                     let minusHeight = header?.offsetHeight > 0 ? 250 : 175;
                                     let height = "height:" + (body.offsetHeight - minusHeight) + 'px';
-                                    div.setAttribute("style", height);
+                                    div.setAttribute("style", height);  
                                 </script>
+                                <div id="view-home" class="width-animation">
 
-
-                                <div class="category-content d-flex flex-column">
+                                </div>
+                                <div id="view-list" class="width-animation">
+                                    
+                                </div>
+                                <!--<div class="category-content d-flex flex-column">
                                     <span class="fs-4 text-truncate ps-3 pb-1">Random</span>
-                                    <hr class="mb-3">
+                                    <hr class="mb-4 mx-3">
                                     <div class="d-flex flex-wrap">
                                         <div class="card-border d-flex flex-column align-items-center">
                                             <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative"
@@ -65,7 +68,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--
+                                        
                                             
                                         <div class="card-border d-flex flex-column align-items-center">
                                             <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative"
@@ -89,9 +92,9 @@
                                             </div>
                                         </div> 
                                     
-                                    -->
+                                    
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -99,8 +102,8 @@
             </div>
         </div>
         <div class="main__footer d-flex flex-column justify-content-between align-items-center">
-            <div id="audio-player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
-                <audio autoplay loop>
+            <div id="player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
+                <audio id="music-player" autoplay>
                     <source src="https://null-music.github.io/assets/07  風になる feat.Lefty Hand Cream.mp3">
                 </audio>
                 <span id="current-time" class="time fs-11px">0:00</span>
@@ -120,11 +123,11 @@
 
                 <div class="h-100 col-6 d-flex flex-row justify-content-center align-items-center">
                     <button class="bi bi-chevron-left fs-2"></button>
-                    <button class="bi bi-play-circle fs-1 mx-5" id="play-icon"></button>
+                    <button class="bi bi-play-circle fs-1 mx-5" id="play-button"></button>
                     <button class="bi bi-chevron-right fs-2"></button>
                 </div>
                 <div class="h-100 col-3 d-flex flex-row justify-content-end align-items-center pe-3">
-                    <button class="bi bi-volume-down"></button>
+                    <button class="bi bi-volume-down" id="mute-button"></button>
                     <input class="hide-on-mobile mx-2" type="range" id="volume-slider" max="100" value="80">
                 </div>
             </div>
@@ -134,6 +137,5 @@
 </body>
 
 </html>
-<script src="js/jquery-3.6.0.js"></script>
 <script src="js/clock.js" async></script>
 <script src="js/audio.js" async></script>
