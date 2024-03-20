@@ -32,11 +32,16 @@
                 <div class="mw-1200px h-100 w-100 d-flex flex-column ">
                     <div class="content__header d-flex flex-row justify-content-between align-items-center mx-3"
                         style="height: 50px;">
-                        <button class="fs-3 bi bi-arrow-left-short" onclick="viewHome()"></button>
-                        <div class="d-flex flex-row border-bottom border-light pb-1">
-                            <input class="search-box cursor-arrow default" role="button" type="text">
-                            <button class="bi bi-search-heart mx-1 "></button>
+                        <button class="fs-3 bi bi-arrow-left-short" onclick="showHome()"></button>
+                        <div class="d-flex flex-row justify-content-end align-items-center">
+                            <button class="bi bi-music-note-list mx-3" id="btn-play-list" onclick="loadPlayList()"></button>
+                            <div class="d-flex flex-row border-bottom border-light pb-1">
+                                
+                                <input class="search-box cursor-arrow default" role="button" type="text">
+                                <button class="bi bi-search-heart mx-1 "></button>
+                            </div>
                         </div>
+                        
                     </div>
                     <div class="flex-grow ">
                         <div class="w-100 h-100 ">
@@ -53,6 +58,10 @@
 
                                 </div>
                                 <div id="view-list" class="width-animation">
+                                    
+                                </div>
+                                
+                                <div id="play-list" class="width-animation">
                                     
                                 </div>
                                 <!--<div class="category-content d-flex flex-column">
@@ -104,7 +113,7 @@
         <div class="main__footer d-flex flex-column justify-content-between align-items-center">
             <div id="player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
                 <audio id="music-player" autoplay>
-                    <source src="https://null-music.github.io/assets/07  風になる feat.Lefty Hand Cream.mp3">
+                    <source src="assets/01 Flares.m4a">
                 </audio>
                 <span id="current-time" class="time fs-11px">0:00</span>
                 <input type="range" id="seek-slider" class="mx-4" max="100" value="0">
