@@ -24,7 +24,7 @@ var Tags = [
   },
   {
     "ID": 3,
-    "Name": "J-Pop-High"
+    "Name": "J-Pop-High",
     "Url": "https://null-library2.github.io/n/u/l/l/lib/"
   },
   {
@@ -34,12 +34,12 @@ var Tags = [
   },
   {
     "ID": 5,
-    "Name": "J-Pop-Mid"
+    "Name": "J-Pop-Mid",
     "Url": "https://null-library2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 6,
-    "Name": "Pop-High"
+    "Name": "Pop-High",
     "Url": "https://null-library2.github.io/n/u/l/l/lib/"
   },
   {
@@ -49,12 +49,12 @@ var Tags = [
   },
   {
     "ID": 8,
-    "Name": "Pop-Mid"
+    "Name": "Pop-Mid",
     "Url": "https://null-library3.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 9,
-    "Name": "Symphony-High"
+    "Name": "Symphony-High",
     "Url": "https://null-library3.github.io/n/u/l/l/lib/"
   },
   {
@@ -64,7 +64,7 @@ var Tags = [
   },
   {
     "ID": 11,
-    "Name": "Symphony-Mid"
+    "Name": "Symphony-Mid",
     "Url": "https://null-library3.github.io/n/u/l/l/lib/"
   }
 ];
