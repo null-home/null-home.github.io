@@ -18,12 +18,16 @@ span {
     user-select: none !important;
 }
 
-.a {
+a {
     transition: color 0.2s ease-in-out;
+    color: #eaeaea !important;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
-    color: #00ff5b;
+    color: #fff;
+    text-decoration: underline;
 }
 
 hr {
@@ -78,11 +82,11 @@ body {
 }
 
 /*--------------------------------main__header----------------------------------*/
-.width-animation{
-    -webkit-transition: height 1s ease-in-out;
-    -moz-transition: height 1s ease-in-out;
-    -o-transition: height 1s ease-in-out;
-    transition: height 1s ease-in-out;
+.display-animation{
+    -webkit-transition: height 0.5s ease-in-out,display 0.5s ease-in-out,;
+    -moz-transition: height 0.5s ease-in-out,display 0.5s ease-in-out,;
+    -o-transition: height 0.5s ease-in-out,display 0.5s ease-in-out,;
+    transition: height 0.5s ease-in-out,display 0.5s ease-in-out,;
 }
 
 .header__title {

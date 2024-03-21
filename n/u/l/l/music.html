@@ -7,7 +7,7 @@
     <title>Null Music</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link rel="icon" type="image/x-icon" href="assets/icons/formats/queue_select_eternal_toggle_active.png">
+    <link rel="icon" type="image/x-icon" href="assets/imgs/null-mini.jpg">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -34,14 +34,15 @@
                         style="height: 50px;">
                         <button class="fs-3 bi bi-arrow-left-short" onclick="showHome()"></button>
                         <div class="d-flex flex-row justify-content-end align-items-center">
-                            <button class="bi bi-music-note-list mx-3" id="btn-play-list" onclick="loadPlayList()"></button>
+                            <button class="bi bi-music-note-list mx-3" id="btn-play-list"
+                                onclick="loadPlayList()"></button>
                             <div class="d-flex flex-row border-bottom border-light pb-1">
-                                
+
                                 <input class="search-box cursor-arrow default" role="button" type="text">
                                 <button class="bi bi-search-heart mx-1 "></button>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="flex-grow ">
                         <div class="w-100 h-100 ">
@@ -54,15 +55,15 @@
                                     let height = "height:" + (body.offsetHeight - minusHeight) + 'px';
                                     div.setAttribute("style", height);  
                                 </script>
-                                <div id="view-home" class="width-animation">
+                                <div id="view-home" class="display-animation" style="display: block;">
 
                                 </div>
-                                <div id="view-list" class="width-animation">
-                                    
+                                <div id="view-list" class="display-animation" style="display: none;">
+
                                 </div>
-                                
-                                <div id="play-list" class="width-animation">
-                                    
+
+                                <div id="play-list" class="display-animation" style="display: none;">
+
                                 </div>
                                 <!--<div class="category-content d-flex flex-column">
                                     <span class="fs-4 text-truncate ps-3 pb-1">Random</span>
@@ -113,7 +114,7 @@
         <div class="main__footer d-flex flex-column justify-content-between align-items-center">
             <div id="player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
                 <audio id="music-player" autoplay>
-                    <source src="assets/01 Flares.m4a">
+
                 </audio>
                 <span id="current-time" class="time fs-11px">0:00</span>
                 <input type="range" id="seek-slider" class="mx-4" max="100" value="0">
@@ -122,19 +123,23 @@
             </div>
             <div class="main__footer d-flex flex-row justify-content-between align-items-end">
                 <div class="h-100 col-3 d-flex flex-row align-items-end ps-3 pb-3">
-                    <img src="assets/thumbs/thumb.jpg" alt="" id="mini-thumb" style="height: 60px; width: 60px;"
-                        class="">
+                    <div id="playing-song-album" class="bg-image"></div>
                     <div class="d-flex flex-column justify-content-center align-items-start ps-2" style="height: 60px;">
-                        <span class="hide-on-mobile text-truncate">Song Name</span>
-                        <span class="hide-on-mobile text-truncate">Album Name</span>
+                        <span id="playing-song-title" class="hide-on-mobile text-truncate"></span>
+                        <span id="playing-song-artist" class="hide-on-mobile text-truncate"></span>
                     </div>
                 </div>
 
                 <div class="h-100 col-6 d-flex flex-row justify-content-center align-items-center">
-                    <button class="bi bi-chevron-left fs-2"></button>
+                    <img src="assets/imgs/cat_3.gif" class="hide-on-mobile me-5" style="height: 75px;" alt="">
+                    <img src="assets/imgs/cat_1.gif" class="hide-on-mobile me-5" style="height: 75px; width: 75px;" alt="">
+                    <button class="bi bi-chevron-left fs-2" onclick="prevSong()"></button>
                     <button class="bi bi-play-circle fs-1 mx-5" id="play-button"></button>
-                    <button class="bi bi-chevron-right fs-2"></button>
+                    <button class="bi bi-chevron-right fs-2" onclick="nextSong()"></button>                    
+                    <img src="assets/imgs/cat_2.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
+                    <img src="assets/imgs/cat_4.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
                 </div>
+
                 <div class="h-100 col-3 d-flex flex-row justify-content-end align-items-center pe-3">
                     <button class="bi bi-volume-down" id="mute-button"></button>
                     <input class="hide-on-mobile mx-2" type="range" id="volume-slider" max="100" value="80">
