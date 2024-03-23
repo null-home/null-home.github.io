@@ -246,11 +246,11 @@ music_player.onended = function () {
 function nextSong() {
   let nextSong = null;
   if (playList?.length > 0) {
-    let curIndex = playList.findIndex(x => x.ID == playingSong.ID);
+    let curIndex = playList.findIndex(x => x.ID == PlayingSong.ID);
     nextSong = playList[curIndex + 1] != null ? playList[curIndex + 1] : playList[0];
   }
   else {
-    let curIndex = playingSong.ID;
+    let curIndex = PlayingSong.ID;
     nextSong = Songs[curIndex + 1] != null ? Songs[curIndex + 1] : Songs[0];
   }
   playSong(nextSong.ID);
@@ -259,11 +259,11 @@ function nextSong() {
 function prevSong() {
   let prevSong = null;
   if (playList?.length > 0) {
-    let curIndex = playList.findIndex(x => x.ID == playingSong.ID);
+    let curIndex = playList.findIndex(x => x.ID == PlayingSong.ID);
     prevSong = playList[curIndex - 1] != null ? playList[curIndex - 1] : playList[0];
   }
   else {
-    let curIndex = playingSong.ID;
+    let curIndex = PlayingSong.ID;
     prevSong = Songs[curIndex - 1] != null ? Songs[curIndex - 1] : Songs[0];
   }
   playSong(prevSong.ID);
@@ -397,8 +397,8 @@ function renderPage() {
     mixSongHTML+= cardGroupRender(tag.ID,groupItem.Name,groupItem.Songs.map(x=>x?.AlbumID).filter((value,index,array)=>array.indexOf(value) === index));
   });
 
-  MixSongHTML += wrapRender(mixSongHTML, "Mix Song By Tag",'animate__fadeInLeft');
-  TagHTML += wrapRender(cardHTML, "Tag",'animate__fadeInLeft');
+  MixSongHTML += wrapRender(mixSongHTML, "Mix Song By Tag",'animate__fadeIn animate__slow');
+  TagHTML += wrapRender(cardHTML, "Tag",'animate__fadeIn animate__slow');
   view_home.innerHTML = MixSongHTML + favArtistHTML+ favAlbumHTML + TagHTML;
 }
 
@@ -411,7 +411,7 @@ function getRandomFavArtist(){
       favArtistHTML+=cardRender(artist, CONST.TYPE.Artists)
     });
   }
-  return wrapRender(favArtistHTML,"Favorite Artist",'animate__fadeInLeft');
+  return wrapRender(favArtistHTML,"Favorite Artist",'animate__fadeIn animate__slow');
 }
 
 function getRandomFavAlbum(){  
@@ -422,7 +422,7 @@ function getRandomFavAlbum(){
       favAlbumHTML+=cardRender(album, CONST.TYPE.Albums)
     });
   }
-  return wrapRender(favAlbumHTML,"Favorite Album",'animate__fadeInLeft');
+  return wrapRender(favAlbumHTML,"Favorite Album",'animate__fadeIn animate__slow');
 }
 function showListAlbum(artistID) {
   showHome();

@@ -15,8 +15,11 @@
 </head>
 
 <body id="body">
+    <div id="background-panel" class="position-absolute w-100 h-100" style="z-index: -1;opacity: 0.4;">
+    
+    </div>
     <div class="main flex-column d-flex justify-content-between">
-        <div id="header" class="main__header flex-row d-flex justify-content-between hide-on-mobile ">
+        <div id="header" class="main__header animate__animated animate__fadeInDown flex-row d-flex justify-content-between hide-on-mobile ">
             <div class="header__date-time">
 
             </div>
@@ -28,10 +31,11 @@
             </div>
         </div>
 
+        <script src="js/clock.js" async></script>
         <div class="main__content flex-grow">
             <div class="d-flex h-100 w-100 d-flex justify-content-center align-items-center">
                 <div class="mw-1200px h-100 w-100 d-flex flex-column ">
-                    <div class="content__header d-flex flex-row justify-content-between align-items-center mx-3"
+                    <div class="content__header d-flex flex-row justify-content-between align-items-center mx-3 animate__animated animate__fadeInDown"
                         style="height: 50px;">
                         <div class="d-flex flex-row justify-content-start align-items-center">
                             <button class="fs-2 bi bi-arrow-left-short" onclick="goBack()"></button>
@@ -51,7 +55,7 @@
                         </div>
 
                     </div>
-                    <div class="flex-grow ">
+                    <div class="flex-grow animate__animated animate__fadeIn">
                         <div class="w-100 h-100 ">
                             <div id="content-view" class="overflow-auto">
                                 <script>
@@ -83,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="main__footer d-flex flex-column justify-content-between align-items-center">
+        <div class="main__footer d-flex flex-column justify-content-between align-items-center animate__animated animate__fadeInUp">
             <div id="player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
                 <audio id="music-player" autoplay>
 
@@ -93,25 +97,21 @@
                 <span id="duration" class="time fs-11px">0:00</span>
 
             </div>
-            <div class="main__footer d-flex flex-row justify-content-between align-items-end">
+            <div class="d-flex flex-row justify-content-between align-items-end w-100 h-100">
                 <div class="h-100 col-3 d-flex flex-row align-items-end ps-3 pb-3">
                     <div class=" h-100 d-flex flex-row align-items-end playing-info" id="playing-info">
-                        <div class="animate__animated  animate__fadeIn bg-image"></div>
-                        <div class=" animate__animated  animate__fadeIn d-flex flex-column justify-content-center align-items-start ps-2 " style="height: 60px;">
-                            <span class="hide-on-mobile text-truncate"></span>
-                            <span class="hide-on-mobile text-truncate"></span>
-                        </div>
+                        
                     </div>
                 </div>
 
                 <div class="h-100 col-6 d-flex flex-row justify-content-center align-items-center">
-                    <img src="assets/imgs/cat_3.gif" class="hide-on-mobile me-5" style="height: 75px;" alt="">
+                    <!-- <img src="assets/imgs/cat_3.gif" class="hide-on-mobile me-5" style="height: 75px;" alt=""> -->
                     <img src="assets/imgs/cat_1.gif" class="hide-on-mobile me-5" style="height: 75px; width: 75px;" alt="">
                     <button class="bi bi-skip-start-fill fs-2" onclick="prevSong()"></button>
                     <button class="bi bi-play-circle fs-1 mx-5" id="play-button"></button>
                     <button class="bi bi-skip-end-fill fs-2" onclick="nextSong()"></button>                    
                     <img src="assets/imgs/cat_2.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
-                    <img src="assets/imgs/cat_4.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
+                    <!-- <img src="assets/imgs/cat_4.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt=""> -->
                 </div>
 
                 <div class="h-100 col-3 d-flex flex-row justify-content-end align-items-center pe-3">
@@ -125,5 +125,4 @@
 </body>
 
 </html>
-<script src="js/clock.js" async></script>
 <script src="js/audio.js" async></script>

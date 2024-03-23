@@ -1,4 +1,34 @@
-﻿function currentTime() {
+﻿var BG = [
+// "A_GUWEIZ (1).jpg",
+// "A_GUWEIZ (24).jpg",
+// "A_GUWEIZ (37).jpg",
+// "A_GUWEIZ (72).jpg",
+// "A_GUWEIZ (73).jpg",
+// "A_GUWEIZ (79).jpg",
+    "LS (1).jpg",
+    "LS (2).jpg",
+    "LS (3).jpg",
+    "LS (5).jpg",
+    "LS (6).jpg",
+    "LS (8).jpg",
+    "LS (9).jpg",
+    "LS (10).jpg",
+    "LS (11).jpg",
+    "LS (12).jpg",
+    "LS (13).jpg",
+    "LS (14).jpg",
+    "LS (15).jpg",
+    "LS (16).jpg",
+    "LS (17).jpg",
+    "LS (18).jpg",
+    "LS (19).jpg",
+    "LS (21).jpg",
+    "LS (22).jpg",
+];
+var BGPanel=document.getElementById('background-panel')
+var BGIndex = 0;
+BG=shuffleList(BG);
+function currentTime() {
     let date = new Date();
     const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -23,6 +53,24 @@
     document.getElementsByClassName("date-time__clock")[0].innerText = time;
 
     document.getElementsByClassName("date-time__calendar")[0].innerText = calendar;
-    let t = setTimeout(function () { currentTime() }, 15000);
+    BGPanel.innerHTML = `
+        <div class= "w-100 h-100 animate__animated  animate__fadeIn background-img"
+            style='background-image: url("assets/imgs/backgrounds/`+ BG[BGIndex] + `");'>
+        </div>
+    `;
+    BGIndex += 1;
+    if (BGIndex >= BG?.length){
+        BG=shuffleList(BG);
+        BGIndex = 0;        
+    } 
+    let t = setTimeout(function () { currentTime() }, 13000);
 }
 currentTime();
+
+function shuffleList(list) {
+    let shuffledList = list
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
+    return shuffledList;
+  }
