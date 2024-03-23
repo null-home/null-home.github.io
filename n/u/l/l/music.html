@@ -11,6 +11,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 </head>
 
 <body id="body">
@@ -19,7 +20,7 @@
             <div class="header__date-time">
 
             </div>
-            <a class="header__title">Null Music</a>
+            <div class="header__title">Null Music</div>
 
             <div class="header__date-time">
                 <div class="date-time__clock "></div>
@@ -32,14 +33,20 @@
                 <div class="mw-1200px h-100 w-100 d-flex flex-column ">
                     <div class="content__header d-flex flex-row justify-content-between align-items-center mx-3"
                         style="height: 50px;">
-                        <button class="fs-3 bi bi-arrow-left-short" onclick="showHome()"></button>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <button class="fs-2 bi bi-arrow-left-short" onclick="goBack()"></button>
+                            <button class="px-2 fs-3 bi bi-house-heart-fill" onclick="showHome()"></button>
+                            <div id="address-title-1" class="align-items-center d-flex flex-row hide-on-mobile">                                
+                            </div>
+                            <div id="address-title-2" class="align-items-center d-flex flex-row hide-on-mobile">
+                            </div>
+                        </div>
                         <div class="d-flex flex-row justify-content-end align-items-center">
-                            <button class="bi bi-music-note-list mx-3" id="btn-play-list"
+                            <button class="bi bi-list-ul mx-3" id="btn-play-list"
                                 onclick="loadPlayList()"></button>
                             <div class="d-flex flex-row border-bottom border-light pb-1">
-
-                                <input class="search-box cursor-arrow default" role="button" type="text">
-                                <button class="bi bi-search-heart mx-1 "></button>
+                                <input class="search-box cursor-arrow default" id="input-search" role="button" type="text">
+                                <button class="bi bi-search-heart mx-1 " id="btn-search" onclick="search()"></button>
                             </div>
                         </div>
 
@@ -55,56 +62,21 @@
                                     let height = "height:" + (body.offsetHeight - minusHeight) + 'px';
                                     div.setAttribute("style", height);  
                                 </script>
-                                <div id="view-home" class="display-animation" style="display: block;">
-
-                                </div>
-                                <div id="view-list" class="display-animation" style="display: none;">
-
-                                </div>
-
-                                <div id="play-list" class="display-animation" style="display: none;">
-
-                                </div>
-                                <!--<div class="category-content d-flex flex-column">
-                                    <span class="fs-4 text-truncate ps-3 pb-1">Random</span>
-                                    <hr class="mb-4 mx-3">
-                                    <div class="d-flex flex-wrap">
-                                        <div class="card-border d-flex flex-column align-items-center">
-                                            <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative"
-                                                style="background-image: url('assets/thumbs/thumb.jpg');">
-                                                <div
-                                                    class="w-100 position-absolute top-100 text-truncate py-2 fs-5 d-flex justify-content-center align-items-center">
-                                                    MS.OOJA
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                            
-                                        <div class="card-border d-flex flex-column align-items-center">
-                                            <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative"
-                                                style="background-image: url('assets/thumbs/thumb.jpg');">
-                                                <div
-                                                    class="w-100 position-absolute top-100 text-truncate py-2 fs-5 d-flex justify-content-center align-items-center">
-                                                    MS.OOJA
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="list-border w-50 d-flex flex-row align-items-center">
-                                            <button class="bi bi-play-circle fs-5 px-3"></button>
-                                            <div class="bg-image"
-                                                style="background-image: url('assets/thumbs/thumb.jpg'); width: 50px;">
-                                            </div>
-                                            <div
-                                                class="ps-3 d-flex flex-column justify-content-start align-items-start">
-                                                <span>MS.OOJA</span>
-                                                <span>Album</span>
-                                            </div>
-                                        </div> 
+                                <div id="view-home" class="overflow-x-hidden" style="display: block; ">
                                     
+                                </div>
+                                <div id="view-list" class="overflow-x-hidden" style="display: none;">
                                     
-                                    </div>
-                                </div>-->
+                                </div>
+
+                                <div id="play-list" class="overflow-x-hidden" style="display: none;">
+
+                                </div>
+                                
+                                <div id="seach-list" class="overflow-x-hidden" style="display: none;">
+
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -123,26 +95,28 @@
             </div>
             <div class="main__footer d-flex flex-row justify-content-between align-items-end">
                 <div class="h-100 col-3 d-flex flex-row align-items-end ps-3 pb-3">
-                    <div id="playing-song-album" class="bg-image"></div>
-                    <div class="d-flex flex-column justify-content-center align-items-start ps-2" style="height: 60px;">
-                        <span id="playing-song-title" class="hide-on-mobile text-truncate"></span>
-                        <span id="playing-song-artist" class="hide-on-mobile text-truncate"></span>
+                    <div class=" h-100 d-flex flex-row align-items-end playing-info" id="playing-info">
+                        <div class="animate__animated  animate__fadeIn bg-image"></div>
+                        <div class=" animate__animated  animate__fadeIn d-flex flex-column justify-content-center align-items-start ps-2 " style="height: 60px;">
+                            <span class="hide-on-mobile text-truncate"></span>
+                            <span class="hide-on-mobile text-truncate"></span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="h-100 col-6 d-flex flex-row justify-content-center align-items-center">
                     <img src="assets/imgs/cat_3.gif" class="hide-on-mobile me-5" style="height: 75px;" alt="">
                     <img src="assets/imgs/cat_1.gif" class="hide-on-mobile me-5" style="height: 75px; width: 75px;" alt="">
-                    <button class="bi bi-chevron-left fs-2" onclick="prevSong()"></button>
+                    <button class="bi bi-skip-start-fill fs-2" onclick="prevSong()"></button>
                     <button class="bi bi-play-circle fs-1 mx-5" id="play-button"></button>
-                    <button class="bi bi-chevron-right fs-2" onclick="nextSong()"></button>                    
+                    <button class="bi bi-skip-end-fill fs-2" onclick="nextSong()"></button>                    
                     <img src="assets/imgs/cat_2.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
                     <img src="assets/imgs/cat_4.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
                 </div>
 
                 <div class="h-100 col-3 d-flex flex-row justify-content-end align-items-center pe-3">
                     <button class="bi bi-volume-down" id="mute-button"></button>
-                    <input class="hide-on-mobile mx-2" type="range" id="volume-slider" max="100" value="80">
+                    <input class="hide-on-mobile mx-2" type="range" id="volume-slider" max="100" value="60">
                 </div>
             </div>
 
