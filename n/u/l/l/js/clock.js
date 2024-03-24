@@ -1,10 +1,10 @@
 ﻿var BG = [
-// "A_GUWEIZ (1).jpg",
-// "A_GUWEIZ (24).jpg",
-// "A_GUWEIZ (37).jpg",
-// "A_GUWEIZ (72).jpg",
-// "A_GUWEIZ (73).jpg",
-// "A_GUWEIZ (79).jpg",
+    // "A_GUWEIZ (1).jpg",
+    // "A_GUWEIZ (24).jpg",
+    // "A_GUWEIZ (37).jpg",
+    // "A_GUWEIZ (72).jpg",
+    // "A_GUWEIZ (73).jpg",
+    // "A_GUWEIZ (79).jpg",
     "LS (1).jpg",
     "LS (2).jpg",
     "LS (3).jpg",
@@ -25,19 +25,21 @@
     "LS (21).jpg",
     "LS (22).jpg",
 ];
-var BGPanel=document.getElementById('background-panel');
+var BGPanel = document.getElementById('background-panel');
+var MenuPanel = document.getElementById('menu-panel');
+var btnSHP = document.getElementById('btn-show-home-panel');
 var BGIndex = 0;
-var BGIndexNext=1;
-BG=shuffleList(BG);
+var BGIndexNext = 1;
+BG = shuffleList(BG);
 for (let index = 0; index < BG.length; index++) {
     const img = BG[index];
-    if(index==0){
+    if (index == 0) {
         BGPanel.innerHTML += `
         <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
             style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:block'>
         </div>`;
     }
-    else{
+    else {
         BGPanel.innerHTML += `
         <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
             style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:none;'>
@@ -72,22 +74,49 @@ function currentTime() {
     document.getElementsByClassName("date-time__clock")[0].innerText = time;
 
     document.getElementsByClassName("date-time__calendar")[0].innerText = calendar;
-    if (BGIndexNext >= BG?.length) BGIndexNext=0;
-    BGPanel.children[BGIndexNext].style.display= 'block';
-    BGPanel.children[BGIndex].style.display= 'none';
+    if (BGIndexNext >= BG?.length) BGIndexNext = 0;
+    BGPanel.children[BGIndexNext].style.display = 'block';
+    BGPanel.children[BGIndex].style.display = 'none';
     BGIndex += 1;
-    BGIndexNext+=1;
-    if (BGIndex >= BG?.length){
-        BGIndex = 0;        
-    } 
+    BGIndexNext += 1;
+    if (BGIndex >= BG?.length) {
+        BGIndex = 0;
+    }
     let t = setTimeout(function () { currentTime() }, 13000);
 }
 currentTime();
 
 function shuffleList(list) {
     let shuffledList = list
-      .map(value => ({ value, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value);
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
     return shuffledList;
-  }
+}
+var isShow = false;
+function showHomePanel() {
+    if (isShow) {
+        MenuPanel.style.display = 'none';
+        btnSHP.style.display='block';
+    }
+    else {
+        MenuPanel.style.display = 'block';
+        btnSHP.style.display='none';
+    }
+    isShow=!isShow;
+}
+
+function redirect(type) {
+    showHomePanel();
+    switch (type) {
+        case "Music":
+            window.open("https://null-home.github.io/n/u/l/l/music.html");
+            break;
+
+        case "Library":
+            window.open("https://null-home.github.io/n/u/l/l/library.html");
+            break;
+        default:
+            break;
+    }
+}
