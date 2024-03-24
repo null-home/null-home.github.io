@@ -73,6 +73,7 @@ var Tags = [
 
 //#region static DOM and Variable
 
+const content_view = document.getElementById('content-view');
 const btn_search = document.getElementById('btn-search');
 const input_search = document.getElementById('input-search');
 const play_button = document.getElementById('play-button');
@@ -407,13 +408,13 @@ function renderPage() {
 renderPage();
 function getRandomFavArtist(){  
   let favArtistHTML = "";
-  favArtist = getRandomFavorite(Artists,6);
+  favArtist = getRandomFavorite(Artists,12);
   if(favArtist?.length>0){
     favArtist.forEach(artist=>{
       favArtistHTML+=cardRender(artist, CONST.TYPE.Artists)
     });
   }
-  return wrapRender(favArtistHTML,"Favorite Artist",'animate__fadeIn animate__slow');
+  return wrapRender(favArtistHTML,"Random Artist",'animate__fadeIn animate__slow');
 }
 
 function getRandomFavAlbum(){  
@@ -424,7 +425,7 @@ function getRandomFavAlbum(){
       favAlbumHTML+=cardRender(album, CONST.TYPE.Albums)
     });
   }
-  return wrapRender(favAlbumHTML,"Favorite Album",'animate__fadeIn animate__slow');
+  return wrapRender(favAlbumHTML,"Random Album",'animate__fadeIn animate__slow');
 }
 function showListAlbum(artistID) {
   showHome();
@@ -664,12 +665,11 @@ function showPlayList() {
 }
 
 function calcHeight() {
-  let div = document.getElementById('content-view');
   let body = document.getElementById('body');
   let header = document.getElementById('header');
   let minusHeight = header?.offsetHeight > 0 ? 250 : 175;
   let height = "height:" + (body.offsetHeight - minusHeight) + 'px';
-  div.setAttribute("style", height);
+  content_view.setAttribute("style", height);
 }
 //#endregion
 //--------------------------------------------------------------------------------------------------------------------//
@@ -700,6 +700,7 @@ function getBasicAddressTitle(title) {
 function clearAddress() {
   address_title_1.innerHTML = '';
   address_title_2.innerHTML = '';
+  content_view.scrollTop = 0;
 }
 
 function shuffleList(list) {
