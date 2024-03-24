@@ -154,9 +154,11 @@ play_button?.addEventListener('click', () => {
 mute_button?.addEventListener('click', () => {
   if (muteState === 'unmute') {
     music_player.muted = true;
+    mute_button.classList.replace("bi-volume-up","bi-volume-mute");
     muteState = 'mute';
   } else {
     music_player.muted = false;
+    mute_button.classList.replace("bi-volume-mute","bi-volume-up");
     muteState = 'unmute';
   }
 });
