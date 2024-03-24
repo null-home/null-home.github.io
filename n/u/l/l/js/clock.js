@@ -25,9 +25,28 @@
     "LS (21).jpg",
     "LS (22).jpg",
 ];
-var BGPanel=document.getElementById('background-panel')
+var BGPanel=document.getElementById('background-panel');
 var BGIndex = 0;
+var BGIndexNext=1;
 BG=shuffleList(BG);
+for (let index = 0; index < BG.length; index++) {
+    const img = BG[index];
+    if(index==0){
+        BGPanel.innerHTML += `
+        <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
+            style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:block'>
+        </div>`;
+    }
+    else{
+        BGPanel.innerHTML += `
+        <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
+            style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:none;'>
+        </div>`;
+    }
+}
+
+
+
 function currentTime() {
     let date = new Date();
     const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -53,14 +72,12 @@ function currentTime() {
     document.getElementsByClassName("date-time__clock")[0].innerText = time;
 
     document.getElementsByClassName("date-time__calendar")[0].innerText = calendar;
-    BGPanel.innerHTML = `
-        <div class= "w-100 h-100 animate__animated  animate__fadeIn background-img"
-            style='background-image: url("assets/imgs/backgrounds/`+ BG[BGIndex] + `");'>
-        </div>
-    `;
+    if (BGIndexNext >= BG?.length) BGIndexNext=0;
+    BGPanel.children[BGIndexNext].style.display= 'block';
+    BGPanel.children[BGIndex].style.display= 'none';
     BGIndex += 1;
+    BGIndexNext+=1;
     if (BGIndex >= BG?.length){
-        BG=shuffleList(BG);
         BGIndex = 0;        
     } 
     let t = setTimeout(function () { currentTime() }, 13000);

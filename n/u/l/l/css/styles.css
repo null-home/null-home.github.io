@@ -39,6 +39,9 @@ hr {
 }
 
 /*--------------------------------main----------------------------------*/
+*{
+    text-shadow: 3px 3px 3px #000;
+}
 html{
     scroll-behavior: smooth;
     overflow: hidden;
@@ -90,7 +93,10 @@ body {
 .overflow-x-hidden{
    overflow-x: hidden !important;
 }
-
+.box-shadow{    
+    box-shadow: rgba(17, 17, 26, 0.3) 8px 4px 16px,rgba(17, 17, 26, 0.3) 0px 4px 16px,rgba(17, 17, 26, 0.3) 4px 0px 16px,rgba(17, 17, 26, 0.3) -4px 0px 16px;
+    /* box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 5px 5px 20px 5px rgba(0, 0, 0, 0.19); */
+}
 .playing-info{
     transition: 1s;
 }
@@ -156,6 +162,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.display-transition{
+    -webkit-transition: opacity 600ms, visibility 600ms,display 600ms,background-image 0.6s ease;
+    transition: opacity 600ms, visibility 600ms,display 600ms,background-image 0.6s ease;
 }
 /*-------------------------------------Size----------------------------------------------------------------------------------------*/
 .fs-11px {

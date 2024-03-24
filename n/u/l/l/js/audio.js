@@ -271,6 +271,7 @@ function prevSong() {
 function loadPlayList() {
   showPlayList();
   playListHTML = "";
+  address_title_1.innerHTML=getBasicAddressTitle("Play List");
   for (let index = 0; index < playList?.length; index++) {
     const element = playList[index];
     playListHTML += playListRender(element)
@@ -327,6 +328,7 @@ function clickGroup(groupID) {
   let listHTML = "";
   let cardInfo = "";
   
+  address_title_1.innerHTML=getBasicAddressTitle("Mix "+playListGroup[groupID].Name);
   cardInfo = cardGroupInfoRender(groupID);
   
   playListGroup[groupID].Songs.forEach(song=>{
@@ -491,9 +493,9 @@ function wrapRender(htmlItem, title ,cssAnimate) {
   //   <span class="fs-6 text-truncate ps-3 pb-1">`+ title + `</span>
   // </div>` : '';
   let item = `
-    <div class="category-content animate__animated `+ cssClass+` d-flex flex-column">     
+    <div class="category-content animate__animated box-shadow `+ cssClass+` d-flex flex-column">     
       `+ titleHTML + `
-      <div class="d-flex flex-wrap pt-2">`+ htmlItem + `
+      <div class="d-flex flex-wrap">`+ htmlItem + `
       </div>
     </div>`;
   return item;
@@ -501,11 +503,11 @@ function wrapRender(htmlItem, title ,cssAnimate) {
 function cardRender(model, type) {
   let thumb = type == CONST.TYPE.Tags ? "assets/thumbs/music/default/tag.jpg" : thumbPath + model.Thumb;
   var item = `
-  <div class="card-border d-flex flex-column align-items-center" >
-    <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative" onclick="clickCard(`+ model.ID + ',\'' + type + `')"
+  <div class="card-border d-flex flex-column align-items-center my-2" >
+    <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative box-shadow" onclick="clickCard(`+ model.ID + ',\'' + type + `')"
         style='background-image: url("`+ thumb + `");'>
         <div class="w-100 d-flex justify-content-center align-items-center">        
-        <a class="w-100 position-absolute top-100 text-center text-truncate py-2 fs-5 ">
+        <a class="w-100 position-absolute top-100 text-center text-truncate pt-2 fs-5 ">
             `+ model.Name + `
         </a>
         </div>
@@ -519,8 +521,8 @@ function cardRender(model, type) {
 }
 function cardGroupRender(groupID,title, thumb=[]) {
   var item = `
-  <div class="card-border d-flex flex-column align-items-center" >
-    <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative" onclick="clickGroup(`+ groupID +`)" >
+  <div class="card-border d-flex flex-column align-items-center my-2" >
+    <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative box-shadow" onclick="clickGroup(`+ groupID +`)" >
         <div class=" d-flex flex-wrap h-100 w-100 rounded-3  ">
         <img src="`+thumbPath +Albums[thumb[0]].Thumb+`" style="height:50%;width:50%; border-top-left-radius:var(--bs-border-radius) !important" class="bg-image ">        
         <img src="`+thumbPath +Albums[thumb[1]].Thumb+`" style="height:50%;width:50%;border-top-right-radius:var(--bs-border-radius) !important" class="bg-image">
@@ -528,7 +530,7 @@ function cardGroupRender(groupID,title, thumb=[]) {
         <img src="`+thumbPath +Albums[thumb[3]].Thumb+`" style="height:50%;width:50%;border-bottom-right-radius:var(--bs-border-radius) !important" class="bg-image">
       </div>
         <div class="w-100 d-flex justify-content-center align-items-center">        
-        <a class="w-100 position-absolute top-100 text-center text-truncate py-2 fs-5 ">
+        <a class="w-100 position-absolute top-100 text-center text-truncate pt-2 fs-5 ">
             `+ title + `
         </a>
         </div>
@@ -540,7 +542,7 @@ function cardGroupRender(groupID,title, thumb=[]) {
 
 function listRender(model) {
   var item = `
-  <div class="list-border mb-3 w-100 d-flex flex-row align-items-center">
+  <div class="list-border py-2 w-100 d-flex flex-row align-items-center box-shadow">
     <button class="bi bi-play-circle fs-5 px-3 col-2" onclick="playThisSong('`+ model.ID + `')" style="min-width:50px;max-width:70px;"></button>
     <div class="bg-image col-3" onclick="clickCard(`+ model.AlbumID + ',\'' + CONST.TYPE.Albums + `')"
         style='background-image: url("`+ thumbPath + Albums[model.AlbumID].Thumb + `"); width: 50px;'>
@@ -554,7 +556,7 @@ function listRender(model) {
 }
 function playListRender(model) {
   var item = `
-  <div class="list-border mb-3 w-100 d-flex flex-row align-items-center">
+  <div class="list-border py-2 w-100 d-flex flex-row align-items-center box-shadow">
     <button class="bi bi-play-circle fs-5 px-3 col-2" onclick="playSong('`+ model.ID + `')"style="min-width:50px;max-width:70px;"></button>
     <div class="bg-image col-3" onclick="clickCard(`+ model.AlbumID + ',\'' + CONST.TYPE.Albums + `')"
         style='background-image: url("`+ thumbPath + Albums[model.AlbumID].Thumb + `"); width: 50px;'>
@@ -569,7 +571,7 @@ function playListRender(model) {
 function cardInfoRender(model, type, artist) {
   let artistInfo = artist != null ? `<a class="text-truncate fs-5 w-100">` + artist?.Name + `</a>` : '';
   let item = `
-  <div class="category-content animate__animated animate__fadeInDown  d-flex flex-column">          
+  <div class="px-3 category-content animate__animated animate__fadeInDown  d-flex flex-column">          
     <div class="flex-row d-flex rounded-3 bg-gradient-1 my-3">
       <span class="ps-3"></span>
       <img class=" my-3 rounded-2 col-4 bg-image" src='`+ thumbPath + model.Thumb + `')></img>      
@@ -599,7 +601,7 @@ function cardInfoRender(model, type, artist) {
 function cardGroupInfoRender(groupID) {
   let thumb =playListGroup[groupID].Songs.map(x=>x?.AlbumID).filter((value,index,array)=>array.indexOf(value) === index);
   let item = `
-  <div class="category-content animate__animated animate__fadeInDown d-flex flex-column">          
+  <div class=" px-3 category-content animate__animated animate__fadeInDown d-flex flex-column">          
     <div class="flex-row d-flex rounded-3 bg-gradient-1 my-3">
     
     <span class="ps-3"></span>
@@ -615,13 +617,13 @@ function cardGroupInfoRender(groupID) {
                 <div class="text-truncate fs-3 w-100">`+ playListGroup[groupID].Name + `</div>
             </div>
             <div class="d-flex flex-row pb-2">                                                
-                <button onclick="addGroupToPlayList(`+ groupID +`)"
+                <button onclick="addGroupToPlayList(`+ groupID + `,'1')"
                 class="bi bi-play btn btn-outline-success"></button>
 
-                <button onclick="addGroupToPlayList(`+groupID+ `)"
+                <button onclick="addGroupToPlayList(`+groupID+ `,'2')"
                 class="ms-3 bi bi-shuffle btn btn-outline-info"></button>
 
-                <button onclick="addGroupToPlayList(`+ groupID + `)"
+                <button onclick="addGroupToPlayList(`+ groupID + `,'3')"
                 class="ms-3 bi bi-music-note-list btn btn-outline-primary"></button>
             </div>
         </div>
@@ -687,6 +689,14 @@ function getAddressTitle(title, id, type, level) {
   `;
   return item;
 }
+function getBasicAddressTitle(title) {
+  let item = `
+    <i class="px-2 fs-6 bi bi-chevron-right"></i>
+    <a id="title-1-click" class="px-2 fs-4" >` + title + `</a>
+  `;
+  return item;
+}
+
 function clearAddress() {
   address_title_1.innerHTML = '';
   address_title_2.innerHTML = '';
