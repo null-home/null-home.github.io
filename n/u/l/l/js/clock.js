@@ -8,22 +8,22 @@
     "LS (1).jpg",
     "LS (2).jpg",
     "LS (3).jpg",
-    "LS (5).jpg",
-    "LS (6).jpg",
-    "LS (8).jpg",
-    "LS (9).jpg",
-    "LS (10).jpg",
-    "LS (11).jpg",
-    "LS (12).jpg",
-    "LS (13).jpg",
-    "LS (14).jpg",
-    "LS (15).jpg",
-    "LS (16).jpg",
-    "LS (17).jpg",
-    "LS (18).jpg",
-    "LS (19).jpg",
-    "LS (21).jpg",
-    "LS (22).jpg",
+    // "LS (5).jpg",
+    // "LS (6).jpg",
+    // "LS (8).jpg",
+    // "LS (9).jpg",
+    // "LS (10).jpg",
+    // "LS (11).jpg",
+    // "LS (12).jpg",
+    // "LS (13).jpg",
+    // "LS (14).jpg",
+    // "LS (15).jpg",
+    // "LS (16).jpg",
+    // "LS (17).jpg",
+    // "LS (18).jpg",
+    // "LS (19).jpg",
+    // "LS (21).jpg",
+    // "LS (22).jpg",
 ];
 var BGPanel = document.getElementById('background-panel');
 var MenuPanel = document.getElementById('menu-panel');
@@ -33,18 +33,11 @@ var BGIndexNext = 1;
 BG = shuffleList(BG);
 for (let index = 0; index < BG.length; index++) {
     const img = BG[index];
-    if (index == 0) {
         BGPanel.innerHTML += `
-        <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
-            style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:block'>
+        <div class= "w-100 h-100 slide fade background-img"
+            style='background-image: url("assets/imgs/backgrounds/`+ img + `");'>
         </div>`;
-    }
-    else {
-        BGPanel.innerHTML += `
-        <div class= "w-100 h-100 animate__animated  animate__fadeIn display-transition background-img"
-            style='background-image: url("assets/imgs/backgrounds/`+ img + `"); display:none;'>
-        </div>`;
-    }
+    
 }
 
 
@@ -75,13 +68,13 @@ function currentTime() {
 
     document.getElementsByClassName("date-time__calendar")[0].innerText = calendar;
     if (BGIndexNext >= BG?.length) BGIndexNext = 0;
-    BGPanel.children[BGIndexNext].style.display = 'block';
-    BGPanel.children[BGIndex].style.display = 'none';
-    BGIndex += 1;
-    BGIndexNext += 1;
-    if (BGIndex >= BG?.length) {
-        BGIndex = 0;
-    }
+    // BGPanel.children[BGIndexNext].style.display = 'block';
+    // BGPanel.children[BGIndex].style.display = 'none';
+    // BGIndex += 1;
+    // BGIndexNext += 1;
+    // if (BGIndex >= BG?.length) {
+    //     BGIndex = 0;
+    // }
     let t = setTimeout(function () { currentTime() }, 13000);
 }
 currentTime();
