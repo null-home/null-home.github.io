@@ -4,9 +4,16857 @@ var CONST = {
   HOST: { Home: "https://null-home.github.io/n/u/l/l/", Music: "https://null-music.github.io/n/u/l/l/", Library: "https://null-library.github.io/n/u/l/l/", },
   TYPE: { Tags: 'Tags', Artists: 'Artists', Albums: 'Albums',Groups:'Groups' }
 };
-var Songs = [{ "ID": 0, "Title": "Flares", "FileName": "01 Flares.m4a", "ArtistID": 0, "AlbumID": 0, "TagID": 0 }, { "ID": 1, "Title": "Awakening", "FileName": "Awakening.mp3", "ArtistID": 1, "AlbumID": 1, "TagID": 0 }, { "ID": 2, "Title": "Close - Brooks Remix", "FileName": "Close - Brooks Remix.mp3", "ArtistID": 2, "AlbumID": 2, "TagID": 0 }, { "ID": 3, "Title": "Cloud 9", "FileName": "Cloud 9.mp3", "ArtistID": 3, "AlbumID": 3, "TagID": 0 }, { "ID": 4, "Title": "Colors", "FileName": "Colors.mp3", "ArtistID": 4, "AlbumID": 4, "TagID": 0 }, { "ID": 5, "Title": "Energy Drink", "FileName": "Energy Drink.mp3", "ArtistID": 5, "AlbumID": 5, "TagID": 0 }, { "ID": 6, "Title": "Energy", "FileName": "Energy.mp3", "ArtistID": 6, "AlbumID": 6, "TagID": 0 }, { "ID": 7, "Title": "Everlasting", "FileName": "Everlasting.mp3", "ArtistID": 7, "AlbumID": 7, "TagID": 0 }, { "ID": 8, "Title": "Fire", "FileName": "Fire.mp3", "ArtistID": 6, "AlbumID": 8, "TagID": 0 }, { "ID": 9, "Title": "Frisbee", "FileName": "Frisbee.mp3", "ArtistID": 8, "AlbumID": 9, "TagID": 0 }, { "ID": 10, "Title": "Frontier", "FileName": "Frontier.mp3", "ArtistID": 9, "AlbumID": 10, "TagID": 0 }, { "ID": 11, "Title": "Fuck Off", "FileName": "Fuck Off.mp3", "ArtistID": 10, "AlbumID": 11, "TagID": 0 }, { "ID": 12, "Title": "Higher", "FileName": "Higher.mp3", "ArtistID": 4, "AlbumID": 12, "TagID": 0 }, { "ID": 13, "Title": "Highscore", "FileName": "Highscore.mp3", "ArtistID": 10, "AlbumID": 11, "TagID": 0 }, { "ID": 14, "Title": "Hope", "FileName": "Hope.mp3", "ArtistID": 4, "AlbumID": 13, "TagID": 0 }, { "ID": 15, "Title": "Legends - Hyper Potions Remix", "FileName": "Legends - Hyper Potions Remix.mp3", "ArtistID": 11, "AlbumID": 14, "TagID": 0 }, { "ID": 16, "Title": "Limitless", "FileName": "Limitless.mp3", "ArtistID": 6, "AlbumID": 15, "TagID": 0 }, { "ID": 17, "Title": "Rise", "FileName": "Rise - Ampyx.mp3", "ArtistID": 12, "AlbumID": 16, "TagID": 0 }, { "ID": 18, "Title": "Rubik", "FileName": "Rubik.mp3", "ArtistID": 13, "AlbumID": 17, "TagID": 0 }, { "ID": 19, "Title": "S.K.Y.Prox", "FileName": "S.K.Y.Prox.mp3", "ArtistID": 14, "AlbumID": 18, "TagID": 0 }, { "ID": 20, "Title": "Seven", "FileName": "Seven.mp3", "ArtistID": 4, "AlbumID": 19, "TagID": 0 }, { "ID": 21, "Title": "Sky (feat. Martell) - Radio Edit", "FileName": "Sky (feat. Martell) - Radio Edit.mp3", "ArtistID": 15, "AlbumID": 20, "TagID": 0 }, { "ID": 22, "Title": "Sky High", "FileName": "Sky High.mp3", "ArtistID": 6, "AlbumID": 21, "TagID": 0 }, { "ID": 23, "Title": "Spectre", "FileName": "Spectre.mp3", "ArtistID": 16, "AlbumID": 22, "TagID": 0 }, { "ID": 24, "Title": "Sunburst", "FileName": "Sunburst.mp3", "ArtistID": 3, "AlbumID": 23, "TagID": 0 }, { "ID": 25, "Title": "Vision", "FileName": "Vision.mp3", "ArtistID": 6, "AlbumID": 24, "TagID": 0 }, { "ID": 26, "Title": "Welcome to Planet Urf", "FileName": "Welcome to Planet Urf.mp3", "ArtistID": 17, "AlbumID": 25, "TagID": 0 }, { "ID": 27, "Title": "Freedom", "FileName": "Freedom.mp3", "ArtistID": 18, "AlbumID": 26, "TagID": 1 }, { "ID": 28, "Title": "Guava Breeze", "FileName": "Guava Breeze.mp3", "ArtistID": 19, "AlbumID": 27, "TagID": 1 }, { "ID": 29, "Title": "Home", "FileName": "Home.mp3", "ArtistID": 20, "AlbumID": 28, "TagID": 1 }, { "ID": 30, "Title": "Lonely Dance", "FileName": "Lonely Dance.mp3", "ArtistID": 20, "AlbumID": 29, "TagID": 1 }, { "ID": 31, "Title": "Muvik", "FileName": "Muvik.mp3", "ArtistID": 18, "AlbumID": 26, "TagID": 1 }, { "ID": 32, "Title": "Seve - Radio Edit", "FileName": "Seve - Radio Edit.mp3", "ArtistID": 21, "AlbumID": 30, "TagID": 1 }, { "ID": 33, "Title": "Somero", "FileName": "Somero.mp3", "ArtistID": 22, "AlbumID": 31, "TagID": 1 }, { "ID": 34, "Title": "Turtle Beach", "FileName": "Turtle Beach.mp3", "ArtistID": 23, "AlbumID": 32, "TagID": 1 }, { "ID": 35, "Title": "Candyland", "FileName": "Candyland.mp3", "ArtistID": 4, "AlbumID": 33, "TagID": 2 }, { "ID": 36, "Title": "Close To The Sun", "FileName": "Close To The Sun.mp3", "ArtistID": 24, "AlbumID": 34, "TagID": 2 }, { "ID": 37, "Title": "Cool", "FileName": "Cool.mp3", "ArtistID": 25, "AlbumID": 35, "TagID": 2 }, { "ID": 38, "Title": "Elegy", "FileName": "Elegy.mp3", "ArtistID": 24, "AlbumID": 36, "TagID": 2 }, { "ID": 39, "Title": "Epic", "FileName": "Epic.mp3", "ArtistID": 24, "AlbumID": 36, "TagID": 2 }, { "ID": 40, "Title": "Fly Away", "FileName": "Fly Away.mp3", "ArtistID": 24, "AlbumID": 37, "TagID": 2 }, { "ID": 41, "Title": "Happy Robot", "FileName": "Happy Robot.mp3", "ArtistID": 20, "AlbumID": 38, "TagID": 2 }, { "ID": 42, "Title": "Holo", "FileName": "Holo.mp3", "ArtistID": 12, "AlbumID": 39, "TagID": 2 }, { "ID": 43, "Title": "Infectious", "FileName": "Infectious.mp3", "ArtistID": 4, "AlbumID": 40, "TagID": 2 }, { "ID": 44, "Title": "Joy", "FileName": "Joy.mp3", "ArtistID": 4, "AlbumID": 41, "TagID": 2 }, { "ID": 45, "Title": "Lets Go", "FileName": "Let's Go.mp3", "ArtistID": 4, "AlbumID": 42, "TagID": 2 }, { "ID": 46, "Title": "Louder Now", "FileName": "Louder Now.mp3", "ArtistID": 4, "AlbumID": 43, "TagID": 2 }, { "ID": 47, "Title": "Masked Heroes", "FileName": "Masked Heroes.mp3", "ArtistID": 20, "AlbumID": 44, "TagID": 2 }, { "ID": 48, "Title": "Masked Raver", "FileName": "Masked Raver.mp3", "ArtistID": 20, "AlbumID": 45, "TagID": 2 }, { "ID": 49, "Title": "Mesmerize", "FileName": "Mesmerize.mp3", "ArtistID": 4, "AlbumID": 46, "TagID": 2 }, { "ID": 50, "Title": "Monody (feat. Laura Brehm)", "FileName": "Monody (feat. Laura Brehm).mp3", "ArtistID": 24, "AlbumID": 47, "TagID": 2 }, { "ID": 51, "Title": "Nostalgia", "FileName": "Nostalgia.mp3", "ArtistID": 4, "AlbumID": 48, "TagID": 2 }, { "ID": 52, "Title": "Long Journey", "FileName": "O M II N - Long Journey.mp3", "ArtistID": 26, "AlbumID": 49, "TagID": 2 }, { "ID": 53, "Title": "O M II N - Sunset", "FileName": "O M II N - Sunset.mp3", "ArtistID": 26, "AlbumID": 49, "TagID": 2 }, { "ID": 54, "Title": "Oh Look Aliens!", "FileName": "Oh Look Aliens!.mp3", "ArtistID": 20, "AlbumID": 50, "TagID": 2 }, { "ID": 55, "Title": "Origin", "FileName": "Origin.mp3", "ArtistID": 24, "AlbumID": 51, "TagID": 2 }, { "ID": 56, "Title": "Piece Of Me (Vexento Remix)", "FileName": "Piece Of Me (Vexento Remix).mp3", "ArtistID": 27, "AlbumID": 52, "TagID": 2 }, { "ID": 57, "Title": "Sad Robot", "FileName": "Sad Robot.mp3", "ArtistID": 20, "AlbumID": 53, "TagID": 2 }, { "ID": 58, "Title": "Summertime", "FileName": "Summertime.mp3", "ArtistID": 28, "AlbumID": 54, "TagID": 2 }, { "ID": 59, "Title": "Tevo", "FileName": "Tevo.mp3", "ArtistID": 20, "AlbumID": 55, "TagID": 2 }, { "ID": 60, "Title": "Trap Queen - Eightfold X MKJ Remix", "FileName": "Trap Queen - Eightfold X MKJ Remix.mp3", "ArtistID": 29, "AlbumID": 56, "TagID": 2 }, { "ID": 61, "Title": "Trippy Love", "FileName": "Trippy Love.mp3", "ArtistID": 20, "AlbumID": 57, "TagID": 2 }, { "ID": 62, "Title": "Tropic Love", "FileName": "Tropic Love.mp3", "ArtistID": 30, "AlbumID": 58, "TagID": 2 }, { "ID": 63, "Title": "Unity", "FileName": "Unity.mp3", "ArtistID": 24, "AlbumID": 59, "TagID": 2 }, { "ID": 64, "Title": "Verve", "FileName": "Verve.mp3", "ArtistID": 20, "AlbumID": 60, "TagID": 2 }, { "ID": 65, "Title": "Where We Belong", "FileName": "Where We Belong.mp3", "ArtistID": 20, "AlbumID": 61, "TagID": 2 }, { "ID": 66, "Title": "Kaikai Kitan", "FileName": "01 Kaikai Kitan.m4a", "ArtistID": 31, "AlbumID": 62, "TagID": 3 }, { "ID": 67, "Title": "デスぺレート", "FileName": "01 デスぺレート.m4a", "ArtistID": 32, "AlbumID": 63, "TagID": 3 }, { "ID": 68, "Title": "Nonsense Bungaku", "FileName": "02 Nonsense Bungaku.m4a", "ArtistID": 31, "AlbumID": 64, "TagID": 3 }, { "ID": 69, "Title": "Inochino Tabekata - DanceMix Ver.", "FileName": "04 Inochino Tabekata - DanceMix Ver.m4a", "ArtistID": 31, "AlbumID": 65, "TagID": 3 }, { "ID": 70, "Title": "Okinimesumama", "FileName": "09 Okinimesumama.m4a", "ArtistID": 31, "AlbumID": 64, "TagID": 3 }, { "ID": 71, "Title": "Casino", "FileName": "Casino.mp3", "ArtistID": 33, "AlbumID": 66, "TagID": 3 }, { "ID": 72, "Title": "Cheating is a crime", "FileName": "Cheating is a crime.mp3", "ArtistID": 34, "AlbumID": 67, "TagID": 3 }, { "ID": 73, "Title": "Cynical Night Plan", "FileName": "Cynical Night Plan.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 3 }, { "ID": 74, "Title": "Demon Lord", "FileName": "Demon Lord.mp3", "ArtistID": 36, "AlbumID": 69, "TagID": 3 }, { "ID": 75, "Title": "ENVY BABY", "FileName": "ENVY BABY.mp3", "ArtistID": 36, "AlbumID": 70, "TagID": 3 }, { "ID": 76, "Title": "EYE", "FileName": "EYE.mp3", "ArtistID": 36, "AlbumID": 71, "TagID": 3 }, { "ID": 77, "Title": "FightSong", "FileName": "FightSong.mp3", "ArtistID": 31, "AlbumID": 72, "TagID": 3 }, { "ID": 78, "Title": "Good-bye Declaration", "FileName": "Good-bye Declaration.mp3", "ArtistID": 37, "AlbumID": 73, "TagID": 3 }, { "ID": 79, "Title": "KING", "FileName": "KING.mp3", "ArtistID": 36, "AlbumID": 74, "TagID": 3 }, { "ID": 80, "Title": "last resort", "FileName": "last resort.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 3 }, { "ID": 81, "Title": "MIRA", "FileName": "MIRA.mp3", "ArtistID": 36, "AlbumID": 75, "TagID": 3 }, { "ID": 82, "Title": "Nightmare", "FileName": "Nightmare.mp3", "ArtistID": 33, "AlbumID": 76, "TagID": 3 }, { "ID": 83, "Title": "osmanthus", "FileName": "osmanthus.mp3", "ArtistID": 38, "AlbumID": 77, "TagID": 3 }, { "ID": 84, "Title": "QUEEN", "FileName": "QUEEN.mp3", "ArtistID": 36, "AlbumID": 78, "TagID": 3 }, { "ID": 85, "Title": "Rendezvous", "FileName": "Rendezvous.mp3", "ArtistID": 36, "AlbumID": 79, "TagID": 3 }, { "ID": 86, "Title": "Shadow Shadow", "FileName": "Shadow Shadow.mp3", "ArtistID": 33, "AlbumID": 80, "TagID": 3 }, { "ID": 87, "Title": "Whisper Whisper Whisper", "FileName": "Whisper Whisper Whisper.mp3", "ArtistID": 33, "AlbumID": 81, "TagID": 3 }, { "ID": 88, "Title": "Yoidoreshirazu", "FileName": "Yoidoreshirazu.mp3", "ArtistID": 36, "AlbumID": 82, "TagID": 3 }, { "ID": 89, "Title": "アイデンティティ", "FileName": "アイデンティティ.mp3", "ArtistID": 36, "AlbumID": 83, "TagID": 3 }, { "ID": 90, "Title": "エンヴィーベイビー x KING", "FileName": "エンヴィーベイビー x KING.mp3", "ArtistID": 36, "AlbumID": 84, "TagID": 3 }, { "ID": 91, "Title": "シネマ  初音ミク", "FileName": "シネマ  初音ミク.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 3 }, { "ID": 92, "Title": "ワンダラー - 初音ミク", "FileName": "ワンダラー - 初音ミク.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 3 }, { "ID": 93, "Title": "ずるいよ…", "FileName": "01 ずるいよ….m4a", "ArtistID": 39, "AlbumID": 85, "TagID": 4 }, { "ID": 94, "Title": "香水 feat.相沢", "FileName": "03  香水 feat.相沢.mp3", "ArtistID": 40, "AlbumID": 86, "TagID": 4 }, { "ID": 95, "Title": "Lulalulalu", "FileName": "05.ルラルラルー-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 4 }, { "ID": 96, "Title": "風になる feat.Lefty Hand Cream", "FileName": "07  風になる feat.Lefty Hand Cream.mp3", "ArtistID": 40, "AlbumID": 86, "TagID": 4 }, { "ID": 97, "Title": "奏(かなで) feat. 安果音", "FileName": "08. 奏(かなで) feat. 安果音.mp3", "ArtistID": 41, "AlbumID": 88, "TagID": 4 }, { "ID": 98, "Title": "Back-to-back", "FileName": "10.背中合わせ-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 4 }, { "ID": 99, "Title": "30", "FileName": "30.mp3", "ArtistID": 42, "AlbumID": 89, "TagID": 4 }, { "ID": 100, "Title": "40", "FileName": "40.mp3", "ArtistID": 42, "AlbumID": 90, "TagID": 4 }, { "ID": 101, "Title": "Akie - Letter Song", "FileName": "Akie - Letter Song.mp3", "ArtistID": 43, "AlbumID": 91, "TagID": 4 }, { "ID": 102, "Title": "Akie - 天之弱", "FileName": "Akie - 天之弱.mp3", "ArtistID": 43, "AlbumID": 91, "TagID": 4 }, { "ID": 103, "Title": "Akie - 約束", "FileName": "Akie - 約束.mp3", "ArtistID": 43, "AlbumID": 91, "TagID": 4 }, { "ID": 104, "Title": "Alone", "FileName": "Alone.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 105, "Title": "Always in my heart", "FileName": "Always in my heart.mp3", "ArtistID": 44, "AlbumID": 93, "TagID": 4 }, { "ID": 106, "Title": "Ame", "FileName": "Ame.mp3", "ArtistID": 42, "AlbumID": 94, "TagID": 4 }, { "ID": 107, "Title": "Ano Natsuno Hanabi", "FileName": "Ano Natsuno Hanabi.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 108, "Title": "Anohino Melody", "FileName": "Anohino Melody.mp3", "ArtistID": 42, "AlbumID": 96, "TagID": 4 }, { "ID": 109, "Title": "Arigato", "FileName": "Arigato.mp3", "ArtistID": 45, "AlbumID": 97, "TagID": 4 }, { "ID": 110, "Title": "be with you", "FileName": "be with you.mp3", "ArtistID": 46, "AlbumID": 98, "TagID": 4 }, { "ID": 111, "Title": "Be... - Stardust Version", "FileName": "Be... - Stardust Version.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 112, "Title": "Be... - Teardrop Version", "FileName": "Be... - Teardrop Version.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 113, "Title": "Be...", "FileName": "Be....mp3", "ArtistID": 42, "AlbumID": 100, "TagID": 4 }, { "ID": 114, "Title": "Call you", "FileName": "Call you.mp3", "ArtistID": 44, "AlbumID": 93, "TagID": 4 }, { "ID": 115, "Title": "Christmas Song", "FileName": "Christmas Song.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 4 }, { "ID": 116, "Title": "Dareyori Sukinanoni", "FileName": "Dareyori Sukinanoni.mp3", "ArtistID": 42, "AlbumID": 102, "TagID": 4 }, { "ID": 117, "Title": "DEAR...again", "FileName": "DEAR...again.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 118, "Title": "Dear", "FileName": "Dear.mp3", "ArtistID": 42, "AlbumID": 103, "TagID": 4 }, { "ID": 119, "Title": "Duca - Ai no Niwa", "FileName": "Duca - Ai no Niwa.mp3", "ArtistID": 47, "AlbumID": 104, "TagID": 4 }, { "ID": 120, "Title": "Earphones", "FileName": "Earphones.mp3", "ArtistID": 42, "AlbumID": 96, "TagID": 4 }, { "ID": 121, "Title": "Eki", "FileName": "Eki.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 122, "Title": "Ever be my love", "FileName": "Ever be my love.mp3", "ArtistID": 44, "AlbumID": 93, "TagID": 4 }, { "ID": 123, "Title": "Fall in love", "FileName": "Fall in love.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 4 }, { "ID": 124, "Title": "First Love", "FileName": "First Love.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 125, "Title": "Gekkou", "FileName": "Gekkou.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 126, "Title": "Gomenne", "FileName": "Gomenne.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 127, "Title": "Hello, Again", "FileName": "Hello, Again.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 128, "Title": "HIKARI", "FileName": "HIKARI.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 4 }, { "ID": 129, "Title": "Hoshifuru Yoruni", "FileName": "Hoshifuru Yoruni.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 4 }, { "ID": 130, "Title": "Hoshiwo Koete", "FileName": "Hoshiwo Koete.mp3", "ArtistID": 42, "AlbumID": 96, "TagID": 4 }, { "ID": 131, "Title": "I LOVE YOU", "FileName": "I LOVE YOU.mp3", "ArtistID": 42, "AlbumID": 107, "TagID": 4 }, { "ID": 132, "Title": "I WILL", "FileName": "I WILL.mp3", "ArtistID": 42, "AlbumID": 89, "TagID": 4 }, { "ID": 133, "Title": "Itoshii Hitoyo", "FileName": "Itoshii Hitoyo.mp3", "ArtistID": 42, "AlbumID": 96, "TagID": 4 }, { "ID": 134, "Title": "Kanashii Kiss", "FileName": "Kanashii Kiss.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 135, "Title": "Kanashimini Sayonara", "FileName": "Kanashimini Sayonara.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 4 }, { "ID": 136, "Title": "Kanega Naru - Acoustic ver", "FileName": "Kanega Naru - Acoustic ver.mp3", "ArtistID": 42, "AlbumID": 109, "TagID": 4 }, { "ID": 137, "Title": "Kanega Naru", "FileName": "Kanega Naru.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 4 }, { "ID": 138, "Title": "Kimi Ni Saigo No Kuchizuke Wo", "FileName": "Kimi Ni Saigo No Kuchizuke Wo.mp3", "ArtistID": 48, "AlbumID": 110, "TagID": 4 }, { "ID": 139, "Title": "Letter", "FileName": "Letter.mp3", "ArtistID": 42, "AlbumID": 111, "TagID": 4 }, { "ID": 140, "Title": "Love Love Love", "FileName": "Love Love Love.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 141, "Title": "Lovin you", "FileName": "Lovin' you.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 4 }, { "ID": 142, "Title": "M", "FileName": "M.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 143, "Title": "Mata Koi wo Suru Koto Nado", "FileName": "Mata Koi wo Suru Koto Nado.mp3", "ArtistID": 42, "AlbumID": 113, "TagID": 4 }, { "ID": 144, "Title": "Mirai Yosouzu II", "FileName": "Mirai Yosouzu II.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 145, "Title": "Mirai Yosouzu", "FileName": "Mirai Yosouzu.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 146, "Title": "Missing", "FileName": "Missing.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 147, "Title": "my graduation", "FileName": "My graduation.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 4 }, { "ID": 148, "Title": "Nanpasen", "FileName": "Nanpasen.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 149, "Title": "Natsuo Akiramete", "FileName": "Natsuo Akiramete.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 150, "Title": "PIECE OF MY WISH", "FileName": "PIECE OF MY WISH.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 4 }, { "ID": 151, "Title": "Plastic Love", "FileName": "Plastic Love.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 4 }, { "ID": 152, "Title": "Rainy Blue", "FileName": "Rainy Blue.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 153, "Title": "remember", "FileName": "Remember.mp3", "ArtistID": 49, "AlbumID": 114, "TagID": 4 }, { "ID": 154, "Title": "Riyu Renji - Boku Ga Shinou To Omotta No Wa", "FileName": "Riyu Renji - Boku Ga Shinou To Omotta No Wa.mp3", "ArtistID": 50, "AlbumID": 104, "TagID": 4 }, { "ID": 155, "Title": "Yasashii Uta", "FileName": "RSP - Yasashii Uta.mp3", "ArtistID": 51, "AlbumID": 115, "TagID": 4 }, { "ID": 156, "Title": "Ruriirono Chikyuu", "FileName": "Ruriirono Chikyuu.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 4 }, { "ID": 157, "Title": "Sayonarano Mukougawa", "FileName": "Sayonarano Mukougawa.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 158, "Title": "Scarborough Fair", "FileName": "Scarborough Fair.mp3", "ArtistID": 44, "AlbumID": 93, "TagID": 4 }, { "ID": 159, "Title": "Sing", "FileName": "Sing.mp3", "ArtistID": 52, "AlbumID": 116, "TagID": 4 }, { "ID": 160, "Title": "Soramo Toberuhazu", "FileName": "Soramo Toberuhazu.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 4 }, { "ID": 161, "Title": "Souha", "FileName": "Souha.mp3", "ArtistID": 42, "AlbumID": 96, "TagID": 4 }, { "ID": 162, "Title": "Squall", "FileName": "Squall.mp3", "ArtistID": 42, "AlbumID": 100, "TagID": 4 }, { "ID": 163, "Title": "Story", "FileName": "Story.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 164, "Title": "summertime", "FileName": "Summertime.mp3", "ArtistID": 53, "AlbumID": 117, "TagID": 4 }, { "ID": 165, "Title": "Sweet Home", "FileName": "Sweet Home.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 4 }, { "ID": 166, "Title": "tears", "FileName": "Tears.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 167, "Title": "TEE - Baby I Love You", "FileName": "TEE - Baby I Love You.mp3", "ArtistID": 54, "AlbumID": 104, "TagID": 4 }, { "ID": 168, "Title": "The signs of LOVE", "FileName": "The signs of LOVE.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 4 }, { "ID": 169, "Title": "Time goes by", "FileName": "Time goes by.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 4 }, { "ID": 170, "Title": "Tokino Nagareni Miwo Makase", "FileName": "Tokino Nagareni Miwo Makase.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 4 }, { "ID": 171, "Title": "Tsugunai", "FileName": "Tsugunai.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 172, "Title": "Woman", "FileName": "Woman.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 4 }, { "ID": 173, "Title": "Yukino Hana", "FileName": "Yukino Hana.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 4 }, { "ID": 174, "Title": "ありがとう、だいすき", "FileName": "ありがとう、だいすき.mp3", "ArtistID": 52, "AlbumID": 118, "TagID": 4 }, { "ID": 175, "Title": "いとしのエリー", "FileName": "いとしのエリー.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 176, "Title": "きみのうた", "FileName": "きみのうた.mp3", "ArtistID": 55, "AlbumID": 120, "TagID": 4 }, { "ID": 177, "Title": "ずるいよ…", "FileName": "ずるいよ….mp3", "ArtistID": 39, "AlbumID": 121, "TagID": 4 }, { "ID": 178, "Title": "みちしるべ", "FileName": "みちしるべ.mp3", "ArtistID": 52, "AlbumID": 118, "TagID": 4 }, { "ID": 179, "Title": "もう二度と・・・", "FileName": "もう二度と・・・.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 180, "Title": "オレンジ", "FileName": "オレンジ.mp3", "ArtistID": 56, "AlbumID": 122, "TagID": 4 }, { "ID": 181, "Title": "キラメキ", "FileName": "キラメキ.mp3", "ArtistID": 57, "AlbumID": 123, "TagID": 4 }, { "ID": 182, "Title": "タイニーリトル・アジアンタム", "FileName": "タイニーリトル・アジアンタム.mp3", "ArtistID": 58, "AlbumID": 124, "TagID": 4 }, { "ID": 183, "Title": "君だったら", "FileName": "君だったら.mp3", "ArtistID": 59, "AlbumID": 125, "TagID": 4 }, { "ID": 184, "Title": "君に出逢えて", "FileName": "君に出逢えて.mp3", "ArtistID": 60, "AlbumID": 126, "TagID": 4 }, { "ID": 185, "Title": "声を聞かせて", "FileName": "声を聞かせて.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 186, "Title": "夜撫でるメノウ", "FileName": "夜撫でるメノウ.mp3", "ArtistID": 35, "AlbumID": 127, "TagID": 4 }, { "ID": 187, "Title": "恋愛サーキュレーション", "FileName": "恋愛サーキュレーション.mp3", "ArtistID": 61, "AlbumID": 128, "TagID": 4 }, { "ID": 188, "Title": "明日がくるなら ballad solo version", "FileName": "明日がくるなら ballad solo version.mp3", "ArtistID": 62, "AlbumID": 129, "TagID": 4 }, { "ID": 189, "Title": "桜坂", "FileName": "桜坂.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 190, "Title": "永遠", "FileName": "永遠.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 191, "Title": "百満開花", "FileName": "百満開花.mp3", "ArtistID": 60, "AlbumID": 130, "TagID": 4 }, { "ID": 192, "Title": "瞳をとじて", "FileName": "瞳をとじて.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 4 }, { "ID": 193, "Title": "115万キロのフィルム", "FileName": "01 115万キロのフィルム.m4a", "ArtistID": 63, "AlbumID": 131, "TagID": 5 }, { "ID": 194, "Title": "LOST IN PARADISE", "FileName": "01 LOST IN PARADISE.m4a", "ArtistID": 64, "AlbumID": 132, "TagID": 5 }, { "ID": 195, "Title": "ダンスホール", "FileName": "01 ダンスホール.m4a", "ArtistID": 65, "AlbumID": 133, "TagID": 5 }, { "ID": 196, "Title": "低血ボルト", "FileName": "01 低血ボルト.m4a", "ArtistID": 66, "AlbumID": 134, "TagID": 5 }, { "ID": 197, "Title": "又三郎", "FileName": "01 又三郎.m4a", "ArtistID": 67, "AlbumID": 135, "TagID": 5 }, { "ID": 198, "Title": "夜行", "FileName": "01 夜行.m4a", "ArtistID": 67, "AlbumID": 136, "TagID": 5 }, { "ID": 199, "Title": "思想犯", "FileName": "01 思想犯.m4a", "ArtistID": 67, "AlbumID": 137, "TagID": 5 }, { "ID": 200, "Title": "春泥棒", "FileName": "01 春泥棒.m4a", "ArtistID": 67, "AlbumID": 138, "TagID": 5 }, { "ID": 201, "Title": "盗作", "FileName": "01 盗作.m4a", "ArtistID": 67, "AlbumID": 139, "TagID": 5 }, { "ID": 202, "Title": "秒針を噛む", "FileName": "01 秒針を噛む.m4a", "ArtistID": 66, "AlbumID": 140, "TagID": 5 }, { "ID": 203, "Title": "花一匁", "FileName": "01 花一匁.m4a", "ArtistID": 66, "AlbumID": 141, "TagID": 5 }, { "ID": 204, "Title": "藍二乗", "FileName": "01 藍二乗.m4a", "ArtistID": 67, "AlbumID": 142, "TagID": 5 }, { "ID": 205, "Title": "雨とカプチーノ", "FileName": "01 雨とカプチーノ.m4a", "ArtistID": 67, "AlbumID": 143, "TagID": 5 }, { "ID": 206, "Title": "風を食む", "FileName": "01 風を食む.m4a", "ArtistID": 67, "AlbumID": 144, "TagID": 5 }, { "ID": 207, "Title": "Koi Seyo Otome", "FileName": "01.恋せよオトメ-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 208, "Title": "Ao No Waltz", "FileName": "02 Ao No Waltz.m4a", "ArtistID": 31, "AlbumID": 62, "TagID": 5 }, { "ID": 209, "Title": "ヒューマノイド", "FileName": "02 ヒューマノイド.m4a", "ArtistID": 66, "AlbumID": 140, "TagID": 5 }, { "ID": 210, "Title": "ブレーメン", "FileName": "02 ブレーメン.m4a", "ArtistID": 67, "AlbumID": 145, "TagID": 5 }, { "ID": 211, "Title": "正しくなれない", "FileName": "02 正しくなれない.m4a", "ArtistID": 66, "AlbumID": 146, "TagID": 5 }, { "ID": 212, "Title": "残機", "FileName": "02 残機.m4a", "ArtistID": 66, "AlbumID": 141, "TagID": 5 }, { "ID": 213, "Title": "明日はきっといい日になる feat. えみい", "FileName": "02. 明日はきっといい日になる feat. えみい.mp3", "ArtistID": 68, "AlbumID": 88, "TagID": 5 }, { "ID": 214, "Title": "小さな恋のうた feat.七穂", "FileName": "02.小さな恋のうた feat.七穂.mp3", "ArtistID": 40, "AlbumID": 147, "TagID": 5 }, { "ID": 215, "Title": "Dramaturgy", "FileName": "03 Dramaturgy.m4a", "ArtistID": 31, "AlbumID": 64, "TagID": 5 }, { "ID": 216, "Title": "Raison Detre", "FileName": "03 Raison Detre.m4a", "ArtistID": 31, "AlbumID": 148, "TagID": 5 }, { "ID": 217, "Title": "Shinkai", "FileName": "03 Shinkai.m4a", "ArtistID": 31, "AlbumID": 62, "TagID": 5 }, { "ID": 218, "Title": "お勉強しといてよ", "FileName": "03 お勉強しといてよ.m4a", "ArtistID": 66, "AlbumID": 146, "TagID": 5 }, { "ID": 219, "Title": "言って。", "FileName": "03 言って。.m4a", "ArtistID": 67, "AlbumID": 149, "TagID": 5 }, { "ID": 220, "Title": "あの夏に咲け", "FileName": "04 あの夏に咲け.m4a", "ArtistID": 67, "AlbumID": 149, "TagID": 5 }, { "ID": 221, "Title": "ヒッチコック", "FileName": "04 ヒッチコック.m4a", "ArtistID": 67, "AlbumID": 150, "TagID": 5 }, { "ID": 222, "Title": "勘ぐれい", "FileName": "04 勘ぐれい.m4a", "ArtistID": 66, "AlbumID": 146, "TagID": 5 }, { "ID": 223, "Title": "夏恋慕 (feat. 春茶)", "FileName": "04. Summer Love.mp3", "ArtistID": 40, "AlbumID": 151, "TagID": 5 }, { "ID": 224, "Title": "Goodbye with a smile", "FileName": "04.さよならスマイル-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 225, "Title": "Anoko secret", "FileName": "05 Anoko secret.m4a", "ArtistID": 31, "AlbumID": 64, "TagID": 5 }, { "ID": 226, "Title": "Heikousen", "FileName": "06 Heikousen.m4a", "ArtistID": 69, "AlbumID": 152, "TagID": 5 }, { "ID": 227, "Title": "あいつら全員同窓会", "FileName": "06 あいつら全員同窓会.m4a", "ArtistID": 66, "AlbumID": 141, "TagID": 5 }, { "ID": 228, "Title": "又三郎", "FileName": "06 又三郎.m4a", "ArtistID": 67, "AlbumID": 145, "TagID": 5 }, { "ID": 229, "Title": "ラブレター (feat. 春茶)", "FileName": "06. ラブレター (feat. 春茶).mp3", "ArtistID": 40, "AlbumID": 151, "TagID": 5 }, { "ID": 230, "Title": "あとひとつ feat.こぴ", "FileName": "06.あとひとつ feat.こぴ.mp3", "ArtistID": 40, "AlbumID": 153, "TagID": 5 }, { "ID": 231, "Title": "I wish theres no you to be around", "FileName": "06.君さえいなけりゃ-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 232, "Title": "花人局", "FileName": "07 花人局.m4a", "ArtistID": 67, "AlbumID": 139, "TagID": 5 }, { "ID": 233, "Title": "雲と幽霊", "FileName": "07 雲と幽霊.m4a", "ArtistID": 67, "AlbumID": 149, "TagID": 5 }, { "ID": 234, "Title": "I love you so much but I cant tell you", "FileName": "07.あなたのことが好きだなんて言えないんです。-Kobasolo.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 235, "Title": "Kokoroyohou", "FileName": "08 Kokoroyohou.m4a", "ArtistID": 31, "AlbumID": 148, "TagID": 5 }, { "ID": 236, "Title": "MILABO", "FileName": "08 MILABO.m4a", "ArtistID": 66, "AlbumID": 146, "TagID": 5 }, { "ID": 237, "Title": "五月は花緑青の窓辺から", "FileName": "08 五月は花緑青の窓辺から.m4a", "ArtistID": 67, "AlbumID": 154, "TagID": 5 }, { "ID": 238, "Title": "青と夏", "FileName": "08 青と夏.m4a", "ArtistID": 65, "AlbumID": 155, "TagID": 5 }, { "ID": 239, "Title": "夜紛い", "FileName": "09 夜紛い.m4a", "ArtistID": 67, "AlbumID": 154, "TagID": 5 }, { "ID": 240, "Title": "HANABI feat.春茶", "FileName": "09.HANABI feat.春茶.mp3", "ArtistID": 40, "AlbumID": 147, "TagID": 5 }, { "ID": 241, "Title": "スパークル(movie ver.) feat. 春茶", "FileName": "10. スパークル(movie ver.) feat. 春茶.mp3", "ArtistID": 68, "AlbumID": 88, "TagID": 5 }, { "ID": 242, "Title": "10時の方角", "FileName": "10時の方角.mp3", "ArtistID": 70, "AlbumID": 156, "TagID": 5 }, { "ID": 243, "Title": "パレード", "FileName": "11 パレード.m4a", "ArtistID": 67, "AlbumID": 154, "TagID": 5 }, { "ID": 244, "Title": "115万キロのフィルム", "FileName": "115万キロのフィルム.mp3", "ArtistID": 63, "AlbumID": 131, "TagID": 5 }, { "ID": 245, "Title": "ミラーチューン", "FileName": "12 ミラーチューン.m4a", "ArtistID": 66, "AlbumID": 141, "TagID": 5 }, { "ID": 246, "Title": "ロマンチシズム", "FileName": "12 ロマンチシズム.m4a", "ArtistID": 65, "AlbumID": 155, "TagID": 5 }, { "ID": 247, "Title": "夜行", "FileName": "13 夜行.m4a", "ArtistID": 67, "AlbumID": 139, "TagID": 5 }, { "ID": 248, "Title": "だから僕は音楽を辞めた", "FileName": "14 だから僕は音楽を辞めた.m4a", "ArtistID": 67, "AlbumID": 154, "TagID": 5 }, { "ID": 249, "Title": "2FACE", "FileName": "2FACE.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 250, "Title": "7月の翼", "FileName": "7月の翼.mp3", "ArtistID": 71, "AlbumID": 157, "TagID": 5 }, { "ID": 251, "Title": "After Rain -Scarlet ver.-", "FileName": "After Rain -Scarlet ver.-.mp3", "ArtistID": 71, "AlbumID": 158, "TagID": 5 }, { "ID": 252, "Title": "Aitai", "FileName": "Aitai.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 253, "Title": "Anataga Kimeta Kyounara", "FileName": "Anataga Kimeta Kyounara.mp3", "ArtistID": 42, "AlbumID": 159, "TagID": 5 }, { "ID": 254, "Title": "Anatani Aenaku Naruhimade", "FileName": "Anatani Aenaku Naruhimade.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 255, "Title": "Apoptosis", "FileName": "Apoptosis.mp3", "ArtistID": 63, "AlbumID": 160, "TagID": 5 }, { "ID": 256, "Title": "Asahino Youna Kiss O Shite", "FileName": "Asahino Youna Kiss O Shite.mp3", "ArtistID": 42, "AlbumID": 161, "TagID": 5 }, { "ID": 257, "Title": "Ato Hitotsu feat. kopi", "FileName": "Ato Hitotsu feat. kopi.mp3", "ArtistID": 40, "AlbumID": 162, "TagID": 5 }, { "ID": 258, "Title": "baby dont know why", "FileName": "Baby don't know why.mp3", "ArtistID": 42, "AlbumID": 103, "TagID": 5 }, { "ID": 259, "Title": "be alive", "FileName": "Be alive.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 260, "Title": "Be... - World Sketch Star Piano Remix", "FileName": "Be... - World Sketch Star Piano Remix.mp3", "ArtistID": 42, "AlbumID": 163, "TagID": 5 }, { "ID": 261, "Title": "Beautiful", "FileName": "Beautiful.mp3", "ArtistID": 45, "AlbumID": 164, "TagID": 5 }, { "ID": 262, "Title": "Blind to you (Remaster for 星の消えた夜に 2022)", "FileName": "Blind to you (Remaster for 星の消えた夜に 2022).mp3", "ArtistID": 71, "AlbumID": 165, "TagID": 5 }, { "ID": 263, "Title": "Bokuramadaunderground", "FileName": "Bokuramadaunderground.mp3", "ArtistID": 31, "AlbumID": 166, "TagID": 5 }, { "ID": 264, "Title": "BRAVE", "FileName": "BRAVE.mp3", "ArtistID": 42, "AlbumID": 161, "TagID": 5 }, { "ID": 265, "Title": "Ichinen Nikagetsu Hatsuka", "FileName": "BRIGHT - Ichinen Nikagetsu Hatsuka.mp3", "ArtistID": 72, "AlbumID": 104, "TagID": 5 }, { "ID": 266, "Title": "Bye For Now", "FileName": "Bye For Now.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 267, "Title": "Calendar Girl", "FileName": "Calendar Girl.mp3", "ArtistID": 71, "AlbumID": 167, "TagID": 5 }, { "ID": 268, "Title": "CANDY", "FileName": "CANDY.mp3", "ArtistID": 45, "AlbumID": 97, "TagID": 5 }, { "ID": 269, "Title": "Chasin", "FileName": "Chasin'.mp3", "ArtistID": 45, "AlbumID": 97, "TagID": 5 }, { "ID": 270, "Title": "Yes", "FileName": "Chihiro - Yes.mp3", "ArtistID": 39, "AlbumID": 121, "TagID": 5 }, { "ID": 271, "Title": "Chiisana Koi no Uta", "FileName": "Chiisana Koi no Uta.mp3", "ArtistID": 40, "AlbumID": 168, "TagID": 5 }, { "ID": 272, "Title": "Cold Kiss", "FileName": "Cold Kiss.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 5 }, { "ID": 273, "Title": "Crescent Moon", "FileName": "Crescent Moon.mp3", "ArtistID": 42, "AlbumID": 95, "TagID": 5 }, { "ID": 274, "Title": "crossing field", "FileName": "Crossing field.mp3", "ArtistID": 73, "AlbumID": 169, "TagID": 5 }, { "ID": 275, "Title": "DADDY ! DADDY ! DO !", "FileName": "DADDY ! DADDY ! DO !.mp3", "ArtistID": 74, "AlbumID": 170, "TagID": 5 }, { "ID": 276, "Title": "Daisy (Remaster for 星の消えた夜に 2022)", "FileName": "Daisy.mp3", "ArtistID": 71, "AlbumID": 165, "TagID": 5 }, { "ID": 277, "Title": "Darlin’", "FileName": "Darlin’.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 278, "Title": "Dear Mr「F」", "FileName": "Dear Mr「F」.mp3", "ArtistID": 66, "AlbumID": 171, "TagID": 5 }, { "ID": 279, "Title": "DEAREST DROP", "FileName": "DEAREST DROP.mp3", "ArtistID": 75, "AlbumID": 172, "TagID": 5 }, { "ID": 280, "Title": "Desert", "FileName": "Desert.mp3", "ArtistID": 42, "AlbumID": 90, "TagID": 5 }, { "ID": 281, "Title": "Dont You Stop", "FileName": "Don't You Stop.mp3", "ArtistID": 45, "AlbumID": 164, "TagID": 5 }, { "ID": 282, "Title": "Epilogue", "FileName": "Epilogue.mp3", "ArtistID": 42, "AlbumID": 90, "TagID": 5 }, { "ID": 283, "Title": "Familia", "FileName": "Familia.mp3", "ArtistID": 70, "AlbumID": 156, "TagID": 5 }, { "ID": 284, "Title": "fiction blue", "FileName": "fiction blue.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 5 }, { "ID": 285, "Title": "Flyday Chinatown", "FileName": "Flyday Chinatown.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 5 }, { "ID": 286, "Title": "Footprint", "FileName": "Footprint.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 287, "Title": "Forget-me-not", "FileName": "Forget-me-not.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 288, "Title": "Fukashigi No Carte \"Bunny Girl Senpai\"", "FileName": "Fukashigi No Carte - Bunny Girl Senpai.mp3", "ArtistID": 76, "AlbumID": 173, "TagID": 5 }, { "ID": 289, "Title": "Fukashigi no Carte", "FileName": "Fukashigi no Carte.mp3", "ArtistID": 77, "AlbumID": 174, "TagID": 5 }, { "ID": 290, "Title": "Fun Fun Christmas", "FileName": "Fun Fun Christmas.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 291, "Title": "Got A Feeling", "FileName": "Got A Feeling.mp3", "ArtistID": 45, "AlbumID": 97, "TagID": 5 }, { "ID": 292, "Title": "Go☆サマーガール", "FileName": "Go☆サマーガール.mp3", "ArtistID": 78, "AlbumID": 175, "TagID": 5 }, { "ID": 293, "Title": "grilletto", "FileName": "grilletto.mp3", "ArtistID": 79, "AlbumID": 176, "TagID": 5 }, { "ID": 294, "Title": "Hajimarino Toki", "FileName": "Hajimarino Toki.mp3", "ArtistID": 42, "AlbumID": 177, "TagID": 5 }, { "ID": 295, "Title": "Hana", "FileName": "Hana.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 296, "Title": "Happy encount", "FileName": "Happy encount.mp3", "ArtistID": 80, "AlbumID": 178, "TagID": 5 }, { "ID": 297, "Title": "Hatsukoi", "FileName": "Hatsukoi.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 5 }, { "ID": 298, "Title": "Heaven’s Door", "FileName": "Heaven’s Door.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 299, "Title": "Hello,world!", "FileName": "Hello,world!.mp3", "ArtistID": 81, "AlbumID": 179, "TagID": 5 }, { "ID": 300, "Title": "HELLO", "FileName": "HELLO.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 5 }, { "ID": 301, "Title": "Here", "FileName": "Here.mp3", "ArtistID": 82, "AlbumID": 180, "TagID": 5 }, { "ID": 302, "Title": "Heroes", "FileName": "Heroes.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 5 }, { "ID": 303, "Title": "I Remember You", "FileName": "I Remember You.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 5 }, { "ID": 304, "Title": "Im ALIVE", "FileName": "I'm ALIVE.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 305, "Title": "Ihoujin", "FileName": "Ihoujin.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 5 }, { "ID": 306, "Title": "inverted world", "FileName": "inverted world.mp3", "ArtistID": 80, "AlbumID": 178, "TagID": 5 }, { "ID": 307, "Title": "Is There Still Anything That Love Can Do?", "FileName": "Is There Still Anything That Love Can Do.mp3", "ArtistID": 83, "AlbumID": 181, "TagID": 5 }, { "ID": 308, "Title": "Its OK", "FileName": "It's OK.mp3", "ArtistID": 42, "AlbumID": 103, "TagID": 5 }, { "ID": 309, "Title": "Its okay to social misfit!", "FileName": "It's okay to social misfit!.mp3", "ArtistID": 34, "AlbumID": 182, "TagID": 5 }, { "ID": 310, "Title": "Itsumademo Kawaranu Aio", "FileName": "Itsumademo Kawaranu Aio.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 5 }, { "ID": 311, "Title": "Jasmine", "FileName": "Jasmine.mp3", "ArtistID": 70, "AlbumID": 183, "TagID": 5 }, { "ID": 312, "Title": "JEWEL", "FileName": "JEWEL.mp3", "ArtistID": 42, "AlbumID": 113, "TagID": 5 }, { "ID": 313, "Title": "Just disappear", "FileName": "Just disappear.mp3", "ArtistID": 34, "AlbumID": 184, "TagID": 5 }, { "ID": 314, "Title": "Kanade", "FileName": "Kanade.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 315, "Title": "Kie Kitano - Hazakura", "FileName": "Kie Kitano - Hazakura.mp3", "ArtistID": 84, "AlbumID": 104, "TagID": 5 }, { "ID": 316, "Title": "Kimiga Omoideni Narumaeni", "FileName": "Kimiga Omoideni Narumaeni.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 317, "Title": "KIRA☆KIRA☆", "FileName": "KIRA☆KIRA☆.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 318, "Title": "Kiss Kiss Kiss", "FileName": "Kiss Kiss Kiss.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 319, "Title": "KOI SEYO OTOME", "FileName": "KOI SEYO OTOME.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 320, "Title": "Kokoni Iruwa", "FileName": "Kokoni Iruwa.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 321, "Title": "Konomama Kimidakeo Ubaisaritai", "FileName": "Konomama Kimidakeo Ubaisaritai.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 322, "Title": "Konyadake Kitto", "FileName": "Konyadake Kitto.mp3", "ArtistID": 42, "AlbumID": 94, "TagID": 5 }, { "ID": 323, "Title": "Kuchizuke Diamond", "FileName": "Kuchizuke Diamond.mp3", "ArtistID": 85, "AlbumID": 185, "TagID": 5 }, { "ID": 324, "Title": "Lamp", "FileName": "Lamp.mp3", "ArtistID": 70, "AlbumID": 186, "TagID": 5 }, { "ID": 325, "Title": "let go", "FileName": "let go.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 326, "Title": "Little Car", "FileName": "Little Car.mp3", "ArtistID": 42, "AlbumID": 90, "TagID": 5 }, { "ID": 327, "Title": "Lovers", "FileName": "Lovers.mp3", "ArtistID": 70, "AlbumID": 187, "TagID": 5 }, { "ID": 328, "Title": "MAGIC", "FileName": "MAGIC.mp3", "ArtistID": 70, "AlbumID": 187, "TagID": 5 }, { "ID": 329, "Title": "Manatsuno Yono Yume", "FileName": "Manatsuno Yono Yume.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 5 }, { "ID": 330, "Title": "Mata Aeru Himade", "FileName": "Mata Aeru Himade.mp3", "ArtistID": 42, "AlbumID": 102, "TagID": 5 }, { "ID": 331, "Title": "MIDNIGHT PRETENDERS", "FileName": "MIDNIGHT PRETENDERS.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 5 }, { "ID": 332, "Title": "Mine (Remaster for 星の消えた夜に 2022)", "FileName": "Mine (Remaster for 星の消えた夜に 2022).mp3", "ArtistID": 71, "AlbumID": 165, "TagID": 5 }, { "ID": 333, "Title": "MIRAI", "FileName": "MIRAI.mp3", "ArtistID": 79, "AlbumID": 188, "TagID": 5 }, { "ID": 334, "Title": "Mirror", "FileName": "Mirror.mp3", "ArtistID": 55, "AlbumID": 189, "TagID": 5 }, { "ID": 335, "Title": "Momenno Handkerchief", "FileName": "Momenno Handkerchief.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 5 }, { "ID": 336, "Title": "monochrome", "FileName": "monochrome.mp3", "ArtistID": 78, "AlbumID": 190, "TagID": 5 }, { "ID": 337, "Title": "My Darling", "FileName": "My Darling.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 338, "Title": "my sweetest one (Remaster for 星の消えた夜に 2022)", "FileName": "my sweetest one (Remaster for 星の消えた夜に 2022).mp3", "ArtistID": 71, "AlbumID": 165, "TagID": 5 }, { "ID": 339, "Title": "My Way", "FileName": "My Way.mp3", "ArtistID": 42, "AlbumID": 111, "TagID": 5 }, { "ID": 340, "Title": "Natsurenbo", "FileName": "Natsurenbo.mp3", "ArtistID": 40, "AlbumID": 191, "TagID": 5 }, { "ID": 341, "Title": "NEWDAY", "FileName": "NEWDAY.mp3", "ArtistID": 42, "AlbumID": 192, "TagID": 5 }, { "ID": 342, "Title": "No.1", "FileName": "No.1.mp3", "ArtistID": 40, "AlbumID": 168, "TagID": 5 }, { "ID": 343, "Title": "Omoideno Sukuriin", "FileName": "Omoideno Sukuriin.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 5 }, { "ID": 344, "Title": "ONCE", "FileName": "ONCE.mp3", "ArtistID": 42, "AlbumID": 101, "TagID": 5 }, { "ID": 345, "Title": "One More Time", "FileName": "One More Time.mp3", "ArtistID": 42, "AlbumID": 102, "TagID": 5 }, { "ID": 346, "Title": "Perfect Boy", "FileName": "Perfect Boy.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 347, "Title": "Pretender", "FileName": "Pretender.mp3", "ArtistID": 63, "AlbumID": 193, "TagID": 5 }, { "ID": 348, "Title": "purest note 〜あたたかい音 - Ver. Strings Quartet", "FileName": "purest note 〜あたたかい音 - Ver. Strings Quartet.mp3", "ArtistID": 52, "AlbumID": 194, "TagID": 5 }, { "ID": 349, "Title": "RESET", "FileName": "RESET.mp3", "ArtistID": 39, "AlbumID": 121, "TagID": 5 }, { "ID": 350, "Title": "Rising Hope", "FileName": "Rising Hope.mp3", "ArtistID": 73, "AlbumID": 195, "TagID": 5 }, { "ID": 351, "Title": "Romance", "FileName": "Romance.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 352, "Title": "Roppongi Junjouha", "FileName": "Roppongi Junjouha.mp3", "ArtistID": 42, "AlbumID": 106, "TagID": 5 }, { "ID": 353, "Title": "Saigo No Ame", "FileName": "Saigo No Ame.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 354, "Title": "Saudade", "FileName": "Saudade.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 355, "Title": "Sayonara", "FileName": "Sayonara.mp3", "ArtistID": 42, "AlbumID": 163, "TagID": 5 }, { "ID": 356, "Title": "SELF PRODUCER", "FileName": "SELF PRODUCER.mp3", "ArtistID": 52, "AlbumID": 118, "TagID": 5 }, { "ID": 357, "Title": "Shake & Shake", "FileName": "Shake & Shake.mp3", "ArtistID": 70, "AlbumID": 197, "TagID": 5 }, { "ID": 358, "Title": "Shiawaseni Naritai", "FileName": "Shiawaseni Naritai.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 5 }, { "ID": 359, "Title": "SHOCK!", "FileName": "SHOCK!.mp3", "ArtistID": 35, "AlbumID": 198, "TagID": 5 }, { "ID": 360, "Title": "Shukumei", "FileName": "Shukumei.mp3", "ArtistID": 63, "AlbumID": 193, "TagID": 5 }, { "ID": 361, "Title": "Silent Tears", "FileName": "Silent Tears.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 362, "Title": "Sincerely", "FileName": "Sincerely.mp3", "ArtistID": 80, "AlbumID": 199, "TagID": 5 }, { "ID": 363, "Title": "Sleeping town", "FileName": "Sleeping town.mp3", "ArtistID": 38, "AlbumID": 77, "TagID": 5 }, { "ID": 364, "Title": "Sorato Kimino Aidani", "FileName": "Sorato Kimino Aidani.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 5 }, { "ID": 365, "Title": "Sparkle - Original Version", "FileName": "Sparkle - Original Version.mp3", "ArtistID": 83, "AlbumID": 200, "TagID": 5 }, { "ID": 366, "Title": "Stay With Me", "FileName": "Stay With Me.mp3", "ArtistID": 42, "AlbumID": 105, "TagID": 5 }, { "ID": 367, "Title": "Sunshine", "FileName": "Sunshine.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 368, "Title": "The Fog", "FileName": "The Fog.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 369, "Title": "There will be love there", "FileName": "There will be love there.mp3", "ArtistID": 42, "AlbumID": 92, "TagID": 5 }, { "ID": 370, "Title": "Ti Amo", "FileName": "Ti Amo.mp3", "ArtistID": 42, "AlbumID": 99, "TagID": 5 }, { "ID": 371, "Title": "TOMORROW", "FileName": "TOMORROW.mp3", "ArtistID": 42, "AlbumID": 108, "TagID": 5 }, { "ID": 372, "Title": "Tooku Tooku", "FileName": "Tooku Tooku.mp3", "ArtistID": 42, "AlbumID": 94, "TagID": 5 }, { "ID": 373, "Title": "Toy", "FileName": "Toy.mp3", "ArtistID": 34, "AlbumID": 202, "TagID": 5 }, { "ID": 374, "Title": "Traveling", "FileName": "Traveling.mp3", "ArtistID": 70, "AlbumID": 203, "TagID": 5 }, { "ID": 375, "Title": "True", "FileName": "True.mp3", "ArtistID": 42, "AlbumID": 90, "TagID": 5 }, { "ID": 376, "Title": "Umiwo Miteru", "FileName": "Umiwo Miteru.mp3", "ArtistID": 42, "AlbumID": 204, "TagID": 5 }, { "ID": 377, "Title": "Universe", "FileName": "Universe.mp3", "ArtistID": 63, "AlbumID": 160, "TagID": 5 }, { "ID": 378, "Title": "violeta", "FileName": "violeta.mp3", "ArtistID": 35, "AlbumID": 68, "TagID": 5 }, { "ID": 379, "Title": "WAY YOU ARE", "FileName": "WAY YOU ARE.mp3", "ArtistID": 42, "AlbumID": 204, "TagID": 5 }, { "ID": 380, "Title": "White Letter", "FileName": "White Letter.mp3", "ArtistID": 42, "AlbumID": 161, "TagID": 5 }, { "ID": 381, "Title": "Who Are You", "FileName": "Who Are You.mp3", "ArtistID": 42, "AlbumID": 205, "TagID": 5 }, { "ID": 382, "Title": "WILL", "FileName": "WILL.mp3", "ArtistID": 80, "AlbumID": 206, "TagID": 5 }, { "ID": 383, "Title": "Yesterday", "FileName": "Yesterday.mp3", "ArtistID": 63, "AlbumID": 193, "TagID": 5 }, { "ID": 384, "Title": "You are Beautiful", "FileName": "You are Beautiful.mp3", "ArtistID": 42, "AlbumID": 112, "TagID": 5 }, { "ID": 385, "Title": "you", "FileName": "you.mp3", "ArtistID": 60, "AlbumID": 207, "TagID": 5 }, { "ID": 386, "Title": "Yunomi  – はんぶんこ花火", "FileName": "Yunomi  – はんぶんこ花火 .mp3", "ArtistID": 88, "AlbumID": 208, "TagID": 5 }, { "ID": 387, "Title": "あの夢をなぞって", "FileName": "あの夢をなぞって.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 388, "Title": "いつだって青空", "FileName": "いつだって青空.mp3", "ArtistID": 52, "AlbumID": 116, "TagID": 5 }, { "ID": 389, "Title": "ここから見える景色", "FileName": "ここから見える景色.mp3", "ArtistID": 70, "AlbumID": 187, "TagID": 5 }, { "ID": 390, "Title": "さくら 〜あなたに出会えてよかった〜", "FileName": "さくら 〜あなたに出会えてよかった〜.mp3", "ArtistID": 51, "AlbumID": 210, "TagID": 5 }, { "ID": 391, "Title": "しあわせ", "FileName": "しあわせ.mp3", "ArtistID": 42, "AlbumID": 211, "TagID": 5 }, { "ID": 392, "Title": "ずっと二人で", "FileName": "ずっと二人で.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 393, "Title": "そっけない", "FileName": "そっけない.mp3", "ArtistID": 40, "AlbumID": 168, "TagID": 5 }, { "ID": 394, "Title": "ただ君に晴れ", "FileName": "ただ君に晴れ.mp3", "ArtistID": 68, "AlbumID": 150, "TagID": 5 }, { "ID": 395, "Title": "たぶん", "FileName": "たぶん.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 396, "Title": "ふたりきりルームシアター", "FileName": "ふたりきりルームシアター.mp3", "ArtistID": 60, "AlbumID": 212, "TagID": 5 }, { "ID": 397, "Title": "また君と", "FileName": "また君と.mp3", "ArtistID": 42, "AlbumID": 213, "TagID": 5 }, { "ID": 398, "Title": "もう少しだけ", "FileName": "もう少しだけ.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 399, "Title": "もしも命が描けたら", "FileName": "もしも命が描けたら.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 400, "Title": "アイアイ愛してるよ♡", "FileName": "アイアイ愛してるよ♡.mp3", "ArtistID": 52, "AlbumID": 214, "TagID": 5 }, { "ID": 401, "Title": "アネモネ", "FileName": "アネモネ.mp3", "ArtistID": 70, "AlbumID": 187, "TagID": 5 }, { "ID": 402, "Title": "アンコール", "FileName": "アンコール.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 403, "Title": "イコール", "FileName": "イコール.mp3", "ArtistID": 70, "AlbumID": 203, "TagID": 5 }, { "ID": 404, "Title": "インドア系ならトラックメイカー", "FileName": "インドア系ならトラックメイカー.mp3", "ArtistID": 88, "AlbumID": 215, "TagID": 5 }, { "ID": 405, "Title": "エンドロール", "FileName": "エンドロール.mp3", "ArtistID": 70, "AlbumID": 216, "TagID": 5 }, { "ID": 406, "Title": "キセキ", "FileName": "キセキ.mp3", "ArtistID": 40, "AlbumID": 168, "TagID": 5 }, { "ID": 407, "Title": "キミと未来", "FileName": "キミと未来.mp3", "ArtistID": 42, "AlbumID": 217, "TagID": 5 }, { "ID": 408, "Title": "ギミギミ", "FileName": "ギミギミ.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 409, "Title": "シャラララ", "FileName": "シャラララ.mp3", "ArtistID": 52, "AlbumID": 214, "TagID": 5 }, { "ID": 410, "Title": "シュガーソングとビターステップ", "FileName": "シュガーソングとビターステップ.mp3", "ArtistID": 89, "AlbumID": 218, "TagID": 5 }, { "ID": 411, "Title": "シュガーロス", "FileName": "シュガーロス.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 412, "Title": "シンシアリー", "FileName": "シンシアリー.mp3", "ArtistID": 60, "AlbumID": 219, "TagID": 5 }, { "ID": 413, "Title": "ジェリーフィッシュ (feat. ローラーガール)", "FileName": "ジェリーフィッシュ.mp3", "ArtistID": 88, "AlbumID": 208, "TagID": 5 }, { "ID": 414, "Title": "セツナdays", "FileName": "セツナdays.mp3", "ArtistID": 60, "AlbumID": 220, "TagID": 5 }, { "ID": 415, "Title": "センス・オブ・ワンダー", "FileName": "センス・オブ・ワンダー.mp3", "ArtistID": 70, "AlbumID": 216, "TagID": 5 }, { "ID": 416, "Title": "ソーダ", "FileName": "ソーダ.mp3", "ArtistID": 70, "AlbumID": 221, "TagID": 5 }, { "ID": 417, "Title": "ツバメ (feat. ミドリーズ)", "FileName": "ツバメ (feat. ミドリーズ).mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 418, "Title": "ツーアウトロマンス", "FileName": "ツーアウトロマンス.mp3", "ArtistID": 60, "AlbumID": 222, "TagID": 5 }, { "ID": 419, "Title": "ナイトウォーカー", "FileName": "ナイトウォーカー.mp3", "ArtistID": 70, "AlbumID": 223, "TagID": 5 }, { "ID": 420, "Title": "ニゲラ", "FileName": "ニゲラ.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 421, "Title": "ハルカ", "FileName": "ハルカ.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 422, "Title": "ハルジオン", "FileName": "ハルジオン.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 423, "Title": "パレード", "FileName": "パレード.mp3", "ArtistID": 68, "AlbumID": 224, "TagID": 5 }, { "ID": 424, "Title": "ヒーロー・イン・ザ・ミラー", "FileName": "ヒーロー・イン・ザ・ミラー.mp3", "ArtistID": 60, "AlbumID": 220, "TagID": 5 }, { "ID": 425, "Title": "ビーユアセルフ", "FileName": "ビーユアセルフ.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 426, "Title": "ファンファーレ", "FileName": "ファンファーレ.mp3", "ArtistID": 70, "AlbumID": 156, "TagID": 5 }, { "ID": 427, "Title": "フィクション", "FileName": "フィクション.mp3", "ArtistID": 70, "AlbumID": 156, "TagID": 5 }, { "ID": 428, "Title": "フロム", "FileName": "フロム.mp3", "ArtistID": 80, "AlbumID": 225, "TagID": 5 }, { "ID": 429, "Title": "ブレーメン", "FileName": "ブレーメン.mp3", "ArtistID": 68, "AlbumID": 226, "TagID": 5 }, { "ID": 430, "Title": "ポラリス", "FileName": "ポラリス.mp3", "ArtistID": 71, "AlbumID": 227, "TagID": 5 }, { "ID": 431, "Title": "ミスター", "FileName": "ミスター.mp3", "ArtistID": 86, "AlbumID": 228, "TagID": 5 }, { "ID": 432, "Title": "ミラクルバング!", "FileName": "ミラクルバング!.mp3", "ArtistID": 52, "AlbumID": 229, "TagID": 5 }, { "ID": 433, "Title": "ミラーチューン", "FileName": "ミラーチューン.mp3", "ArtistID": 66, "AlbumID": 230, "TagID": 5 }, { "ID": 434, "Title": "ユラユラ", "FileName": "ユラユラ.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 435, "Title": "ラストカード", "FileName": "ラストカード.mp3", "ArtistID": 52, "AlbumID": 231, "TagID": 5 }, { "ID": 436, "Title": "ラブの逃走", "FileName": "ラブの逃走.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 437, "Title": "ラブレター", "FileName": "ラブレター.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 438, "Title": "リタルダンド", "FileName": "リタルダンド.mp3", "ArtistID": 70, "AlbumID": 232, "TagID": 5 }, { "ID": 439, "Title": "ロックでキス", "FileName": "ロックでキス.mp3", "ArtistID": 90, "AlbumID": 201, "TagID": 5 }, { "ID": 440, "Title": "三原色", "FileName": "三原色.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 441, "Title": "会いたかった空 - Ver. Strings Quartet", "FileName": "会いたかった空 - Ver. Strings Quartet.mp3", "ArtistID": 52, "AlbumID": 194, "TagID": 5 }, { "ID": 442, "Title": "優しい彗星", "FileName": "優しい彗星.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 443, "Title": "光るなら", "FileName": "光るなら.mp3", "ArtistID": 91, "AlbumID": 233, "TagID": 5 }, { "ID": 444, "Title": "又三郎", "FileName": "又三郎.mp3", "ArtistID": 68, "AlbumID": 135, "TagID": 5 }, { "ID": 445, "Title": "境界の彼方", "FileName": "境界の彼方.mp3", "ArtistID": 52, "AlbumID": 118, "TagID": 5 }, { "ID": 446, "Title": "夜に駆ける", "FileName": "夜に駆ける.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 447, "Title": "女性が歌うキセキGReeeeN青空エール主題歌 whiteeeen", "FileName": "女性が歌うキセキGReeeeN青空エール主題歌 whiteeeen.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 448, "Title": "女性が歌う高嶺の花子さんback number", "FileName": "女性が歌う高嶺の花子さんback number.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 449, "Title": "好きだ", "FileName": "好きだ.mp3", "ArtistID": 86, "AlbumID": 234, "TagID": 5 }, { "ID": 450, "Title": "好きな人かいることJY好きな人がいること主題歌", "FileName": "好きな人かいることJY好きな人がいること主題歌.mp3", "ArtistID": 40, "AlbumID": 87, "TagID": 5 }, { "ID": 451, "Title": "好きな人がいること", "FileName": "好きな人がいること.mp3", "ArtistID": 40, "AlbumID": 168, "TagID": 5 }, { "ID": 452, "Title": "好きになってよかったな", "FileName": "好きになってよかったな.mp3", "ArtistID": 60, "AlbumID": 235, "TagID": 5 }, { "ID": 453, "Title": "寄り酔い", "FileName": "寄り酔い.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 454, "Title": "幽霊東京", "FileName": "幽霊東京.mp3", "ArtistID": 35, "AlbumID": 127, "TagID": 5 }, { "ID": 455, "Title": "怪物", "FileName": "怪物.mp3", "ArtistID": 86, "AlbumID": 196, "TagID": 5 }, { "ID": 456, "Title": "恋", "FileName": "恋.mp3", "ArtistID": 52, "AlbumID": 118, "TagID": 5 }, { "ID": 457, "Title": "恋焦がれて", "FileName": "恋焦がれて.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 458, "Title": "本音", "FileName": "本音.mp3", "ArtistID": 70, "AlbumID": 236, "TagID": 5 }, { "ID": 459, "Title": "歌うたいのバラッド", "FileName": "歌うたいのバラッド.mp3", "ArtistID": 45, "AlbumID": 119, "TagID": 5 }, { "ID": 460, "Title": "正しくなれない - From THE FIRST TAKE", "FileName": "正しくなれない - From THE FIRST TAKE.mp3", "ArtistID": 66, "AlbumID": 237, "TagID": 5 }, { "ID": 461, "Title": "永遠 - marriage ver.", "FileName": "永遠 - marriage ver.mp3", "ArtistID": 45, "AlbumID": 238, "TagID": 5 }, { "ID": 462, "Title": "泡沫", "FileName": "泡沫.mp3", "ArtistID": 87, "AlbumID": 201, "TagID": 5 }, { "ID": 463, "Title": "涙のキッス", "FileName": "涙のキッス.mp3", "ArtistID": 45, "AlbumID": 239, "TagID": 5 }, { "ID": 464, "Title": "白金ディスコ", "FileName": "白金ディスコ.mp3", "ArtistID": 61, "AlbumID": 128, "TagID": 5 }, { "ID": 465, "Title": "真っ裸", "FileName": "真っ裸.mp3", "ArtistID": 87, "AlbumID": 240, "TagID": 5 }, { "ID": 466, "Title": "祝祭", "FileName": "祝祭.mp3", "ArtistID": 70, "AlbumID": 241, "TagID": 5 }, { "ID": 467, "Title": "約束 -Promise code-", "FileName": "約束 -Promise code.mp3", "ArtistID": 79, "AlbumID": 188, "TagID": 5 }, { "ID": 468, "Title": "絶頂讃歌", "FileName": "絶頂讃歌.mp3", "ArtistID": 87, "AlbumID": 242, "TagID": 5 }, { "ID": 469, "Title": "群青", "FileName": "群青.mp3", "ArtistID": 86, "AlbumID": 209, "TagID": 5 }, { "ID": 470, "Title": "花に亡霊", "FileName": "花に亡霊.mp3", "ArtistID": 68, "AlbumID": 243, "TagID": 5 }, { "ID": 471, "Title": "靴の花火", "FileName": "靴の花火.mp3", "ArtistID": 68, "AlbumID": 149, "TagID": 5 }, { "ID": 472, "Title": "願い", "FileName": "願い.mp3", "ArtistID": 70, "AlbumID": 244, "TagID": 5 }, { "ID": 473, "Title": "飽和", "FileName": "飽和.mp3", "ArtistID": 35, "AlbumID": 245, "TagID": 5 }, { "ID": 474, "Title": "11 Giờ 11 Phút - Htrol Remix", "FileName": "11 Giờ 11 Phút - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 6 }, { "ID": 475, "Title": "Against The Sun", "FileName": "Against The Sun.mp3", "ArtistID": 93, "AlbumID": 247, "TagID": 6 }, { "ID": 476, "Title": "Anh đã lạc vào - Htrol Remix", "FileName": "Anh đã lạc vào - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 6 }, { "ID": 477, "Title": "Anything Anymore", "FileName": "Anything Anymore.mp3", "ArtistID": 94, "AlbumID": 248, "TagID": 6 }, { "ID": 478, "Title": "Anywhere I Go", "FileName": "Anywhere I Go.mp3", "ArtistID": 95, "AlbumID": 249, "TagID": 6 }, { "ID": 479, "Title": "Are You Lonely", "FileName": "Are You Lonely.mp3", "ArtistID": 16, "AlbumID": 250, "TagID": 6 }, { "ID": 480, "Title": "Beautiful Now", "FileName": "Beautiful Now.mp3", "ArtistID": 96, "AlbumID": 251, "TagID": 6 }, { "ID": 481, "Title": "Body Back (feat. Maia Wright)", "FileName": "Body Back (feat. Maia Wright).mp3", "ArtistID": 97, "AlbumID": 252, "TagID": 6 }, { "ID": 482, "Title": "Cant Wait", "FileName": "Can't Wait.mp3", "ArtistID": 7, "AlbumID": 253, "TagID": 6 }, { "ID": 483, "Title": "Có Trăng Quên Đèn - Htrol Remix", "FileName": "Có Trăng Quên Đèn - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 6 }, { "ID": 484, "Title": "DRUM GO DUM", "FileName": "DRUM GO DUM.mp3", "ArtistID": 17, "AlbumID": 254, "TagID": 6 }, { "ID": 485, "Title": "Em là nhất miền Tây - Htrol Remix", "FileName": "Em là nhất miền Tây - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 6 }, { "ID": 486, "Title": "End of Time", "FileName": "End of Time.mp3", "ArtistID": 16, "AlbumID": 255, "TagID": 6 }, { "ID": 487, "Title": "Fade", "FileName": "Fade.mp3", "ArtistID": 16, "AlbumID": 22, "TagID": 6 }, { "ID": 488, "Title": "Firebird", "FileName": "Firebird.mp3", "ArtistID": 98, "AlbumID": 256, "TagID": 6 }, { "ID": 489, "Title": "Force", "FileName": "Force.mp3", "ArtistID": 16, "AlbumID": 22, "TagID": 6 }, { "ID": 490, "Title": "Frame of Mind", "FileName": "Frame of Mind.mp3", "ArtistID": 99, "AlbumID": 257, "TagID": 6 }, { "ID": 491, "Title": "GIANTS", "FileName": "GIANTS.mp3", "ArtistID": 17, "AlbumID": 258, "TagID": 6 }, { "ID": 492, "Title": "GODS", "FileName": "GODS.mp3", "ArtistID": 17, "AlbumID": 259, "TagID": 6 }, { "ID": 493, "Title": "heart afire", "FileName": "Heart afire.mp3", "ArtistID": 100, "AlbumID": 260, "TagID": 6 }, { "ID": 494, "Title": "ILL SHOW YOU", "FileName": "I'LL SHOW YOU.mp3", "ArtistID": 17, "AlbumID": 254, "TagID": 6 }, { "ID": 495, "Title": "Ignite - 2016 League Of Legends World Championship", "FileName": "Ignite - LOL.mp3", "ArtistID": 96, "AlbumID": 261, "TagID": 6 }, { "ID": 496, "Title": "Ignite", "FileName": "Ignite.mp3", "ArtistID": 16, "AlbumID": 262, "TagID": 6 }, { "ID": 497, "Title": "Inside the Lines", "FileName": "Inside the Lines.mp3", "ArtistID": 101, "AlbumID": 263, "TagID": 6 }, { "ID": 498, "Title": "Jackpot", "FileName": "Jackpot.mp3", "ArtistID": 24, "AlbumID": 36, "TagID": 6 }, { "ID": 499, "Title": "Justin Caruso - Talk About Me ft. Victoria Zaro (Leowi Remix)", "FileName": "Justin Caruso - Talk About Me ft. Victoria Zaro (Leowi Remix).mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 6 }, { "ID": 500, "Title": "K-391 & Diviners feat. Anna Yvette - City Of Gold", "FileName": "K-391 & Diviners feat. Anna Yvette - City Of Gold.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 6 }, { "ID": 501, "Title": "Lights Go Down (Radio Mix) [feat. Curtains]", "FileName": "Lights Go Down (Radio Mix) [feat. Curtains].mp3", "ArtistID": 103, "AlbumID": 265, "TagID": 6 }, { "ID": 502, "Title": "Linked", "FileName": "Linked.mp3", "ArtistID": 7, "AlbumID": 266, "TagID": 6 }, { "ID": 503, "Title": "Lone Digger", "FileName": "Lone Digger.mp3", "ArtistID": 104, "AlbumID": 267, "TagID": 6 }, { "ID": 504, "Title": "MORE", "FileName": "MORE.mp3", "ArtistID": 17, "AlbumID": 254, "TagID": 6 }, { "ID": 505, "Title": "MORTEN - Beautiful Heartbeat (Deorro Remix)", "FileName": "MORTEN - Beautiful Heartbeat (Deorro Remix).mp3", "ArtistID": 105, "AlbumID": 264, "TagID": 6 }, { "ID": 506, "Title": "Move Your Body - Alan Walker Remix", "FileName": "Move Your Body - Alan Walker Remix.mp3", "ArtistID": 16, "AlbumID": 268, "TagID": 6 }, { "ID": 507, "Title": "Never Coming Home (feat. Kinley)", "FileName": "Never Coming Home.mp3", "ArtistID": 106, "AlbumID": 269, "TagID": 6 }, { "ID": 508, "Title": "Nightcore - Angel", "FileName": "Nightcore - Angel.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 509, "Title": "Nightcore - Army Of Two", "FileName": "Nightcore - Army Of Two.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 510, "Title": "Nightcore - Blackout", "FileName": "Nightcore - Blackout.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 511, "Title": "Nightcore - Catch Fire", "FileName": "Nightcore - Catch Fire.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 512, "Title": "Nightcore - Counting Stars", "FileName": "Nightcore - Counting Stars.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 513, "Title": "Nightcore - Disconnected", "FileName": "Nightcore - Disconnected.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 514, "Title": "Nightcore - Fireflies (Remix)", "FileName": "Nightcore - Fireflies (Remix).mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 515, "Title": "Nightcore - Glad You Came", "FileName": "Nightcore - Glad You Came.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 516, "Title": "Nightcore - Hey Devil", "FileName": "Nightcore - Hey Devil.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 517, "Title": "Nightcore - How To Be A Heartbreaker", "FileName": "Nightcore - How To Be A Heartbreaker.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 518, "Title": "Nightcore - I Like It Loud", "FileName": "Nightcore - I Like It Loud.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 519, "Title": "Nightcore - Im Not Here For Your Entertainment", "FileName": "Nightcore - I'm Not Here For Your Entertainment.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 520, "Title": "Nightcore - My Demons", "FileName": "Nightcore - My Demons.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 521, "Title": "Nightcore - Run", "FileName": "Nightcore - Run.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 522, "Title": "Nightcore - Soldier", "FileName": "Nightcore - Soldier.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 523, "Title": "Nightcore - Start A Fire", "FileName": "Nightcore - Start A Fire.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 524, "Title": "Nightcore - Stay the Night", "FileName": "Nightcore - Stay the Night.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 525, "Title": "Nightcore - Stay", "FileName": "Nightcore - Stay.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 526, "Title": "Nightcore - The Nights", "FileName": "Nightcore - The Nights.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 527, "Title": "Nightcore - The Phoenix", "FileName": "Nightcore - The Phoenix.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 528, "Title": "Nightcore - Windows Down", "FileName": "Nightcore - Windows Down.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 6 }, { "ID": 529, "Title": "Nothing Stopping Me", "FileName": "Nothing Stopping Me.mp3", "ArtistID": 95, "AlbumID": 271, "TagID": 6 }, { "ID": 530, "Title": "Numb (feat. Johnning)", "FileName": "Numb (feat. Johnning).mp3", "ArtistID": 108, "AlbumID": 272, "TagID": 6 }, { "ID": 531, "Title": "On the Line", "FileName": "On the Line.mp3", "ArtistID": 109, "AlbumID": 273, "TagID": 6 }, { "ID": 532, "Title": "Our Story - Radio Edit", "FileName": "Our Story - Radio Edit.mp3", "ArtistID": 110, "AlbumID": 274, "TagID": 6 }, { "ID": 533, "Title": "Phoenix", "FileName": "Phoenix.mp3", "ArtistID": 111, "AlbumID": 275, "TagID": 6 }, { "ID": 534, "Title": "Play", "FileName": "Play.mp3", "ArtistID": 16, "AlbumID": 276, "TagID": 6 }, { "ID": 535, "Title": "POP-STARS", "FileName": "POP_STARS.mp3", "ArtistID": 17, "AlbumID": 277, "TagID": 6 }, { "ID": 536, "Title": "Red Line", "FileName": "Red Line.mp3", "ArtistID": 93, "AlbumID": 278, "TagID": 6 }, { "ID": 537, "Title": "RISE", "FileName": "RISE.mp3", "ArtistID": 17, "AlbumID": 279, "TagID": 6 }, { "ID": 538, "Title": "Robot Love", "FileName": "Robot Love.mp3", "ArtistID": 112, "AlbumID": 280, "TagID": 6 }, { "ID": 539, "Title": "Saving Light", "FileName": "Saving Light.mp3", "ArtistID": 113, "AlbumID": 281, "TagID": 6 }, { "ID": 540, "Title": "Smoke Filled Room", "FileName": "Smoke Filled Room.mp3", "ArtistID": 110, "AlbumID": 282, "TagID": 6 }, { "ID": 541, "Title": "Start Again", "FileName": "Start Again.mp3", "ArtistID": 114, "AlbumID": 283, "TagID": 6 }, { "ID": 542, "Title": "Summer Air", "FileName": "Summer Air.mp3", "ArtistID": 115, "AlbumID": 284, "TagID": 6 }, { "ID": 543, "Title": "Surrender", "FileName": "Surrender.mp3", "ArtistID": 116, "AlbumID": 285, "TagID": 6 }, { "ID": 544, "Title": "THE BADDEST", "FileName": "THE BADDEST.mp3", "ArtistID": 17, "AlbumID": 254, "TagID": 6 }, { "ID": 545, "Title": "The Spectre", "FileName": "The Spectre.mp3", "ArtistID": 16, "AlbumID": 286, "TagID": 6 }, { "ID": 546, "Title": "Thunder", "FileName": "Thunder.mp3", "ArtistID": 117, "AlbumID": 287, "TagID": 6 }, { "ID": 547, "Title": "Till Its Over", "FileName": "Till It's Over.mp3", "ArtistID": 99, "AlbumID": 288, "TagID": 6 }, { "ID": 548, "Title": "Untouchable", "FileName": "Untouchable.mp3", "ArtistID": 118, "AlbumID": 289, "TagID": 6 }, { "ID": 549, "Title": "VILLAIN", "FileName": "VILLAIN.mp3", "ArtistID": 17, "AlbumID": 254, "TagID": 6 }, { "ID": 550, "Title": "Virtual Riot - Idols", "FileName": "Virtual Riot - Idols.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 6 }, { "ID": 551, "Title": "Walk Thru Fire", "FileName": "Walk Thru Fire.mp3", "ArtistID": 95, "AlbumID": 290, "TagID": 6 }, { "ID": 552, "Title": "Without You (feat. Sandro Cavazza)", "FileName": "Without You (feat. Sandro Cavazza).mp3", "ArtistID": 119, "AlbumID": 291, "TagID": 6 }, { "ID": 553, "Title": "Bloom", "FileName": "Bloom.mp3", "ArtistID": 120, "AlbumID": 292, "TagID": 7 }, { "ID": 554, "Title": "I Do", "FileName": "I Do.mp3", "ArtistID": 121, "AlbumID": 293, "TagID": 7 }, { "ID": 555, "Title": "Madilyn Paige - Im Yours - Perfect Two", "FileName": "Madilyn Paige - I'm Yours - Perfect Two.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 7 }, { "ID": 556, "Title": "Memories", "FileName": "Memories.mp3", "ArtistID": 122, "AlbumID": 294, "TagID": 7 }, { "ID": 557, "Title": "Nightcore - Hometown Smile", "FileName": "Nightcore - Hometown Smile.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 558, "Title": "Nightcore - I See Your Monsters", "FileName": "Nightcore - I See Your Monsters.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 559, "Title": "Nightcore - If I Die Young", "FileName": "Nightcore - If I Die Young.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 560, "Title": "Nightcore - Let Me Love You", "FileName": "Nightcore - Let Me Love You.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 561, "Title": "Nightcore - Locked Away", "FileName": "Nightcore - Locked Away.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 562, "Title": "Nightcore - Mine", "FileName": "Nightcore - Mine.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 563, "Title": "Nightcore - New Day", "FileName": "Nightcore - New Day.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 564, "Title": "Nightcore - Sakura", "FileName": "Nightcore - Sakura.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 565, "Title": "Nightcore - Say I Love You", "FileName": "Nightcore - Say I Love You.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 566, "Title": "Nightcore - Still Here", "FileName": "Nightcore - Still Here.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 567, "Title": "Nightcore - Try", "FileName": "Nightcore - Try.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 568, "Title": "Nightcore - Where Is The Love", "FileName": "Nightcore - Where Is The Love.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 7 }, { "ID": 569, "Title": "One Call Away", "FileName": "One Call Away.mp3", "ArtistID": 123, "AlbumID": 295, "TagID": 7 }, { "ID": 570, "Title": "V.I.E.T Underground - Forever Love", "FileName": "V.I.E.T Underground - Forever Love.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 7 }, { "ID": 571, "Title": "We Dont Talk Anymore (feat. Selena Gomez)", "FileName": "We Don't Talk Anymore.mp3", "ArtistID": 123, "AlbumID": 295, "TagID": 7 }, { "ID": 572, "Title": "All Falls Down (feat. Juliander)", "FileName": "All Falls Down (feat. Juliander).mp3", "ArtistID": 16, "AlbumID": 296, "TagID": 8 }, { "ID": 573, "Title": "Alone, Pt. II", "FileName": "Alone, Pt. II.mp3", "ArtistID": 16, "AlbumID": 297, "TagID": 8 }, { "ID": 574, "Title": "Alone", "FileName": "Alone.mp3", "ArtistID": 16, "AlbumID": 298, "TagID": 8 }, { "ID": 575, "Title": "Attention", "FileName": "Attention.mp3", "ArtistID": 123, "AlbumID": 299, "TagID": 8 }, { "ID": 576, "Title": "Beautiful Creatures (feat. MAX)", "FileName": "Beautiful Creatures (feat. MAX).mp3", "ArtistID": 124, "AlbumID": 300, "TagID": 8 }, { "ID": 577, "Title": "Buồn Lắm Em Ơi - Htrol Remix", "FileName": "Buồn Lắm Em Ơi - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 578, "Title": "By My Side", "FileName": "By My Side.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 579, "Title": "Bye Bye (feat. Ivy Adara)", "FileName": "Bye Bye.mp3", "ArtistID": 97, "AlbumID": 302, "TagID": 8 }, { "ID": 580, "Title": "Bán Duyên - Htrol Remix", "FileName": "Bán Duyên - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 581, "Title": "Bạn Tình Ơi 3 - Htrol Remix", "FileName": "Bạn Tình Ơi 3 - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 582, "Title": "Bỏ Phật Nhập Ma - Htrol Remix", "FileName": "Bỏ Phật Nhập Ma - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 583, "Title": "Carousel", "FileName": "Carousel.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 584, "Title": "China - Anh Mỉm Cười Trông Thật Đẹp - Htrol Remix", "FileName": "China - Anh Mỉm Cười Trông Thật Đẹp - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 585, "Title": "Anh đi vội vàng hơn cả tình yêu - Htrol Remix", "FileName": "China - Anh đi vội vàng hơn cả tình yêu - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 586, "Title": "China - Bách Hoa Hương - Htrol Remix", "FileName": "China - Bách Hoa Hương - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 587, "Title": "China - Hồng Nhan Xưa - Htrol Remix", "FileName": "China - Hồng Nhan Xưa - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 588, "Title": "China - Không Bằng - Htrol Remix", "FileName": "China - Không Bằng - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 589, "Title": "China - Một Triệu Khả Năng - Htrol Remix", "FileName": "China - Một Triệu Khả Năng - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 590, "Title": "Nhân Gian Thán - Htrol Remix", "FileName": "China - Nhân Gian Thán - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 591, "Title": "China - Tam Thốn Thiên Đường - Htrol Remix", "FileName": "China - Tam Thốn Thiên Đường - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 592, "Title": "China - Trong Mắt Đều Là Anh - Htrol Remix", "FileName": "China - Trong Mắt Đều Là Anh - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 593, "Title": "China - Tô Mạc Già - Htrol", "FileName": "China - Tô Mạc Già - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 594, "Title": "China - Từ Cửu Môn Hồi Ức - Htrol Remix", "FileName": "China - Từ Cửu Môn Hồi Ức - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 595, "Title": "China - Tỳ Bà Hành - Htrol Remix", "FileName": "China - Tỳ Bà Hành - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 596, "Title": "China - Xuân Tháng 3 - Htrol Remix", "FileName": "China - Xuân Tháng 3 - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 597, "Title": "Chưa Bao Giờ Em Quên - Htrol Remix", "FileName": "Chưa Bao Giờ Em Quên - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 598, "Title": "Daily (feat. Jon Becker)", "FileName": "Daily (feat. Jon Becker).mp3", "ArtistID": 126, "AlbumID": 303, "TagID": 8 }, { "ID": 599, "Title": "Dangerous", "FileName": "Dangerous.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 600, "Title": "Danza Kuduro", "FileName": "Danza Kuduro.mp3", "ArtistID": 127, "AlbumID": 304, "TagID": 8 }, { "ID": 601, "Title": "Darkside", "FileName": "Darkside.mp3", "ArtistID": 16, "AlbumID": 305, "TagID": 8 }, { "ID": 602, "Title": "Despacito", "FileName": "Despacito.mp3", "ArtistID": 128, "AlbumID": 306, "TagID": 8 }, { "ID": 603, "Title": "Diamond Heart", "FileName": "Diamond Heart.mp3", "ArtistID": 16, "AlbumID": 307, "TagID": 8 }, { "ID": 604, "Title": "Different World (feat. CORSAK)", "FileName": "Different World (feat. CORSAK).mp3", "ArtistID": 16, "AlbumID": 308, "TagID": 8 }, { "ID": 605, "Title": "Drive My Car", "FileName": "Drive My Car.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 606, "Title": "Ecstasy", "FileName": "Ecstasy.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 607, "Title": "Em Mỉm Cười Trông Thật Đẹp - Htrol Remix", "FileName": "Em Mỉm Cười Trông Thật Đẹp - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 608, "Title": "Em Ổn Không - Htrol Remix", "FileName": "Em Ổn Không - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 609, "Title": "Faded", "FileName": "Faded.mp3", "ArtistID": 16, "AlbumID": 309, "TagID": 8 }, { "ID": 610, "Title": "Fading", "FileName": "Fading.mp3", "ArtistID": 129, "AlbumID": 310, "TagID": 8 }, { "ID": 611, "Title": "Fake A Smile", "FileName": "Fake A Smile.mp3", "ArtistID": 16, "AlbumID": 311, "TagID": 8 }, { "ID": 612, "Title": "Fight", "FileName": "Fight.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 613, "Title": "Forever Young", "FileName": "Forever Young.mp3", "ArtistID": 130, "AlbumID": 312, "TagID": 8 }, { "ID": 614, "Title": "Frozen", "FileName": "Frozen.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 615, "Title": "Giang Hải Không Độ Nàng - Htrol Remix", "FileName": "Giang Hải Không Độ Nàng - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 616, "Title": "Give Me Your Love", "FileName": "Give Me Your Love.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 617, "Title": "Heading Home", "FileName": "Heading Home.mp3", "ArtistID": 16, "AlbumID": 313, "TagID": 8 }, { "ID": 618, "Title": "Headlights (feat. KIDDO)", "FileName": "Headlights.mp3", "ArtistID": 16, "AlbumID": 314, "TagID": 8 }, { "ID": 619, "Title": "Hello World", "FileName": "Hello World.mp3", "ArtistID": 16, "AlbumID": 315, "TagID": 8 }, { "ID": 620, "Title": "Hoài Công - Htrol Remix", "FileName": "Hoài Công - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 621, "Title": "Hypnotized", "FileName": "Hypnotized.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 622, "Title": "I Took A Pill In Ibiza - Seeb Remix", "FileName": "I Took A Pill In Ibiza - Seeb Remix.mp3", "ArtistID": 131, "AlbumID": 316, "TagID": 8 }, { "ID": 623, "Title": "Just For A Moment (feat. Iselin)", "FileName": "Just For A Moment.mp3", "ArtistID": 97, "AlbumID": 302, "TagID": 8 }, { "ID": 624, "Title": "Khó Vẽ Nụ Cười - Htrol", "FileName": "Khó Vẽ Nụ Cười - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 625, "Title": "Kids in Love", "FileName": "Kids in Love.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 626, "Title": "Kings & Queens", "FileName": "Kings & Queens.mp3", "ArtistID": 132, "AlbumID": 317, "TagID": 8 }, { "ID": 627, "Title": "Kiếp Duyên Không Thành - Htrol", "FileName": "Kiếp Duyên Không Thành - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 628, "Title": "Kiếp Má Hồng - Htrol Remix", "FileName": "Kiếp Má Hồng - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 629, "Title": "Kết Duyên - Htrol Remix", "FileName": "Kết Duyên - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 630, "Title": "Legends Never Die", "FileName": "Legends Never Die.mp3", "ArtistID": 17, "AlbumID": 318, "TagID": 8 }, { "ID": 631, "Title": "Lily", "FileName": "Lily.mp3", "ArtistID": 16, "AlbumID": 319, "TagID": 8 }, { "ID": 632, "Title": "Love How It Hurts (feat. Tina Stachowiak)", "FileName": "Love How It Hurts (feat. Tina Stachowiak).mp3", "ArtistID": 133, "AlbumID": 320, "TagID": 8 }, { "ID": 633, "Title": "Lão Ái Xử Trảm - Htrol Remix", "FileName": "Lão Ái Xử Trảm - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 634, "Title": "Lặng Lẽ Buông - Htrol Remix", "FileName": "Lặng Lẽ Buông - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 635, "Title": "Lữ Khách Qua Thời Gian - Htrol Remix", "FileName": "Lữ Khách Qua Thời Gian - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 636, "Title": "Maps", "FileName": "Maps.mp3", "ArtistID": 122, "AlbumID": 321, "TagID": 8 }, { "ID": 637, "Title": "Meant To Be", "FileName": "Meant To Be.mp3", "ArtistID": 134, "AlbumID": 322, "TagID": 8 }, { "ID": 638, "Title": "Mermaids", "FileName": "Mermaids.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 639, "Title": "Miracles (feat. Tina Stachowiak)", "FileName": "Miracles (feat. Tina Stachowiak).mp3", "ArtistID": 133, "AlbumID": 323, "TagID": 8 }, { "ID": 640, "Title": "Một Giấc Mộng Xưa - Htrol Remix", "FileName": "Một Giấc Mộng Xưa - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 641, "Title": "Một Đường Nở hoa - Htrol Remix", "FileName": "Một Đường Nở hoa - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 642, "Title": "Next To Me (feat. Tina Stachowiak)", "FileName": "Next To Me (feat. Tina Stachowiak).mp3", "ArtistID": 133, "AlbumID": 324, "TagID": 8 }, { "ID": 643, "Title": "Nhói Lòng Thuyền Hoa - Htrol Remix", "FileName": "Nhói Lòng Thuyền Hoa - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 644, "Title": "Nightcore - Beautiful Creatures", "FileName": "Nightcore - Beautiful Creatures.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 645, "Title": "Nightcore - Castle On The Hill", "FileName": "Nightcore - Castle On The Hill.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 646, "Title": "Nightcore - Fire", "FileName": "Nightcore - Fire.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 647, "Title": "Nightcore - Fireflies", "FileName": "Nightcore - Fireflies.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 648, "Title": "Nightcore - Lights", "FileName": "Nightcore - Lights.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 649, "Title": "Nightcore - Like A Ricochet", "FileName": "Nightcore - Like A Ricochet.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 650, "Title": "Nightcore - Move Like Jagger", "FileName": "Nightcore - Move Like Jagger.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 651, "Title": "Nightcore - No Friends", "FileName": "Nightcore - No Friends.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 652, "Title": "Nightcore - One Last Time", "FileName": "Nightcore - One Last Time.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 653, "Title": "Nightcore - Rather Be", "FileName": "Nightcore - Rather Be.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 654, "Title": "Nightcore - Remember When", "FileName": "Nightcore - Remember When.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 655, "Title": "Nightcore - Superheroes", "FileName": "Nightcore - Superheroes.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 656, "Title": "Nightcore - We Should Start Right Now", "FileName": "Nightcore - We Should Start Right Now.mp3", "ArtistID": 107, "AlbumID": 270, "TagID": 8 }, { "ID": 657, "Title": "Nếu Em Không Về - Htrol Remix", "FileName": "Nếu Em Không Về - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 658, "Title": "Nếu Như Anh Thành Công - Htrol Remix", "FileName": "Nếu Như Anh Thành Công - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 659, "Title": "Ocean", "FileName": "Ocean.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 660, "Title": "On My Way", "FileName": "On My Way.mp3", "ArtistID": 16, "AlbumID": 325, "TagID": 8 }, { "ID": 661, "Title": "Payphone", "FileName": "Payphone.mp3", "ArtistID": 122, "AlbumID": 326, "TagID": 8 }, { "ID": 662, "Title": "Phi Điểu Và Ve Sầu - Htrol Remix", "FileName": "Phi Điểu Và Ve Sầu - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 663, "Title": "Post Malone (feat. RANI)", "FileName": "Post Malone.mp3", "ArtistID": 135, "AlbumID": 327, "TagID": 8 }, { "ID": 664, "Title": "PS5 (with TOMORROW X TOGETHER & Alan Walker)", "FileName": "PS5.mp3", "ArtistID": 16, "AlbumID": 328, "TagID": 8 }, { "ID": 665, "Title": "Quan Sơn Tửu - Htrol Remix", "FileName": "Quan Sơn Tửu - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 666, "Title": "Rather Be (feat. Jess Glynne)", "FileName": "Rather Be (feat. Jess Glynne).mp3", "ArtistID": 136, "AlbumID": 329, "TagID": 8 }, { "ID": 667, "Title": "Rendezvous", "FileName": "Rendezvous.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 668, "Title": "Rockabye (feat. Sean Paul & Anne-Marie)", "FileName": "Rockabye (feat. Sean Paul & Anne-Marie).mp3", "ArtistID": 136, "AlbumID": 330, "TagID": 8 }, { "ID": 669, "Title": "Sad Story (Out Of Luck)", "FileName": "Sad Story (Out Of Luck).mp3", "ArtistID": 137, "AlbumID": 331, "TagID": 8 }, { "ID": 670, "Title": "Salt", "FileName": "Salt.mp3", "ArtistID": 132, "AlbumID": 317, "TagID": 8 }, { "ID": 671, "Title": "Save Me", "FileName": "Save Me.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 672, "Title": "Seventeen", "FileName": "Seventeen.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 673, "Title": "Señorita", "FileName": "Señorita.mp3", "ArtistID": 138, "AlbumID": 332, "TagID": 8 }, { "ID": 674, "Title": "Shelter", "FileName": "Shelter.mp3", "ArtistID": 139, "AlbumID": 333, "TagID": 8 }, { "ID": 675, "Title": "Shut Up", "FileName": "Shut Up.mp3", "ArtistID": 16, "AlbumID": 315, "TagID": 8 }, { "ID": 676, "Title": "Sign", "FileName": "Sign.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 677, "Title": "Sing Me to Sleep", "FileName": "Sing Me to Sleep.mp3", "ArtistID": 16, "AlbumID": 334, "TagID": 8 }, { "ID": 678, "Title": "Solo (feat. Demi Lovato)", "FileName": "Solo (feat. Demi Lovato).mp3", "ArtistID": 136, "AlbumID": 330, "TagID": 8 }, { "ID": 679, "Title": "STAR WALKIN (League of Legends Worlds Anthem)", "FileName": "STAR WALKIN' (League of Legends Worlds Anthem).mp3", "ArtistID": 140, "AlbumID": 335, "TagID": 8 }, { "ID": 680, "Title": "Stay Young", "FileName": "Stay Young.mp3", "ArtistID": 101, "AlbumID": 336, "TagID": 8 }, { "ID": 681, "Title": "Strongest (Alan Walker Remix)", "FileName": "Strongest (Alan Walker Remix).mp3", "ArtistID": 16, "AlbumID": 337, "TagID": 8 }, { "ID": 682, "Title": "Sugar", "FileName": "Sugar.mp3", "ArtistID": 122, "AlbumID": 321, "TagID": 8 }, { "ID": 683, "Title": "Summer Love", "FileName": "Summer Love.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 684, "Title": "Sweet but Psycho", "FileName": "Sweet but Psycho.mp3", "ArtistID": 132, "AlbumID": 317, "TagID": 8 }, { "ID": 685, "Title": "Symphony (feat. Zara Larsson)", "FileName": "Symphony.mp3", "ArtistID": 136, "AlbumID": 330, "TagID": 8 }, { "ID": 686, "Title": "Sài Gòn Đau Lòng Quá - Htrol Remix", "FileName": "Sài Gòn Đau Lòng Quá - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 687, "Title": "Sợ Phải Kết Thúc - Htrol Remix", "FileName": "Sợ Phải Kết Thúc - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 688, "Title": "Take Me Away", "FileName": "Take Me Away.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 689, "Title": "The Ocean (feat. Shy Martin)", "FileName": "The Ocean (feat. Shy Martin).mp3", "ArtistID": 101, "AlbumID": 338, "TagID": 8 }, { "ID": 690, "Title": "Thuyền Quyên - Htrol Remix", "FileName": "Thuyền Quyên - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 691, "Title": "Thê Tử - Htrol Remix", "FileName": "Thê Tử - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 692, "Title": "Thằng Hầu - Htrol", "FileName": "Thằng Hầu - Htrol.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 693, "Title": "Thế Thái - Htrol Remix", "FileName": "Thế Thái - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 694, "Title": "Thị Mầu - Htrol Remix", "FileName": "Thị Mầu - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 695, "Title": "Tired", "FileName": "Tired.mp3", "ArtistID": 16, "AlbumID": 339, "TagID": 8 }, { "ID": 696, "Title": "tomorrow tonight", "FileName": "Tomorrow tonight.mp3", "ArtistID": 141, "AlbumID": 340, "TagID": 8 }, { "ID": 697, "Title": "Tránh Duyên - Htrol Remix", "FileName": "Tránh Duyên - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 698, "Title": "Unity", "FileName": "Unity.mp3", "ArtistID": 16, "AlbumID": 59, "TagID": 8 }, { "ID": 699, "Title": "Vong Xuyên Bỉ Ngạn - Htrol Remix", "FileName": "Vong Xuyên Bỉ Ngạn - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 700, "Title": "Vì Em  Anh Nguyện Làm Bầu Trời Nắng Hạ - Htrol Remix", "FileName": "Vì Em  Anh Nguyện Làm Bầu Trời Nắng Hạ - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 701, "Title": "Waiting", "FileName": "Waiting.mp3", "ArtistID": 95, "AlbumID": 341, "TagID": 8 }, { "ID": 702, "Title": "Way Back", "FileName": "Way Back.mp3", "ArtistID": 95, "AlbumID": 342, "TagID": 8 }, { "ID": 703, "Title": "What Are You Waiting For", "FileName": "What Are You Waiting For.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 704, "Title": "Without You", "FileName": "Without You.mp3", "ArtistID": 125, "AlbumID": 301, "TagID": 8 }, { "ID": 705, "Title": "World We Used To Know", "FileName": "World We Used To Know.mp3", "ArtistID": 16, "AlbumID": 343, "TagID": 8 }, { "ID": 706, "Title": "Worlds Collide", "FileName": "Worlds Collide.mp3", "ArtistID": 17, "AlbumID": 344, "TagID": 8 }, { "ID": 707, "Title": "Wrap Me In Plastic - Marcus Layton Radio Edit", "FileName": "Wrap Me In Plastic - Marcus Layton Radio Edit.mp3", "ArtistID": 142, "AlbumID": 345, "TagID": 8 }, { "ID": 708, "Title": "You and I", "FileName": "You and I.mp3", "ArtistID": 143, "AlbumID": 346, "TagID": 8 }, { "ID": 709, "Title": "Đau Để Trưởng Thành - Htrol Remix", "FileName": "Đau Để Trưởng Thành - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 710, "Title": "Đom Đóm - Htrol", "FileName": "Đom Đóm - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 711, "Title": "Đánh Mất Em Remix - Htrol Remix", "FileName": "Đánh Mất Em Remix - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 712, "Title": "Đóa Quỳnh Lan - Htrol Remix", "FileName": "Đóa Quỳnh Lan - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 713, "Title": "Đừng Như Người Dưng - Htrol Remix", "FileName": "Đừng Như Người Dưng - Htrol Remix.mp3", "ArtistID": 92, "AlbumID": 246, "TagID": 8 }, { "ID": 714, "Title": "Snow in Summer", "FileName": "01. Snow in Summer.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 9 }, { "ID": 715, "Title": "A Beautiful Song", "FileName": "03. A Beautiful Song.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 9 }, { "ID": 716, "Title": "Emil - Karma", "FileName": "04. Emil - Karma.mp3", "ArtistID": 146, "AlbumID": 349, "TagID": 9 }, { "ID": 717, "Title": "A Beautiful Song", "FileName": "05 A Beautiful Song.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 9 }, { "ID": 718, "Title": "Song of the Ancients - Atonement", "FileName": "07 Song of the Ancients - Atonement.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 9 }, { "ID": 719, "Title": "A Beautiful Song", "FileName": "08. A Beautiful Song.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 720, "Title": "Shadowlord - Another Edit Version", "FileName": "09. Shadowlord - Another Edit Version.mp3", "ArtistID": 148, "AlbumID": 352, "TagID": 9 }, { "ID": 721, "Title": "Shadowlord", "FileName": "09. Shadowlord.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 9 }, { "ID": 722, "Title": "Emil - Despair", "FileName": "10. Emil - Despair.mp3", "ArtistID": 150, "AlbumID": 354, "TagID": 9 }, { "ID": 723, "Title": "Grandma - Destruction", "FileName": "10. Grandma - Destruction.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 724, "Title": "Bipolar Nightmare", "FileName": "12 Bipolar Nightmare.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 9 }, { "ID": 725, "Title": "Umare Iduru Ishi - Konomama Ja Dame", "FileName": "13. Umare Iduru Ishi - Konomama Ja Dame.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 9 }, { "ID": 726, "Title": "Umare Iduru Ishi - Kami Ni Natta", "FileName": "15. Umare Iduru Ishi - Kami Ni Natta.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 9 }, { "ID": 727, "Title": "Toritsuita Goubyou - Kami Ni Natta", "FileName": "19. Toritsuita Goubyou - Kami Ni Natta.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 9 }, { "ID": 728, "Title": "Possessed By Disease - Become A God", "FileName": "20. Possessed By Disease - Become A God.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 9 }, { "ID": 729, "Title": "Dark Colossus - Kaiju", "FileName": "22. Dark Colossus - Kaiju.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 730, "Title": "Possessed by Disease", "FileName": "25. Possessed by Disease.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 731, "Title": "The Dark Colossus Destroys All", "FileName": "26. The Dark Colossus Destroys All.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 9 }, { "ID": 732, "Title": "Dependent Weakling", "FileName": "29. Dependent Weakling.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 733, "Title": "Song of the Ancients (Fate)", "FileName": "32. Song of the Ancients (Fate).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 9 }, { "ID": 734, "Title": "War & War", "FileName": "32. War & War.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 735, "Title": "Emil (Karma)", "FileName": "36. Emil (Karma).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 9 }, { "ID": 736, "Title": "Emil - Despair", "FileName": "39. Emil - Despair.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 737, "Title": "Bipolar Nightmare", "FileName": "43. Bipolar Nightmare.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 9 }, { "ID": 738, "Title": "Shadowlord - White (Note Remix)", "FileName": "43. Shadowlord - White (Note Remix).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 9 }, { "ID": 739, "Title": "Ai Wo Torimodose", "FileName": "Ai Wo Torimodose.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 9 }, { "ID": 740, "Title": "DUEL!!", "FileName": "DUEL!!.mp3", "ArtistID": 152, "AlbumID": 356, "TagID": 9 }, { "ID": 741, "Title": "Mega Man 4 Opening Sequence Arrangement", "FileName": "Mega Man 4 Opening Sequence Arrangement.mp3", "ArtistID": 102, "AlbumID": 264, "TagID": 9 }, { "ID": 742, "Title": "Onslaught", "FileName": "Onslaught.mp3", "ArtistID": 152, "AlbumID": 356, "TagID": 9 }, { "ID": 743, "Title": "City Ruins", "FileName": "01 City Ruins.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 744, "Title": "Ashes of Dreams (Emi Evans & JNique Nicole Vocals)", "FileName": "01. Ashes of Dreams (Emi Evans & J'Nique Nicole Vocals).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 10 }, { "ID": 745, "Title": "Hajimari (Beginning)", "FileName": "01. Hajimari (Beginning).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 746, "Title": "Kaine - Salvation", "FileName": "01. Kainé - Salvation.mp3", "ArtistID": 146, "AlbumID": 359, "TagID": 10 }, { "ID": 747, "Title": "Piano: Weight of the World", "FileName": "01. Piano - Weight of the World.mp3", "ArtistID": 154, "AlbumID": 360, "TagID": 10 }, { "ID": 748, "Title": "Significance - Nothing", "FileName": "01. Significance - Nothing.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 749, "Title": "Snow in Summer", "FileName": "01. Snow in Summer (Orchestral).mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 750, "Title": "Snow in Summer", "FileName": "01. Snow in Summer.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 751, "Title": "Song of the Ancients", "FileName": "01. Song of the Ancients.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 752, "Title": "Sunshower (Snow In Summer)", "FileName": "01. Sunshower (Snow In Summer).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 753, "Title": "Amusement Park", "FileName": "02 Amusement Park.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 754, "Title": "City Ruins - Rays of Light", "FileName": "02. City Ruins - Rays of Light.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 755, "Title": "Emil (Addendum version)", "FileName": "02. Emil (Addendum version).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 10 }, { "ID": 756, "Title": "Emil - Sacrifice", "FileName": "02. Emil - Sacrifice.mp3", "ArtistID": 148, "AlbumID": 365, "TagID": 10 }, { "ID": 757, "Title": "Hills of Radiant Winds - Another Edit Version", "FileName": "02. Hills of Radiant Winds - Another Edit Version.mp3", "ArtistID": 157, "AlbumID": 352, "TagID": 10 }, { "ID": 758, "Title": "Inori (Prayers)", "FileName": "02. Inori (Prayers).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 759, "Title": "Kainé - Escape", "FileName": "02. Kainé - Escape.mp3", "ArtistID": 155, "AlbumID": 366, "TagID": 10 }, { "ID": 760, "Title": "Kainé", "FileName": "02. Kainé.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 761, "Title": "Pale Moonlight (Shadowlords Castle-Roar)", "FileName": "02. Pale Moonlight (Shadowlord_s Castle_Roar).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 762, "Title": "Peaceful Sleep", "FileName": "02. Peaceful Sleep (Orchestral).mp3", "ArtistID": 145, "AlbumID": 367, "TagID": 10 }, { "ID": 763, "Title": "Peaceful Sleep", "FileName": "02. Peaceful Sleep.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 10 }, { "ID": 764, "Title": "Piano: Amusement Park", "FileName": "02. Piano - Amusement Park.mp3", "ArtistID": 158, "AlbumID": 360, "TagID": 10 }, { "ID": 765, "Title": "Song of the Ancients - Popola", "FileName": "02. Song of the Ancients - Popola.mp3", "ArtistID": 159, "AlbumID": 368, "TagID": 10 }, { "ID": 766, "Title": "Song of the Ancients", "FileName": "02. Song of the Ancients.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 767, "Title": "Emil - Piano", "FileName": "03. Emil - Piano.mp3", "ArtistID": 155, "AlbumID": 365, "TagID": 10 }, { "ID": 768, "Title": "Hills of Radiant Winds", "FileName": "03. Hills of Radiant Winds.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 769, "Title": "Kainé", "FileName": "03. Kainé (Concert).mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 770, "Title": "Kainé", "FileName": "03. Kainé.mp3", "ArtistID": 155, "AlbumID": 366, "TagID": 10 }, { "ID": 771, "Title": "Nightengale (Kainé-Duet Ver.)", "FileName": "03. Nightengale (Kain__Duet Ver).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 772, "Title": "Peaceful Sleep", "FileName": "03. Peaceful Sleep.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 773, "Title": "Piano: A Beautiful Song", "FileName": "03. Piano - A Beautiful Song.mp3", "ArtistID": 155, "AlbumID": 360, "TagID": 10 }, { "ID": 774, "Title": "Snow in Summer", "FileName": "03. Snow in Summer.mp3", "ArtistID": 155, "AlbumID": 369, "TagID": 10 }, { "ID": 775, "Title": "Song of the Ancients - Dev", "FileName": "03. Song of the Ancients - Devola.mp3", "ArtistID": 146, "AlbumID": 359, "TagID": 10 }, { "ID": 776, "Title": "Toki No Shizuku (Droplets Of Time)", "FileName": "03. Toki No Shizuku (Droplets Of Time).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 777, "Title": "Vague Hope (Emi Evans Vocals)", "FileName": "03. Vague Hope (Emi Evans Vocals).mp3", "ArtistID": 145, "AlbumID": 367, "TagID": 10 }, { "ID": 778, "Title": "Peaceful Sleep", "FileName": "04 Peaceful Sleep.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 779, "Title": "Emil", "FileName": "04. Emil (Ochestral).mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 780, "Title": "Kainé - Oboe and Bassoon Ensemble", "FileName": "04. Kainé - Oboe and Bassoon Ensemble.mp3", "ArtistID": 160, "AlbumID": 366, "TagID": 10 }, { "ID": 781, "Title": "Kaze No Koe (Voice Of The Wind)", "FileName": "04. Kaze No Koe (Voice Of The Wind).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 782, "Title": "Memories (Song Of The Ancients-Devola)", "FileName": "04. Memories (Song Of The Ancients_Devola).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 783, "Title": "Piano: City Ruins", "FileName": "04. Piano - City Ruins.mp3", "ArtistID": 161, "AlbumID": 360, "TagID": 10 }, { "ID": 784, "Title": "Shadowlord", "FileName": "04. Shadowlord.mp3", "ArtistID": 155, "AlbumID": 369, "TagID": 10 }, { "ID": 785, "Title": "Snow in Summer", "FileName": "04. Snow in Summer.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 786, "Title": "Song of the Ancients - Devola", "FileName": "04. Song of the Ancients - Devola.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 787, "Title": "Voice of no Return", "FileName": "04. Voice of no Return.mp3", "ArtistID": 162, "AlbumID": 370, "TagID": 10 }, { "ID": 788, "Title": "Peaceful Sleep", "FileName": "04.Peaceful Sleep.mp3", "ArtistID": 163, "AlbumID": 371, "TagID": 10 }, { "ID": 789, "Title": "A Heart Not Forgotten (Emil-Karma)", "FileName": "05. A Heart Not Forgotten (Emil_Karma).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 790, "Title": "Emil - Recorder Ensemble", "FileName": "05. Emil - Recorder Ensemble.mp3", "ArtistID": 164, "AlbumID": 365, "TagID": 10 }, { "ID": 791, "Title": "Emil", "FileName": "05. Emil.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 792, "Title": "Kaikyo (Homesick)", "FileName": "05. Kaikyo (Homesick).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 793, "Title": "Kainé (Addendum version)", "FileName": "05. Kainé (Addendum version).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 10 }, { "ID": 794, "Title": "Kainé - Duet", "FileName": "05. Kainé - Duet.mp3", "ArtistID": 155, "AlbumID": 366, "TagID": 10 }, { "ID": 795, "Title": "Piano: Dependent Weakling", "FileName": "05. Piano - Dependent Weakling.mp3", "ArtistID": 165, "AlbumID": 360, "TagID": 10 }, { "ID": 796, "Title": "Repose", "FileName": "05. Repose.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 797, "Title": "Song of the Ancients - Mandolin Ensemble", "FileName": "05. Song of the Ancients - Mandolin Ensemble.mp3", "ArtistID": 166, "AlbumID": 368, "TagID": 10 }, { "ID": 798, "Title": "Song of the Ancients - Popola", "FileName": "05. Song of the Ancients - Popola.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 799, "Title": "Emil - Piano Ver.", "FileName": "06 Emil - Piano Ver.mp3", "ArtistID": 155, "AlbumID": 372, "TagID": 10 }, { "ID": 800, "Title": "Vague Hope", "FileName": "06 Vague Hope.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 801, "Title": "City Ruins (Addendum version)", "FileName": "06. City Ruins (Addendum version).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 10 }, { "ID": 802, "Title": "Emil", "FileName": "06. Emil.mp3", "ArtistID": 167, "AlbumID": 365, "TagID": 10 }, { "ID": 803, "Title": "Grandma", "FileName": "06. Grandma (Piano).mp3", "ArtistID": 168, "AlbumID": 363, "TagID": 10 }, { "ID": 804, "Title": "Grandma", "FileName": "06. Grandma.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 805, "Title": "Kainé", "FileName": "06. Kainé.mp3", "ArtistID": 160, "AlbumID": 366, "TagID": 10 }, { "ID": 806, "Title": "Piano: Peaceful Sleep", "FileName": "06. Piano - Peaceful Sleep.mp3", "ArtistID": 170, "AlbumID": 360, "TagID": 10 }, { "ID": 807, "Title": "Song of the Ancients", "FileName": "06. Song of the Ancients.mp3", "ArtistID": 155, "AlbumID": 368, "TagID": 10 }, { "ID": 808, "Title": "The Color of Depression", "FileName": "06. The Color of Depression.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 809, "Title": "Kaine - Duet Ver.", "FileName": "07 Kaine - Duet Ver.mp3", "ArtistID": 155, "AlbumID": 372, "TagID": 10 }, { "ID": 810, "Title": "Amusement Park", "FileName": "07. Amusement Park.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 811, "Title": "Grandma", "FileName": "07. Grandma.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 812, "Title": "Kaine", "FileName": "07. Kaine.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 813, "Title": "Kainé", "FileName": "07. Kainé.mp3", "ArtistID": 160, "AlbumID": 366, "TagID": 10 }, { "ID": 814, "Title": "Piano: Copied City", "FileName": "07. Piano - Copied City.mp3", "ArtistID": 171, "AlbumID": 360, "TagID": 10 }, { "ID": 815, "Title": "Repose", "FileName": "07. Repose.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 816, "Title": "Snow in Summer", "FileName": "07. Snow in Summer.mp3", "ArtistID": 172, "AlbumID": 369, "TagID": 10 }, { "ID": 817, "Title": "Song of the Ancients (Devola)", "FileName": "07. Song of the Ancients (Devola).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 818, "Title": "Memories of Dust", "FileName": "07.Memories of Dust.mp3", "ArtistID": 163, "AlbumID": 371, "TagID": 10 }, { "ID": 819, "Title": "The Wretched Automatons-a capella", "FileName": "08 The Wretched Automatons-a capella.mp3", "ArtistID": 147, "AlbumID": 372, "TagID": 10 }, { "ID": 820, "Title": "Flower (Yonah-Piano ver.)", "FileName": "08. Flower (Yonah_Piano ver.).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 821, "Title": "Piano: Voice of no Return", "FileName": "08. Piano - Voice of no Return.mp3", "ArtistID": 161, "AlbumID": 360, "TagID": 10 }, { "ID": 822, "Title": "Vague Hope", "FileName": "08. Vague Hope.mp3", "ArtistID": 173, "AlbumID": 354, "TagID": 10 }, { "ID": 823, "Title": "Song of the Ancients - Piano Ver.", "FileName": "09 Song of the Ancients - Piano Ver.mp3", "ArtistID": 155, "AlbumID": 372, "TagID": 10 }, { "ID": 824, "Title": "The Sound of the End", "FileName": "09 The Sound of the End.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 825, "Title": "Emil", "FileName": "09. Emil.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 826, "Title": "Grandma", "FileName": "09. Grandma.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 827, "Title": "Shadowlord", "FileName": "09. Shadowlord.mp3", "ArtistID": 155, "AlbumID": 363, "TagID": 10 }, { "ID": 828, "Title": "Song Of The Ancients - Atonement", "FileName": "09. Song Of The Ancients - Atonement.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 10 }, { "ID": 829, "Title": "Veil (The Prestigious Mask)", "FileName": "09. Veil (The Prestigious Mask).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 830, "Title": "Voice of no Return - Guitar", "FileName": "09. Voice of no Return - Guitar.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 831, "Title": "Yonah - Pluck Ver.", "FileName": "09. Yonah - Pluck Ver..mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 832, "Title": "Voice of NO Return", "FileName": "09.Voice of NO Return.mp3", "ArtistID": 163, "AlbumID": 371, "TagID": 10 }, { "ID": 833, "Title": "Shadowlord-Music Box Ver.", "FileName": "10 Shadowlord-Music Box Ver.mp3", "ArtistID": 155, "AlbumID": 372, "TagID": 10 }, { "ID": 834, "Title": "Piano: The Tower", "FileName": "10. Piano - The Tower.mp3", "ArtistID": 170, "AlbumID": 360, "TagID": 10 }, { "ID": 835, "Title": "The Wretched Automatons", "FileName": "10. The Wretched Automatons.mp3", "ArtistID": 144, "AlbumID": 363, "TagID": 10 }, { "ID": 836, "Title": "Weight of the World (Emi Evans & JNique Nicole Vocals)", "FileName": "10. Weight of the World (Emi Evans & J'Nique Nicole Vocals).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 10 }, { "ID": 837, "Title": "The Tower", "FileName": "11 The Tower.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 838, "Title": "Orchestra: Ashes of Dreams", "FileName": "11. Ashes of Dreams (Ochestral).mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 10 }, { "ID": 839, "Title": "Ashes of Dreams", "FileName": "11. Ashes of Dreams.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 840, "Title": "Faltering Prayer - Dawn Breeze", "FileName": "11. Faltering Prayer - Dawn Breeze.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 841, "Title": "Heavy Heart (Emil-Piano ver.)", "FileName": "11. Heavy Heart (Emil_Piano ver.).mp3", "ArtistID": 156, "AlbumID": 364, "TagID": 10 }, { "ID": 842, "Title": "Hoshi No Mebuki (Natures Blessing)", "FileName": "11. Hoshi No Mebuki (Nature's Blessing).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 843, "Title": "Piano: The Sound of the End", "FileName": "11. Piano - The Sound of the End.mp3", "ArtistID": 174, "AlbumID": 360, "TagID": 10 }, { "ID": 844, "Title": "Grandma", "FileName": "12. Grandma.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 10 }, { "ID": 845, "Title": "Piano: Vague Hope", "FileName": "12. Piano - Vague Hope.mp3", "ArtistID": 155, "AlbumID": 360, "TagID": 10 }, { "ID": 846, "Title": "Sabigoe (Dignified Voice)", "FileName": "12. Sabigoe (Dignified Voice).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 847, "Title": "The Wretched Automatons - Weiss Edition Arrangement", "FileName": "13. The Wretched Automatons - Weiss Edition Arrangement.mp3", "ArtistID": 175, "AlbumID": 352, "TagID": 10 }, { "ID": 848, "Title": "Toki No Kane (Bell Of Time)", "FileName": "13. Toki No Kane (Bell Of Time).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 849, "Title": "Treasured Times", "FileName": "13. Treasured Times.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 850, "Title": "Dispossession - Piano Ver.", "FileName": "14. Dispossession - Piano Ver..mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 10 }, { "ID": 851, "Title": "Grandma - Weiss Edition Arrangement", "FileName": "14. Grandma - Weiss Edition Arrangement.mp3", "ArtistID": 176, "AlbumID": 352, "TagID": 10 }, { "ID": 852, "Title": "The Ultimate Weapon", "FileName": "14. The Ultimate Weapon.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 853, "Title": "Vague Hope - Cold Rain", "FileName": "14. Vague Hope - Cold Rain.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 854, "Title": "Kainé", "FileName": "15 Kainé.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 855, "Title": "Ashes of Dreams - New", "FileName": "15. Ashes of Dreams - New.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 10 }, { "ID": 856, "Title": "Aun (Breathe)", "FileName": "15. Aun (Breathe).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 857, "Title": "Weight of the World English Version", "FileName": "15. Weight of the World English Version.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 858, "Title": "Ashes of Dreams", "FileName": "16 Ashes of Dreams.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 10 }, { "ID": 859, "Title": "Dispossession (Piano Version)", "FileName": "16. Dispossession (Piano Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 860, "Title": "Kainé - Premonition", "FileName": "16. Kainé - Premonition.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 861, "Title": "Omokage (Vestige)", "FileName": "16. Omokage (Vestige).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 862, "Title": "City Ruins - Shade", "FileName": "17. City Ruins - Shade.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 863, "Title": "Dispossession (Strings Version)", "FileName": "17. Dispossession (Strings Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 864, "Title": "Song of the Ancients - Devola", "FileName": "17. Song of the Ancients - Devola.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 865, "Title": "Dispossession (Pluck Version)", "FileName": "18. Dispossession (Pluck Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 866, "Title": "Kyusai (Aid)", "FileName": "18. Kyusai (Aid).mp3", "ArtistID": 153, "AlbumID": 358, "TagID": 10 }, { "ID": 867, "Title": "The Ultimate Weapon", "FileName": "18. The Ultimate Weapon.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 868, "Title": "Dispossession (Music Box Version)", "FileName": "19. Dispossession (Music Box Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 869, "Title": "Fleeting Words - Weiss Edition Arrangement", "FileName": "19. Fleeting Words - Weiss Edition Arrangement.mp3", "ArtistID": 177, "AlbumID": 352, "TagID": 10 }, { "ID": 870, "Title": "Halua", "FileName": "19. Halua.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 871, "Title": "Voice of no Return - Normal", "FileName": "19. Voice of no Return - Normal.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 872, "Title": "Yonah (Piano Version)", "FileName": "20. Yonah (Piano Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 873, "Title": "Yonah (Strings Version)", "FileName": "21. Yonah (Strings Version).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 874, "Title": "His Dream", "FileName": "22. His Dream.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 875, "Title": "Yonah (Pluck Version 1)", "FileName": "22. Yonah (Pluck Version 1).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 876, "Title": "This Dream", "FileName": "23. This Dream.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 877, "Title": "Yonah (Pluck Version 2)", "FileName": "23. Yonah (Pluck Version 2).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 10 }, { "ID": 878, "Title": "Dispossession - Strings Ver.", "FileName": "24. Dispossession - Strings Ver..mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 10 }, { "ID": 879, "Title": "Broken Heart", "FileName": "26. Broken Heart.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 880, "Title": "Wretched Weaponry: Quiet", "FileName": "27. Wretched Weaponry ：Quiet.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 881, "Title": "Yonah - Piano Ver.", "FileName": "27. Yonah - Piano Ver..mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 10 }, { "ID": 882, "Title": "Ashes of Dreams - Nouveau", "FileName": "28. Ashes of Dreams - Nouveau.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 10 }, { "ID": 883, "Title": "His Dream", "FileName": "28. His Dream.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 884, "Title": "Mourning", "FileName": "28. Mourning.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 885, "Title": "Ashes of Dreams - Naudhaich", "FileName": "29. Ashes of Dreams - Naudhaich.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 10 }, { "ID": 886, "Title": "This Dream", "FileName": "29. This Dream.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 887, "Title": "Ashes of Dreams - Lost Music Box Version", "FileName": "30. Ashes of Dreams - Lost Music Box Version.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 10 }, { "ID": 888, "Title": "Repose", "FileName": "30. Repose.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 889, "Title": "Weight of the World Kowaretasekainouta", "FileName": "30. Weight of the World Kowaretasekainouta.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 890, "Title": "Fleeting Words - Family", "FileName": "31. Fleeting Words - Family.mp3", "ArtistID": 147, "AlbumID": 347, "TagID": 10 }, { "ID": 891, "Title": "Rebirth & Hope", "FileName": "31. Rebirth & Hope.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 892, "Title": "Repose", "FileName": "33. Repose.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 893, "Title": "Widespread Illness", "FileName": "34. Widespread Illness.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 894, "Title": "Dispossession - Music Box Ver.", "FileName": "35. Dispossession - Music Box Ver..mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 10 }, { "ID": 895, "Title": "Fortress of Lies", "FileName": "35. Fortress of Lies.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 896, "Title": "Vague Hope - Spring Rain", "FileName": "36. Vague Hope - Spring Rain.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 897, "Title": "Emil (Sacrifice)", "FileName": "37. Emil (Sacrifice).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 898, "Title": "Blissful Death", "FileName": "38. Blissful Death.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 899, "Title": "Ashes of Dreams (New)", "FileName": "39. Ashes of Dreams (New).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 900, "Title": "Ashes of Dreams (Nouveau)", "FileName": "40. Ashes of Dreams (Nouveau).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 901, "Title": "Emil - Sacrifice", "FileName": "40. Emil - Sacrifice.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 10 }, { "ID": 902, "Title": "Faltering Prayer - Starry Sky", "FileName": "40. Faltering Prayer - Starry Sky.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 903, "Title": "Ashes of Dreams (Nuadhaich)", "FileName": "41. Ashes of Dreams (Nuadhaich).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 904, "Title": "Ashes of Dreams (Aratanaru)", "FileName": "42. Ashes of Dreams (Aratanaru).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 10 }, { "ID": 905, "Title": "The Tower", "FileName": "42. The Tower.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 10 }, { "ID": 906, "Title": "Ashes of Dreams - Aratanaru", "FileName": "45. Ashes of Dreams - Aratanaru.mp3", "ArtistID": 144, "AlbumID": 347, "TagID": 10 }, { "ID": 907, "Title": "Alien Manifestation (JNique Nicole Vocals)", "FileName": "01. Alien Manifestation (J'Nique Nicole Vocals).mp3", "ArtistID": 145, "AlbumID": 367, "TagID": 11 }, { "ID": 908, "Title": "City Ruins", "FileName": "01. City Ruins.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 909, "Title": "Emil - Karma", "FileName": "01. Emil - Karma.mp3", "ArtistID": 148, "AlbumID": 365, "TagID": 11 }, { "ID": 910, "Title": "Kainé - Salvation", "FileName": "01. Kainé - Salvation.mp3", "ArtistID": 155, "AlbumID": 366, "TagID": 11 }, { "ID": 911, "Title": "Snow in Summer", "FileName": "01. Snow in Summer (Gestalt).mp3", "ArtistID": 146, "AlbumID": 349, "TagID": 11 }, { "ID": 912, "Title": "Snow in Summer", "FileName": "01. Snow in Summer (Origin).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 913, "Title": "Snow in Summer", "FileName": "01. Snow in Summer (Weiss).mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 914, "Title": "Snow in Summer - Another Edit Version", "FileName": "01. Snow in Summer - Another Edit Version.mp3", "ArtistID": 144, "AlbumID": 352, "TagID": 11 }, { "ID": 915, "Title": "Snow in Summer", "FileName": "01. Snow in Summer.mp3", "ArtistID": 144, "AlbumID": 369, "TagID": 11 }, { "ID": 916, "Title": "Song of the Ancients - Devola", "FileName": "01. Song of the Ancients - Devola.mp3", "ArtistID": 159, "AlbumID": 368, "TagID": 11 }, { "ID": 917, "Title": "Amusement Park", "FileName": "02. Amusement Park.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 918, "Title": "Hills of Radiant Wind", "FileName": "02. Hills of Radiant Wind.mp3", "ArtistID": 146, "AlbumID": 359, "TagID": 11 }, { "ID": 919, "Title": "Hills of Radiant Winds", "FileName": "02. Hills of Radiant Winds (Gestalt).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 920, "Title": "Hills of Radiant Winds", "FileName": "02. Hills of Radiant Winds (Replicant).mp3", "ArtistID": 157, "AlbumID": 347, "TagID": 11 }, { "ID": 921, "Title": "Hills of Radiant Winds", "FileName": "02. Hills of Radiant Winds (Weiss).mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 922, "Title": "Hills of Radiant Winds", "FileName": "02. Hills of Radiant Winds.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 923, "Title": "Shadowlord", "FileName": "02. Shadowlord.mp3", "ArtistID": 148, "AlbumID": 369, "TagID": 11 }, { "ID": 924, "Title": "Memories of Dust", "FileName": "03 Memories of Dust.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 925, "Title": "Birth of a Wish", "FileName": "03. Birth of a Wish.mp3", "ArtistID": 178, "AlbumID": 370, "TagID": 11 }, { "ID": 926, "Title": "Deep Crimson Foe", "FileName": "03. Deep Crimson Foe.mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 11 }, { "ID": 927, "Title": "Hills of Radiant Wind", "FileName": "03. Hills of Radiant Wind.mp3", "ArtistID": 179, "AlbumID": 363, "TagID": 11 }, { "ID": 928, "Title": "Kainé - Another Edit Version", "FileName": "03. Kainé - Another Edit Version.mp3", "ArtistID": 155, "AlbumID": 352, "TagID": 11 }, { "ID": 929, "Title": "Kaine", "FileName": "03. Kainé.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 930, "Title": "Song of the Ancients - Hollow Dreams", "FileName": "03. Song of the Ancients - Hollow Dreams.mp3", "ArtistID": 155, "AlbumID": 368, "TagID": 11 }, { "ID": 931, "Title": "City Ruins (Shade)", "FileName": "03.City Ruins (Shade).mp3", "ArtistID": 163, "AlbumID": 371, "TagID": 11 }, { "ID": 932, "Title": "Alien Manifestation", "FileName": "04. Alien Manifestation.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 933, "Title": "Emil", "FileName": "04. Emil.mp3", "ArtistID": 155, "AlbumID": 365, "TagID": 11 }, { "ID": 934, "Title": "Memories of Dust", "FileName": "04. Memories of Dust.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 935, "Title": "Song of the Ancients (Emi Evans & JNique Nicole Vocals)", "FileName": "04. Song of the Ancients (Emi Evans & J'Nique Nicole Vocals).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 11 }, { "ID": 936, "Title": "Song of the Ancients - Fate", "FileName": "04. Song of the Ancients - Fate.mp3", "ArtistID": 148, "AlbumID": 368, "TagID": 11 }, { "ID": 937, "Title": "The Dark Colossus Destroys All", "FileName": "04. The Dark Colossus Destroys All.mp3", "ArtistID": 146, "AlbumID": 359, "TagID": 11 }, { "ID": 938, "Title": "Birth of a Wish", "FileName": "05. Birth of a Wish.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 939, "Title": "Cold Steel Coffin", "FileName": "05. Cold Steel Coffin.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 940, "Title": "Deep Crimson Foe", "FileName": "05. Deep Crimson Foe.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 941, "Title": "Gods Bound by Rules", "FileName": "05. Gods Bound by Rules.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 11 }, { "ID": 942, "Title": "The Tower", "FileName": "05. The Tower.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 943, "Title": "Dependent Weakling", "FileName": "06. Dependent Weakling.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 944, "Title": "Emil - Another Edit Version", "FileName": "06. Emil - Another Edit Version.mp3", "ArtistID": 148, "AlbumID": 352, "TagID": 11 }, { "ID": 945, "Title": "Emil", "FileName": "06. Emil.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 946, "Title": "Shadowlord", "FileName": "06. Shadowlord.mp3", "ArtistID": 160, "AlbumID": 369, "TagID": 11 }, { "ID": 947, "Title": "The Wretched Automatons", "FileName": "06. The Wretched Automatons.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 948, "Title": "A Beautiful Song (Emi Evans & JNique Nicole Vocals)", "FileName": "07. A Beautiful Song (Emi Evans & J'Nique Nicole Vocals).mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 11 }, { "ID": 949, "Title": "Bipolar Nightmare", "FileName": "07. Bipolar Nightmare.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 950, "Title": "Emil", "FileName": "07. Emil.mp3", "ArtistID": 160, "AlbumID": 365, "TagID": 11 }, { "ID": 951, "Title": "Fleeting Words - Another Edit Version", "FileName": "07. Fleeting Words - Another Edit Version.mp3", "ArtistID": 147, "AlbumID": 352, "TagID": 11 }, { "ID": 952, "Title": "Fleeting Words", "FileName": "07. Fleeting Words.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 953, "Title": "Possessed by Disease", "FileName": "07. Possessed by Disease.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 954, "Title": "Song of the Ancients", "FileName": "07. Song of the Ancients.mp3", "ArtistID": 172, "AlbumID": 368, "TagID": 11 }, { "ID": 955, "Title": "Pascal", "FileName": "08 Pascal.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 956, "Title": "Copied City", "FileName": "08. Copied City.mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 11 }, { "ID": 957, "Title": "Mourning", "FileName": "08. Mourning.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 958, "Title": "Song of the Ancients", "FileName": "08. Song of the Ancients (Weiss).mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 959, "Title": "Song of the Ancients - Another Edit Version", "FileName": "08. Song of the Ancients - Another Edit Version.mp3", "ArtistID": 180, "AlbumID": 352, "TagID": 11 }, { "ID": 960, "Title": "Song of the Ancients", "FileName": "08. Song of the Ancients.mp3", "ArtistID": 181, "AlbumID": 368, "TagID": 11 }, { "ID": 961, "Title": "The Wretched Automatons", "FileName": "08. The Wretched Automatons.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 962, "Title": "Weight of the World", "FileName": "08. Weight of the World.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 963, "Title": "Pascal", "FileName": "08.Pascal.mp3", "ArtistID": 163, "AlbumID": 371, "TagID": 11 }, { "ID": 964, "Title": "City of Commerce", "FileName": "09. City of Commerce.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 965, "Title": "Crumbling Lies", "FileName": "09. Crumbling Lies.mp3", "ArtistID": 145, "AlbumID": 357, "TagID": 11 }, { "ID": 966, "Title": "The Sound of the End", "FileName": "09. The Sound of the End.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 967, "Title": "Alien Manifestation", "FileName": "10 Alien Manifestation.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 968, "Title": "City of Commerce", "FileName": "10. City of Commerce.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 969, "Title": "Shadowlord", "FileName": "10. Shadowlord -Live.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 970, "Title": "Shadowlord", "FileName": "10. Shadowlord.mp3", "ArtistID": 145, "AlbumID": 361, "TagID": 11 }, { "ID": 971, "Title": "Song of the Ancients (Popola)", "FileName": "10. Song of the Ancients (Popola).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 972, "Title": "Weight of the World", "FileName": "10. Weight of the World.mp3", "ArtistID": 145, "AlbumID": 348, "TagID": 11 }, { "ID": 973, "Title": "Alien Manifestation", "FileName": "11. Alien Manifestation.mp3", "ArtistID": 182, "AlbumID": 354, "TagID": 11 }, { "ID": 974, "Title": "Kainé - Weiss Edition Arrangement", "FileName": "11. Kainé - Weiss Edition Arrangement.mp3", "ArtistID": 183, "AlbumID": 352, "TagID": 11 }, { "ID": 975, "Title": "Kaine", "FileName": "11. Kainé.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 976, "Title": "The Prestigious Mask", "FileName": "11. The Prestigious Mask (Gestalt).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 977, "Title": "The Prestigious Mask", "FileName": "11. The Prestigious Mask.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 978, "Title": "Temple of Drifting Sands", "FileName": "12. Temple of Drifting Sands (Gestalt).mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 979, "Title": "Temple of Drifting Sands", "FileName": "12. Temple of Drifting Sands.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 980, "Title": "Weight Of The World", "FileName": "12. Weight Of The World.mp3", "ArtistID": 149, "AlbumID": 354, "TagID": 11 }, { "ID": 981, "Title": "Mourning", "FileName": "13 Mourning.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 982, "Title": "Gods Bound by Rules", "FileName": "13. Gods Bound by Rules.mp3", "ArtistID": 169, "AlbumID": 355, "TagID": 11 }, { "ID": 983, "Title": "Song of the Ancients - Fate", "FileName": "13. Song of the Ancients - Fate.mp3", "ArtistID": 147, "AlbumID": 362, "TagID": 11 }, { "ID": 984, "Title": "Weight of the World", "FileName": "14 Weight of the World.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 985, "Title": "Grandma", "FileName": "14. Grandma.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 986, "Title": "Weight of the World - the End of YoRHa", "FileName": "17 Weight of the World - the End of YoRHa.mp3", "ArtistID": 147, "AlbumID": 350, "TagID": 11 }, { "ID": 987, "Title": "Fleeting Words", "FileName": "19. Fleeting Words.mp3", "ArtistID": 149, "AlbumID": 353, "TagID": 11 }, { "ID": 988, "Title": "Pascal", "FileName": "20. Pascal.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 989, "Title": "Forest Kingdom", "FileName": "21. Forest Kingdom.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 990, "Title": "The Lost Forest", "FileName": "21. The Lost Forest.mp3", "ArtistID": 159, "AlbumID": 347, "TagID": 11 }, { "ID": 991, "Title": "Copied City", "FileName": "23. Copied City.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 992, "Title": "The Dark Colossus Destroys All", "FileName": "24. The Dark Colossus Destroys All.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 993, "Title": "Wretched Weaponry: Medium-Dynamic", "FileName": "24. Wretched Weaponry ：Medium／Dynamic.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 994, "Title": "Kainé - Salvation", "FileName": "25. Kainé - Salvation.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 11 }, { "ID": 995, "Title": "Song of the Ancients (Hollow Dreams)", "FileName": "25. Song of the Ancients (Hollow Dreams).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 996, "Title": "Kainé (Salvation)", "FileName": "26. Kainé (Salvation).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 997, "Title": "Kainé (Escape)", "FileName": "27. Kainé (Escape).mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 998, "Title": "Fleeting Words - Outsider", "FileName": "32. Fleeting Words - Outsider.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 11 }, { "ID": 999, "Title": "Crumbling Lies - Front", "FileName": "33. Crumbling Lies - Front.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 1000, "Title": "Dance of the Evanescent", "FileName": "34. Dance of the Evanescent.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 1001, "Title": "Song of the Ancients - Hollow Dreams", "FileName": "34. Song of the Ancients - Hollow Dreams.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 11 }, { "ID": 1002, "Title": "Song of the Ancients - Atonement", "FileName": "37. Song of the Ancients - Atonement.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 1003, "Title": "Shadowlord", "FileName": "38. Shadowlord.mp3", "ArtistID": 151, "AlbumID": 355, "TagID": 11 }, { "ID": 1004, "Title": "Song of the Ancients - Fate", "FileName": "38. Song of the Ancients - Fate.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 1005, "Title": "Emil - Karma", "FileName": "39. Emil - Karma.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 1006, "Title": "Alien Manifestation", "FileName": "41. Alien Manifestation.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 1007, "Title": "Shadowlord", "FileName": "41. Shadowlord.mp3", "ArtistID": 148, "AlbumID": 347, "TagID": 11 }, { "ID": 1008, "Title": "Grandma - Reunion", "FileName": "43. Grandma - Reunion.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 11 }, { "ID": 1009, "Title": "Kainé - Escape", "FileName": "44. Kainé - Escape.mp3", "ArtistID": 155, "AlbumID": 347, "TagID": 11 }, { "ID": 1010, "Title": "The Sound of the End", "FileName": "44. The Sound of the End.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 1011, "Title": "Weight of the World Nouveau - FR Version", "FileName": "45. Weight of the World Nouveau - FR Version.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }, { "ID": 1012, "Title": "Weight of the World the End of YoRHa", "FileName": "46. Weight of the World the End of YoRHa.mp3", "ArtistID": 147, "AlbumID": 351, "TagID": 11 }];
-var Albums = [{ "ID": 0, "Name": "Flares", "Thumb": "albums/Flares.jpg", "ArtistID": 0 }, { "ID": 1, "Name": "Awakening", "Thumb": "albums/Awakening.jpg", "ArtistID": 1 }, { "ID": 2, "Name": "Close (Brooks Remix)", "Thumb": "albums/Close (Brooks Remix).jpg", "ArtistID": 2 }, { "ID": 3, "Name": "Cloud 9", "Thumb": "albums/Cloud 9.jpg", "ArtistID": 3 }, { "ID": 4, "Name": "Colors", "Thumb": "albums/Colors.jpg", "ArtistID": 4 }, { "ID": 5, "Name": "The Classics", "Thumb": "albums/The Classics.jpg", "ArtistID": 5 }, { "ID": 6, "Name": "Energy", "Thumb": "albums/Energy.jpg", "ArtistID": 6 }, { "ID": 7, "Name": "Everlasting", "Thumb": "albums/Everlasting.jpg", "ArtistID": 7 }, { "ID": 8, "Name": "Fire", "Thumb": "albums/Fire.jpg", "ArtistID": 6 }, { "ID": 9, "Name": "Frisbee", "Thumb": "albums/Frisbee.jpg", "ArtistID": 8 }, { "ID": 10, "Name": "Level Up", "Thumb": "albums/Level Up.jpg", "ArtistID": 9 }, { "ID": 11, "Name": "KIKO", "Thumb": "albums/KIKO.jpg", "ArtistID": 10 }, { "ID": 12, "Name": "Higher", "Thumb": "albums/Higher.jpg", "ArtistID": 4 }, { "ID": 13, "Name": "Hope", "Thumb": "albums/Hope.jpg", "ArtistID": 4 }, { "ID": 14, "Name": "Legends (Hyper Potions Remix)", "Thumb": "albums/Legends (Hyper Potions Remix).jpg", "ArtistID": 11 }, { "ID": 15, "Name": "Limitless", "Thumb": "albums/Limitless.jpg", "ArtistID": 6 }, { "ID": 16, "Name": "Rise", "Thumb": "albums/Rise.jpg", "ArtistID": 12 }, { "ID": 17, "Name": "Rubik", "Thumb": "albums/Rubik.jpg", "ArtistID": 13 }, { "ID": 18, "Name": "S.K.Y.Prox", "Thumb": "albums/S.K.Y.Prox.jpg", "ArtistID": 14 }, { "ID": 19, "Name": "Seven", "Thumb": "albums/Seven.jpg", "ArtistID": 4 }, { "ID": 20, "Name": "Sky (feat. Martell) [Radio Edit]", "Thumb": "albums/Sky (feat. Martell) [Radio Edit].jpg", "ArtistID": 15 }, { "ID": 21, "Name": "Sky High", "Thumb": "albums/Sky High.jpg", "ArtistID": 6 }, { "ID": 22, "Name": "Origins", "Thumb": "albums/Origins.jpg", "ArtistID": 16 }, { "ID": 23, "Name": "Sunburst", "Thumb": "albums/Sunburst.jpg", "ArtistID": 3 }, { "ID": 24, "Name": "Vision", "Thumb": "albums/Vision.jpg", "ArtistID": 6 }, { "ID": 25, "Name": "Welcome to Planet Urf", "Thumb": "albums/Welcome to Planet Urf.jpg", "ArtistID": 17 }, { "ID": 26, "Name": "Muvik", "Thumb": "albums/Muvik.jpg", "ArtistID": 18 }, { "ID": 27, "Name": "Guava Breeze", "Thumb": "albums/Guava Breeze.jpg", "ArtistID": 19 }, { "ID": 28, "Name": "Home", "Thumb": "albums/Home.jpg", "ArtistID": 20 }, { "ID": 29, "Name": "Classics 2014 - 2015", "Thumb": "albums/Classics 2014 - 2015.jpg", "ArtistID": 20 }, { "ID": 30, "Name": "Seve (Radio Edit)", "Thumb": "albums/Seve (Radio Edit).jpg", "ArtistID": 21 }, { "ID": 31, "Name": "Somero", "Thumb": "albums/Somero.jpg", "ArtistID": 22 }, { "ID": 32, "Name": "Turtle Beach", "Thumb": "albums/Turtle Beach.jpg", "ArtistID": 23 }, { "ID": 33, "Name": "Candyland", "Thumb": "albums/Candyland.jpg", "ArtistID": 4 }, { "ID": 34, "Name": "Close To The Sun", "Thumb": "albums/Close To The Sun.jpg", "ArtistID": 24 }, { "ID": 35, "Name": "Cool", "Thumb": "albums/Cool.jpg", "ArtistID": 25 }, { "ID": 36, "Name": "Jackpot", "Thumb": "albums/Jackpot.jpg", "ArtistID": 24 }, { "ID": 37, "Name": "Fly Away", "Thumb": "albums/Fly Away.jpg", "ArtistID": 24 }, { "ID": 38, "Name": "Happy Robot", "Thumb": "albums/Happy Robot.jpg", "ArtistID": 20 }, { "ID": 39, "Name": "Holo", "Thumb": "albums/Holo.jpg", "ArtistID": 12 }, { "ID": 40, "Name": "Infectious", "Thumb": "albums/Infectious.jpg", "ArtistID": 4 }, { "ID": 41, "Name": "Joy", "Thumb": "albums/Joy.jpg", "ArtistID": 4 }, { "ID": 42, "Name": "Lets Go", "Thumb": "albums/Lets Go.jpg", "ArtistID": 4 }, { "ID": 43, "Name": "Perpetuo", "Thumb": "albums/Perpetuo.jpg", "ArtistID": 4 }, { "ID": 44, "Name": "Masked Heroes", "Thumb": "albums/Masked Heroes.jpg", "ArtistID": 20 }, { "ID": 45, "Name": "Masked Raver", "Thumb": "albums/Masked Raver.jpg", "ArtistID": 20 }, { "ID": 46, "Name": "Mesmerize", "Thumb": "albums/Mesmerize.jpg", "ArtistID": 4 }, { "ID": 47, "Name": "Monody (feat. Laura Brehm)", "Thumb": "albums/Monody (feat. Laura Brehm).jpg", "ArtistID": 24 }, { "ID": 48, "Name": "Nostalgia", "Thumb": "albums/Nostalgia.jpg", "ArtistID": 4 }, { "ID": 49, "Name": "Sunset", "Thumb": "albums/Sunset.jpg", "ArtistID": 26 }, { "ID": 50, "Name": "The Silent Miracle", "Thumb": "albums/The Silent Miracle.jpg", "ArtistID": 20 }, { "ID": 51, "Name": "Warrior Songs", "Thumb": "albums/Warrior Songs.jpg", "ArtistID": 24 }, { "ID": 52, "Name": "Piece Of Me (Vexento Remix)", "Thumb": "albums/Piece Of Me (Vexento Remix).jpg", "ArtistID": 27 }, { "ID": 53, "Name": "Sad Robot", "Thumb": "albums/Sad Robot.jpg", "ArtistID": 20 }, { "ID": 54, "Name": "Hello, World", "Thumb": "albums/Hello, World.jpg", "ArtistID": 28 }, { "ID": 55, "Name": "Tevo", "Thumb": "albums/Tevo.jpg", "ArtistID": 20 }, { "ID": 56, "Name": "Trap Queen", "Thumb": "albums/Trap Queen.jpg", "ArtistID": 29 }, { "ID": 57, "Name": "Trippy Love", "Thumb": "albums/Trippy Love.jpg", "ArtistID": 20 }, { "ID": 58, "Name": "Tropic Love", "Thumb": "albums/Tropic Love.jpg", "ArtistID": 30 }, { "ID": 59, "Name": "Unity", "Thumb": "albums/Unity.jpg", "ArtistID": 24 }, { "ID": 60, "Name": "Verve", "Thumb": "albums/Verve.jpg", "ArtistID": 20 }, { "ID": 61, "Name": "Where We Belong", "Thumb": "albums/Where We Belong.jpg", "ArtistID": 20 }, { "ID": 62, "Name": "Kaikai Kitan / Ao No Waltz", "Thumb": "albums/Kaikai Kitan  Ao No Waltz.jpg", "ArtistID": 31 }, { "ID": 63, "Name": "デスぺレート", "Thumb": "albums/デスぺレート.jpg", "ArtistID": 32 }, { "ID": 64, "Name": "Bunka", "Thumb": "albums/Bunka.jpg", "ArtistID": 31 }, { "ID": 65, "Name": "Gunjo Sanka / Yuseiboushi", "Thumb": "albums/Gunjo Sanka  Yuseiboushi.jpg", "ArtistID": 31 }, { "ID": 66, "Name": "Casino", "Thumb": "albums/Casino.jpg", "ArtistID": 33 }, { "ID": 67, "Name": "Cheating is a crime", "Thumb": "albums/Cheating is a crime.jpg", "ArtistID": 34 }, { "ID": 68, "Name": "GHOST CITY TOKYO (digital edition)", "Thumb": "albums/GHOST CITY TOKYO (digital edition).jpg", "ArtistID": 35 }, { "ID": 69, "Name": "Demon Lord", "Thumb": "albums/Demon Lord.jpg", "ArtistID": 36 }, { "ID": 70, "Name": "ENVY BABY", "Thumb": "albums/ENVY BABY.jpg", "ArtistID": 36 }, { "ID": 71, "Name": "EYE", "Thumb": "albums/EYE.jpg", "ArtistID": 36 }, { "ID": 72, "Name": "FightSong", "Thumb": "albums/FightSong.jpg", "ArtistID": 31 }, { "ID": 73, "Name": "Good-bye Declaration", "Thumb": "albums/Good-bye Declaration.jpg", "ArtistID": 37 }, { "ID": 74, "Name": "KING", "Thumb": "albums/KING.jpg", "ArtistID": 36 }, { "ID": 75, "Name": "MIRA", "Thumb": "albums/MIRA.jpg", "ArtistID": 36 }, { "ID": 76, "Name": "Nightmare", "Thumb": "albums/Nightmare.jpg", "ArtistID": 33 }, { "ID": 77, "Name": "Nerenaiyoruni ka-tenwoakete", "Thumb": "albums/Nerenaiyoruni ka-tenwoakete.jpg", "ArtistID": 38 }, { "ID": 78, "Name": "QUEEN", "Thumb": "albums/QUEEN.jpg", "ArtistID": 36 }, { "ID": 79, "Name": "Rendezvous", "Thumb": "albums/Rendezvous.jpg", "ArtistID": 36 }, { "ID": 80, "Name": "Shadow Shadow", "Thumb": "albums/Shadow Shadow.jpg", "ArtistID": 33 }, { "ID": 81, "Name": "Whisper Whisper Whisper", "Thumb": "albums/Whisper Whisper Whisper.jpg", "ArtistID": 33 }, { "ID": 82, "Name": "Yoidoreshirazu", "Thumb": "albums/Yoidoreshirazu.jpg", "ArtistID": 36 }, { "ID": 83, "Name": "アイデンティティ", "Thumb": "albums/アイデンティティ.jpg", "ArtistID": 36 }, { "ID": 84, "Name": "エンヴィーベイビー x KING", "Thumb": "albums/エンヴィーベイビー x KING.jpg", "ArtistID": 36 }, { "ID": 85, "Name": "KOI", "Thumb": "albums/KOI.jpg", "ArtistID": 39 }, { "ID": 86, "Name": "これくしょん３", "Thumb": "albums/これくしょん３.jpg", "ArtistID": 40 }, { "ID": 87, "Name": "KOBASOLO", "Thumb": "albums/KOBASOLO.jpg", "ArtistID": 40 }, { "ID": 88, "Name": "これくしょん", "Thumb": "albums/これくしょん.jpg", "ArtistID": 41 }, { "ID": 89, "Name": "FAITH", "Thumb": "albums/FAITH.jpg", "ArtistID": 42 }, { "ID": 90, "Name": "40", "Thumb": "albums/40.jpg", "ArtistID": 42 }, { "ID": 91, "Name": "Akie", "Thumb": "albums/Akie.jpg", "ArtistID": 43 }, { "ID": 92, "Name": "WOMAN 2 ～Love Song Covers～", "Thumb": "albums/WOMAN 2 ～Love Song Covers～.jpg", "ArtistID": 42 }, { "ID": 93, "Name": "TVアニメ『終末なにしてますか?忙しいですか?救ってもらっていいですか?』オリジナルサウンドトラック「青い記憶」", "Thumb": "albums/TVアニメ『終末なにしてますか忙しいですか救ってもらっていいですか』オリジナルサウンドトラック「青い記憶」.jpg", "ArtistID": 44 }, { "ID": 94, "Name": "Best & Coupling Covers", "Thumb": "albums/Best & Coupling Covers.jpg", "ArtistID": 42 }, { "ID": 95, "Name": "Ms.OOJAの、いちばん泣けるドリカム", "Thumb": "albums/Ms.OOJAの、いちばん泣けるドリカム.jpg", "ArtistID": 42 }, { "ID": 96, "Name": "Stories", "Thumb": "albums/Stories.jpg", "ArtistID": 42 }, { "ID": 97, "Name": "CINEMATIC", "Thumb": "albums/CINEMATIC.jpg", "ArtistID": 45 }, { "ID": 98, "Name": "All About Tiara Ⅲ / Fan Selection Best", "Thumb": "albums/All About Tiara Ⅲ  Fan Selection Best.jpg", "ArtistID": 46 }, { "ID": 99, "Name": "MAN ＆ WOMAN", "Thumb": "albums/MAN ＆ WOMAN.jpg", "ArtistID": 42 }, { "ID": 100, "Name": "Be...", "Thumb": "albums/Be....jpg", "ArtistID": 42 }, { "ID": 101, "Name": "PRESENT", "Thumb": "albums/PRESENT.jpg", "ArtistID": 42 }, { "ID": 102, "Name": "また恋をすることなど", "Thumb": "albums/また恋をすることなど.jpg", "ArtistID": 42 }, { "ID": 103, "Name": "VOICE", "Thumb": "albums/VOICE.jpg", "ArtistID": 42 }, { "ID": 104, "Name": "Collection", "Thumb": "albums/Collection.jpg", "ArtistID": 47 }, { "ID": 105, "Name": "流しのOOJA〜VINTAGE SONG COVERS〜", "Thumb": "albums/流しのOOJA〜VINTAGE SONG COVERS〜.jpg", "ArtistID": 42 }, { "ID": 106, "Name": "流しのOOJA 2 〜VINTAGE SONG COVERS〜", "Thumb": "albums/流しのOOJA 2 〜VINTAGE SONG COVERS〜.jpg", "ArtistID": 42 }, { "ID": 107, "Name": "あなたに会えなくなる日まで / You are Beautiful", "Thumb": "albums/あなたに会えなくなる日まで  You are Beautiful.jpg", "ArtistID": 42 }, { "ID": 108, "Name": "THE HITS ～NO.1 SONG COVERS～", "Thumb": "albums/THE HITS ～NO.1 SONG COVERS～.jpg", "ArtistID": 42 }, { "ID": 109, "Name": "鐘が鳴る (Acoustic ver.)", "Thumb": "albums/鐘が鳴る (Acoustic ver.).jpg", "ArtistID": 42 }, { "ID": 110, "Name": "Contrast", "Thumb": "albums/Contrast.jpg", "ArtistID": 48 }, { "ID": 111, "Name": "HEART", "Thumb": "albums/HEART.jpg", "ArtistID": 42 }, { "ID": 112, "Name": "AGAIN", "Thumb": "albums/AGAIN.jpg", "ArtistID": 42 }, { "ID": 113, "Name": "COLOR", "Thumb": "albums/COLOR.jpg", "ArtistID": 42 }, { "ID": 114, "Name": "remember", "Thumb": "albums/remember.jpg", "ArtistID": 49 }, { "ID": 115, "Name": "Low", "Thumb": "albums/Low.jpg", "ArtistID": 51 }, { "ID": 116, "Name": "Re:Contact", "Thumb": "albums/ReContact.jpg", "ArtistID": 52 }, { "ID": 117, "Name": "summertime", "Thumb": "albums/summertime.jpg", "ArtistID": 53 }, { "ID": 118, "Name": "SANCTUARYⅡ 〜Minori Chihara Best Album〜 (Artist Edition)", "Thumb": "albums/SANCTUARYⅡ 〜Minori Chihara Best Album〜 (Artist Edition).jpg", "ArtistID": 52 }, { "ID": 119, "Name": "BEST All Singles&Covers Hits", "Thumb": "albums/BEST All Singles&Covers Hits.jpg", "ArtistID": 45 }, { "ID": 120, "Name": "Re:I", "Thumb": "albums/ReI.jpg", "ArtistID": 55 }, { "ID": 121, "Name": "NAMIDA CARATS", "Thumb": "albums/NAMIDA CARATS.jpg", "ArtistID": 39 }, { "ID": 122, "Name": "アニップス", "Thumb": "albums/アニップス.jpg", "ArtistID": 56 }, { "ID": 123, "Name": "日常ドラマチック", "Thumb": "albums/日常ドラマチック.jpg", "ArtistID": 57 }, { "ID": 124, "Name": "TOHO BOSSA NOVA 2", "Thumb": "albums/TOHO BOSSA NOVA 2.jpg", "ArtistID": 58 }, { "ID": 125, "Name": "今夜きみが怖い夢を見ませんように", "Thumb": "albums/今夜きみが怖い夢を見ませんように.jpg", "ArtistID": 59 }, { "ID": 126, "Name": "君に出逢えて", "Thumb": "albums/君に出逢えて.jpg", "ArtistID": 60 }, { "ID": 127, "Name": "夜撫でるメノウ / 幽霊東京", "Thumb": "albums/夜撫でるメノウ  幽霊東京.jpg", "ArtistID": 35 }, { "ID": 128, "Name": "Utamonogatari Special Edition (Original Soundtrack)", "Thumb": "albums/Utamonogatari Special Edition (Original Soundtrack).jpg", "ArtistID": 61 }, { "ID": 129, "Name": "明日がくるなら", "Thumb": "albums/明日がくるなら.jpg", "ArtistID": 62 }, { "ID": 130, "Name": "百満開花", "Thumb": "albums/百満開花.jpg", "ArtistID": 60 }, { "ID": 131, "Name": "エスカパレード", "Thumb": "albums/エスカパレード.jpg", "ArtistID": 63 }, { "ID": 132, "Name": "LOST IN PARADISE", "Thumb": "albums/LOST IN PARADISE.jpg", "ArtistID": 64 }, { "ID": 133, "Name": "ダンスホール", "Thumb": "albums/ダンスホール.jpg", "ArtistID": 65 }, { "ID": 134, "Name": "朗らかな皮膚とて不服", "Thumb": "albums/朗らかな皮膚とて不服.jpg", "ArtistID": 66 }, { "ID": 135, "Name": "又三郎", "Thumb": "albums/又三郎.jpg", "ArtistID": 67 }, { "ID": 136, "Name": "夜行", "Thumb": "albums/夜行.jpg", "ArtistID": 67 }, { "ID": 137, "Name": "思想犯", "Thumb": "albums/思想犯.jpg", "ArtistID": 67 }, { "ID": 138, "Name": "春泥棒", "Thumb": "albums/春泥棒.jpg", "ArtistID": 67 }, { "ID": 139, "Name": "盗作", "Thumb": "albums/盗作.jpg", "ArtistID": 67 }, { "ID": 140, "Name": "正しい偽りからの起床", "Thumb": "albums/正しい偽りからの起床.jpg", "ArtistID": 66 }, { "ID": 141, "Name": "沈香学", "Thumb": "albums/沈香学.jpg", "ArtistID": 66 }, { "ID": 142, "Name": "藍二乗", "Thumb": "albums/藍二乗.jpg", "ArtistID": 67 }, { "ID": 143, "Name": "雨とカプチーノ", "Thumb": "albums/雨とカプチーノ.jpg", "ArtistID": 67 }, { "ID": 144, "Name": "風を食む", "Thumb": "albums/風を食む.jpg", "ArtistID": 67 }, { "ID": 145, "Name": "幻燈", "Thumb": "albums/幻燈.jpg", "ArtistID": 67 }, { "ID": 146, "Name": "ぐされ", "Thumb": "albums/ぐされ.jpg", "ArtistID": 66 }, { "ID": 147, "Name": "これくしょん2", "Thumb": "albums/これくしょん2.jpg", "ArtistID": 40 }, { "ID": 148, "Name": "Smile", "Thumb": "albums/Smile.jpg", "ArtistID": 31 }, { "ID": 149, "Name": "夏草が邪魔をする", "Thumb": "albums/夏草が邪魔をする.jpg", "ArtistID": 67 }, { "ID": 150, "Name": "負け犬にアンコールはいらない", "Thumb": "albums/負け犬にアンコールはいらない.jpg", "ArtistID": 67 }, { "ID": 151, "Name": "Clumsy", "Thumb": "albums/Clumsy.jpg", "ArtistID": 40 }, { "ID": 152, "Name": "Kaizin", "Thumb": "albums/Kaizin.jpg", "ArtistID": 69 }, { "ID": 153, "Name": "これくしょん ヴァイナル", "Thumb": "albums/これくしょん ヴァイナル.jpg", "ArtistID": 40 }, { "ID": 154, "Name": "だから僕は音楽を辞めた", "Thumb": "albums/だから僕は音楽を辞めた.jpg", "ArtistID": 67 }, { "ID": 155, "Name": "Attitude", "Thumb": "albums/Attitude.jpg", "ArtistID": 65 }, { "ID": 156, "Name": "Chime", "Thumb": "albums/Chime.jpg", "ArtistID": 70 }, { "ID": 157, "Name": "7月の翼", "Thumb": "albums/7月の翼.jpg", "ArtistID": 71 }, { "ID": 158, "Name": "Ref:rain / 眩いばかり", "Thumb": "albums/Refrain  眩いばかり.jpg", "ArtistID": 71 }, { "ID": 159, "Name": "あなたが決めた今日なら", "Thumb": "albums/あなたが決めた今日なら.jpg", "ArtistID": 42 }, { "ID": 160, "Name": "Editorial", "Thumb": "albums/Editorial.jpg", "ArtistID": 63 }, { "ID": 161, "Name": "PROUD", "Thumb": "albums/PROUD.jpg", "ArtistID": 42 }, { "ID": 162, "Name": "collection vinyl", "Thumb": "albums/collection vinyl.jpg", "ArtistID": 40 }, { "ID": 163, "Name": "My Way", "Thumb": "albums/My Way.jpg", "ArtistID": 42 }, { "ID": 164, "Name": "Y/our Song", "Thumb": "albums/Your Song.jpg", "ArtistID": 45 }, { "ID": 165, "Name": "星の消えた夜に", "Thumb": "albums/星の消えた夜に.jpg", "ArtistID": 71 }, { "ID": 166, "Name": "Otogi", "Thumb": "albums/Otogi.jpg", "ArtistID": 31 }, { "ID": 167, "Name": "Bitter & Sweet", "Thumb": "albums/Bitter & Sweet.jpg", "ArtistID": 71 }, { "ID": 168, "Name": "Kobasolo Cover", "Thumb": "albums/Kobasolo Cover.jpg", "ArtistID": 40 }, { "ID": 169, "Name": "LANDSPACE", "Thumb": "albums/LANDSPACE.jpg", "ArtistID": 73 }, { "ID": 170, "Name": "ALL TIME ROCK N ROLL", "Thumb": "albums/ALL TIME ROCK N ROLL.jpg", "ArtistID": 74 }, { "ID": 171, "Name": "潜潜話", "Thumb": "albums/潜潜話.jpg", "ArtistID": 66 }, { "ID": 172, "Name": "So What?", "Thumb": "albums/So What.jpg", "ArtistID": 75 }, { "ID": 173, "Name": "Fukashigi No Carte \"Bunny Girl Senpai\"", "Thumb": "albums/Fukashigi No Carte Bunny Girl Senpai.jpg", "ArtistID": 76 }, { "ID": 174, "Name": "Shinsekai PLUS", "Thumb": "albums/Shinsekai PLUS.jpg", "ArtistID": 77 }, { "ID": 175, "Name": "選んでデート・ア・ライブ 〜DATE A LIVE BEST SELECTION〜", "Thumb": "albums/選んでデート・ア・ライブ 〜DATE A LIVE BEST SELECTION〜.jpg", "ArtistID": 78 }, { "ID": 176, "Name": "Linkage Ring", "Thumb": "albums/Linkage Ring.jpg", "ArtistID": 79 }, { "ID": 177, "Name": "はじまりの時", "Thumb": "albums/はじまりの時.jpg", "ArtistID": 42 }, { "ID": 178, "Name": "Happy encount", "Thumb": "albums/Happy encount.jpg", "ArtistID": 80 }, { "ID": 179, "Name": "Butterflies", "Thumb": "albums/Butterflies.jpg", "ArtistID": 81 }, { "ID": 180, "Name": "Here", "Thumb": "albums/Here.jpg", "ArtistID": 82 }, { "ID": 181, "Name": "Weathering With You", "Thumb": "albums/Weathering With You.jpg", "ArtistID": 83 }, { "ID": 182, "Name": "Savior Takayan!", "Thumb": "albums/Savior Takayan!.jpg", "ArtistID": 34 }, { "ID": 183, "Name": "Jasmine", "Thumb": "albums/Jasmine.jpg", "ArtistID": 70 }, { "ID": 184, "Name": "Just disappear", "Thumb": "albums/Just disappear.jpg", "ArtistID": 34 }, { "ID": 185, "Name": "Night Rainbow", "Thumb": "albums/Night Rainbow.jpg", "ArtistID": 85 }, { "ID": 186, "Name": "AMUSIC", "Thumb": "albums/AMUSIC.jpg", "ArtistID": 70 }, { "ID": 187, "Name": "Familia", "Thumb": "albums/Familia.jpg", "ArtistID": 70 }, { "ID": 188, "Name": "Violet Cry", "Thumb": "albums/Violet Cry.jpg", "ArtistID": 79 }, { "ID": 189, "Name": "Will", "Thumb": "albums/Will.jpg", "ArtistID": 55 }, { "ID": 190, "Name": "デート・ア・ライブ キャラクターソングコレクション", "Thumb": "albums/デート・ア・ライブ キャラクターソングコレクション.jpg", "ArtistID": 78 }, { "ID": 191, "Name": "Natsurenbo", "Thumb": "albums/Natsurenbo.jpg", "ArtistID": 40 }, { "ID": 192, "Name": "翼", "Thumb": "albums/翼.jpg", "ArtistID": 42 }, { "ID": 193, "Name": "Traveler", "Thumb": "albums/Traveler.jpg", "ArtistID": 63 }, { "ID": 194, "Name": "Minori with Strings Quartet 〜弦楽四重奏の調べ〜", "Thumb": "albums/Minori with Strings Quartet 〜弦楽四重奏の調べ〜.jpg", "ArtistID": 52 }, { "ID": 195, "Name": "Launcher", "Thumb": "albums/Launcher.jpg", "ArtistID": 73 }, { "ID": 196, "Name": "THE BOOK 2", "Thumb": "albums/THE BOOK 2.jpg", "ArtistID": 86 }, { "ID": 197, "Name": "Shake & Shake", "Thumb": "albums/Shake & Shake.jpg", "ArtistID": 70 }, { "ID": 198, "Name": "SHOCK!", "Thumb": "albums/SHOCK!.jpg", "ArtistID": 35 }, { "ID": 199, "Name": "Lonely Queens Liberation Party", "Thumb": "albums/Lonely Queens Liberation Party.jpg", "ArtistID": 80 }, { "ID": 200, "Name": "Human Bloom", "Thumb": "albums/Human Bloom.jpg", "ArtistID": 83 }, { "ID": 201, "Name": "青二才", "Thumb": "albums/青二才.jpg", "ArtistID": 87 }, { "ID": 202, "Name": "Toy", "Thumb": "albums/Toy.jpg", "ArtistID": 34 }, { "ID": 203, "Name": "Equal / Traveling", "Thumb": "albums/Equal  Traveling.jpg", "ArtistID": 70 }, { "ID": 204, "Name": "SHINE", "Thumb": "albums/SHINE.jpg", "ArtistID": 42 }, { "ID": 205, "Name": "Who Are You", "Thumb": "albums/Who Are You.jpg", "ArtistID": 42 }, { "ID": 206, "Name": "WILL", "Thumb": "albums/WILL.jpg", "ArtistID": 80 }, { "ID": 207, "Name": "you", "Thumb": "albums/you.jpg", "ArtistID": 60 }, { "ID": 208, "Name": "ジェリーフィッシュ (feat. ローラーガール)", "Thumb": "albums/ジェリーフィッシュ (feat. ローラーガール).jpg", "ArtistID": 88 }, { "ID": 209, "Name": "THE BOOK", "Thumb": "albums/THE BOOK.jpg", "ArtistID": 86 }, { "ID": 210, "Name": "さくら 〜あなたに出会えてよかった〜", "Thumb": "albums/さくら 〜あなたに出会えてよかった〜.jpg", "ArtistID": 51 }, { "ID": 211, "Name": "渋谷純愛物語", "Thumb": "albums/渋谷純愛物語.jpg", "ArtistID": 42 }, { "ID": 212, "Name": "ふたりきりルームシアター", "Thumb": "albums/ふたりきりルームシアター.jpg", "ArtistID": 60 }, { "ID": 213, "Name": "また君と", "Thumb": "albums/また君と.jpg", "ArtistID": 42 }, { "ID": 214, "Name": "SPIRAL", "Thumb": "albums/SPIRAL.jpg", "ArtistID": 52 }, { "ID": 215, "Name": "ゆのもきゅ", "Thumb": "albums/ゆのもきゅ.jpg", "ArtistID": 88 }, { "ID": 216, "Name": "Harmonize e.p", "Thumb": "albums/Harmonize e.p.jpg", "ArtistID": 70 }, { "ID": 217, "Name": "スパイシーチョコレート BEST OF LOVE SONGS", "Thumb": "albums/スパイシーチョコレート BEST OF LOVE SONGS.jpg", "ArtistID": 42 }, { "ID": 218, "Name": "Dr.Izzy", "Thumb": "albums/Dr.Izzy.jpg", "ArtistID": 89 }, { "ID": 219, "Name": "シンシアリー", "Thumb": "albums/シンシアリー.jpg", "ArtistID": 60 }, { "ID": 220, "Name": "shimamo", "Thumb": "albums/shimamo.jpg", "ArtistID": 60 }, { "ID": 221, "Name": "I co Y", "Thumb": "albums/I co Y.jpg", "ArtistID": 70 }, { "ID": 222, "Name": "ツーアウトロマンス", "Thumb": "albums/ツーアウトロマンス.jpg", "ArtistID": 60 }, { "ID": 223, "Name": "Shake & Shake / ナイトウォーカー", "Thumb": "albums/Shake & Shake  ナイトウォーカー.jpg", "ArtistID": 70 }, { "ID": 224, "Name": "パレード", "Thumb": "albums/パレード.jpg", "ArtistID": 68 }, { "ID": 225, "Name": "フロム", "Thumb": "albums/フロム.jpg", "ArtistID": 80 }, { "ID": 226, "Name": "ブレーメン", "Thumb": "albums/ブレーメン.jpg", "ArtistID": 68 }, { "ID": 227, "Name": "BEST SELECTION \"blanc\"", "Thumb": "albums/BEST SELECTION blanc.jpg", "ArtistID": 71 }, { "ID": 228, "Name": "ミスター", "Thumb": "albums/ミスター.jpg", "ArtistID": 86 }, { "ID": 229, "Name": "ありがとう、だいすき", "Thumb": "albums/ありがとう、だいすき.jpg", "ArtistID": 52 }, { "ID": 230, "Name": "ミラーチューン", "Thumb": "albums/ミラーチューン.jpg", "ArtistID": 66 }, { "ID": 231, "Name": "Innocent Age", "Thumb": "albums/Innocent Age.jpg", "ArtistID": 52 }, { "ID": 232, "Name": "リタルダンド", "Thumb": "albums/リタルダンド.jpg", "ArtistID": 70 }, { "ID": 233, "Name": "Milk", "Thumb": "albums/Milk.jpg", "ArtistID": 91 }, { "ID": 234, "Name": "好きだ", "Thumb": "albums/好きだ.jpg", "ArtistID": 86 }, { "ID": 235, "Name": "好きになってよかったな", "Thumb": "albums/好きになってよかったな.jpg", "ArtistID": 60 }, { "ID": 236, "Name": "本音", "Thumb": "albums/本音.jpg", "ArtistID": 70 }, { "ID": 237, "Name": "正しくなれない (From THE FIRST TAKE)", "Thumb": "albums/正しくなれない (From THE FIRST TAKE).jpg", "ArtistID": 66 }, { "ID": 238, "Name": "四季うた summer", "Thumb": "albums/四季うた summer.jpg", "ArtistID": 45 }, { "ID": 239, "Name": "COVERS 3", "Thumb": "albums/COVERS 3.jpg", "ArtistID": 45 }, { "ID": 240, "Name": "真っ裸", "Thumb": "albums/真っ裸.jpg", "ArtistID": 87 }, { "ID": 241, "Name": "祝祭", "Thumb": "albums/祝祭.jpg", "ArtistID": 70 }, { "ID": 242, "Name": "絶頂讃歌", "Thumb": "albums/絶頂讃歌.jpg", "ArtistID": 87 }, { "ID": 243, "Name": "花に亡霊", "Thumb": "albums/花に亡霊.jpg", "ArtistID": 68 }, { "ID": 244, "Name": "Negai / Higher Ground", "Thumb": "albums/Negai  Higher Ground.jpg", "ArtistID": 70 }, { "ID": 245, "Name": "飽和 / シネマ", "Thumb": "albums/飽和  シネマ.jpg", "ArtistID": 35 }, { "ID": 246, "Name": "Htrol Remix", "Thumb": "albums/Htrol Remix.jpg", "ArtistID": 92 }, { "ID": 247, "Name": "Against The Sun", "Thumb": "albums/Against The Sun.jpg", "ArtistID": 93 }, { "ID": 248, "Name": "Anything Anymore", "Thumb": "albums/Anything Anymore.jpg", "ArtistID": 94 }, { "ID": 249, "Name": "Anywhere I Go", "Thumb": "albums/Anywhere I Go.jpg", "ArtistID": 95 }, { "ID": 250, "Name": "Are You Lonely", "Thumb": "albums/Are You Lonely.jpg", "ArtistID": 16 }, { "ID": 251, "Name": "True Colors", "Thumb": "albums/True Colors.jpg", "ArtistID": 96 }, { "ID": 252, "Name": "Body Back (feat. Maia Wright)", "Thumb": "albums/Body Back (feat. Maia Wright).jpg", "ArtistID": 97 }, { "ID": 253, "Name": "NCS is Love, NCS is Life, Vol. 1", "Thumb": "albums/NCS is Love, NCS is Life, Vol. 1.jpg", "ArtistID": 7 }, { "ID": 254, "Name": "ALL OUT", "Thumb": "albums/ALL OUT.jpg", "ArtistID": 17 }, { "ID": 255, "Name": "End of Time", "Thumb": "albums/End of Time.jpg", "ArtistID": 16 }, { "ID": 256, "Name": "Pharmacy", "Thumb": "albums/Pharmacy.jpg", "ArtistID": 98 }, { "ID": 257, "Name": "Frame of Mind", "Thumb": "albums/Frame of Mind.jpg", "ArtistID": 99 }, { "ID": 258, "Name": "GIANTS", "Thumb": "albums/GIANTS.jpg", "ArtistID": 17 }, { "ID": 259, "Name": "GODS", "Thumb": "albums/GODS.jpg", "ArtistID": 17 }, { "ID": 260, "Name": "heart afire", "Thumb": "albums/heart afire.jpg", "ArtistID": 100 }, { "ID": 261, "Name": "Ignite (2016 League Of Legends World Championship)", "Thumb": "albums/Ignite (2016 League Of Legends World Championship).jpg", "ArtistID": 96 }, { "ID": 262, "Name": "Ignite", "Thumb": "albums/Ignite.jpg", "ArtistID": 16 }, { "ID": 263, "Name": "Inside the Lines", "Thumb": "albums/Inside the Lines.jpg", "ArtistID": 101 }, { "ID": 264, "Name": "Unknown", "Thumb": "albums/Unknown.jpg", "ArtistID": 102 }, { "ID": 265, "Name": "Lights Go Down (Radio Mix) [feat. Curtains]", "Thumb": "albums/Lights Go Down (Radio Mix) [feat. Curtains].jpg", "ArtistID": 103 }, { "ID": 266, "Name": "Linked", "Thumb": "albums/Linked.jpg", "ArtistID": 7 }, { "ID": 267, "Name": "<I°_°I>", "Thumb": "albums/Sad Robot.jpg", "ArtistID": 104 }, { "ID": 268, "Name": "This Is Acting (Deluxe Version)", "Thumb": "albums/This Is Acting (Deluxe Version).jpg", "ArtistID": 16 }, { "ID": 269, "Name": "Never Coming Home (feat. Kinley)", "Thumb": "albums/Never Coming Home (feat. Kinley).jpg", "ArtistID": 106 }, { "ID": 270, "Name": "Nightcore", "Thumb": "albums/Nightcore.jpg", "ArtistID": 107 }, { "ID": 271, "Name": "Nothing Stopping Me", "Thumb": "albums/Nothing Stopping Me.jpg", "ArtistID": 95 }, { "ID": 272, "Name": "Numb (feat. Johnning)", "Thumb": "albums/Numb (feat. Johnning).jpg", "ArtistID": 108 }, { "ID": 273, "Name": "On the Line", "Thumb": "albums/On the Line.jpg", "ArtistID": 109 }, { "ID": 274, "Name": "Our Story (Radio Edit)", "Thumb": "albums/Our Story (Radio Edit).jpg", "ArtistID": 110 }, { "ID": 275, "Name": "Phoenix", "Thumb": "albums/Phoenix.jpg", "ArtistID": 111 }, { "ID": 276, "Name": "Play", "Thumb": "albums/Play.jpg", "ArtistID": 16 }, { "ID": 277, "Name": "POP/STARS", "Thumb": "albums/POPSTARS.jpg", "ArtistID": 17 }, { "ID": 278, "Name": "Red Line", "Thumb": "albums/Red Line.jpg", "ArtistID": 93 }, { "ID": 279, "Name": "RISE", "Thumb": "albums/RISE-LOL.jpg", "ArtistID": 17 }, { "ID": 280, "Name": "The Future", "Thumb": "albums/The Future.jpg", "ArtistID": 112 }, { "ID": 281, "Name": "Saving Light", "Thumb": "albums/Saving Light.jpg", "ArtistID": 113 }, { "ID": 282, "Name": "Hourglass", "Thumb": "albums/Hourglass.jpg", "ArtistID": 110 }, { "ID": 283, "Name": "Start Again", "Thumb": "albums/Start Again.jpg", "ArtistID": 114 }, { "ID": 284, "Name": "Summer Air", "Thumb": "albums/Summer Air.jpg", "ArtistID": 115 }, { "ID": 285, "Name": "Blood, Sweat & 3 Years", "Thumb": "albums/Blood, Sweat & 3 Years.jpg", "ArtistID": 116 }, { "ID": 286, "Name": "The Spectre", "Thumb": "albums/The Spectre.jpg", "ArtistID": 16 }, { "ID": 287, "Name": "Thunder", "Thumb": "albums/Thunder.jpg", "ArtistID": 117 }, { "ID": 288, "Name": "Till Its Over", "Thumb": "albums/Till Its Over.jpg", "ArtistID": 99 }, { "ID": 289, "Name": "Untouchable", "Thumb": "albums/Untouchable.jpg", "ArtistID": 118 }, { "ID": 290, "Name": "Walk Thru Fire", "Thumb": "albums/Walk Thru Fire.jpg", "ArtistID": 95 }, { "ID": 291, "Name": "AVĪCI (01)", "Thumb": "albums/AVĪCI (01).jpg", "ArtistID": 119 }, { "ID": 292, "Name": "Wild Youth", "Thumb": "albums/Wild Youth.jpg", "ArtistID": 120 }, { "ID": 293, "Name": "Illuminate... (The Hits and More)", "Thumb": "albums/Illuminate... (The Hits and More).jpg", "ArtistID": 121 }, { "ID": 294, "Name": "JORDI (Deluxe)", "Thumb": "albums/JORDI (Deluxe).jpg", "ArtistID": 122 }, { "ID": 295, "Name": "Nine Track Mind", "Thumb": "albums/Nine Track Mind.jpg", "ArtistID": 123 }, { "ID": 296, "Name": "All Falls Down (feat. Juliander)", "Thumb": "albums/All Falls Down (feat. Juliander).jpg", "ArtistID": 16 }, { "ID": 297, "Name": "Alone, Pt. II", "Thumb": "albums/Alone, Pt. II.jpg", "ArtistID": 16 }, { "ID": 298, "Name": "Alone", "Thumb": "albums/Alone.jpg", "ArtistID": 16 }, { "ID": 299, "Name": "Voicenotes", "Thumb": "albums/Voicenotes.jpg", "ArtistID": 123 }, { "ID": 300, "Name": "Awake", "Thumb": "albums/Awake.jpg", "ArtistID": 124 }, { "ID": 301, "Name": "Save Me", "Thumb": "albums/Save Me.jpg", "ArtistID": 125 }, { "ID": 302, "Name": "Gravity", "Thumb": "albums/Gravity.jpg", "ArtistID": 97 }, { "ID": 303, "Name": "Daily (feat. Jon Becker)", "Thumb": "albums/Daily (feat. Jon Becker).jpg", "ArtistID": 126 }, { "ID": 304, "Name": "Meet The Orphans", "Thumb": "albums/Meet The Orphans.jpg", "ArtistID": 127 }, { "ID": 305, "Name": "Darkside", "Thumb": "albums/Darkside.jpg", "ArtistID": 16 }, { "ID": 306, "Name": "VIDA", "Thumb": "albums/VIDA.jpg", "ArtistID": 128 }, { "ID": 307, "Name": "Diamond Heart", "Thumb": "albums/Diamond Heart.jpg", "ArtistID": 16 }, { "ID": 308, "Name": "Different World (feat. CORSAK)", "Thumb": "albums/Different World (feat. CORSAK).jpg", "ArtistID": 16 }, { "ID": 309, "Name": "Faded", "Thumb": "albums/Faded.jpg", "ArtistID": 16 }, { "ID": 310, "Name": "Fading", "Thumb": "albums/Fading.jpg", "ArtistID": 129 }, { "ID": 311, "Name": "Fake A Smile", "Thumb": "albums/Fake A Smile.jpg", "ArtistID": 16 }, { "ID": 312, "Name": "Forever Young", "Thumb": "albums/Forever Young.jpg", "ArtistID": 130 }, { "ID": 313, "Name": "Heading Home", "Thumb": "albums/Heading Home.jpg", "ArtistID": 16 }, { "ID": 314, "Name": "Headlights (feat. KIDDO)", "Thumb": "albums/Headlights (feat. KIDDO).jpg", "ArtistID": 16 }, { "ID": 315, "Name": "Walkerverse Pt. I & II", "Thumb": "albums/Walkerverse Pt. I & II.jpg", "ArtistID": 16 }, { "ID": 316, "Name": "At Night, Alone.", "Thumb": "albums/At Night, Alone..jpg", "ArtistID": 131 }, { "ID": 317, "Name": "Heaven & Hell", "Thumb": "albums/Heaven & Hell.jpg", "ArtistID": 132 }, { "ID": 318, "Name": "Legends Never Die", "Thumb": "albums/Legends Never Die.jpg", "ArtistID": 17 }, { "ID": 319, "Name": "Different World", "Thumb": "albums/Different World.jpg", "ArtistID": 16 }, { "ID": 320, "Name": "Love How It Hurts (feat. Tina Stachowiak)", "Thumb": "albums/Love How It Hurts (feat. Tina Stachowiak).jpg", "ArtistID": 133 }, { "ID": 321, "Name": "V (Asia Tour Edition)", "Thumb": "albums/V (Asia Tour Edition).jpg", "ArtistID": 122 }, { "ID": 322, "Name": "Meant To Be", "Thumb": "albums/Meant To Be.jpg", "ArtistID": 134 }, { "ID": 323, "Name": "Miracles (feat. Tina Stachowiak)", "Thumb": "albums/Miracles (feat. Tina Stachowiak).jpg", "ArtistID": 133 }, { "ID": 324, "Name": "Next To Me (feat. Tina Stachowiak)", "Thumb": "albums/Next To Me (feat. Tina Stachowiak).jpg", "ArtistID": 133 }, { "ID": 325, "Name": "World Of Walker", "Thumb": "albums/World Of Walker.jpg", "ArtistID": 16 }, { "ID": 326, "Name": "Overexposed Track By Track", "Thumb": "albums/Overexposed Track By Track.jpg", "ArtistID": 122 }, { "ID": 327, "Name": "Magnets EP", "Thumb": "albums/Magnets EP.jpg", "ArtistID": 135 }, { "ID": 328, "Name": "PS5 (with TOMORROW X TOGETHER & Alan Walker)", "Thumb": "albums/PS5 (with TOMORROW X TOGETHER & Alan Walker).jpg", "ArtistID": 16 }, { "ID": 329, "Name": "New Eyes", "Thumb": "albums/New Eyes.jpg", "ArtistID": 136 }, { "ID": 330, "Name": "What Is Love? (Deluxe Edition)", "Thumb": "albums/What Is Love (Deluxe Edition).jpg", "ArtistID": 136 }, { "ID": 331, "Name": "Sad Story (Out Of Luck)", "Thumb": "albums/Sad Story (Out Of Luck).jpg", "ArtistID": 137 }, { "ID": 332, "Name": "Shawn Mendes (Deluxe)", "Thumb": "albums/Shawn Mendes (Deluxe).jpg", "ArtistID": 138 }, { "ID": 333, "Name": "Shelter", "Thumb": "albums/Shelter.jpg", "ArtistID": 139 }, { "ID": 334, "Name": "Sing Me to Sleep", "Thumb": "albums/Sing Me to Sleep.jpg", "ArtistID": 16 }, { "ID": 335, "Name": "STAR WALKIN (League of Legends Worlds Anthem)", "Thumb": "albums/STAR WALKIN (League of Legends Worlds Anthem).jpg", "ArtistID": 140 }, { "ID": 336, "Name": "Stay Young", "Thumb": "albums/Stay Young.jpg", "ArtistID": 101 }, { "ID": 337, "Name": "Strongest (Alan Walker Remix)", "Thumb": "albums/Strongest (Alan Walker Remix).jpg", "ArtistID": 16 }, { "ID": 338, "Name": "The Ocean (feat. Shy Martin)", "Thumb": "albums/The Ocean (feat. Shy Martin).jpg", "ArtistID": 101 }, { "ID": 339, "Name": "Tired", "Thumb": "albums/Tired.jpg", "ArtistID": 16 }, { "ID": 340, "Name": "lost", "Thumb": "albums/lost.jpg", "ArtistID": 141 }, { "ID": 341, "Name": "Waiting", "Thumb": "albums/Waiting.jpg", "ArtistID": 95 }, { "ID": 342, "Name": "Way Back", "Thumb": "albums/Way Back.jpg", "ArtistID": 95 }, { "ID": 343, "Name": "World We Used To Know", "Thumb": "albums/World We Used To Know.jpg", "ArtistID": 16 }, { "ID": 344, "Name": "Worlds Collide", "Thumb": "albums/Worlds Collide.jpg", "ArtistID": 17 }, { "ID": 345, "Name": "Wrap Me In Plastic (Marcus Layton Radio Edit)", "Thumb": "albums/Wrap Me In Plastic (Marcus Layton Radio Edit).jpg", "ArtistID": 142 }, { "ID": 346, "Name": "You and I", "Thumb": "albums/You and I.jpg", "ArtistID": 143 }, { "ID": 347, "Name": "NieR Replicant ver.1.22 - Original Soundtrack", "Thumb": "albums/NieR Replicant ver.1.22 - Original Soundtrack.jpg", "ArtistID": 144 }, { "ID": 348, "Name": "NieR Automata - Orchestral Arrangement Album", "Thumb": "albums/NieR Automata - Orchestral Arrangement Album.jpg", "ArtistID": 145 }, { "ID": 349, "Name": "NieR Gestalt - Owari no Uta Mini Album", "Thumb": "albums/NieR Gestalt - Owari no Uta Mini Album.jpg", "ArtistID": 146 }, { "ID": 350, "Name": "NieR - Music Concert CD (The Memories of Puppets)", "Thumb": "albums/NieR - Music Concert CD (The Memories of Puppets).jpg", "ArtistID": 147 }, { "ID": 351, "Name": "NieR Automata - Original Soundtrack", "Thumb": "albums/NieR Automata - Original Soundtrack.jpg", "ArtistID": 147 }, { "ID": 352, "Name": "NieR Replicant ver.1.22 - Lunar Tear Soundtrack", "Thumb": "albums/NieR Replicant ver.1.22 - Lunar Tear Soundtrack.jpg", "ArtistID": 148 }, { "ID": 353, "Name": "NieR Replicant ver.1.22 - Weiss Soundtrack", "Thumb": "albums/NieR Replicant ver.1.22 - Weiss Soundtrack.jpg", "ArtistID": 149 }, { "ID": 354, "Name": "NieR Automata - Arranged & Unreleased", "Thumb": "albums/NieR Automata - Arranged & Unreleased.jpg", "ArtistID": 150 }, { "ID": 355, "Name": "NieR Gestalt & Replicant - Original Soundtrack", "Thumb": "albums/NieR Gestalt & Replicant - Original Soundtrack.jpg", "ArtistID": 151 }, { "ID": 356, "Name": "FINAL FANTASY BRAVE EXVIUS Original Soundtrack", "Thumb": "albums/FINAL FANTASY BRAVE EXVIUS Original Soundtrack.jpg", "ArtistID": 152 }, { "ID": 357, "Name": "NieR - Orchestral Arrangement Album - Addendum", "Thumb": "albums/NieR - Orchestral Arrangement Album - Addendum.jpg", "ArtistID": 145 }, { "ID": 358, "Name": "NieR Re[in]carnation - Original Soundtrack", "Thumb": "albums/NieR Re[in]carnation - Original Soundtrack.jpg", "ArtistID": 153 }, { "ID": 359, "Name": "NieR Replicant - Uragiri no Koe Mini Album", "Thumb": "albums/NieR Replicant - Uragiri no Koe Mini Album.jpg", "ArtistID": 146 }, { "ID": 360, "Name": "Piano Collections NieR:Automata", "Thumb": "albums/Piano Collections NieRAutomata.jpg", "ArtistID": 154 }, { "ID": 361, "Name": "NieR Gestalt & Replicant - Orchestral Arrangement Album", "Thumb": "albums/NieR Gestalt & Replicant - Orchestral Arrangement Album.jpg", "ArtistID": 145 }, { "ID": 362, "Name": "NieR - Music Concert & Talk Live Soundtrack", "Thumb": "albums/NieR - Music Concert & Talk Live Soundtrack.jpg", "ArtistID": 147 }, { "ID": 363, "Name": "Piano Collections NieR Gestalt & Replicant", "Thumb": "albums/Piano Collections NieR Gestalt & Replicant.jpg", "ArtistID": 155 }, { "ID": 364, "Name": "NieR Gestalt & Replicant - Jazz Arrange Version [EP]", "Thumb": "albums/NieR Gestalt & Replicant - Jazz Arrange Version [EP].jpg", "ArtistID": 156 }, { "ID": 365, "Name": "NieR Replicant - 10+1 Years - Emil", "Thumb": "albums/NieR Replicant - 10+1 Years - Emil.jpg", "ArtistID": 148 }, { "ID": 366, "Name": "NieR Replicant - 10+1 Years - Kainé", "Thumb": "albums/NieR Replicant - 10+1 Years - Kainé.jpg", "ArtistID": 155 }, { "ID": 367, "Name": "NieR - Orchestral Arrangement Album - Addendum Special Disc", "Thumb": "albums/NieR - Orchestral Arrangement Album - Addendum Special Disc.jpg", "ArtistID": 145 }, { "ID": 368, "Name": "NieR Replicant - 10+1 Years - Devola & Popola", "Thumb": "albums/NieR Replicant - 10+1 Years - Devola & Popola.jpg", "ArtistID": 159 }, { "ID": 369, "Name": "NieR Replicant - 10+1 Years - Nier", "Thumb": "albums/NieR Replicant - 10+1 Years - Nier.jpg", "ArtistID": 155 }, { "ID": 370, "Name": "NieR - Orchestral Arrangement Special Disc", "Thumb": "albums/NieR - Orchestral Arrangement Special Disc.jpg", "ArtistID": 162 }, { "ID": 371, "Name": "NieR - Become As Gods", "Thumb": "albums/NieR - Become As Gods.jpg", "ArtistID": 163 }, { "ID": 372, "Name": "NieR Gestalt & Replicant - 15 Nightmares & Arrange Tracks", "Thumb": "albums/NieR Gestalt & Replicant - 15 Nightmares & Arrange Tracks.jpg", "ArtistID": 155 }];
-var Artists = [{ "ID": 0, "Name": "NIVIRO", "Thumb": "artists/NIVIRO.jpg" }, { "ID": 1, "Name": "Defqwop", "Thumb": "artists/Defqwop.jpg" }, { "ID": 2, "Name": "Brooks, Molly Ann, IZECOLD", "Thumb": "artists/Brooks, Molly Ann, IZECOLD.jpg" }, { "ID": 3, "Name": "Tobu, Itro", "Thumb": "artists/Tobu, Itro.jpg" }, { "ID": 4, "Name": "Tobu", "Thumb": "artists/Tobu.jpg" }, { "ID": 5, "Name": "Virtual Riot", "Thumb": "artists/Virtual Riot.jpg" }, { "ID": 6, "Name": "Elektronomia", "Thumb": "artists/Elektronomia.jpg" }, { "ID": 7, "Name": "Jim Yosef", "Thumb": "artists/Jim Yosef.jpg" }, { "ID": 8, "Name": "Ahxello", "Thumb": "artists/Ahxello.jpg" }, { "ID": 9, "Name": "Doctor Vox", "Thumb": "artists/Doctor Vox.jpg" }, { "ID": 10, "Name": "Panda Eyes", "Thumb": "artists/Panda Eyes.jpg" }, { "ID": 11, "Name": "Razihel, TeamMate, Hyper Potions", "Thumb": "artists/Razihel, TeamMate, Hyper Potions.jpg" }, { "ID": 12, "Name": "Ampyx", "Thumb": "artists/Ampyx.jpg" }, { "ID": 13, "Name": "Distrion, Electro-Light", "Thumb": "artists/Distrion, Electro-Light.jpg" }, { "ID": 14, "Name": "Hoaprox", "Thumb": "artists/Hoaprox.jpg" }, { "ID": 15, "Name": "Steerner, Martell", "Thumb": "artists/Steerner, Martell.jpg" }, { "ID": 16, "Name": "Alan Walker", "Thumb": "artists/Alan Walker.jpg" }, { "ID": 17, "Name": "League of Legends", "Thumb": "artists/League of Legends.jpg" }, { "ID": 18, "Name": "Sonbeat", "Thumb": "artists/Sonbeat.jpg" }, { "ID": 19, "Name": "Allison, Vexento", "Thumb": "artists/Allison, Vexento.jpg" }, { "ID": 20, "Name": "Vexento", "Thumb": "artists/Vexento.jpg" }, { "ID": 21, "Name": "Tez Cadey", "Thumb": "artists/Tez Cadey.jpg" }, { "ID": 22, "Name": "Mich", "Thumb": "artists/Mich.jpg" }, { "ID": 23, "Name": "Jebase", "Thumb": "artists/Jebase.jpg" }, { "ID": 24, "Name": "TheFatRat", "Thumb": "artists/TheFatRat.jpg" }, { "ID": 25, "Name": "Tobu, Wholm, Blume", "Thumb": "artists/Tobu, Wholm, Blume.jpg" }, { "ID": 26, "Name": "O M II N", "Thumb": "artists/O M II N.jpg" }, { "ID": 27, "Name": "Toxic Hearts, Vexento", "Thumb": "artists/Toxic Hearts, Vexento.jpg" }, { "ID": 28, "Name": "K-391", "Thumb": "artists/K-391.jpg" }, { "ID": 29, "Name": "Eightfold X MKJ", "Thumb": "artists/Eightfold X MKJ.jpg" }, { "ID": 30, "Name": "Contacreast, Diviners", "Thumb": "artists/Contacreast, Diviners.jpg" }, { "ID": 31, "Name": "Eve", "Thumb": "artists/Eve.jpg" }, { "ID": 32, "Name": "TeddyLoid, Giga, LOLUET", "Thumb": "artists/TeddyLoid, Giga, LOLUET.jpg" }, { "ID": 33, "Name": "Azari", "Thumb": "artists/Azari.jpg" }, { "ID": 34, "Name": "takayan", "Thumb": "artists/takayan.jpg" }, { "ID": 35, "Name": "Ayase", "Thumb": "artists/Ayase.jpg" }, { "ID": 36, "Name": "Kanaria", "Thumb": "artists/Kanaria.jpg" }, { "ID": 37, "Name": "Chinozo", "Thumb": "artists/Chinozo.jpg" }, { "ID": 38, "Name": "whaledontsleep", "Thumb": "artists/whaledontsleep.jpg" }, { "ID": 39, "Name": "CHIHIRO", "Thumb": "artists/CHIHIRO.jpg" }, { "ID": 40, "Name": "Kobasolo", "Thumb": "artists/Kobasolo.jpg" }, { "ID": 41, "Name": "コバソロ", "Thumb": "artists/コバソロ.jpg" }, { "ID": 42, "Name": "Ms.OOJA", "Thumb": "artists/Ms.OOJA.jpg" }, { "ID": 43, "Name": "Akie", "Thumb": "artists/Akie.jpg" }, { "ID": 44, "Name": "山田タマル", "Thumb": "artists/山田タマル.jpg" }, { "ID": 45, "Name": "BENI", "Thumb": "artists/BENI.jpg" }, { "ID": 46, "Name": "Tiara", "Thumb": "artists/Tiara.jpg" }, { "ID": 47, "Name": "Duca", "Thumb": "artists/Duca.jpg" }, { "ID": 48, "Name": "majiko", "Thumb": "artists/majiko.jpg" }, { "ID": 49, "Name": "Uru", "Thumb": "artists/Uru.jpg" }, { "ID": 50, "Name": "Riyu Renji", "Thumb": "artists/Riyu Renji.jpg" }, { "ID": 51, "Name": "RSP", "Thumb": "artists/RSP.jpg" }, { "ID": 52, "Name": "茅原実里", "Thumb": "artists/茅原実里.jpg" }, { "ID": 53, "Name": "Rainych", "Thumb": "artists/Rainych.jpg" }, { "ID": 54, "Name": "TEE", "Thumb": "artists/TEE.jpg" }, { "ID": 55, "Name": "Rei Yasuda", "Thumb": "artists/Rei Yasuda.jpg" }, { "ID": 56, "Name": "7!!", "Thumb": "artists/7!!.jpg" }, { "ID": 57, "Name": "wacci", "Thumb": "artists/wacci.jpg" }, { "ID": 58, "Name": "ShibayanRecords", "Thumb": "artists/ShibayanRecords.jpg" }, { "ID": 59, "Name": "Happy Birthday", "Thumb": "artists/Happy Birthday.jpg" }, { "ID": 60, "Name": "shimamo", "Thumb": "artists/shimamo.jpg" }, { "ID": 61, "Name": "物語シリーズ", "Thumb": "artists/物語シリーズ.jpg" }, { "ID": 62, "Name": "JUJU, JAY'ED", "Thumb": "artists/JUJU, JAYED.jpg" }, { "ID": 63, "Name": "OFFICIAL HIGE DANDISM", "Thumb": "artists/OFFICIAL HIGE DANDISM.jpg" }, { "ID": 64, "Name": "ALI, AKLO", "Thumb": "artists/ALI, AKLO.jpg" }, { "ID": 65, "Name": "Mrs. GREEN APPLE", "Thumb": "artists/Mrs. GREEN APPLE.jpg" }, { "ID": 66, "Name": "ZUTOMAYO", "Thumb": "artists/ZUTOMAYO.jpg" }, { "ID": 67, "Name": "ヨルシカ", "Thumb": "artists/ヨルシカ.jpg" }, { "ID": 68, "Name": "Yorushika", "Thumb": "artists/Yorushika.jpg" }, { "ID": 69, "Name": "Eve, suis from Yorushika", "Thumb": "artists/Eve, suis from Yorushika.jpg" }, { "ID": 70, "Name": "sumika", "Thumb": "artists/sumika.jpg" }, { "ID": 71, "Name": "Aimer", "Thumb": "artists/Aimer.jpg" }, { "ID": 72, "Name": "BRIGHT", "Thumb": "artists/BRIGHT.jpg" }, { "ID": 73, "Name": "LiSA", "Thumb": "artists/LiSA.jpg" }, { "ID": 74, "Name": "Masayuki Suzuki, 鈴木愛理", "Thumb": "artists/Masayuki Suzuki, 鈴木愛理.jpg" }, { "ID": 75, "Name": "田所あずさ", "Thumb": "artists/田所あずさ.jpg" }, { "ID": 76, "Name": "Shxne", "Thumb": "artists/Shxne.jpg" }, { "ID": 77, "Name": "Selphius", "Thumb": "artists/Selphius.jpg" }, { "ID": 78, "Name": "誘宵美九 (CV: 茅原実里)", "Thumb": "artists/誘宵美九 (CV 茅原実里).jpg" }, { "ID": 79, "Name": "GARNiDELiA", "Thumb": "artists/GARNiDELiA.jpg" }, { "ID": 80, "Name": "TRUE", "Thumb": "artists/TRUE.jpg" }, { "ID": 81, "Name": "BUMP OF CHICKEN", "Thumb": "artists/BUMP OF CHICKEN.jpg" }, { "ID": 82, "Name": "JUNNA", "Thumb": "artists/JUNNA.jpg" }, { "ID": 83, "Name": "RADWIMPS", "Thumb": "artists/RADWIMPS.jpg" }, { "ID": 84, "Name": "Kie Kitano", "Thumb": "artists/Kie Kitano.jpg" }, { "ID": 85, "Name": "WEAVER", "Thumb": "artists/WEAVER.jpg" }, { "ID": 86, "Name": "YOASOBI", "Thumb": "artists/YOASOBI.jpg" }, { "ID": 87, "Name": "和ぬか", "Thumb": "artists/和ぬか.jpg" }, { "ID": 88, "Name": "Yunomi", "Thumb": "artists/Yunomi.jpg" }, { "ID": 89, "Name": "UNISON SQUARE GARDEN", "Thumb": "artists/UNISON SQUARE GARDEN.jpg" }, { "ID": 90, "Name": "和ぬか, もっさ", "Thumb": "artists/和ぬか, もっさ.jpg" }, { "ID": 91, "Name": "Goose house", "Thumb": "artists/Goose house.jpg" }, { "ID": 92, "Name": "Htrol", "Thumb": "artists/Htrol.jpg" }, { "ID": 93, "Name": "Anna Yvette", "Thumb": "artists/Anna Yvette.jpg" }, { "ID": 94, "Name": "LZRD, Jake Miller", "Thumb": "artists/LZRD, Jake Miller.jpg" }, { "ID": 95, "Name": "Vicetone", "Thumb": "artists/Vicetone.jpg" }, { "ID": 96, "Name": "Zedd", "Thumb": "artists/Zedd.jpg" }, { "ID": 97, "Name": "Gryffin", "Thumb": "artists/Gryffin.jpg" }, { "ID": 98, "Name": "Galantis", "Thumb": "artists/Galantis.jpg" }, { "ID": 99, "Name": "Tristam", "Thumb": "artists/Tristam.jpg" }, { "ID": 100, "Name": "Jodex", "Thumb": "artists/Jodex.jpg" }, { "ID": 101, "Name": "Mike Perry", "Thumb": "artists/Mike Perry.jpg" }, { "ID": 102, "Name": "Unknown", "Thumb": "artists/Unknown.jpg" }, { "ID": 103, "Name": "The Jane Doze, Curtains", "Thumb": "artists/The Jane Doze, Curtains.jpg" }, { "ID": 104, "Name": "Caravan Palace", "Thumb": "artists/Caravan Palace.jpg" }, { "ID": 105, "Name": "MORTEN", "Thumb": "artists/MORTEN.jpg" }, { "ID": 106, "Name": "FWLR, KINLEY", "Thumb": "artists/FWLR, KINLEY.jpg" }, { "ID": 107, "Name": "Nightcore", "Thumb": "artists/Nightcore.jpg" }, { "ID": 108, "Name": "Prefekt, Johnning", "Thumb": "artists/Prefekt, Johnning.jpg" }, { "ID": 109, "Name": "Angelika Vee, Goblins from Mars", "Thumb": "artists/Angelika Vee, Goblins from Mars.jpg" }, { "ID": 110, "Name": "Mako", "Thumb": "artists/Mako.jpg" }, { "ID": 111, "Name": "Netrum/Halvorsen", "Thumb": "artists/NetrumHalvorsen.jpg" }, { "ID": 112, "Name": "Klaypex, Greta", "Thumb": "artists/Klaypex, Greta.jpg" }, { "ID": 113, "Name": "Gareth Emery,STANDERWICK,HALIENE", "Thumb": "artists/Gareth Emery,STANDERWICK,HALIENE.jpg" }, { "ID": 114, "Name": "Sub.Sound", "Thumb": "artists/Sub.Sound.jpg" }, { "ID": 115, "Name": "ItaloBrothers", "Thumb": "artists/ItaloBrothers.jpg" }, { "ID": 116, "Name": "Cash Cash", "Thumb": "artists/Cash Cash.jpg" }, { "ID": 117, "Name": "Gabry Ponte, LUM!X, Prezioso", "Thumb": "artists/Gabry Ponte, LUM!X, Prezioso.jpg" }, { "ID": 118, "Name": "Tritonal, Cash Cash", "Thumb": "artists/Tritonal, Cash Cash.jpg" }, { "ID": 119, "Name": "Avicii, Sandro Cavazza", "Thumb": "artists/Avicii, Sandro Cavazza.jpg" }, { "ID": 120, "Name": "Dabin, Dia Frampton", "Thumb": "artists/Dabin, Dia Frampton.jpg" }, { "ID": 121, "Name": "911", "Thumb": "artists/911.jpg" }, { "ID": 122, "Name": "Maroon 5", "Thumb": "artists/Maroon 5.jpg" }, { "ID": 123, "Name": "Charlie Puth", "Thumb": "artists/Charlie Puth.jpg" }, { "ID": 124, "Name": "ILLENIUM, MAX", "Thumb": "artists/ILLENIUM, MAX.jpg" }, { "ID": 125, "Name": "DEAMN", "Thumb": "artists/DEAMN.jpg" }, { "ID": 126, "Name": "Rival, Cadmium, Jon Becker", "Thumb": "artists/Rival, Cadmium, Jon Becker.jpg" }, { "ID": 127, "Name": "Don Omar, Lucenzo", "Thumb": "artists/Don Omar, Lucenzo.jpg" }, { "ID": 128, "Name": "Luis Fonsi, Daddy Yankee", "Thumb": "artists/Luis Fonsi, Daddy Yankee.jpg" }, { "ID": 129, "Name": "Alle Farben, ILIRA", "Thumb": "artists/Alle Farben, ILIRA.jpg" }, { "ID": 130, "Name": "UNDRESSD, Ellie May", "Thumb": "artists/UNDRESSD, Ellie May.jpg" }, { "ID": 131, "Name": "Mike Posner, Seeb", "Thumb": "artists/Mike Posner, Seeb.jpg" }, { "ID": 132, "Name": "Ava Max", "Thumb": "artists/Ava Max.jpg" }, { "ID": 133, "Name": "Axel Johansson, Tina Stachowiak", "Thumb": "artists/Axel Johansson, Tina Stachowiak.jpg" }, { "ID": 134, "Name": "Arc North, Krista Marina", "Thumb": "artists/Arc North, Krista Marina.jpg" }, { "ID": 135, "Name": "Sam Feldt, RANI", "Thumb": "artists/Sam Feldt, RANI.jpg" }, { "ID": 136, "Name": "Clean Bandit", "Thumb": "artists/Clean Bandit.jpg" }, { "ID": 137, "Name": "Merk & Kremont, Ady Suleiman", "Thumb": "artists/Merk & Kremont, Ady Suleiman.jpg" }, { "ID": 138, "Name": "Shawn Mendes, Camila Cabello", "Thumb": "artists/Shawn Mendes, Camila Cabello.jpg" }, { "ID": 139, "Name": "Porter Robinson, Madeon", "Thumb": "artists/Porter Robinson, Madeon.jpg" }, { "ID": 140, "Name": "Lil Nas X", "Thumb": "artists/Lil Nas X.jpg" }, { "ID": 141, "Name": "Loote", "Thumb": "artists/Loote.jpg" }, { "ID": 142, "Name": "CHROMANCE, Marcus Layton", "Thumb": "artists/CHROMANCE, Marcus Layton.jpg" }, { "ID": 143, "Name": "Kevin Silvester, kidkatu, Julie Zorrilla", "Thumb": "artists/Kevin Silvester, kidkatu, Julie Zorrilla.jpg" }, { "ID": 144, "Name": "Ryuichi Takada", "Thumb": "artists/Ryuichi Takada.jpg" }, { "ID": 145, "Name": "岡部 啓一", "Thumb": "artists/岡部 啓一.jpg" }, { "ID": 146, "Name": "MONACA", "Thumb": "artists/MONACA.jpg" }, { "ID": 147, "Name": "Keiichi Okabe", "Thumb": "artists/Keiichi Okabe.jpg" }, { "ID": 148, "Name": "Kuniyuki Takahashi", "Thumb": "artists/Kuniyuki Takahashi.jpg" }, { "ID": 149, "Name": "岡部啓一", "Thumb": "artists/岡部啓一.jpg" }, { "ID": 150, "Name": "帆足圭吾、石濱翔", "Thumb": "artists/帆足圭吾、石濱翔.jpg" }, { "ID": 151, "Name": "Okabe Keiichi", "Thumb": "artists/Okabe Keiichi.jpg" }, { "ID": 152, "Name": "上松範康", "Thumb": "artists/上松範康.jpg" }, { "ID": 153, "Name": "Various", "Thumb": "artists/Various.jpg" }, { "ID": 154, "Name": "Dai Sakakibara", "Thumb": "artists/Dai Sakakibara.jpg" }, { "ID": 155, "Name": "Keigo Hoashi", "Thumb": "artists/Keigo Hoashi.jpg" }, { "ID": 156, "Name": "Sean Schafianski", "Thumb": "artists/Sean Schafianski.jpg" }, { "ID": 157, "Name": "Oliver Good", "Thumb": "artists/Oliver Good.jpg" }, { "ID": 158, "Name": "marasy", "Thumb": "artists/marasy.jpg" }, { "ID": 159, "Name": "Shotaro Seo", "Thumb": "artists/Shotaro Seo.jpg" }, { "ID": 160, "Name": "Sachiko Miyano", "Thumb": "artists/Sachiko Miyano.jpg" }, { "ID": 161, "Name": "yo suzuki (akisai)", "Thumb": "artists/yo suzuki (akisai).jpg" }, { "ID": 162, "Name": "Tomoyuki Asakawa", "Thumb": "artists/Tomoyuki Asakawa.jpg" }, { "ID": 163, "Name": "Rozen & Reven", "Thumb": "artists/Rozen & Reven.jpg" }, { "ID": 164, "Name": "Kenji Kaneko", "Thumb": "artists/Kenji Kaneko.jpg" }, { "ID": 165, "Name": "Mariko Taguchi", "Thumb": "artists/Mariko Taguchi.jpg" }, { "ID": 166, "Name": "Ryo Aoyama", "Thumb": "artists/Ryo Aoyama.jpg" }, { "ID": 167, "Name": "Mariam Abounnasr", "Thumb": "artists/Mariam Abounnasr.jpg" }, { "ID": 168, "Name": "Masato Koda", "Thumb": "artists/Masato Koda.jpg" }, { "ID": 169, "Name": "Unknown Artist", "Thumb": "artists/Unknown Artist.jpg" }, { "ID": 170, "Name": "Yasumasa Kumagai", "Thumb": "artists/Yasumasa Kumagai.jpg" }, { "ID": 171, "Name": "Taku Yabuki", "Thumb": "artists/Taku Yabuki.jpg" }, { "ID": 172, "Name": "Daisuke Shinoda", "Thumb": "artists/Daisuke Shinoda.jpg" }, { "ID": 173, "Name": "帆足圭吾", "Thumb": "artists/帆足圭吾.jpg" }, { "ID": 174, "Name": "Duke of Pianeet", "Thumb": "artists/Duke of Pianeet.jpg" }, { "ID": 175, "Name": "Shiryu Miyanoshita", "Thumb": "artists/Shiryu Miyanoshita.jpg" }, { "ID": 176, "Name": "Christian Gulino", "Thumb": "artists/Christian Gulino.jpg" }, { "ID": 177, "Name": "Akio Noguchi", "Thumb": "artists/Akio Noguchi.jpg" }, { "ID": 178, "Name": "Daisuke Kadowaki", "Thumb": "artists/Daisuke Kadowaki.jpg" }, { "ID": 179, "Name": "Kumi Tanioka", "Thumb": "artists/Kumi Tanioka.jpg" }, { "ID": 180, "Name": "Kuniyuki Takahashi, Shotaro Seo", "Thumb": "artists/Kuniyuki Takahashi, Shotaro Seo.jpg" }, { "ID": 181, "Name": "Kousuke Yamashita", "Thumb": "artists/Kousuke Yamashita.jpg" }, { "ID": 182, "Name": "岡部啓一、帆足圭吾", "Thumb": "artists/岡部啓一、帆足圭吾.jpg" }, { "ID": 183, "Name": "Ryu Kawamura", "Thumb": "artists/Ryu Kawamura.jpg" }];
+var Songs = [
+  {
+      "AlbumID": 0,
+      "ArtistID": 0,
+      "FileName": "01 Flares.m4a",
+      "ID": 0,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Flares"
+  },
+  {
+      "AlbumID": 1,
+      "ArtistID": 1,
+      "FileName": "Awakening.mp3",
+      "ID": 1,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Awakening"
+  },
+  {
+      "AlbumID": 2,
+      "ArtistID": 2,
+      "FileName": "Close - Brooks Remix.mp3",
+      "ID": 2,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Close - Brooks Remix"
+  },
+  {
+      "AlbumID": 3,
+      "ArtistID": 3,
+      "FileName": "Cloud 9.mp3",
+      "ID": 3,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Cloud 9"
+  },
+  {
+      "AlbumID": 4,
+      "ArtistID": 3,
+      "FileName": "Colors.mp3",
+      "ID": 4,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Colors"
+  },
+  {
+      "AlbumID": 5,
+      "ArtistID": 4,
+      "FileName": "Energy Drink.mp3",
+      "ID": 5,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Energy Drink"
+  },
+  {
+      "AlbumID": 6,
+      "ArtistID": 5,
+      "FileName": "Energy.mp3",
+      "ID": 6,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Energy"
+  },
+  {
+      "AlbumID": 7,
+      "ArtistID": 6,
+      "FileName": "Everlasting.mp3",
+      "ID": 7,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Everlasting"
+  },
+  {
+      "AlbumID": 8,
+      "ArtistID": 5,
+      "FileName": "Fire.mp3",
+      "ID": 8,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Fire"
+  },
+  {
+      "AlbumID": 9,
+      "ArtistID": 7,
+      "FileName": "Frisbee.mp3",
+      "ID": 9,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Frisbee"
+  },
+  {
+      "AlbumID": 10,
+      "ArtistID": 8,
+      "FileName": "Frontier.mp3",
+      "ID": 10,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Frontier"
+  },
+  {
+      "AlbumID": 11,
+      "ArtistID": 9,
+      "FileName": "Fuck Off.mp3",
+      "ID": 11,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Fuck Off"
+  },
+  {
+      "AlbumID": 12,
+      "ArtistID": 3,
+      "FileName": "Higher.mp3",
+      "ID": 12,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Higher"
+  },
+  {
+      "AlbumID": 11,
+      "ArtistID": 9,
+      "FileName": "Highscore.mp3",
+      "ID": 13,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Highscore"
+  },
+  {
+      "AlbumID": 13,
+      "ArtistID": 3,
+      "FileName": "Hope.mp3",
+      "ID": 14,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Hope"
+  },
+  {
+      "AlbumID": 14,
+      "ArtistID": 10,
+      "FileName": "Legends - Hyper Potions Remix.mp3",
+      "ID": 15,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Legends - Hyper Potions Remix"
+  },
+  {
+      "AlbumID": 15,
+      "ArtistID": 5,
+      "FileName": "Limitless.mp3",
+      "ID": 16,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Limitless"
+  },
+  {
+      "AlbumID": 16,
+      "ArtistID": 11,
+      "FileName": "Rise - Ampyx.mp3",
+      "ID": 17,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Rise"
+  },
+  {
+      "AlbumID": 17,
+      "ArtistID": 12,
+      "FileName": "Rubik.mp3",
+      "ID": 18,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Rubik"
+  },
+  {
+      "AlbumID": 18,
+      "ArtistID": 13,
+      "FileName": "S.K.Y.Prox.mp3",
+      "ID": 19,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "S.K.Y.Prox"
+  },
+  {
+      "AlbumID": 19,
+      "ArtistID": 3,
+      "FileName": "Seven.mp3",
+      "ID": 20,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Seven"
+  },
+  {
+      "AlbumID": 20,
+      "ArtistID": 14,
+      "FileName": "Sky (feat. Martell) - Radio Edit.mp3",
+      "ID": 21,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Sky (feat. Martell) - Radio Edit"
+  },
+  {
+      "AlbumID": 21,
+      "ArtistID": 5,
+      "FileName": "Sky High.mp3",
+      "ID": 22,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Sky High"
+  },
+  {
+      "AlbumID": 22,
+      "ArtistID": 15,
+      "FileName": "Spectre.mp3",
+      "ID": 23,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Spectre"
+  },
+  {
+      "AlbumID": 23,
+      "ArtistID": 3,
+      "FileName": "Sunburst.mp3",
+      "ID": 24,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Sunburst"
+  },
+  {
+      "AlbumID": 24,
+      "ArtistID": 5,
+      "FileName": "Vision.mp3",
+      "ID": 25,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Vision"
+  },
+  {
+      "AlbumID": 25,
+      "ArtistID": 16,
+      "FileName": "Welcome to Planet Urf.mp3",
+      "ID": 26,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 0,
+      "Title": "Welcome to Planet Urf"
+  },
+  {
+      "AlbumID": 26,
+      "ArtistID": 17,
+      "FileName": "Freedom.mp3",
+      "ID": 27,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Freedom"
+  },
+  {
+      "AlbumID": 27,
+      "ArtistID": 18,
+      "FileName": "Guava Breeze.mp3",
+      "ID": 28,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Guava Breeze"
+  },
+  {
+      "AlbumID": 28,
+      "ArtistID": 18,
+      "FileName": "Home.mp3",
+      "ID": 29,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Home"
+  },
+  {
+      "AlbumID": 29,
+      "ArtistID": 18,
+      "FileName": "Lonely Dance.mp3",
+      "ID": 30,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Lonely Dance"
+  },
+  {
+      "AlbumID": 26,
+      "ArtistID": 17,
+      "FileName": "Muvik.mp3",
+      "ID": 31,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Muvik"
+  },
+  {
+      "AlbumID": 30,
+      "ArtistID": 19,
+      "FileName": "Seve - Radio Edit.mp3",
+      "ID": 32,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Seve - Radio Edit"
+  },
+  {
+      "AlbumID": 31,
+      "ArtistID": 20,
+      "FileName": "Somero.mp3",
+      "ID": 33,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Somero"
+  },
+  {
+      "AlbumID": 32,
+      "ArtistID": 21,
+      "FileName": "Turtle Beach.mp3",
+      "ID": 34,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 1,
+      "Title": "Turtle Beach"
+  },
+  {
+      "AlbumID": 33,
+      "ArtistID": 3,
+      "FileName": "Candyland.mp3",
+      "ID": 35,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Candyland"
+  },
+  {
+      "AlbumID": 34,
+      "ArtistID": 22,
+      "FileName": "Close To The Sun.mp3",
+      "ID": 36,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Close To The Sun"
+  },
+  {
+      "AlbumID": 35,
+      "ArtistID": 3,
+      "FileName": "Cool.mp3",
+      "ID": 37,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Cool"
+  },
+  {
+      "AlbumID": 36,
+      "ArtistID": 22,
+      "FileName": "Elegy.mp3",
+      "ID": 38,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Elegy"
+  },
+  {
+      "AlbumID": 36,
+      "ArtistID": 22,
+      "FileName": "Epic.mp3",
+      "ID": 39,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Epic"
+  },
+  {
+      "AlbumID": 37,
+      "ArtistID": 22,
+      "FileName": "Fly Away.mp3",
+      "ID": 40,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Fly Away"
+  },
+  {
+      "AlbumID": 38,
+      "ArtistID": 18,
+      "FileName": "Happy Robot.mp3",
+      "ID": 41,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Happy Robot"
+  },
+  {
+      "AlbumID": 39,
+      "ArtistID": 11,
+      "FileName": "Holo.mp3",
+      "ID": 42,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Holo"
+  },
+  {
+      "AlbumID": 40,
+      "ArtistID": 3,
+      "FileName": "Infectious.mp3",
+      "ID": 43,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Infectious"
+  },
+  {
+      "AlbumID": 41,
+      "ArtistID": 3,
+      "FileName": "Joy.mp3",
+      "ID": 44,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Joy"
+  },
+  {
+      "AlbumID": 42,
+      "ArtistID": 3,
+      "FileName": "Let's Go.mp3",
+      "ID": 45,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Lets Go"
+  },
+  {
+      "AlbumID": 43,
+      "ArtistID": 3,
+      "FileName": "Louder Now.mp3",
+      "ID": 46,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Louder Now"
+  },
+  {
+      "AlbumID": 44,
+      "ArtistID": 18,
+      "FileName": "Masked Heroes.mp3",
+      "ID": 47,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Masked Heroes"
+  },
+  {
+      "AlbumID": 45,
+      "ArtistID": 18,
+      "FileName": "Masked Raver.mp3",
+      "ID": 48,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Masked Raver"
+  },
+  {
+      "AlbumID": 46,
+      "ArtistID": 3,
+      "FileName": "Mesmerize.mp3",
+      "ID": 49,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Mesmerize"
+  },
+  {
+      "AlbumID": 47,
+      "ArtistID": 22,
+      "FileName": "Monody (feat. Laura Brehm).mp3",
+      "ID": 50,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Monody (feat. Laura Brehm)"
+  },
+  {
+      "AlbumID": 48,
+      "ArtistID": 3,
+      "FileName": "Nostalgia.mp3",
+      "ID": 51,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Nostalgia"
+  },
+  {
+      "AlbumID": 49,
+      "ArtistID": 23,
+      "FileName": "O M II N - Long Journey.mp3",
+      "ID": 52,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Long Journey"
+  },
+  {
+      "AlbumID": 49,
+      "ArtistID": 23,
+      "FileName": "O M II N - Sunset.mp3",
+      "ID": 53,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "O M II N - Sunset"
+  },
+  {
+      "AlbumID": 50,
+      "ArtistID": 18,
+      "FileName": "Oh Look Aliens!.mp3",
+      "ID": 54,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Oh Look Aliens!"
+  },
+  {
+      "AlbumID": 51,
+      "ArtistID": 22,
+      "FileName": "Origin.mp3",
+      "ID": 55,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Origin"
+  },
+  {
+      "AlbumID": 52,
+      "ArtistID": 18,
+      "FileName": "Piece Of Me (Vexento Remix).mp3",
+      "ID": 56,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Piece Of Me (Vexento Remix)"
+  },
+  {
+      "AlbumID": 53,
+      "ArtistID": 18,
+      "FileName": "Sad Robot.mp3",
+      "ID": 57,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Sad Robot"
+  },
+  {
+      "AlbumID": 54,
+      "ArtistID": 24,
+      "FileName": "Summertime.mp3",
+      "ID": 58,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Summertime"
+  },
+  {
+      "AlbumID": 55,
+      "ArtistID": 18,
+      "FileName": "Tevo.mp3",
+      "ID": 59,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Tevo"
+  },
+  {
+      "AlbumID": 56,
+      "ArtistID": 25,
+      "FileName": "Trap Queen - Eightfold X MKJ Remix.mp3",
+      "ID": 60,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Trap Queen - Eightfold X MKJ Remix"
+  },
+  {
+      "AlbumID": 57,
+      "ArtistID": 18,
+      "FileName": "Trippy Love.mp3",
+      "ID": 61,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Trippy Love"
+  },
+  {
+      "AlbumID": 58,
+      "ArtistID": 26,
+      "FileName": "Tropic Love.mp3",
+      "ID": 62,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Tropic Love"
+  },
+  {
+      "AlbumID": 59,
+      "ArtistID": 22,
+      "FileName": "Unity.mp3",
+      "ID": 63,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Unity"
+  },
+  {
+      "AlbumID": 60,
+      "ArtistID": 18,
+      "FileName": "Verve.mp3",
+      "ID": 64,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Verve"
+  },
+  {
+      "AlbumID": 61,
+      "ArtistID": 18,
+      "FileName": "Where We Belong.mp3",
+      "ID": 65,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 2,
+      "Title": "Where We Belong"
+  },
+  {
+      "AlbumID": 62,
+      "ArtistID": 27,
+      "FileName": "01 Kaikai Kitan.m4a",
+      "ID": 66,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Kaikai Kitan"
+  },
+  {
+      "AlbumID": 63,
+      "ArtistID": 28,
+      "FileName": "01 デスぺレート.m4a",
+      "ID": 67,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "デスぺレート"
+  },
+  {
+      "AlbumID": 64,
+      "ArtistID": 27,
+      "FileName": "02 Nonsense Bungaku.m4a",
+      "ID": 68,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Nonsense Bungaku"
+  },
+  {
+      "AlbumID": 65,
+      "ArtistID": 27,
+      "FileName": "04 Inochino Tabekata - DanceMix Ver.m4a",
+      "ID": 69,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Inochino Tabekata - DanceMix Ver."
+  },
+  {
+      "AlbumID": 64,
+      "ArtistID": 27,
+      "FileName": "09 Okinimesumama.m4a",
+      "ID": 70,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Okinimesumama"
+  },
+  {
+      "AlbumID": 66,
+      "ArtistID": 28,
+      "FileName": "Beyond the way.mp3",
+      "ID": 71,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Beyond the way"
+  },
+  {
+      "AlbumID": 67,
+      "ArtistID": 29,
+      "FileName": "Casino.mp3",
+      "ID": 72,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Casino"
+  },
+  {
+      "AlbumID": 68,
+      "ArtistID": 30,
+      "FileName": "Cheating is a crime.mp3",
+      "ID": 73,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Cheating is a crime"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "Cynical Night Plan.mp3",
+      "ID": 74,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Cynical Night Plan"
+  },
+  {
+      "AlbumID": 70,
+      "ArtistID": 32,
+      "FileName": "Demon Lord.mp3",
+      "ID": 75,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Demon Lord"
+  },
+  {
+      "AlbumID": 71,
+      "ArtistID": 32,
+      "FileName": "ENVY BABY.mp3",
+      "ID": 76,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "ENVY BABY"
+  },
+  {
+      "AlbumID": 72,
+      "ArtistID": 32,
+      "FileName": "EYE.mp3",
+      "ID": 77,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "EYE"
+  },
+  {
+      "AlbumID": 73,
+      "ArtistID": 27,
+      "FileName": "FightSong.mp3",
+      "ID": 78,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "FightSong"
+  },
+  {
+      "AlbumID": 74,
+      "ArtistID": 28,
+      "FileName": "Gimme×Gimme feat. 初音ミク-鏡音リン.mp3",
+      "ID": 79,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Gimme×Gimme feat. 初音ミク・鏡音リン"
+  },
+  {
+      "AlbumID": 75,
+      "ArtistID": 33,
+      "FileName": "Good-bye Declaration.mp3",
+      "ID": 80,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Good-bye Declaration"
+  },
+  {
+      "AlbumID": 76,
+      "ArtistID": 32,
+      "FileName": "KING.mp3",
+      "ID": 81,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "KING"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "last resort.mp3",
+      "ID": 82,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "last resort"
+  },
+  {
+      "AlbumID": 77,
+      "ArtistID": 32,
+      "FileName": "MIRA.mp3",
+      "ID": 83,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "MIRA"
+  },
+  {
+      "AlbumID": 78,
+      "ArtistID": 29,
+      "FileName": "Nightmare.mp3",
+      "ID": 84,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Nightmare"
+  },
+  {
+      "AlbumID": 79,
+      "ArtistID": 34,
+      "FileName": "osmanthus.mp3",
+      "ID": 85,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "osmanthus"
+  },
+  {
+      "AlbumID": 80,
+      "ArtistID": 32,
+      "FileName": "QUEEN.mp3",
+      "ID": 86,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "QUEEN"
+  },
+  {
+      "AlbumID": 81,
+      "ArtistID": 28,
+      "FileName": "Ready Steady (feat. Hatsune Miku, Kagamine Rin, Kagamine Len).mp3",
+      "ID": 87,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Ready Steady (feat. Hatsune Miku, Kagamine Rin, Kagamine Len)"
+  },
+  {
+      "AlbumID": 82,
+      "ArtistID": 32,
+      "FileName": "Rendezvous.mp3",
+      "ID": 88,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Rendezvous"
+  },
+  {
+      "AlbumID": 83,
+      "ArtistID": 29,
+      "FileName": "Shadow Shadow.mp3",
+      "ID": 89,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Shadow Shadow"
+  },
+  {
+      "AlbumID": 84,
+      "ArtistID": 29,
+      "FileName": "Whisper Whisper Whisper.mp3",
+      "ID": 90,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Whisper Whisper Whisper"
+  },
+  {
+      "AlbumID": 85,
+      "ArtistID": 29,
+      "FileName": "Witch Hunt.mp3",
+      "ID": 91,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Witch Hunt"
+  },
+  {
+      "AlbumID": 86,
+      "ArtistID": 32,
+      "FileName": "Yoidoreshirazu.mp3",
+      "ID": 92,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "Yoidoreshirazu"
+  },
+  {
+      "AlbumID": 87,
+      "ArtistID": 32,
+      "FileName": "アイデンティティ.mp3",
+      "ID": 93,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "アイデンティティ"
+  },
+  {
+      "AlbumID": 88,
+      "ArtistID": 32,
+      "FileName": "エンヴィーベイビー x KING.mp3",
+      "ID": 94,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "エンヴィーベイビー x KING"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "シネマ  初音ミク.mp3",
+      "ID": 95,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "シネマ  初音ミク"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "ワンダラー - 初音ミク.mp3",
+      "ID": 96,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 3,
+      "Title": "ワンダラー - 初音ミク"
+  },
+  {
+      "AlbumID": 89,
+      "ArtistID": 35,
+      "FileName": "01 ずるいよ….m4a",
+      "ID": 97,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "ずるいよ…"
+  },
+  {
+      "AlbumID": 90,
+      "ArtistID": 36,
+      "FileName": "03  香水 feat.相沢.mp3",
+      "ID": 98,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "香水 feat.相沢"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "05.ルラルラルー-Kobasolo.mp3",
+      "ID": 99,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Lulalulalu"
+  },
+  {
+      "AlbumID": 90,
+      "ArtistID": 36,
+      "FileName": "07  風になる feat.Lefty Hand Cream.mp3",
+      "ID": 100,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "風になる feat.Lefty Hand Cream"
+  },
+  {
+      "AlbumID": 92,
+      "ArtistID": 36,
+      "FileName": "08. 奏(かなで) feat. 安果音.mp3",
+      "ID": 101,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "奏(かなで) feat. 安果音"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "10.背中合わせ-Kobasolo.mp3",
+      "ID": 102,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Back-to-back"
+  },
+  {
+      "AlbumID": 93,
+      "ArtistID": 37,
+      "FileName": "30.mp3",
+      "ID": 103,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "30"
+  },
+  {
+      "AlbumID": 94,
+      "ArtistID": 37,
+      "FileName": "40.mp3",
+      "ID": 104,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "40"
+  },
+  {
+      "AlbumID": 95,
+      "ArtistID": 38,
+      "FileName": "Akie - Letter Song.mp3",
+      "ID": 105,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Akie - Letter Song"
+  },
+  {
+      "AlbumID": 95,
+      "ArtistID": 38,
+      "FileName": "Akie - 天之弱.mp3",
+      "ID": 106,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Akie - 天之弱"
+  },
+  {
+      "AlbumID": 95,
+      "ArtistID": 38,
+      "FileName": "Akie - 約束.mp3",
+      "ID": 107,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Akie - 約束"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "Alone.mp3",
+      "ID": 108,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Alone"
+  },
+  {
+      "AlbumID": 97,
+      "ArtistID": 39,
+      "FileName": "Always in my heart.mp3",
+      "ID": 109,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Always in my heart"
+  },
+  {
+      "AlbumID": 98,
+      "ArtistID": 37,
+      "FileName": "Ame.mp3",
+      "ID": 110,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Ame"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Ano Natsuno Hanabi.mp3",
+      "ID": 111,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Ano Natsuno Hanabi"
+  },
+  {
+      "AlbumID": 100,
+      "ArtistID": 37,
+      "FileName": "Anohino Melody.mp3",
+      "ID": 112,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Anohino Melody"
+  },
+  {
+      "AlbumID": 101,
+      "ArtistID": 40,
+      "FileName": "Arigato.mp3",
+      "ID": 113,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Arigato"
+  },
+  {
+      "AlbumID": 102,
+      "ArtistID": 41,
+      "FileName": "be with you.mp3",
+      "ID": 114,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "be with you"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Be... - Stardust Version.mp3",
+      "ID": 115,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Be... - Stardust Version"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "Be... - Teardrop Version.mp3",
+      "ID": 116,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Be... - Teardrop Version"
+  },
+  {
+      "AlbumID": 104,
+      "ArtistID": 37,
+      "FileName": "Be....mp3",
+      "ID": 117,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Be..."
+  },
+  {
+      "AlbumID": 97,
+      "ArtistID": 39,
+      "FileName": "Call you.mp3",
+      "ID": 118,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Call you"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Christmas Song.mp3",
+      "ID": 119,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Christmas Song"
+  },
+  {
+      "AlbumID": 106,
+      "ArtistID": 37,
+      "FileName": "Dareyori Sukinanoni.mp3",
+      "ID": 120,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Dareyori Sukinanoni"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "DEAR...again.mp3",
+      "ID": 121,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "DEAR...again"
+  },
+  {
+      "AlbumID": 107,
+      "ArtistID": 37,
+      "FileName": "Dear.mp3",
+      "ID": 122,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Dear"
+  },
+  {
+      "AlbumID": 108,
+      "ArtistID": 42,
+      "FileName": "Duca - Ai no Niwa.mp3",
+      "ID": 123,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Duca - Ai no Niwa"
+  },
+  {
+      "AlbumID": 100,
+      "ArtistID": 37,
+      "FileName": "Earphones.mp3",
+      "ID": 124,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Earphones"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Eki.mp3",
+      "ID": 125,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Eki"
+  },
+  {
+      "AlbumID": 97,
+      "ArtistID": 39,
+      "FileName": "Ever be my love.mp3",
+      "ID": 126,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Ever be my love"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Fall in love.mp3",
+      "ID": 127,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Fall in love"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "First Love.mp3",
+      "ID": 128,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "First Love"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Gekkou.mp3",
+      "ID": 129,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Gekkou"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Gomenne.mp3",
+      "ID": 130,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Gomenne"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "Hello, Again.mp3",
+      "ID": 131,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Hello, Again"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "HIKARI.mp3",
+      "ID": 132,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "HIKARI"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Hoshifuru Yoruni.mp3",
+      "ID": 133,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Hoshifuru Yoruni"
+  },
+  {
+      "AlbumID": 100,
+      "ArtistID": 37,
+      "FileName": "Hoshiwo Koete.mp3",
+      "ID": 134,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Hoshiwo Koete"
+  },
+  {
+      "AlbumID": 111,
+      "ArtistID": 37,
+      "FileName": "I LOVE YOU.mp3",
+      "ID": 135,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "I LOVE YOU"
+  },
+  {
+      "AlbumID": 93,
+      "ArtistID": 37,
+      "FileName": "I WILL.mp3",
+      "ID": 136,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "I WILL"
+  },
+  {
+      "AlbumID": 100,
+      "ArtistID": 37,
+      "FileName": "Itoshii Hitoyo.mp3",
+      "ID": 137,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Itoshii Hitoyo"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Kanashii Kiss.mp3",
+      "ID": 138,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Kanashii Kiss"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "Kanashimini Sayonara.mp3",
+      "ID": 139,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Kanashimini Sayonara"
+  },
+  {
+      "AlbumID": 113,
+      "ArtistID": 37,
+      "FileName": "Kanega Naru - Acoustic ver.mp3",
+      "ID": 140,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Kanega Naru - Acoustic ver"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Kanega Naru.mp3",
+      "ID": 141,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Kanega Naru"
+  },
+  {
+      "AlbumID": 114,
+      "ArtistID": 43,
+      "FileName": "Kimi Ni Saigo No Kuchizuke Wo.mp3",
+      "ID": 142,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Kimi Ni Saigo No Kuchizuke Wo"
+  },
+  {
+      "AlbumID": 115,
+      "ArtistID": 37,
+      "FileName": "Letter.mp3",
+      "ID": 143,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Letter"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Love Love Love.mp3",
+      "ID": 144,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Love Love Love"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Lovin' you.mp3",
+      "ID": 145,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Lovin you"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "M.mp3",
+      "ID": 146,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "M"
+  },
+  {
+      "AlbumID": 117,
+      "ArtistID": 37,
+      "FileName": "Mata Koi wo Suru Koto Nado.mp3",
+      "ID": 147,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Mata Koi wo Suru Koto Nado"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Mirai Yosouzu II.mp3",
+      "ID": 148,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Mirai Yosouzu II"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Mirai Yosouzu.mp3",
+      "ID": 149,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Mirai Yosouzu"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Missing.mp3",
+      "ID": 150,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Missing"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "My graduation.mp3",
+      "ID": 151,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "my graduation"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Nanpasen.mp3",
+      "ID": 152,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Nanpasen"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Natsuo Akiramete.mp3",
+      "ID": 153,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Natsuo Akiramete"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "PIECE OF MY WISH.mp3",
+      "ID": 154,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "PIECE OF MY WISH"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Plastic Love.mp3",
+      "ID": 155,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Plastic Love"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Rainy Blue.mp3",
+      "ID": 156,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Rainy Blue"
+  },
+  {
+      "AlbumID": 118,
+      "ArtistID": 44,
+      "FileName": "Remember.mp3",
+      "ID": 157,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "remember"
+  },
+  {
+      "AlbumID": 108,
+      "ArtistID": 45,
+      "FileName": "Riyu Renji - Boku Ga Shinou To Omotta No Wa.mp3",
+      "ID": 158,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Riyu Renji - Boku Ga Shinou To Omotta No Wa"
+  },
+  {
+      "AlbumID": 119,
+      "ArtistID": 46,
+      "FileName": "RSP - Yasashii Uta.mp3",
+      "ID": 159,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Yasashii Uta"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Ruriirono Chikyuu.mp3",
+      "ID": 160,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Ruriirono Chikyuu"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Sayonarano Mukougawa.mp3",
+      "ID": 161,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Sayonarano Mukougawa"
+  },
+  {
+      "AlbumID": 97,
+      "ArtistID": 39,
+      "FileName": "Scarborough Fair.mp3",
+      "ID": 162,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Scarborough Fair"
+  },
+  {
+      "AlbumID": 120,
+      "ArtistID": 47,
+      "FileName": "Sing.mp3",
+      "ID": 163,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Sing"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "Soramo Toberuhazu.mp3",
+      "ID": 164,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Soramo Toberuhazu"
+  },
+  {
+      "AlbumID": 100,
+      "ArtistID": 37,
+      "FileName": "Souha.mp3",
+      "ID": 165,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Souha"
+  },
+  {
+      "AlbumID": 104,
+      "ArtistID": 37,
+      "FileName": "Squall.mp3",
+      "ID": 166,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Squall"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Story.mp3",
+      "ID": 167,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Story"
+  },
+  {
+      "AlbumID": 121,
+      "ArtistID": 48,
+      "FileName": "Summertime.mp3",
+      "ID": 168,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "summertime"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Sweet Home.mp3",
+      "ID": 169,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Sweet Home"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Tears.mp3",
+      "ID": 170,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "tears"
+  },
+  {
+      "AlbumID": 108,
+      "ArtistID": 49,
+      "FileName": "TEE - Baby I Love You.mp3",
+      "ID": 171,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "TEE - Baby I Love You"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "The signs of LOVE.mp3",
+      "ID": 172,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "The signs of LOVE"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "Time goes by.mp3",
+      "ID": 173,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Time goes by"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Tokino Nagareni Miwo Makase.mp3",
+      "ID": 174,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Tokino Nagareni Miwo Makase"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Tsugunai.mp3",
+      "ID": 175,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Tsugunai"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Woman.mp3",
+      "ID": 176,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Woman"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Yukino Hana.mp3",
+      "ID": 177,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "Yukino Hana"
+  },
+  {
+      "AlbumID": 122,
+      "ArtistID": 47,
+      "FileName": "ありがとう、だいすき.mp3",
+      "ID": 178,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "ありがとう、だいすき"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "いとしのエリー.mp3",
+      "ID": 179,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "いとしのエリー"
+  },
+  {
+      "AlbumID": 124,
+      "ArtistID": 50,
+      "FileName": "きみのうた.mp3",
+      "ID": 180,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "きみのうた"
+  },
+  {
+      "AlbumID": 125,
+      "ArtistID": 35,
+      "FileName": "ずるいよ….mp3",
+      "ID": 181,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "ずるいよ…"
+  },
+  {
+      "AlbumID": 122,
+      "ArtistID": 47,
+      "FileName": "みちしるべ.mp3",
+      "ID": 182,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "みちしるべ"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "もう二度と・・・.mp3",
+      "ID": 183,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "もう二度と・・・"
+  },
+  {
+      "AlbumID": 126,
+      "ArtistID": 51,
+      "FileName": "オレンジ.mp3",
+      "ID": 184,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "オレンジ"
+  },
+  {
+      "AlbumID": 127,
+      "ArtistID": 52,
+      "FileName": "キラメキ.mp3",
+      "ID": 185,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "キラメキ"
+  },
+  {
+      "AlbumID": 128,
+      "ArtistID": 53,
+      "FileName": "タイニーリトル・アジアンタム.mp3",
+      "ID": 186,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "タイニーリトル・アジアンタム"
+  },
+  {
+      "AlbumID": 129,
+      "ArtistID": 54,
+      "FileName": "君だったら.mp3",
+      "ID": 187,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "君だったら"
+  },
+  {
+      "AlbumID": 130,
+      "ArtistID": 55,
+      "FileName": "君に出逢えて.mp3",
+      "ID": 188,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "君に出逢えて"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "声を聞かせて.mp3",
+      "ID": 189,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "声を聞かせて"
+  },
+  {
+      "AlbumID": 131,
+      "ArtistID": 31,
+      "FileName": "夜撫でるメノウ.mp3",
+      "ID": 190,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "夜撫でるメノウ"
+  },
+  {
+      "AlbumID": 132,
+      "ArtistID": 56,
+      "FileName": "恋愛サーキュレーション.mp3",
+      "ID": 191,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "恋愛サーキュレーション"
+  },
+  {
+      "AlbumID": 133,
+      "ArtistID": 57,
+      "FileName": "明日がくるなら ballad solo version.mp3",
+      "ID": 192,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "明日がくるなら ballad solo version"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "桜坂.mp3",
+      "ID": 193,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "桜坂"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "永遠.mp3",
+      "ID": 194,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "永遠"
+  },
+  {
+      "AlbumID": 134,
+      "ArtistID": 55,
+      "FileName": "百満開花.mp3",
+      "ID": 195,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "百満開花"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "瞳をとじて.mp3",
+      "ID": 196,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 4,
+      "Title": "瞳をとじて"
+  },
+  {
+      "AlbumID": 135,
+      "ArtistID": 58,
+      "FileName": "01 115万キロのフィルム.m4a",
+      "ID": 197,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "115万キロのフィルム"
+  },
+  {
+      "AlbumID": 136,
+      "ArtistID": 59,
+      "FileName": "01 LOST IN PARADISE.m4a",
+      "ID": 198,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "LOST IN PARADISE"
+  },
+  {
+      "AlbumID": 137,
+      "ArtistID": 60,
+      "FileName": "01 ダンスホール.m4a",
+      "ID": 199,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ダンスホール"
+  },
+  {
+      "AlbumID": 138,
+      "ArtistID": 61,
+      "FileName": "01 低血ボルト.m4a",
+      "ID": 200,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "低血ボルト"
+  },
+  {
+      "AlbumID": 139,
+      "ArtistID": 62,
+      "FileName": "01 又三郎.m4a",
+      "ID": 201,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "又三郎"
+  },
+  {
+      "AlbumID": 140,
+      "ArtistID": 62,
+      "FileName": "01 夜行.m4a",
+      "ID": 202,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "夜行"
+  },
+  {
+      "AlbumID": 141,
+      "ArtistID": 62,
+      "FileName": "01 思想犯.m4a",
+      "ID": 203,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "思想犯"
+  },
+  {
+      "AlbumID": 142,
+      "ArtistID": 62,
+      "FileName": "01 春泥棒.m4a",
+      "ID": 204,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "春泥棒"
+  },
+  {
+      "AlbumID": 143,
+      "ArtistID": 62,
+      "FileName": "01 盗作.m4a",
+      "ID": 205,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "盗作"
+  },
+  {
+      "AlbumID": 144,
+      "ArtistID": 61,
+      "FileName": "01 秒針を噛む.m4a",
+      "ID": 206,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "秒針を噛む"
+  },
+  {
+      "AlbumID": 145,
+      "ArtistID": 61,
+      "FileName": "01 花一匁.m4a",
+      "ID": 207,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "花一匁"
+  },
+  {
+      "AlbumID": 146,
+      "ArtistID": 62,
+      "FileName": "01 藍二乗.m4a",
+      "ID": 208,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "藍二乗"
+  },
+  {
+      "AlbumID": 147,
+      "ArtistID": 62,
+      "FileName": "01 雨とカプチーノ.m4a",
+      "ID": 209,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "雨とカプチーノ"
+  },
+  {
+      "AlbumID": 148,
+      "ArtistID": 62,
+      "FileName": "01 風を食む.m4a",
+      "ID": 210,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "風を食む"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "01.恋せよオトメ-Kobasolo.mp3",
+      "ID": 211,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Koi Seyo Otome"
+  },
+  {
+      "AlbumID": 62,
+      "ArtistID": 27,
+      "FileName": "02 Ao No Waltz.m4a",
+      "ID": 212,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Ao No Waltz"
+  },
+  {
+      "AlbumID": 144,
+      "ArtistID": 61,
+      "FileName": "02 ヒューマノイド.m4a",
+      "ID": 213,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ヒューマノイド"
+  },
+  {
+      "AlbumID": 149,
+      "ArtistID": 62,
+      "FileName": "02 ブレーメン.m4a",
+      "ID": 214,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ブレーメン"
+  },
+  {
+      "AlbumID": 150,
+      "ArtistID": 61,
+      "FileName": "02 正しくなれない.m4a",
+      "ID": 215,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "正しくなれない"
+  },
+  {
+      "AlbumID": 145,
+      "ArtistID": 61,
+      "FileName": "02 残機.m4a",
+      "ID": 216,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "残機"
+  },
+  {
+      "AlbumID": 92,
+      "ArtistID": 36,
+      "FileName": "02. 明日はきっといい日になる feat. えみい.mp3",
+      "ID": 217,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "明日はきっといい日になる feat. えみい"
+  },
+  {
+      "AlbumID": 151,
+      "ArtistID": 36,
+      "FileName": "02.小さな恋のうた feat.七穂.mp3",
+      "ID": 218,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "小さな恋のうた feat.七穂"
+  },
+  {
+      "AlbumID": 64,
+      "ArtistID": 27,
+      "FileName": "03 Dramaturgy.m4a",
+      "ID": 219,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Dramaturgy"
+  },
+  {
+      "AlbumID": 152,
+      "ArtistID": 27,
+      "FileName": "03 Raison Detre.m4a",
+      "ID": 220,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Raison Detre"
+  },
+  {
+      "AlbumID": 62,
+      "ArtistID": 27,
+      "FileName": "03 Shinkai.m4a",
+      "ID": 221,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Shinkai"
+  },
+  {
+      "AlbumID": 150,
+      "ArtistID": 61,
+      "FileName": "03 お勉強しといてよ.m4a",
+      "ID": 222,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "お勉強しといてよ"
+  },
+  {
+      "AlbumID": 153,
+      "ArtistID": 62,
+      "FileName": "03 言って。.m4a",
+      "ID": 223,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "言って。"
+  },
+  {
+      "AlbumID": 153,
+      "ArtistID": 62,
+      "FileName": "04 あの夏に咲け.m4a",
+      "ID": 224,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "あの夏に咲け"
+  },
+  {
+      "AlbumID": 154,
+      "ArtistID": 62,
+      "FileName": "04 ヒッチコック.m4a",
+      "ID": 225,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ヒッチコック"
+  },
+  {
+      "AlbumID": 150,
+      "ArtistID": 61,
+      "FileName": "04 勘ぐれい.m4a",
+      "ID": 226,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "勘ぐれい"
+  },
+  {
+      "AlbumID": 155,
+      "ArtistID": 36,
+      "FileName": "04. Summer Love.mp3",
+      "ID": 227,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "夏恋慕 (feat. 春茶)"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "04.さよならスマイル-Kobasolo.mp3",
+      "ID": 228,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Goodbye with a smile"
+  },
+  {
+      "AlbumID": 64,
+      "ArtistID": 27,
+      "FileName": "05 Anoko secret.m4a",
+      "ID": 229,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Anoko secret"
+  },
+  {
+      "AlbumID": 156,
+      "ArtistID": 27,
+      "FileName": "06 Heikousen.m4a",
+      "ID": 230,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Heikousen"
+  },
+  {
+      "AlbumID": 145,
+      "ArtistID": 61,
+      "FileName": "06 あいつら全員同窓会.m4a",
+      "ID": 231,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "あいつら全員同窓会"
+  },
+  {
+      "AlbumID": 149,
+      "ArtistID": 62,
+      "FileName": "06 又三郎.m4a",
+      "ID": 232,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "又三郎"
+  },
+  {
+      "AlbumID": 155,
+      "ArtistID": 36,
+      "FileName": "06. ラブレター (feat. 春茶).mp3",
+      "ID": 233,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ラブレター (feat. 春茶)"
+  },
+  {
+      "AlbumID": 157,
+      "ArtistID": 36,
+      "FileName": "06.あとひとつ feat.こぴ.mp3",
+      "ID": 234,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "あとひとつ feat.こぴ"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "06.君さえいなけりゃ-Kobasolo.mp3",
+      "ID": 235,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "I wish theres no you to be around"
+  },
+  {
+      "AlbumID": 143,
+      "ArtistID": 62,
+      "FileName": "07 花人局.m4a",
+      "ID": 236,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "花人局"
+  },
+  {
+      "AlbumID": 153,
+      "ArtistID": 62,
+      "FileName": "07 雲と幽霊.m4a",
+      "ID": 237,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "雲と幽霊"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "07.あなたのことが好きだなんて言えないんです。-Kobasolo.mp3",
+      "ID": 238,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "I love you so much but I cant tell you"
+  },
+  {
+      "AlbumID": 152,
+      "ArtistID": 27,
+      "FileName": "08 Kokoroyohou.m4a",
+      "ID": 239,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kokoroyohou"
+  },
+  {
+      "AlbumID": 150,
+      "ArtistID": 61,
+      "FileName": "08 MILABO.m4a",
+      "ID": 240,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "MILABO"
+  },
+  {
+      "AlbumID": 158,
+      "ArtistID": 62,
+      "FileName": "08 五月は花緑青の窓辺から.m4a",
+      "ID": 241,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "五月は花緑青の窓辺から"
+  },
+  {
+      "AlbumID": 159,
+      "ArtistID": 60,
+      "FileName": "08 青と夏.m4a",
+      "ID": 242,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "青と夏"
+  },
+  {
+      "AlbumID": 158,
+      "ArtistID": 62,
+      "FileName": "09 夜紛い.m4a",
+      "ID": 243,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "夜紛い"
+  },
+  {
+      "AlbumID": 151,
+      "ArtistID": 36,
+      "FileName": "09.HANABI feat.春茶.mp3",
+      "ID": 244,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "HANABI feat.春茶"
+  },
+  {
+      "AlbumID": 92,
+      "ArtistID": 36,
+      "FileName": "10. スパークル(movie ver.) feat. 春茶.mp3",
+      "ID": 245,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "スパークル(movie ver.) feat. 春茶"
+  },
+  {
+      "AlbumID": 160,
+      "ArtistID": 63,
+      "FileName": "10時の方角.mp3",
+      "ID": 246,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "10時の方角"
+  },
+  {
+      "AlbumID": 158,
+      "ArtistID": 62,
+      "FileName": "11 パレード.m4a",
+      "ID": 247,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "パレード"
+  },
+  {
+      "AlbumID": 135,
+      "ArtistID": 58,
+      "FileName": "115万キロのフィルム.mp3",
+      "ID": 248,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "115万キロのフィルム"
+  },
+  {
+      "AlbumID": 145,
+      "ArtistID": 61,
+      "FileName": "12 ミラーチューン.m4a",
+      "ID": 249,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ミラーチューン"
+  },
+  {
+      "AlbumID": 159,
+      "ArtistID": 60,
+      "FileName": "12 ロマンチシズム.m4a",
+      "ID": 250,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ロマンチシズム"
+  },
+  {
+      "AlbumID": 143,
+      "ArtistID": 62,
+      "FileName": "13 夜行.m4a",
+      "ID": 251,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "夜行"
+  },
+  {
+      "AlbumID": 158,
+      "ArtistID": 62,
+      "FileName": "14 だから僕は音楽を辞めた.m4a",
+      "ID": 252,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "だから僕は音楽を辞めた"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "2FACE.mp3",
+      "ID": 253,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "2FACE"
+  },
+  {
+      "AlbumID": 161,
+      "ArtistID": 64,
+      "FileName": "7月の翼.mp3",
+      "ID": 254,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "7月の翼"
+  },
+  {
+      "AlbumID": 162,
+      "ArtistID": 64,
+      "FileName": "After Rain -Scarlet ver.-.mp3",
+      "ID": 255,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "After Rain -Scarlet ver.-"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Aitai.mp3",
+      "ID": 256,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Aitai"
+  },
+  {
+      "AlbumID": 163,
+      "ArtistID": 37,
+      "FileName": "Anataga Kimeta Kyounara.mp3",
+      "ID": 257,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Anataga Kimeta Kyounara"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Anatani Aenaku Naruhimade.mp3",
+      "ID": 258,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Anatani Aenaku Naruhimade"
+  },
+  {
+      "AlbumID": 164,
+      "ArtistID": 58,
+      "FileName": "Apoptosis.mp3",
+      "ID": 259,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Apoptosis"
+  },
+  {
+      "AlbumID": 165,
+      "ArtistID": 37,
+      "FileName": "Asahino Youna Kiss O Shite.mp3",
+      "ID": 260,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Asahino Youna Kiss O Shite"
+  },
+  {
+      "AlbumID": 166,
+      "ArtistID": 36,
+      "FileName": "Ato Hitotsu feat. kopi.mp3",
+      "ID": 261,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Ato Hitotsu feat. kopi"
+  },
+  {
+      "AlbumID": 107,
+      "ArtistID": 37,
+      "FileName": "Baby don't know why.mp3",
+      "ID": 262,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "baby dont know why"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Be alive.mp3",
+      "ID": 263,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "be alive"
+  },
+  {
+      "AlbumID": 167,
+      "ArtistID": 37,
+      "FileName": "Be... - World Sketch Star Piano Remix.mp3",
+      "ID": 264,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Be... - World Sketch Star Piano Remix"
+  },
+  {
+      "AlbumID": 168,
+      "ArtistID": 40,
+      "FileName": "Beautiful.mp3",
+      "ID": 265,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Beautiful"
+  },
+  {
+      "AlbumID": 169,
+      "ArtistID": 64,
+      "FileName": "Blind to you (Remaster for 星の消えた夜に 2022).mp3",
+      "ID": 266,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Blind to you (Remaster for 星の消えた夜に 2022)"
+  },
+  {
+      "AlbumID": 170,
+      "ArtistID": 27,
+      "FileName": "Bokuramadaunderground.mp3",
+      "ID": 267,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Bokuramadaunderground"
+  },
+  {
+      "AlbumID": 165,
+      "ArtistID": 37,
+      "FileName": "BRAVE.mp3",
+      "ID": 268,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "BRAVE"
+  },
+  {
+      "AlbumID": 108,
+      "ArtistID": 65,
+      "FileName": "BRIGHT - Ichinen Nikagetsu Hatsuka.mp3",
+      "ID": 269,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Ichinen Nikagetsu Hatsuka"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Bye For Now.mp3",
+      "ID": 270,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Bye For Now"
+  },
+  {
+      "AlbumID": 171,
+      "ArtistID": 64,
+      "FileName": "Calendar Girl.mp3",
+      "ID": 271,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Calendar Girl"
+  },
+  {
+      "AlbumID": 101,
+      "ArtistID": 40,
+      "FileName": "CANDY.mp3",
+      "ID": 272,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "CANDY"
+  },
+  {
+      "AlbumID": 101,
+      "ArtistID": 40,
+      "FileName": "Chasin'.mp3",
+      "ID": 273,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Chasin"
+  },
+  {
+      "AlbumID": 125,
+      "ArtistID": 35,
+      "FileName": "Chihiro - Yes.mp3",
+      "ID": 274,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Yes"
+  },
+  {
+      "AlbumID": 172,
+      "ArtistID": 36,
+      "FileName": "Chiisana Koi no Uta.mp3",
+      "ID": 275,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Chiisana Koi no Uta"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Cold Kiss.mp3",
+      "ID": 276,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Cold Kiss"
+  },
+  {
+      "AlbumID": 99,
+      "ArtistID": 37,
+      "FileName": "Crescent Moon.mp3",
+      "ID": 277,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Crescent Moon"
+  },
+  {
+      "AlbumID": 173,
+      "ArtistID": 66,
+      "FileName": "Crossing field.mp3",
+      "ID": 278,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "crossing field"
+  },
+  {
+      "AlbumID": 174,
+      "ArtistID": 67,
+      "FileName": "DADDY ! DADDY ! DO !.mp3",
+      "ID": 279,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "DADDY ! DADDY ! DO !"
+  },
+  {
+      "AlbumID": 169,
+      "ArtistID": 64,
+      "FileName": "Daisy.mp3",
+      "ID": 280,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Daisy (Remaster for 星の消えた夜に 2022)"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "Darlin’.mp3",
+      "ID": 281,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Darlin’"
+  },
+  {
+      "AlbumID": 175,
+      "ArtistID": 61,
+      "FileName": "Dear Mr「F」.mp3",
+      "ID": 282,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Dear Mr「F」"
+  },
+  {
+      "AlbumID": 176,
+      "ArtistID": 68,
+      "FileName": "DEAREST DROP.mp3",
+      "ID": 283,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "DEAREST DROP"
+  },
+  {
+      "AlbumID": 94,
+      "ArtistID": 37,
+      "FileName": "Desert.mp3",
+      "ID": 284,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Desert"
+  },
+  {
+      "AlbumID": 168,
+      "ArtistID": 40,
+      "FileName": "Don't You Stop.mp3",
+      "ID": 285,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Dont You Stop"
+  },
+  {
+      "AlbumID": 94,
+      "ArtistID": 37,
+      "FileName": "Epilogue.mp3",
+      "ID": 286,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Epilogue"
+  },
+  {
+      "AlbumID": 160,
+      "ArtistID": 63,
+      "FileName": "Familia.mp3",
+      "ID": 287,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Familia"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "fiction blue.mp3",
+      "ID": 288,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "fiction blue"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Flyday Chinatown.mp3",
+      "ID": 289,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Flyday Chinatown"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Footprint.mp3",
+      "ID": 290,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Footprint"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Forget-me-not.mp3",
+      "ID": 291,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Forget-me-not"
+  },
+  {
+      "AlbumID": 177,
+      "ArtistID": 69,
+      "FileName": "Fukashigi No Carte - Bunny Girl Senpai.mp3",
+      "ID": 292,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Fukashigi No Carte \"Bunny Girl Senpai\""
+  },
+  {
+      "AlbumID": 178,
+      "ArtistID": 70,
+      "FileName": "Fukashigi no Carte.mp3",
+      "ID": 293,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Fukashigi no Carte"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Fun Fun Christmas.mp3",
+      "ID": 294,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Fun Fun Christmas"
+  },
+  {
+      "AlbumID": 101,
+      "ArtistID": 40,
+      "FileName": "Got A Feeling.mp3",
+      "ID": 295,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Got A Feeling"
+  },
+  {
+      "AlbumID": 179,
+      "ArtistID": 71,
+      "FileName": "Go☆サマーガール.mp3",
+      "ID": 296,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Go☆サマーガール"
+  },
+  {
+      "AlbumID": 180,
+      "ArtistID": 72,
+      "FileName": "grilletto.mp3",
+      "ID": 297,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "grilletto"
+  },
+  {
+      "AlbumID": 181,
+      "ArtistID": 37,
+      "FileName": "Hajimarino Toki.mp3",
+      "ID": 298,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Hajimarino Toki"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Hana.mp3",
+      "ID": 299,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Hana"
+  },
+  {
+      "AlbumID": 182,
+      "ArtistID": 73,
+      "FileName": "Happy encount.mp3",
+      "ID": 300,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Happy encount"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Hatsukoi.mp3",
+      "ID": 301,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Hatsukoi"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "Heaven’s Door.mp3",
+      "ID": 302,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Heaven’s Door"
+  },
+  {
+      "AlbumID": 183,
+      "ArtistID": 74,
+      "FileName": "Hello,world!.mp3",
+      "ID": 303,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Hello,world!"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "HELLO.mp3",
+      "ID": 304,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "HELLO"
+  },
+  {
+      "AlbumID": 184,
+      "ArtistID": 75,
+      "FileName": "Here.mp3",
+      "ID": 305,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Here"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "Heroes.mp3",
+      "ID": 306,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Heroes"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "I Remember You.mp3",
+      "ID": 307,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "I Remember You"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "I'm ALIVE.mp3",
+      "ID": 308,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Im ALIVE"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Ihoujin.mp3",
+      "ID": 309,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Ihoujin"
+  },
+  {
+      "AlbumID": 182,
+      "ArtistID": 73,
+      "FileName": "inverted world.mp3",
+      "ID": 310,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "inverted world"
+  },
+  {
+      "AlbumID": 185,
+      "ArtistID": 76,
+      "FileName": "Is There Still Anything That Love Can Do.mp3",
+      "ID": 311,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Is There Still Anything That Love Can Do?"
+  },
+  {
+      "AlbumID": 107,
+      "ArtistID": 37,
+      "FileName": "It's OK.mp3",
+      "ID": 312,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Its OK"
+  },
+  {
+      "AlbumID": 186,
+      "ArtistID": 30,
+      "FileName": "It's okay to social misfit!.mp3",
+      "ID": 313,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Its okay to social misfit!"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "Itsumademo Kawaranu Aio.mp3",
+      "ID": 314,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Itsumademo Kawaranu Aio"
+  },
+  {
+      "AlbumID": 187,
+      "ArtistID": 63,
+      "FileName": "Jasmine.mp3",
+      "ID": 315,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Jasmine"
+  },
+  {
+      "AlbumID": 117,
+      "ArtistID": 37,
+      "FileName": "JEWEL.mp3",
+      "ID": 316,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "JEWEL"
+  },
+  {
+      "AlbumID": 188,
+      "ArtistID": 30,
+      "FileName": "Just disappear.mp3",
+      "ID": 317,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Just disappear"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Kanade.mp3",
+      "ID": 318,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kanade"
+  },
+  {
+      "AlbumID": 108,
+      "ArtistID": 77,
+      "FileName": "Kie Kitano - Hazakura.mp3",
+      "ID": 319,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kie Kitano - Hazakura"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Kimiga Omoideni Narumaeni.mp3",
+      "ID": 320,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kimiga Omoideni Narumaeni"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "KIRA☆KIRA☆.mp3",
+      "ID": 321,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "KIRA☆KIRA☆"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "Kiss Kiss Kiss.mp3",
+      "ID": 322,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kiss Kiss Kiss"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "KOI SEYO OTOME.mp3",
+      "ID": 323,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "KOI SEYO OTOME"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Kokoni Iruwa.mp3",
+      "ID": 324,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kokoni Iruwa"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Konomama Kimidakeo Ubaisaritai.mp3",
+      "ID": 325,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Konomama Kimidakeo Ubaisaritai"
+  },
+  {
+      "AlbumID": 98,
+      "ArtistID": 37,
+      "FileName": "Konyadake Kitto.mp3",
+      "ID": 326,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Konyadake Kitto"
+  },
+  {
+      "AlbumID": 189,
+      "ArtistID": 78,
+      "FileName": "Kuchizuke Diamond.mp3",
+      "ID": 327,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Kuchizuke Diamond"
+  },
+  {
+      "AlbumID": 190,
+      "ArtistID": 63,
+      "FileName": "Lamp.mp3",
+      "ID": 328,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Lamp"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "let go.mp3",
+      "ID": 329,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "let go"
+  },
+  {
+      "AlbumID": 94,
+      "ArtistID": 37,
+      "FileName": "Little Car.mp3",
+      "ID": 330,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Little Car"
+  },
+  {
+      "AlbumID": 191,
+      "ArtistID": 63,
+      "FileName": "Lovers.mp3",
+      "ID": 331,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Lovers"
+  },
+  {
+      "AlbumID": 191,
+      "ArtistID": 63,
+      "FileName": "MAGIC.mp3",
+      "ID": 332,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "MAGIC"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "Manatsuno Yono Yume.mp3",
+      "ID": 333,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Manatsuno Yono Yume"
+  },
+  {
+      "AlbumID": 106,
+      "ArtistID": 37,
+      "FileName": "Mata Aeru Himade.mp3",
+      "ID": 334,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Mata Aeru Himade"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "MIDNIGHT PRETENDERS.mp3",
+      "ID": 335,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "MIDNIGHT PRETENDERS"
+  },
+  {
+      "AlbumID": 169,
+      "ArtistID": 64,
+      "FileName": "Mine (Remaster for 星の消えた夜に 2022).mp3",
+      "ID": 336,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Mine (Remaster for 星の消えた夜に 2022)"
+  },
+  {
+      "AlbumID": 192,
+      "ArtistID": 72,
+      "FileName": "MIRAI.mp3",
+      "ID": 337,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "MIRAI"
+  },
+  {
+      "AlbumID": 193,
+      "ArtistID": 50,
+      "FileName": "Mirror.mp3",
+      "ID": 338,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Mirror"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Momenno Handkerchief.mp3",
+      "ID": 339,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Momenno Handkerchief"
+  },
+  {
+      "AlbumID": 194,
+      "ArtistID": 71,
+      "FileName": "monochrome.mp3",
+      "ID": 340,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "monochrome"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "My Darling.mp3",
+      "ID": 341,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "My Darling"
+  },
+  {
+      "AlbumID": 169,
+      "ArtistID": 64,
+      "FileName": "my sweetest one (Remaster for 星の消えた夜に 2022).mp3",
+      "ID": 342,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "my sweetest one (Remaster for 星の消えた夜に 2022)"
+  },
+  {
+      "AlbumID": 115,
+      "ArtistID": 37,
+      "FileName": "My Way.mp3",
+      "ID": 343,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "My Way"
+  },
+  {
+      "AlbumID": 195,
+      "ArtistID": 36,
+      "FileName": "Natsurenbo.mp3",
+      "ID": 344,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Natsurenbo"
+  },
+  {
+      "AlbumID": 196,
+      "ArtistID": 37,
+      "FileName": "NEWDAY.mp3",
+      "ID": 345,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "NEWDAY"
+  },
+  {
+      "AlbumID": 172,
+      "ArtistID": 36,
+      "FileName": "No.1.mp3",
+      "ID": 346,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "No.1"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Omoideno Sukuriin.mp3",
+      "ID": 347,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Omoideno Sukuriin"
+  },
+  {
+      "AlbumID": 105,
+      "ArtistID": 37,
+      "FileName": "ONCE.mp3",
+      "ID": 348,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ONCE"
+  },
+  {
+      "AlbumID": 106,
+      "ArtistID": 37,
+      "FileName": "One More Time.mp3",
+      "ID": 349,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "One More Time"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Perfect Boy.mp3",
+      "ID": 350,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Perfect Boy"
+  },
+  {
+      "AlbumID": 197,
+      "ArtistID": 58,
+      "FileName": "Pretender.mp3",
+      "ID": 351,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Pretender"
+  },
+  {
+      "AlbumID": 198,
+      "ArtistID": 47,
+      "FileName": "purest note 〜あたたかい音 - Ver. Strings Quartet.mp3",
+      "ID": 352,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "purest note 〜あたたかい音 - Ver. Strings Quartet"
+  },
+  {
+      "AlbumID": 125,
+      "ArtistID": 35,
+      "FileName": "RESET.mp3",
+      "ID": 353,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "RESET"
+  },
+  {
+      "AlbumID": 199,
+      "ArtistID": 66,
+      "FileName": "Rising Hope.mp3",
+      "ID": 354,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Rising Hope"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "Romance.mp3",
+      "ID": 355,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Romance"
+  },
+  {
+      "AlbumID": 110,
+      "ArtistID": 37,
+      "FileName": "Roppongi Junjouha.mp3",
+      "ID": 356,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Roppongi Junjouha"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Saigo No Ame.mp3",
+      "ID": 357,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Saigo No Ame"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Saudade.mp3",
+      "ID": 358,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Saudade"
+  },
+  {
+      "AlbumID": 167,
+      "ArtistID": 37,
+      "FileName": "Sayonara.mp3",
+      "ID": 359,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sayonara"
+  },
+  {
+      "AlbumID": 122,
+      "ArtistID": 47,
+      "FileName": "SELF PRODUCER.mp3",
+      "ID": 360,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "SELF PRODUCER"
+  },
+  {
+      "AlbumID": 201,
+      "ArtistID": 63,
+      "FileName": "Shake & Shake.mp3",
+      "ID": 361,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Shake & Shake"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "Shiawaseni Naritai.mp3",
+      "ID": 362,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Shiawaseni Naritai"
+  },
+  {
+      "AlbumID": 202,
+      "ArtistID": 31,
+      "FileName": "SHOCK!.mp3",
+      "ID": 363,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "SHOCK!"
+  },
+  {
+      "AlbumID": 197,
+      "ArtistID": 58,
+      "FileName": "Shukumei.mp3",
+      "ID": 364,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Shukumei"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Silent Tears.mp3",
+      "ID": 365,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Silent Tears"
+  },
+  {
+      "AlbumID": 203,
+      "ArtistID": 73,
+      "FileName": "Sincerely.mp3",
+      "ID": 366,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sincerely"
+  },
+  {
+      "AlbumID": 79,
+      "ArtistID": 34,
+      "FileName": "Sleeping town.mp3",
+      "ID": 367,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sleeping town"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "Sorato Kimino Aidani.mp3",
+      "ID": 368,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sorato Kimino Aidani"
+  },
+  {
+      "AlbumID": 204,
+      "ArtistID": 76,
+      "FileName": "Sparkle - Original Version.mp3",
+      "ID": 369,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sparkle - Original Version"
+  },
+  {
+      "AlbumID": 109,
+      "ArtistID": 37,
+      "FileName": "Stay With Me.mp3",
+      "ID": 370,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Stay With Me"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "Sunshine.mp3",
+      "ID": 371,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Sunshine"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "The Fog.mp3",
+      "ID": 372,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "The Fog"
+  },
+  {
+      "AlbumID": 96,
+      "ArtistID": 37,
+      "FileName": "There will be love there.mp3",
+      "ID": 373,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "There will be love there"
+  },
+  {
+      "AlbumID": 103,
+      "ArtistID": 37,
+      "FileName": "Ti Amo.mp3",
+      "ID": 374,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Ti Amo"
+  },
+  {
+      "AlbumID": 112,
+      "ArtistID": 37,
+      "FileName": "TOMORROW.mp3",
+      "ID": 375,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "TOMORROW"
+  },
+  {
+      "AlbumID": 98,
+      "ArtistID": 37,
+      "FileName": "Tooku Tooku.mp3",
+      "ID": 376,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Tooku Tooku"
+  },
+  {
+      "AlbumID": 206,
+      "ArtistID": 30,
+      "FileName": "Toy.mp3",
+      "ID": 377,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Toy"
+  },
+  {
+      "AlbumID": 207,
+      "ArtistID": 63,
+      "FileName": "Traveling.mp3",
+      "ID": 378,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Traveling"
+  },
+  {
+      "AlbumID": 94,
+      "ArtistID": 37,
+      "FileName": "True.mp3",
+      "ID": 379,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "True"
+  },
+  {
+      "AlbumID": 208,
+      "ArtistID": 37,
+      "FileName": "Umiwo Miteru.mp3",
+      "ID": 380,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Umiwo Miteru"
+  },
+  {
+      "AlbumID": 164,
+      "ArtistID": 58,
+      "FileName": "Universe.mp3",
+      "ID": 381,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Universe"
+  },
+  {
+      "AlbumID": 69,
+      "ArtistID": 31,
+      "FileName": "violeta.mp3",
+      "ID": 382,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "violeta"
+  },
+  {
+      "AlbumID": 208,
+      "ArtistID": 37,
+      "FileName": "WAY YOU ARE.mp3",
+      "ID": 383,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "WAY YOU ARE"
+  },
+  {
+      "AlbumID": 165,
+      "ArtistID": 37,
+      "FileName": "White Letter.mp3",
+      "ID": 384,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "White Letter"
+  },
+  {
+      "AlbumID": 209,
+      "ArtistID": 37,
+      "FileName": "Who Are You.mp3",
+      "ID": 385,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Who Are You"
+  },
+  {
+      "AlbumID": 210,
+      "ArtistID": 73,
+      "FileName": "WILL.mp3",
+      "ID": 386,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "WILL"
+  },
+  {
+      "AlbumID": 197,
+      "ArtistID": 58,
+      "FileName": "Yesterday.mp3",
+      "ID": 387,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Yesterday"
+  },
+  {
+      "AlbumID": 116,
+      "ArtistID": 37,
+      "FileName": "You are Beautiful.mp3",
+      "ID": 388,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "You are Beautiful"
+  },
+  {
+      "AlbumID": 211,
+      "ArtistID": 55,
+      "FileName": "you.mp3",
+      "ID": 389,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "you"
+  },
+  {
+      "AlbumID": 212,
+      "ArtistID": 81,
+      "FileName": "Yunomi  – はんぶんこ花火 .mp3",
+      "ID": 390,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "Yunomi  – はんぶんこ花火"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "あの夢をなぞって.mp3",
+      "ID": 391,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "あの夢をなぞって"
+  },
+  {
+      "AlbumID": 120,
+      "ArtistID": 47,
+      "FileName": "いつだって青空.mp3",
+      "ID": 392,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "いつだって青空"
+  },
+  {
+      "AlbumID": 191,
+      "ArtistID": 63,
+      "FileName": "ここから見える景色.mp3",
+      "ID": 393,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ここから見える景色"
+  },
+  {
+      "AlbumID": 214,
+      "ArtistID": 46,
+      "FileName": "さくら 〜あなたに出会えてよかった〜.mp3",
+      "ID": 394,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "さくら 〜あなたに出会えてよかった〜"
+  },
+  {
+      "AlbumID": 215,
+      "ArtistID": 37,
+      "FileName": "しあわせ.mp3",
+      "ID": 395,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "しあわせ"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "ずっと二人で.mp3",
+      "ID": 396,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ずっと二人で"
+  },
+  {
+      "AlbumID": 172,
+      "ArtistID": 36,
+      "FileName": "そっけない.mp3",
+      "ID": 397,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "そっけない"
+  },
+  {
+      "AlbumID": 154,
+      "ArtistID": 62,
+      "FileName": "ただ君に晴れ.mp3",
+      "ID": 398,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ただ君に晴れ"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "たぶん.mp3",
+      "ID": 399,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "たぶん"
+  },
+  {
+      "AlbumID": 216,
+      "ArtistID": 55,
+      "FileName": "ふたりきりルームシアター.mp3",
+      "ID": 400,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ふたりきりルームシアター"
+  },
+  {
+      "AlbumID": 217,
+      "ArtistID": 37,
+      "FileName": "また君と.mp3",
+      "ID": 401,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "また君と"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "もう少しだけ.mp3",
+      "ID": 402,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "もう少しだけ"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "もしも命が描けたら.mp3",
+      "ID": 403,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "もしも命が描けたら"
+  },
+  {
+      "AlbumID": 218,
+      "ArtistID": 47,
+      "FileName": "アイアイ愛してるよ♡.mp3",
+      "ID": 404,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "アイアイ愛してるよ♡"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "アイドル.mp3",
+      "ID": 405,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "アイドル"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "アドベンチャー.mp3",
+      "ID": 406,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "アドベンチャー"
+  },
+  {
+      "AlbumID": 191,
+      "ArtistID": 63,
+      "FileName": "アネモネ.mp3",
+      "ID": 407,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "アネモネ"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "アンコール.mp3",
+      "ID": 408,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "アンコール"
+  },
+  {
+      "AlbumID": 207,
+      "ArtistID": 63,
+      "FileName": "イコール.mp3",
+      "ID": 409,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "イコール"
+  },
+  {
+      "AlbumID": 220,
+      "ArtistID": 81,
+      "FileName": "インドア系ならトラックメイカー.mp3",
+      "ID": 410,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "インドア系ならトラックメイカー"
+  },
+  {
+      "AlbumID": 159,
+      "ArtistID": 60,
+      "FileName": "インフェルノ.mp3",
+      "ID": 411,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "インフェルノ"
+  },
+  {
+      "AlbumID": 221,
+      "ArtistID": 63,
+      "FileName": "エンドロール.mp3",
+      "ID": 412,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "エンドロール"
+  },
+  {
+      "AlbumID": 172,
+      "ArtistID": 36,
+      "FileName": "キセキ.mp3",
+      "ID": 413,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "キセキ"
+  },
+  {
+      "AlbumID": 222,
+      "ArtistID": 3,
+      "FileName": "キミと未来.mp3",
+      "ID": 414,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "キミと未来"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "ギミギミ.mp3",
+      "ID": 415,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ギミギミ"
+  },
+  {
+      "AlbumID": 218,
+      "ArtistID": 47,
+      "FileName": "シャラララ.mp3",
+      "ID": 416,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "シャラララ"
+  },
+  {
+      "AlbumID": 223,
+      "ArtistID": 82,
+      "FileName": "シュガーソングとビターステップ.mp3",
+      "ID": 417,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "シュガーソングとビターステップ"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "シュガーロス.mp3",
+      "ID": 418,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "シュガーロス"
+  },
+  {
+      "AlbumID": 224,
+      "ArtistID": 55,
+      "FileName": "シンシアリー.mp3",
+      "ID": 419,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "シンシアリー"
+  },
+  {
+      "AlbumID": 212,
+      "ArtistID": 81,
+      "FileName": "ジェリーフィッシュ.mp3",
+      "ID": 420,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ジェリーフィッシュ (feat. ローラーガール)"
+  },
+  {
+      "AlbumID": 225,
+      "ArtistID": 55,
+      "FileName": "セツナdays.mp3",
+      "ID": 421,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "セツナdays"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "セブンティーン.mp3",
+      "ID": 422,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "セブンティーン"
+  },
+  {
+      "AlbumID": 221,
+      "ArtistID": 63,
+      "FileName": "センス・オブ・ワンダー.mp3",
+      "ID": 423,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "センス・オブ・ワンダー"
+  },
+  {
+      "AlbumID": 226,
+      "ArtistID": 63,
+      "FileName": "ソーダ.mp3",
+      "ID": 424,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ソーダ"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "ツバメ (feat. ミドリーズ).mp3",
+      "ID": 425,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ツバメ (feat. ミドリーズ)"
+  },
+  {
+      "AlbumID": 227,
+      "ArtistID": 55,
+      "FileName": "ツーアウトロマンス.mp3",
+      "ID": 426,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ツーアウトロマンス"
+  },
+  {
+      "AlbumID": 228,
+      "ArtistID": 63,
+      "FileName": "ナイトウォーカー.mp3",
+      "ID": 427,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ナイトウォーカー"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "ニゲラ.mp3",
+      "ID": 428,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ニゲラ"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "ハルカ.mp3",
+      "ID": 429,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ハルカ"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "ハルジオン.mp3",
+      "ID": 430,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ハルジオン"
+  },
+  {
+      "AlbumID": 229,
+      "ArtistID": 62,
+      "FileName": "パレード.mp3",
+      "ID": 431,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "パレード"
+  },
+  {
+      "AlbumID": 225,
+      "ArtistID": 55,
+      "FileName": "ヒーロー・イン・ザ・ミラー.mp3",
+      "ID": 432,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ヒーロー・イン・ザ・ミラー"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "ビーユアセルフ.mp3",
+      "ID": 433,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ビーユアセルフ"
+  },
+  {
+      "AlbumID": 160,
+      "ArtistID": 63,
+      "FileName": "ファンファーレ.mp3",
+      "ID": 434,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ファンファーレ"
+  },
+  {
+      "AlbumID": 160,
+      "ArtistID": 63,
+      "FileName": "フィクション.mp3",
+      "ID": 435,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "フィクション"
+  },
+  {
+      "AlbumID": 230,
+      "ArtistID": 73,
+      "FileName": "フロム.mp3",
+      "ID": 436,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "フロム"
+  },
+  {
+      "AlbumID": 231,
+      "ArtistID": 62,
+      "FileName": "ブレーメン.mp3",
+      "ID": 437,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ブレーメン"
+  },
+  {
+      "AlbumID": 232,
+      "ArtistID": 64,
+      "FileName": "ポラリス.mp3",
+      "ID": 438,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ポラリス"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "ミスター.mp3",
+      "ID": 439,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ミスター"
+  },
+  {
+      "AlbumID": 233,
+      "ArtistID": 47,
+      "FileName": "ミラクルバング!.mp3",
+      "ID": 440,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ミラクルバング!"
+  },
+  {
+      "AlbumID": 234,
+      "ArtistID": 61,
+      "FileName": "ミラーチューン.mp3",
+      "ID": 441,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ミラーチューン"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "ユラユラ.mp3",
+      "ID": 442,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ユラユラ"
+  },
+  {
+      "AlbumID": 235,
+      "ArtistID": 47,
+      "FileName": "ラストカード.mp3",
+      "ID": 443,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ラストカード"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "ラブの逃走.mp3",
+      "ID": 444,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ラブの逃走"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "ラブレター.mp3",
+      "ID": 445,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ラブレター"
+  },
+  {
+      "AlbumID": 236,
+      "ArtistID": 63,
+      "FileName": "リタルダンド.mp3",
+      "ID": 446,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "リタルダンド"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "ロックでキス.mp3",
+      "ID": 447,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ロックでキス"
+  },
+  {
+      "AlbumID": 237,
+      "ArtistID": 37,
+      "FileName": "ワインレッドの心.mp3",
+      "ID": 448,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "ワインレッドの心"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "三原色.mp3",
+      "ID": 449,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "三原色"
+  },
+  {
+      "AlbumID": 198,
+      "ArtistID": 47,
+      "FileName": "会いたかった空 - Ver. Strings Quartet.mp3",
+      "ID": 450,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "会いたかった空 - Ver. Strings Quartet"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "優しい彗星.mp3",
+      "ID": 451,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "優しい彗星"
+  },
+  {
+      "AlbumID": 238,
+      "ArtistID": 83,
+      "FileName": "光るなら.mp3",
+      "ID": 452,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "光るなら"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "勇者.mp3",
+      "ID": 453,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "勇者"
+  },
+  {
+      "AlbumID": 139,
+      "ArtistID": 62,
+      "FileName": "又三郎.mp3",
+      "ID": 454,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "又三郎"
+  },
+  {
+      "AlbumID": 122,
+      "ArtistID": 47,
+      "FileName": "境界の彼方.mp3",
+      "ID": 455,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "境界の彼方"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "夜に駆ける.mp3",
+      "ID": 456,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "夜に駆ける"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "女性が歌うキセキGReeeeN青空エール主題歌 whiteeeen.mp3",
+      "ID": 457,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "女性が歌うキセキGReeeeN青空エール主題歌 whiteeeen"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "女性が歌う高嶺の花子さんback number.mp3",
+      "ID": 458,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "女性が歌う高嶺の花子さんback number"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "好きだ.mp3",
+      "ID": 459,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "好きだ"
+  },
+  {
+      "AlbumID": 91,
+      "ArtistID": 36,
+      "FileName": "好きな人かいることJY好きな人がいること主題歌.mp3",
+      "ID": 460,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "好きな人かいることJY好きな人がいること主題歌"
+  },
+  {
+      "AlbumID": 172,
+      "ArtistID": 36,
+      "FileName": "好きな人がいること.mp3",
+      "ID": 461,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "好きな人がいること"
+  },
+  {
+      "AlbumID": 239,
+      "ArtistID": 55,
+      "FileName": "好きになってよかったな.mp3",
+      "ID": 462,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "好きになってよかったな"
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "寄り酔い.mp3",
+      "ID": 463,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "寄り酔い"
+  },
+  {
+      "AlbumID": 131,
+      "ArtistID": 31,
+      "FileName": "幽霊東京.mp3",
+      "ID": 464,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "幽霊東京"
+  },
+  {
+      "AlbumID": 200,
+      "ArtistID": 79,
+      "FileName": "怪物.mp3",
+      "ID": 465,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "怪物"
+  },
+  {
+      "AlbumID": 122,
+      "ArtistID": 47,
+      "FileName": "恋.mp3",
+      "ID": 466,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "恋"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "恋焦がれて.mp3",
+      "ID": 467,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "恋焦がれて"
+  },
+  {
+      "AlbumID": 240,
+      "ArtistID": 62,
+      "FileName": "晴る.mp3",
+      "ID": 468,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "晴る"
+  },
+  {
+      "AlbumID": 241,
+      "ArtistID": 63,
+      "FileName": "本音.mp3",
+      "ID": 469,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "本音"
+  },
+  {
+      "AlbumID": 123,
+      "ArtistID": 40,
+      "FileName": "歌うたいのバラッド.mp3",
+      "ID": 470,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "歌うたいのバラッド"
+  },
+  {
+      "AlbumID": 242,
+      "ArtistID": 61,
+      "FileName": "正しくなれない - From THE FIRST TAKE.mp3",
+      "ID": 471,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "正しくなれない - From THE FIRST TAKE"
+  },
+  {
+      "AlbumID": 243,
+      "ArtistID": 40,
+      "FileName": "永遠 - marriage ver.mp3",
+      "ID": 472,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "永遠 - marriage ver."
+  },
+  {
+      "AlbumID": 205,
+      "ArtistID": 80,
+      "FileName": "泡沫.mp3",
+      "ID": 473,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "泡沫"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "海のまにまに.mp3",
+      "ID": 474,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "海のまにまに"
+  },
+  {
+      "AlbumID": 244,
+      "ArtistID": 40,
+      "FileName": "涙のキッス.mp3",
+      "ID": 475,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "涙のキッス"
+  },
+  {
+      "AlbumID": 132,
+      "ArtistID": 56,
+      "FileName": "白金ディスコ.mp3",
+      "ID": 476,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "白金ディスコ"
+  },
+  {
+      "AlbumID": 245,
+      "ArtistID": 80,
+      "FileName": "真っ裸.mp3",
+      "ID": 477,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "真っ裸"
+  },
+  {
+      "AlbumID": 246,
+      "ArtistID": 63,
+      "FileName": "祝祭.mp3",
+      "ID": 478,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "祝祭"
+  },
+  {
+      "AlbumID": 219,
+      "ArtistID": 79,
+      "FileName": "祝福.mp3",
+      "ID": 479,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "祝福"
+  },
+  {
+      "AlbumID": 192,
+      "ArtistID": 72,
+      "FileName": "約束 -Promise code.mp3",
+      "ID": 480,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "約束 -Promise code-"
+  },
+  {
+      "AlbumID": 247,
+      "ArtistID": 80,
+      "FileName": "絶頂讃歌.mp3",
+      "ID": 481,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "絶頂讃歌"
+  },
+  {
+      "AlbumID": 213,
+      "ArtistID": 79,
+      "FileName": "群青.mp3",
+      "ID": 482,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "群青"
+  },
+  {
+      "AlbumID": 248,
+      "ArtistID": 62,
+      "FileName": "花に亡霊.mp3",
+      "ID": 483,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "花に亡霊"
+  },
+  {
+      "AlbumID": 153,
+      "ArtistID": 62,
+      "FileName": "靴の花火.mp3",
+      "ID": 484,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "靴の花火"
+  },
+  {
+      "AlbumID": 249,
+      "ArtistID": 63,
+      "FileName": "願い.mp3",
+      "ID": 485,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "願い"
+  },
+  {
+      "AlbumID": 250,
+      "ArtistID": 31,
+      "FileName": "飽和.mp3",
+      "ID": 486,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 5,
+      "Title": "飽和"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "11 Giờ 11 Phút - Htrol Remix.mp3",
+      "ID": 487,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "11 Giờ 11 Phút - Htrol Remix"
+  },
+  {
+      "AlbumID": 252,
+      "ArtistID": 85,
+      "FileName": "Against The Sun.mp3",
+      "ID": 488,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Against The Sun"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Anh đã lạc vào - Htrol Remix.mp3",
+      "ID": 489,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Anh đã lạc vào - Htrol Remix"
+  },
+  {
+      "AlbumID": 253,
+      "ArtistID": 86,
+      "FileName": "Anything Anymore.mp3",
+      "ID": 490,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Anything Anymore"
+  },
+  {
+      "AlbumID": 254,
+      "ArtistID": 87,
+      "FileName": "Anywhere I Go.mp3",
+      "ID": 491,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Anywhere I Go"
+  },
+  {
+      "AlbumID": 255,
+      "ArtistID": 27,
+      "FileName": "Are You Lonely.mp3",
+      "ID": 492,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Are You Lonely"
+  },
+  {
+      "AlbumID": 256,
+      "ArtistID": 88,
+      "FileName": "Beautiful Now.mp3",
+      "ID": 493,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Beautiful Now"
+  },
+  {
+      "AlbumID": 257,
+      "ArtistID": 89,
+      "FileName": "Body Back (feat. Maia Wright).mp3",
+      "ID": 494,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Body Back (feat. Maia Wright)"
+  },
+  {
+      "AlbumID": 258,
+      "ArtistID": 6,
+      "FileName": "Can't Wait.mp3",
+      "ID": 495,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Cant Wait"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Có Trăng Quên Đèn - Htrol Remix.mp3",
+      "ID": 496,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Có Trăng Quên Đèn - Htrol Remix"
+  },
+  {
+      "AlbumID": 259,
+      "ArtistID": 16,
+      "FileName": "DRUM GO DUM.mp3",
+      "ID": 497,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "DRUM GO DUM"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Em là nhất miền Tây - Htrol Remix.mp3",
+      "ID": 498,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Em là nhất miền Tây - Htrol Remix"
+  },
+  {
+      "AlbumID": 260,
+      "ArtistID": 15,
+      "FileName": "End of Time.mp3",
+      "ID": 499,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "End of Time"
+  },
+  {
+      "AlbumID": 22,
+      "ArtistID": 15,
+      "FileName": "Fade.mp3",
+      "ID": 500,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Fade"
+  },
+  {
+      "AlbumID": 261,
+      "ArtistID": 90,
+      "FileName": "Firebird.mp3",
+      "ID": 501,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Firebird"
+  },
+  {
+      "AlbumID": 22,
+      "ArtistID": 15,
+      "FileName": "Force.mp3",
+      "ID": 502,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Force"
+  },
+  {
+      "AlbumID": 262,
+      "ArtistID": 91,
+      "FileName": "Frame of Mind.mp3",
+      "ID": 503,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Frame of Mind"
+  },
+  {
+      "AlbumID": 263,
+      "ArtistID": 16,
+      "FileName": "GIANTS.mp3",
+      "ID": 504,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "GIANTS"
+  },
+  {
+      "AlbumID": 264,
+      "ArtistID": 16,
+      "FileName": "GODS.mp3",
+      "ID": 505,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "GODS"
+  },
+  {
+      "AlbumID": 265,
+      "ArtistID": 92,
+      "FileName": "Heart afire.mp3",
+      "ID": 506,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "heart afire"
+  },
+  {
+      "AlbumID": 259,
+      "ArtistID": 16,
+      "FileName": "I'LL SHOW YOU.mp3",
+      "ID": 507,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "ILL SHOW YOU"
+  },
+  {
+      "AlbumID": 266,
+      "ArtistID": 88,
+      "FileName": "Ignite - LOL.mp3",
+      "ID": 508,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Ignite - 2016 League Of Legends World Championship"
+  },
+  {
+      "AlbumID": 267,
+      "ArtistID": 15,
+      "FileName": "Ignite.mp3",
+      "ID": 509,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Ignite"
+  },
+  {
+      "AlbumID": 268,
+      "ArtistID": 93,
+      "FileName": "Inside the Lines.mp3",
+      "ID": 510,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Inside the Lines"
+  },
+  {
+      "AlbumID": 36,
+      "ArtistID": 22,
+      "FileName": "Jackpot.mp3",
+      "ID": 511,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Jackpot"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "Justin Caruso - Talk About Me ft. Victoria Zaro (Leowi Remix).mp3",
+      "ID": 512,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Justin Caruso - Talk About Me ft. Victoria Zaro (Leowi Remix)"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "K-391 & Diviners feat. Anna Yvette - City Of Gold.mp3",
+      "ID": 513,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "K-391 & Diviners feat. Anna Yvette - City Of Gold"
+  },
+  {
+      "AlbumID": 270,
+      "ArtistID": 95,
+      "FileName": "Lights Go Down (Radio Mix) [feat. Curtains].mp3",
+      "ID": 514,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Lights Go Down (Radio Mix) [feat. Curtains]"
+  },
+  {
+      "AlbumID": 271,
+      "ArtistID": 6,
+      "FileName": "Linked.mp3",
+      "ID": 515,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Linked"
+  },
+  {
+      "AlbumID": 272,
+      "ArtistID": 96,
+      "FileName": "Lone Digger.mp3",
+      "ID": 516,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Lone Digger"
+  },
+  {
+      "AlbumID": 259,
+      "ArtistID": 16,
+      "FileName": "MORE.mp3",
+      "ID": 517,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "MORE"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 97,
+      "FileName": "MORTEN - Beautiful Heartbeat (Deorro Remix).mp3",
+      "ID": 518,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "MORTEN - Beautiful Heartbeat (Deorro Remix)"
+  },
+  {
+      "AlbumID": 273,
+      "ArtistID": 15,
+      "FileName": "Move Your Body - Alan Walker Remix.mp3",
+      "ID": 519,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Move Your Body - Alan Walker Remix"
+  },
+  {
+      "AlbumID": 274,
+      "ArtistID": 17,
+      "FileName": "Nen Va Hoa - SONBEAT REMIX.mp3",
+      "ID": 520,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nen Va Hoa - SONBEAT REMIX"
+  },
+  {
+      "AlbumID": 275,
+      "ArtistID": 98,
+      "FileName": "Never Coming Home.mp3",
+      "ID": 521,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Never Coming Home (feat. Kinley)"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Angel.mp3",
+      "ID": 522,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Angel"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Army Of Two.mp3",
+      "ID": 523,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Army Of Two"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Blackout.mp3",
+      "ID": 524,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Blackout"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Catch Fire.mp3",
+      "ID": 525,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Catch Fire"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Counting Stars.mp3",
+      "ID": 526,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Counting Stars"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Disconnected.mp3",
+      "ID": 527,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Disconnected"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Fireflies (Remix).mp3",
+      "ID": 528,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Fireflies (Remix)"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Glad You Came.mp3",
+      "ID": 529,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Glad You Came"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Hey Devil.mp3",
+      "ID": 530,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Hey Devil"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - How To Be A Heartbreaker.mp3",
+      "ID": 531,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - How To Be A Heartbreaker"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - I Like It Loud.mp3",
+      "ID": 532,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - I Like It Loud"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - I'm Not Here For Your Entertainment.mp3",
+      "ID": 533,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Im Not Here For Your Entertainment"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - My Demons.mp3",
+      "ID": 534,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - My Demons"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Run.mp3",
+      "ID": 535,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Run"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Soldier.mp3",
+      "ID": 536,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Soldier"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Start A Fire.mp3",
+      "ID": 537,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Start A Fire"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Stay the Night.mp3",
+      "ID": 538,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Stay the Night"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Stay.mp3",
+      "ID": 539,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Stay"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - The Nights.mp3",
+      "ID": 540,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - The Nights"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - The Phoenix.mp3",
+      "ID": 541,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - The Phoenix"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Windows Down.mp3",
+      "ID": 542,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nightcore - Windows Down"
+  },
+  {
+      "AlbumID": 277,
+      "ArtistID": 87,
+      "FileName": "Nothing Stopping Me.mp3",
+      "ID": 543,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Nothing Stopping Me"
+  },
+  {
+      "AlbumID": 278,
+      "ArtistID": 100,
+      "FileName": "Numb (feat. Johnning).mp3",
+      "ID": 544,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Numb (feat. Johnning)"
+  },
+  {
+      "AlbumID": 279,
+      "ArtistID": 101,
+      "FileName": "On the Line.mp3",
+      "ID": 545,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "On the Line"
+  },
+  {
+      "AlbumID": 280,
+      "ArtistID": 102,
+      "FileName": "Our Story - Radio Edit.mp3",
+      "ID": 546,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Our Story - Radio Edit"
+  },
+  {
+      "AlbumID": 281,
+      "ArtistID": 103,
+      "FileName": "Phoenix.mp3",
+      "ID": 547,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Phoenix"
+  },
+  {
+      "AlbumID": 282,
+      "ArtistID": 15,
+      "FileName": "Play.mp3",
+      "ID": 548,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Play"
+  },
+  {
+      "AlbumID": 283,
+      "ArtistID": 16,
+      "FileName": "POP_STARS.mp3",
+      "ID": 549,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "POP-STARS"
+  },
+  {
+      "AlbumID": 284,
+      "ArtistID": 85,
+      "FileName": "Red Line.mp3",
+      "ID": 550,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Red Line"
+  },
+  {
+      "AlbumID": 285,
+      "ArtistID": 104,
+      "FileName": "Rhymastic - Yêu 5 Remix.mp3",
+      "ID": 551,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Rhymastic - Yêu 5 Remix"
+  },
+  {
+      "AlbumID": 286,
+      "ArtistID": 16,
+      "FileName": "RISE.mp3",
+      "ID": 552,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "RISE"
+  },
+  {
+      "AlbumID": 287,
+      "ArtistID": 105,
+      "FileName": "Robot Love.mp3",
+      "ID": 553,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Robot Love"
+  },
+  {
+      "AlbumID": 288,
+      "ArtistID": 106,
+      "FileName": "Saving Light.mp3",
+      "ID": 554,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Saving Light"
+  },
+  {
+      "AlbumID": 289,
+      "ArtistID": 102,
+      "FileName": "Smoke Filled Room.mp3",
+      "ID": 555,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Smoke Filled Room"
+  },
+  {
+      "AlbumID": 290,
+      "ArtistID": 107,
+      "FileName": "Start Again.mp3",
+      "ID": 556,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Start Again"
+  },
+  {
+      "AlbumID": 291,
+      "ArtistID": 108,
+      "FileName": "Summer Air.mp3",
+      "ID": 557,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Summer Air"
+  },
+  {
+      "AlbumID": 292,
+      "ArtistID": 109,
+      "FileName": "Surrender.mp3",
+      "ID": 558,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Surrender"
+  },
+  {
+      "AlbumID": 259,
+      "ArtistID": 16,
+      "FileName": "THE BADDEST.mp3",
+      "ID": 559,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "THE BADDEST"
+  },
+  {
+      "AlbumID": 293,
+      "ArtistID": 15,
+      "FileName": "The Spectre.mp3",
+      "ID": 560,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "The Spectre"
+  },
+  {
+      "AlbumID": 294,
+      "ArtistID": 110,
+      "FileName": "Thunder.mp3",
+      "ID": 561,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Thunder"
+  },
+  {
+      "AlbumID": 295,
+      "ArtistID": 91,
+      "FileName": "Till It's Over.mp3",
+      "ID": 562,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Till Its Over"
+  },
+  {
+      "AlbumID": 296,
+      "ArtistID": 111,
+      "FileName": "Untouchable.mp3",
+      "ID": 563,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Untouchable"
+  },
+  {
+      "AlbumID": 259,
+      "ArtistID": 16,
+      "FileName": "VILLAIN.mp3",
+      "ID": 564,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "VILLAIN"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "Virtual Riot - Idols.mp3",
+      "ID": 565,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Virtual Riot - Idols"
+  },
+  {
+      "AlbumID": 297,
+      "ArtistID": 87,
+      "FileName": "Walk Thru Fire.mp3",
+      "ID": 566,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Walk Thru Fire"
+  },
+  {
+      "AlbumID": 298,
+      "ArtistID": 112,
+      "FileName": "Without You (feat. Sandro Cavazza).mp3",
+      "ID": 567,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 6,
+      "Title": "Without You (feat. Sandro Cavazza)"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Anh Sai Rồi.mp3",
+      "ID": 568,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Anh Sai Rồi"
+  },
+  {
+      "AlbumID": 300,
+      "ArtistID": 114,
+      "FileName": "Anh Đã Quen Với Cô Đơn.mp3",
+      "ID": 569,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Anh Đã Quen Với Cô Đơn"
+  },
+  {
+      "AlbumID": 301,
+      "ArtistID": 115,
+      "FileName": "Bloom.mp3",
+      "ID": 570,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Bloom"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Buông Đôi Tay Nhau Ra.mp3",
+      "ID": 571,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Buông Đôi Tay Nhau Ra"
+  },
+  {
+      "AlbumID": 302,
+      "ArtistID": 116,
+      "FileName": "Bức Tranh Từ Nước Mắt.mp3",
+      "ID": 572,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Bức Tranh Từ Nước Mắt"
+  },
+  {
+      "AlbumID": 303,
+      "ArtistID": 116,
+      "FileName": "Chạm Đáy Nỗi Đau - Piano Version.mp3",
+      "ID": 573,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Chạm Đáy Nỗi Đau - Piano Version"
+  },
+  {
+      "AlbumID": 304,
+      "ArtistID": 116,
+      "FileName": "Chạm Đáy Nỗi Đau.mp3",
+      "ID": 574,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Chạm Đáy Nỗi Đau"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Chắc Ai Đó Sẽ Về.mp3",
+      "ID": 575,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Chắc Ai Đó Sẽ Về"
+  },
+  {
+      "AlbumID": 305,
+      "ArtistID": 116,
+      "FileName": "Càng Níu Giữ Càng Dễ Mất.mp3",
+      "ID": 576,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Càng Níu Giữ Càng Dễ Mất"
+  },
+  {
+      "AlbumID": 306,
+      "ArtistID": 117,
+      "FileName": "Có hẹn với thanh xuân.mp3",
+      "ID": 577,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "có hẹn với thanh xuân"
+  },
+  {
+      "AlbumID": 307,
+      "ArtistID": 118,
+      "FileName": "Cảm Giác Lúc Ấy Sẽ Ra Sao.mp3",
+      "ID": 578,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Cảm Giác Lúc Ấy Sẽ Ra Sao"
+  },
+  {
+      "AlbumID": 308,
+      "ArtistID": 116,
+      "FileName": "Day Dứt Nỗi Đau.mp3",
+      "ID": 579,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Day Dứt Nỗi Đau"
+  },
+  {
+      "AlbumID": 309,
+      "ArtistID": 116,
+      "FileName": "Dưới Những Cơn Mưa.mp3",
+      "ID": 580,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Dưới Những Cơn Mưa"
+  },
+  {
+      "AlbumID": 303,
+      "ArtistID": 116,
+      "FileName": "Em Gái Mưa - Piano Version.mp3",
+      "ID": 581,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Em Gái Mưa - Piano Version"
+  },
+  {
+      "AlbumID": 310,
+      "ArtistID": 117,
+      "FileName": "Em Đã Biết.mp3",
+      "ID": 582,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Em Đã Biết"
+  },
+  {
+      "AlbumID": 311,
+      "ArtistID": 116,
+      "FileName": "Gương Mặt Lạ Lẫm.mp3",
+      "ID": 583,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Gương Mặt Lạ Lẫm"
+  },
+  {
+      "AlbumID": 312,
+      "ArtistID": 119,
+      "FileName": "I Do.mp3",
+      "ID": 584,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "I Do"
+  },
+  {
+      "AlbumID": 313,
+      "ArtistID": 120,
+      "FileName": "Khi Người Lớn Cô Đơn.mp3",
+      "ID": 585,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Khi Người Lớn Cô Đơn"
+  },
+  {
+      "AlbumID": 314,
+      "ArtistID": 116,
+      "FileName": "Không Cần Thêm Một Ai Nữa.mp3",
+      "ID": 586,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Không Cần Thêm Một Ai Nữa"
+  },
+  {
+      "AlbumID": 315,
+      "ArtistID": 117,
+      "FileName": "Không Sao Mà, Em Đây Rồi.mp3",
+      "ID": 587,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Không Sao Mà, Em Đây Rồi"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "Madilyn Paige - I'm Yours - Perfect Two.mp3",
+      "ID": 588,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Madilyn Paige - Im Yours - Perfect Two"
+  },
+  {
+      "AlbumID": 316,
+      "ArtistID": 121,
+      "FileName": "Memories.mp3",
+      "ID": 589,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Memories"
+  },
+  {
+      "AlbumID": 317,
+      "ArtistID": 118,
+      "FileName": "Mình Là Gì Của Nhau.mp3",
+      "ID": 590,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Mình Là Gì Của Nhau"
+  },
+  {
+      "AlbumID": 318,
+      "ArtistID": 116,
+      "FileName": "Một Bước Yêu Vạn Dặm Đau.mp3",
+      "ID": 591,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Một Bước Yêu Vạn Dặm Đau"
+  },
+  {
+      "AlbumID": 319,
+      "ArtistID": 122,
+      "FileName": "Một Nhà.mp3",
+      "ID": 592,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Một Nhà"
+  },
+  {
+      "AlbumID": 320,
+      "ArtistID": 123,
+      "FileName": "Người Đáng Thương Là Anh.mp3",
+      "ID": 593,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Người Đáng Thương Là Anh"
+  },
+  {
+      "AlbumID": 321,
+      "ArtistID": 124,
+      "FileName": "Người Ấy.mp3",
+      "ID": 594,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Người Ấy"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Hometown Smile.mp3",
+      "ID": 595,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Hometown Smile"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - I See Your Monsters.mp3",
+      "ID": 596,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - I See Your Monsters"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - If I Die Young.mp3",
+      "ID": 597,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - If I Die Young"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Let Me Love You.mp3",
+      "ID": 598,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Let Me Love You"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Locked Away.mp3",
+      "ID": 599,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Locked Away"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Mine.mp3",
+      "ID": 600,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Mine"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - New Day.mp3",
+      "ID": 601,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - New Day"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Sakura.mp3",
+      "ID": 602,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Sakura"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Say I Love You.mp3",
+      "ID": 603,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Say I Love You"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Still Here.mp3",
+      "ID": 604,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Still Here"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Try.mp3",
+      "ID": 605,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Try"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Where Is The Love.mp3",
+      "ID": 606,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nightcore - Where Is The Love"
+  },
+  {
+      "AlbumID": 322,
+      "ArtistID": 114,
+      "FileName": "Nếu Ngày Ấy.mp3",
+      "ID": 607,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Nếu Ngày Ấy"
+  },
+  {
+      "AlbumID": 323,
+      "ArtistID": 125,
+      "FileName": "One Call Away.mp3",
+      "ID": 608,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "One Call Away"
+  },
+  {
+      "AlbumID": 324,
+      "ArtistID": 126,
+      "FileName": "PHIEU BE NGOAN 2 - FOE TEAM.mp3",
+      "ID": 609,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "PHIEU BE NGOAN 2 - FOE TEAM"
+  },
+  {
+      "AlbumID": 325,
+      "ArtistID": 114,
+      "FileName": "Phía Sau Một Cô Gái.mp3",
+      "ID": 610,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Phía Sau Một Cô Gái"
+  },
+  {
+      "AlbumID": 326,
+      "ArtistID": 127,
+      "FileName": "Sau Tất Cả Erik.mp3",
+      "ID": 611,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Sau Tất Cả"
+  },
+  {
+      "AlbumID": 327,
+      "ArtistID": 124,
+      "FileName": "Tâm Sự Tuổi 30.mp3",
+      "ID": 612,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Tâm Sự Tuổi 30"
+  },
+  {
+      "AlbumID": 328,
+      "ArtistID": 116,
+      "FileName": "Tìm Được Nhau Khó Thế Nào.mp3",
+      "ID": 613,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Tìm Được Nhau Khó Thế Nào"
+  },
+  {
+      "AlbumID": 329,
+      "ArtistID": 116,
+      "FileName": "Tình Yêu Chắp Vá.mp3",
+      "ID": 614,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Tình Yêu Chắp Vá"
+  },
+  {
+      "AlbumID": 330,
+      "ArtistID": 116,
+      "FileName": "Tự Lau Nước Mắt.mp3",
+      "ID": 615,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Tự Lau Nước Mắt"
+  },
+  {
+      "AlbumID": 331,
+      "ArtistID": 126,
+      "FileName": "V.I.E.T Underground - Forever Love.mp3",
+      "ID": 616,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "V.I.E.T Underground - Forever Love"
+  },
+  {
+      "AlbumID": 323,
+      "ArtistID": 125,
+      "FileName": "We Don't Talk Anymore.mp3",
+      "ID": 617,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "We Dont Talk Anymore (feat. Selena Gomez)"
+  },
+  {
+      "AlbumID": 285,
+      "ArtistID": 104,
+      "FileName": "Yêu 5.mp3",
+      "ID": 618,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Yêu 5"
+  },
+  {
+      "AlbumID": 332,
+      "ArtistID": 123,
+      "FileName": "Yêu Là Tha Thứ.mp3",
+      "ID": 619,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Yêu Là Tha Thứ"
+  },
+  {
+      "AlbumID": 333,
+      "ArtistID": 123,
+      "FileName": "Yêu Đơn Phương.mp3",
+      "ID": 620,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Yêu Đơn Phương"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Âm Thầm Bên Em.mp3",
+      "ID": 621,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Âm Thầm Bên Em"
+  },
+  {
+      "AlbumID": 334,
+      "ArtistID": 123,
+      "FileName": "Đau Để Trưởng Thành.mp3",
+      "ID": 622,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Đau Để Trưởng Thành"
+  },
+  {
+      "AlbumID": 335,
+      "ArtistID": 114,
+      "FileName": "Đi Để Trở Về.mp3",
+      "ID": 623,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Đi Để Trở Về"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Ấn Nút Nhớ... Thả Giấc Mơ.mp3",
+      "ID": 624,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 7,
+      "Title": "Ấn Nút Nhớ... Thả Giấc Mơ"
+  },
+  {
+      "AlbumID": 336,
+      "ArtistID": 15,
+      "FileName": "All Falls Down (feat. Juliander).mp3",
+      "ID": 625,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "All Falls Down (feat. Juliander)"
+  },
+  {
+      "AlbumID": 337,
+      "ArtistID": 15,
+      "FileName": "Alone, Pt. II.mp3",
+      "ID": 626,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Alone, Pt. II"
+  },
+  {
+      "AlbumID": 338,
+      "ArtistID": 15,
+      "FileName": "Alone.mp3",
+      "ID": 627,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Alone"
+  },
+  {
+      "AlbumID": 339,
+      "ArtistID": 123,
+      "FileName": "Anh Không Đòi Quà.mp3",
+      "ID": 628,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Anh Không Đòi Quà"
+  },
+  {
+      "AlbumID": 340,
+      "ArtistID": 123,
+      "FileName": "Anh Đã Sai.mp3",
+      "ID": 629,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Anh Đã Sai"
+  },
+  {
+      "AlbumID": 341,
+      "ArtistID": 125,
+      "FileName": "Attention.mp3",
+      "ID": 630,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Attention"
+  },
+  {
+      "AlbumID": 342,
+      "ArtistID": 128,
+      "FileName": "Beautiful Creatures (feat. MAX).mp3",
+      "ID": 631,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Beautiful Creatures (feat. MAX)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Buồn Lắm Em Ơi - Htrol Remix.mp3",
+      "ID": 632,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Buồn Lắm Em Ơi - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "By My Side.mp3",
+      "ID": 633,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "By My Side"
+  },
+  {
+      "AlbumID": 344,
+      "ArtistID": 89,
+      "FileName": "Bye Bye.mp3",
+      "ID": 634,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Bye Bye (feat. Ivy Adara)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Bán Duyên - Htrol Remix.mp3",
+      "ID": 635,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Bán Duyên - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Bạn Tình Ơi 3 - Htrol Remix.mp3",
+      "ID": 636,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Bạn Tình Ơi 3 - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Bỏ Phật Nhập Ma - Htrol Remix.mp3",
+      "ID": 637,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Bỏ Phật Nhập Ma - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Carousel.mp3",
+      "ID": 638,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Carousel"
+  },
+  {
+      "AlbumID": 345,
+      "ArtistID": 130,
+      "FileName": "Cause I Love You.mp3",
+      "ID": 639,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Cause I Love You"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Anh Mỉm Cười Trông Thật Đẹp - Htrol Remix.mp3",
+      "ID": 640,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Anh Mỉm Cười Trông Thật Đẹp - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Anh đi vội vàng hơn cả tình yêu - Htrol Remix.mp3",
+      "ID": 641,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Anh đi vội vàng hơn cả tình yêu - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Bách Hoa Hương - Htrol Remix.mp3",
+      "ID": 642,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Bách Hoa Hương - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Hồng Nhan Xưa - Htrol Remix.mp3",
+      "ID": 643,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Hồng Nhan Xưa - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Không Bằng - Htrol Remix.mp3",
+      "ID": 644,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Không Bằng - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Một Triệu Khả Năng - Htrol Remix.mp3",
+      "ID": 645,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Một Triệu Khả Năng - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Nhân Gian Thán - Htrol Remix.mp3",
+      "ID": 646,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nhân Gian Thán - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Tam Thốn Thiên Đường - Htrol Remix.mp3",
+      "ID": 647,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Tam Thốn Thiên Đường - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Trong Mắt Đều Là Anh - Htrol Remix.mp3",
+      "ID": 648,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Trong Mắt Đều Là Anh - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Tô Mạc Già - Htrol Remix.mp3",
+      "ID": 649,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Tô Mạc Già - Htrol"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Từ Cửu Môn Hồi Ức - Htrol Remix.mp3",
+      "ID": 650,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Từ Cửu Môn Hồi Ức - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Tỳ Bà Hành - Htrol Remix.mp3",
+      "ID": 651,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Tỳ Bà Hành - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "China - Xuân Tháng 3 - Htrol Remix.mp3",
+      "ID": 652,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "China - Xuân Tháng 3 - Htrol Remix"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Chúng Ta Không Thuộc Về Nhau.mp3",
+      "ID": 653,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Chúng Ta Không Thuộc Về Nhau"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Chưa Bao Giờ Em Quên - Htrol Remix.mp3",
+      "ID": 654,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Chưa Bao Giờ Em Quên - Htrol Remix"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Cơn Mưa Ngang Qua.mp3",
+      "ID": 655,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Cơn Mưa Ngang Qua"
+  },
+  {
+      "AlbumID": 346,
+      "ArtistID": 117,
+      "FileName": "Cứ Chill Thôi.mp3",
+      "ID": 656,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Cứ Chill Thôi"
+  },
+  {
+      "AlbumID": 347,
+      "ArtistID": 131,
+      "FileName": "Daily (feat. Jon Becker).mp3",
+      "ID": 657,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Daily (feat. Jon Becker)"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Dangerous.mp3",
+      "ID": 658,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Dangerous"
+  },
+  {
+      "AlbumID": 348,
+      "ArtistID": 132,
+      "FileName": "Danza Kuduro.mp3",
+      "ID": 659,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Danza Kuduro"
+  },
+  {
+      "AlbumID": 349,
+      "ArtistID": 15,
+      "FileName": "Darkside.mp3",
+      "ID": 660,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Darkside"
+  },
+  {
+      "AlbumID": 350,
+      "ArtistID": 114,
+      "FileName": "Daydream.mp3",
+      "ID": 661,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Daydream"
+  },
+  {
+      "AlbumID": 351,
+      "ArtistID": 133,
+      "FileName": "Despacito.mp3",
+      "ID": 662,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Despacito"
+  },
+  {
+      "AlbumID": 352,
+      "ArtistID": 15,
+      "FileName": "Diamond Heart.mp3",
+      "ID": 663,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Diamond Heart"
+  },
+  {
+      "AlbumID": 353,
+      "ArtistID": 15,
+      "FileName": "Different World (feat. CORSAK).mp3",
+      "ID": 664,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Different World (feat. CORSAK)"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Drive My Car.mp3",
+      "ID": 665,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Drive My Car"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Ecstasy.mp3",
+      "ID": 666,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Ecstasy"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Em Của Ngày Hôm Qua.mp3",
+      "ID": 667,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Em Của Ngày Hôm Qua"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Em Mỉm Cười Trông Thật Đẹp - Htrol Remix.mp3",
+      "ID": 668,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Em Mỉm Cười Trông Thật Đẹp - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Em Ổn Không - Htrol Remix.mp3",
+      "ID": 669,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Em Ổn Không - Htrol Remix"
+  },
+  {
+      "AlbumID": 354,
+      "ArtistID": 15,
+      "FileName": "Faded.mp3",
+      "ID": 670,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Faded"
+  },
+  {
+      "AlbumID": 355,
+      "ArtistID": 134,
+      "FileName": "Fading.mp3",
+      "ID": 671,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Fading"
+  },
+  {
+      "AlbumID": 356,
+      "ArtistID": 15,
+      "FileName": "Fake A Smile.mp3",
+      "ID": 672,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Fake A Smile"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Fight.mp3",
+      "ID": 673,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Fight"
+  },
+  {
+      "AlbumID": 357,
+      "ArtistID": 135,
+      "FileName": "Forever Young.mp3",
+      "ID": 674,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Forever Young"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Frozen.mp3",
+      "ID": 675,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Frozen"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Giang Hải Không Độ Nàng - Htrol Remix.mp3",
+      "ID": 676,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Giang Hải Không Độ Nàng - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Give Me Your Love.mp3",
+      "ID": 677,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Give Me Your Love"
+  },
+  {
+      "AlbumID": 358,
+      "ArtistID": 123,
+      "FileName": "Giá Như Anh Lặng Im.mp3",
+      "ID": 678,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Giá Như Anh Lặng Im"
+  },
+  {
+      "AlbumID": 359,
+      "ArtistID": 15,
+      "FileName": "Heading Home.mp3",
+      "ID": 679,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Heading Home"
+  },
+  {
+      "AlbumID": 360,
+      "ArtistID": 15,
+      "FileName": "Headlights.mp3",
+      "ID": 680,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Headlights (feat. KIDDO)"
+  },
+  {
+      "AlbumID": 361,
+      "ArtistID": 15,
+      "FileName": "Hello World.mp3",
+      "ID": 681,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Hello World"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Hoài Công - Htrol Remix.mp3",
+      "ID": 682,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Hoài Công - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Hypnotized.mp3",
+      "ID": 683,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Hypnotized"
+  },
+  {
+      "AlbumID": 362,
+      "ArtistID": 136,
+      "FileName": "I Took A Pill In Ibiza - Seeb Remix.mp3",
+      "ID": 684,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "I Took A Pill In Ibiza - Seeb Remix"
+  },
+  {
+      "AlbumID": 344,
+      "ArtistID": 89,
+      "FileName": "Just For A Moment.mp3",
+      "ID": 685,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Just For A Moment (feat. Iselin)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Khó Vẽ Nụ Cười - Htrol Remix.mp3",
+      "ID": 686,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Khó Vẽ Nụ Cười - Htrol"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Không Phải Dạng Vừa Đâu.mp3",
+      "ID": 687,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Không Phải Dạng Vừa Đâu"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Kids in Love.mp3",
+      "ID": 688,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Kids in Love"
+  },
+  {
+      "AlbumID": 363,
+      "ArtistID": 137,
+      "FileName": "Kings & Queens.mp3",
+      "ID": 689,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Kings & Queens"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Kiếp Duyên Không Thành - Htrol Remix.mp3",
+      "ID": 690,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Kiếp Duyên Không Thành - Htrol"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Kiếp Má Hồng - Htrol Remix.mp3",
+      "ID": 691,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Kiếp Má Hồng - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Kết Duyên - Htrol Remix.mp3",
+      "ID": 692,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Kết Duyên - Htrol Remix"
+  },
+  {
+      "AlbumID": 364,
+      "ArtistID": 114,
+      "FileName": "Lalala Soobin.mp3",
+      "ID": 693,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lalala"
+  },
+  {
+      "AlbumID": 365,
+      "ArtistID": 16,
+      "FileName": "Legends Never Die.mp3",
+      "ID": 694,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Legends Never Die"
+  },
+  {
+      "AlbumID": 366,
+      "ArtistID": 15,
+      "FileName": "Lily.mp3",
+      "ID": 695,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lily"
+  },
+  {
+      "AlbumID": 367,
+      "ArtistID": 138,
+      "FileName": "Love How It Hurts (feat. Tina Stachowiak).mp3",
+      "ID": 696,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Love How It Hurts (feat. Tina Stachowiak)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Lão Ái Xử Trảm - Htrol Remix.mp3",
+      "ID": 697,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lão Ái Xử Trảm - Htrol Remix"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Lạc Trôi.mp3",
+      "ID": 698,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lạc Trôi"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Lặng Lẽ Buông - Htrol Remix.mp3",
+      "ID": 699,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lặng Lẽ Buông - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Lữ Khách Qua Thời Gian - Htrol Remix.mp3",
+      "ID": 700,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Lữ Khách Qua Thời Gian - Htrol Remix"
+  },
+  {
+      "AlbumID": 368,
+      "ArtistID": 121,
+      "FileName": "Maps.mp3",
+      "ID": 701,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Maps"
+  },
+  {
+      "AlbumID": 369,
+      "ArtistID": 139,
+      "FileName": "Meant To Be.mp3",
+      "ID": 702,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Meant To Be"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Mermaids.mp3",
+      "ID": 703,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Mermaids"
+  },
+  {
+      "AlbumID": 370,
+      "ArtistID": 138,
+      "FileName": "Miracles (feat. Tina Stachowiak).mp3",
+      "ID": 704,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Miracles (feat. Tina Stachowiak)"
+  },
+  {
+      "AlbumID": 371,
+      "ArtistID": 130,
+      "FileName": "Mãi Mãi Bên Nhau.mp3",
+      "ID": 705,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Mãi Mãi Bên Nhau"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Một Giấc Mộng Xưa - Htrol Remix.mp3",
+      "ID": 706,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Một Giấc Mộng Xưa - Htrol Remix"
+  },
+  {
+      "AlbumID": 319,
+      "ArtistID": 122,
+      "FileName": "Một Nhà.mp3",
+      "ID": 707,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Một Nhà"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Một Năm Mới Bình An.mp3",
+      "ID": 708,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Một Năm Mới Bình An"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Một Đường Nở hoa - Htrol Remix.mp3",
+      "ID": 709,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Một Đường Nở hoa - Htrol Remix"
+  },
+  {
+      "AlbumID": 372,
+      "ArtistID": 138,
+      "FileName": "Next To Me (feat. Tina Stachowiak).mp3",
+      "ID": 710,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Next To Me (feat. Tina Stachowiak)"
+  },
+  {
+      "AlbumID": 373,
+      "ArtistID": 114,
+      "FileName": "Ngày Mai Em Đi.mp3",
+      "ID": 711,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Ngày Mai Em Đi"
+  },
+  {
+      "AlbumID": 374,
+      "ArtistID": 140,
+      "FileName": "Người Âm Phủ.mp3",
+      "ID": 712,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Người Âm Phủ"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Nhói Lòng Thuyền Hoa - Htrol Remix.mp3",
+      "ID": 713,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nhói Lòng Thuyền Hoa - Htrol Remix"
+  },
+  {
+      "AlbumID": 375,
+      "ArtistID": 130,
+      "FileName": "Như Phút Ban Đầu.mp3",
+      "ID": 714,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Như Phút Ban Đầu"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Beautiful Creatures.mp3",
+      "ID": 715,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Beautiful Creatures"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Castle On The Hill.mp3",
+      "ID": 716,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Castle On The Hill"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Fire.mp3",
+      "ID": 717,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Fire"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Fireflies.mp3",
+      "ID": 718,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Fireflies"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Lights.mp3",
+      "ID": 719,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Lights"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Like A Ricochet.mp3",
+      "ID": 720,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Like A Ricochet"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Move Like Jagger.mp3",
+      "ID": 721,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Move Like Jagger"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - No Friends.mp3",
+      "ID": 722,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - No Friends"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - One Last Time.mp3",
+      "ID": 723,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - One Last Time"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Rather Be.mp3",
+      "ID": 724,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Rather Be"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Remember When.mp3",
+      "ID": 725,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Remember When"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - Superheroes.mp3",
+      "ID": 726,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - Superheroes"
+  },
+  {
+      "AlbumID": 276,
+      "ArtistID": 99,
+      "FileName": "Nightcore - We Should Start Right Now.mp3",
+      "ID": 727,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nightcore - We Should Start Right Now"
+  },
+  {
+      "AlbumID": 376,
+      "ArtistID": 123,
+      "FileName": "Não Cá Vàng.mp3",
+      "ID": 728,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Não Cá Vàng"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Nơi Này Có Anh.mp3",
+      "ID": 729,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nơi Này Có Anh"
+  },
+  {
+      "AlbumID": 299,
+      "ArtistID": 113,
+      "FileName": "Nắng Ấm Xa Dần.mp3",
+      "ID": 730,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nắng Ấm Xa Dần"
+  },
+  {
+      "AlbumID": 377,
+      "ArtistID": 104,
+      "FileName": "Nến Và Hoa.mp3",
+      "ID": 731,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nến Và Hoa"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Nếu Em Không Về - Htrol Remix.mp3",
+      "ID": 732,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nếu Em Không Về - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Nếu Như Anh Thành Công - Htrol Remix.mp3",
+      "ID": 733,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Nếu Như Anh Thành Công - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Ocean.mp3",
+      "ID": 734,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Ocean"
+  },
+  {
+      "AlbumID": 378,
+      "ArtistID": 15,
+      "FileName": "On My Way.mp3",
+      "ID": 735,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "On My Way"
+  },
+  {
+      "AlbumID": 379,
+      "ArtistID": 121,
+      "FileName": "Payphone.mp3",
+      "ID": 736,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Payphone"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Phi Điểu Và Ve Sầu - Htrol Remix.mp3",
+      "ID": 737,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Phi Điểu Và Ve Sầu - Htrol Remix"
+  },
+  {
+      "AlbumID": 380,
+      "ArtistID": 141,
+      "FileName": "Post Malone.mp3",
+      "ID": 738,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Post Malone (feat. RANI)"
+  },
+  {
+      "AlbumID": 381,
+      "ArtistID": 15,
+      "FileName": "PS5.mp3",
+      "ID": 739,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "PS5 (with TOMORROW X TOGETHER & Alan Walker)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Quan Sơn Tửu - Htrol Remix.mp3",
+      "ID": 740,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Quan Sơn Tửu - Htrol Remix"
+  },
+  {
+      "AlbumID": 382,
+      "ArtistID": 142,
+      "FileName": "Rather Be (feat. Jess Glynne).mp3",
+      "ID": 741,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Rather Be (feat. Jess Glynne)"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Rendezvous.mp3",
+      "ID": 742,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Rendezvous"
+  },
+  {
+      "AlbumID": 383,
+      "ArtistID": 142,
+      "FileName": "Rockabye (feat. Sean Paul & Anne-Marie).mp3",
+      "ID": 743,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Rockabye (feat. Sean Paul & Anne-Marie)"
+  },
+  {
+      "AlbumID": 384,
+      "ArtistID": 143,
+      "FileName": "Sad Story (Out Of Luck).mp3",
+      "ID": 744,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sad Story (Out Of Luck)"
+  },
+  {
+      "AlbumID": 363,
+      "ArtistID": 137,
+      "FileName": "Salt.mp3",
+      "ID": 745,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Salt"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Save Me.mp3",
+      "ID": 746,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Save Me"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Seventeen.mp3",
+      "ID": 747,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Seventeen"
+  },
+  {
+      "AlbumID": 385,
+      "ArtistID": 144,
+      "FileName": "Señorita.mp3",
+      "ID": 748,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Señorita"
+  },
+  {
+      "AlbumID": 386,
+      "ArtistID": 145,
+      "FileName": "Shelter.mp3",
+      "ID": 749,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Shelter"
+  },
+  {
+      "AlbumID": 361,
+      "ArtistID": 15,
+      "FileName": "Shut Up.mp3",
+      "ID": 750,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Shut Up"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Sign.mp3",
+      "ID": 751,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sign"
+  },
+  {
+      "AlbumID": 387,
+      "ArtistID": 15,
+      "FileName": "Sing Me to Sleep.mp3",
+      "ID": 752,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sing Me to Sleep"
+  },
+  {
+      "AlbumID": 383,
+      "ArtistID": 142,
+      "FileName": "Solo (feat. Demi Lovato).mp3",
+      "ID": 753,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Solo (feat. Demi Lovato)"
+  },
+  {
+      "AlbumID": 388,
+      "ArtistID": 146,
+      "FileName": "STAR WALKIN' (League of Legends Worlds Anthem).mp3",
+      "ID": 754,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "STAR WALKIN (League of Legends Worlds Anthem)"
+  },
+  {
+      "AlbumID": 389,
+      "ArtistID": 93,
+      "FileName": "Stay Young.mp3",
+      "ID": 755,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Stay Young"
+  },
+  {
+      "AlbumID": 390,
+      "ArtistID": 15,
+      "FileName": "Strongest (Alan Walker Remix).mp3",
+      "ID": 756,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Strongest (Alan Walker Remix)"
+  },
+  {
+      "AlbumID": 368,
+      "ArtistID": 121,
+      "FileName": "Sugar.mp3",
+      "ID": 757,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sugar"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Summer Love.mp3",
+      "ID": 758,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Summer Love"
+  },
+  {
+      "AlbumID": 363,
+      "ArtistID": 137,
+      "FileName": "Sweet but Psycho.mp3",
+      "ID": 759,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sweet but Psycho"
+  },
+  {
+      "AlbumID": 383,
+      "ArtistID": 142,
+      "FileName": "Symphony.mp3",
+      "ID": 760,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Symphony (feat. Zara Larsson)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Sài Gòn Đau Lòng Quá - Htrol Remix.mp3",
+      "ID": 761,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sài Gòn Đau Lòng Quá - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Sợ Phải Kết Thúc - Htrol Remix.mp3",
+      "ID": 762,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Sợ Phải Kết Thúc - Htrol Remix"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Take Me Away.mp3",
+      "ID": 763,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Take Me Away"
+  },
+  {
+      "AlbumID": 391,
+      "ArtistID": 93,
+      "FileName": "The Ocean (feat. Shy Martin).mp3",
+      "ID": 764,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "The Ocean (feat. Shy Martin)"
+  },
+  {
+      "AlbumID": 392,
+      "ArtistID": 147,
+      "FileName": "Thu Cuối.mp3",
+      "ID": 765,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thu Cuối (feat. Mr.T & Hằng BingBoong)"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Thuyền Quyên - Htrol Remix.mp3",
+      "ID": 766,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thuyền Quyên - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Thê Tử - Htrol Remix.mp3",
+      "ID": 767,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thê Tử - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Thằng Hầu - Htrol.mp3",
+      "ID": 768,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thằng Hầu - Htrol"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Thế Thái - Htrol Remix.mp3",
+      "ID": 769,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thế Thái - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Thị Mầu - Htrol Remix.mp3",
+      "ID": 770,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Thị Mầu - Htrol Remix"
+  },
+  {
+      "AlbumID": 393,
+      "ArtistID": 15,
+      "FileName": "Tired.mp3",
+      "ID": 771,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Tired"
+  },
+  {
+      "AlbumID": 394,
+      "ArtistID": 148,
+      "FileName": "Tomorrow tonight.mp3",
+      "ID": 772,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "tomorrow tonight"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Tránh Duyên - Htrol Remix.mp3",
+      "ID": 773,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Tránh Duyên - Htrol Remix"
+  },
+  {
+      "AlbumID": 395,
+      "ArtistID": 123,
+      "FileName": "Tạm Biệt Em.mp3",
+      "ID": 774,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Tạm Biệt Em"
+  },
+  {
+      "AlbumID": 59,
+      "ArtistID": 15,
+      "FileName": "Unity.mp3",
+      "ID": 775,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Unity"
+  },
+  {
+      "AlbumID": 396,
+      "ArtistID": 114,
+      "FileName": "Vai Lan Don Dua.mp3",
+      "ID": 776,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Vai Lan Don Dua"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Vong Xuyên Bỉ Ngạn - Htrol Remix.mp3",
+      "ID": 777,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Vong Xuyên Bỉ Ngạn - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Vì Em  Anh Nguyện Làm Bầu Trời Nắng Hạ - Htrol Remix.mp3",
+      "ID": 778,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Vì Em  Anh Nguyện Làm Bầu Trời Nắng Hạ - Htrol Remix"
+  },
+  {
+      "AlbumID": 397,
+      "ArtistID": 87,
+      "FileName": "Waiting.mp3",
+      "ID": 779,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Waiting"
+  },
+  {
+      "AlbumID": 398,
+      "ArtistID": 87,
+      "FileName": "Way Back.mp3",
+      "ID": 780,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Way Back"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "What Are You Waiting For.mp3",
+      "ID": 781,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "What Are You Waiting For"
+  },
+  {
+      "AlbumID": 343,
+      "ArtistID": 129,
+      "FileName": "Without You.mp3",
+      "ID": 782,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Without You"
+  },
+  {
+      "AlbumID": 399,
+      "ArtistID": 15,
+      "FileName": "World We Used To Know.mp3",
+      "ID": 783,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "World We Used To Know"
+  },
+  {
+      "AlbumID": 400,
+      "ArtistID": 16,
+      "FileName": "Worlds Collide.mp3",
+      "ID": 784,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Worlds Collide"
+  },
+  {
+      "AlbumID": 401,
+      "ArtistID": 149,
+      "FileName": "Wrap Me In Plastic - Marcus Layton Radio Edit.mp3",
+      "ID": 785,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Wrap Me In Plastic - Marcus Layton Radio Edit"
+  },
+  {
+      "AlbumID": 402,
+      "ArtistID": 150,
+      "FileName": "You and I.mp3",
+      "ID": 786,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "You and I"
+  },
+  {
+      "AlbumID": 403,
+      "ArtistID": 118,
+      "FileName": "Yêu Em Dại Khờ.mp3",
+      "ID": 787,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Yêu Em Dại Khờ"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Đau Để Trưởng Thành - Htrol Remix.mp3",
+      "ID": 788,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đau Để Trưởng Thành - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Đom Đóm - Htrol Remix.mp3",
+      "ID": 789,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đom Đóm - Htrol"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Đánh Mất Em Remix - Htrol Remix.mp3",
+      "ID": 790,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đánh Mất Em Remix - Htrol Remix"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Đóa Quỳnh Lan - Htrol Remix.mp3",
+      "ID": 791,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đóa Quỳnh Lan - Htrol Remix"
+  },
+  {
+      "AlbumID": 404,
+      "ArtistID": 123,
+      "FileName": "Đắng Lòng Thanh Niên.mp3",
+      "ID": 792,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đắng Lòng Thanh Niên"
+  },
+  {
+      "AlbumID": 405,
+      "ArtistID": 123,
+      "FileName": "Đếm Ngày Xa Em.mp3",
+      "ID": 793,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đếm Ngày Xa Em"
+  },
+  {
+      "AlbumID": 251,
+      "ArtistID": 84,
+      "FileName": "Đừng Như Người Dưng - Htrol Remix.mp3",
+      "ID": 794,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 8,
+      "Title": "Đừng Như Người Dưng - Htrol Remix"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "01. Snow in Summer.mp3",
+      "ID": 795,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "03. A Beautiful Song.mp3",
+      "ID": 796,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "A Beautiful Song"
+  },
+  {
+      "AlbumID": 408,
+      "ArtistID": 153,
+      "FileName": "04. Emil - Karma.mp3",
+      "ID": 797,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Emil - Karma"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "05 A Beautiful Song.mp3",
+      "ID": 798,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "A Beautiful Song"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "07 Song of the Ancients - Atonement.mp3",
+      "ID": 799,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Song of the Ancients - Atonement"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "08. A Beautiful Song.mp3",
+      "ID": 800,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "A Beautiful Song"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 155,
+      "FileName": "09. Shadowlord - Another Edit Version.mp3",
+      "ID": 801,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Shadowlord - Another Edit Version"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "09. Shadowlord.mp3",
+      "ID": 802,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 157,
+      "FileName": "10. Emil - Despair.mp3",
+      "ID": 803,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Emil - Despair"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "10. Grandma - Destruction.mp3",
+      "ID": 804,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Grandma - Destruction"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "12 Bipolar Nightmare.mp3",
+      "ID": 805,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Bipolar Nightmare"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "13. Umare Iduru Ishi - Konomama Ja Dame.mp3",
+      "ID": 806,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Umare Iduru Ishi - Konomama Ja Dame"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "15. Umare Iduru Ishi - Kami Ni Natta.mp3",
+      "ID": 807,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Umare Iduru Ishi - Kami Ni Natta"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "19. Toritsuita Goubyou - Kami Ni Natta.mp3",
+      "ID": 808,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Toritsuita Goubyou - Kami Ni Natta"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "20. Possessed By Disease - Become A God.mp3",
+      "ID": 809,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Possessed By Disease - Become A God"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "22. Dark Colossus - Kaiju.mp3",
+      "ID": 810,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Dark Colossus - Kaiju"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "25. Possessed by Disease.mp3",
+      "ID": 811,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Possessed by Disease"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "26. The Dark Colossus Destroys All.mp3",
+      "ID": 812,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "The Dark Colossus Destroys All"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "29. Dependent Weakling.mp3",
+      "ID": 813,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Dependent Weakling"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "32. Song of the Ancients (Fate).mp3",
+      "ID": 814,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Song of the Ancients (Fate)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "32. War & War.mp3",
+      "ID": 815,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "War & War"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "36. Emil (Karma).mp3",
+      "ID": 816,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Emil (Karma)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "39. Emil - Despair.mp3",
+      "ID": 817,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Emil - Despair"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "43. Bipolar Nightmare.mp3",
+      "ID": 818,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Bipolar Nightmare"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "43. Shadowlord - White (Note Remix).mp3",
+      "ID": 819,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Shadowlord - White (Note Remix)"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "Ai Wo Torimodose.mp3",
+      "ID": 820,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Ai Wo Torimodose"
+  },
+  {
+      "AlbumID": 415,
+      "ArtistID": 159,
+      "FileName": "DUEL!!.mp3",
+      "ID": 821,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "DUEL!!"
+  },
+  {
+      "AlbumID": 269,
+      "ArtistID": 94,
+      "FileName": "Mega Man 4 Opening Sequence Arrangement.mp3",
+      "ID": 822,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Mega Man 4 Opening Sequence Arrangement"
+  },
+  {
+      "AlbumID": 415,
+      "ArtistID": 159,
+      "FileName": "Onslaught.mp3",
+      "ID": 823,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 9,
+      "Title": "Onslaught"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "01 City Ruins.mp3",
+      "ID": 824,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "City Ruins"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "01. Ashes of Dreams (Emi Evans & J'Nique Nicole Vocals).mp3",
+      "ID": 825,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams (Emi Evans & JNique Nicole Vocals)"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "01. Hajimari (Beginning).mp3",
+      "ID": 826,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Hajimari (Beginning)"
+  },
+  {
+      "AlbumID": 418,
+      "ArtistID": 153,
+      "FileName": "01. Kainé - Salvation.mp3",
+      "ID": 827,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kaine - Salvation"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 161,
+      "FileName": "01. Piano - Weight of the World.mp3",
+      "ID": 828,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Weight of the World"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "01. Significance - Nothing.mp3",
+      "ID": 829,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Significance - Nothing"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "01. Snow in Summer (Orchestral).mp3",
+      "ID": 830,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "01. Snow in Summer.mp3",
+      "ID": 831,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "01. Song of the Ancients.mp3",
+      "ID": 832,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "01. Sunshower (Snow In Summer).mp3",
+      "ID": 833,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Sunshower (Snow In Summer)"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "02 Amusement Park.mp3",
+      "ID": 834,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Amusement Park"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "02. City Ruins - Rays of Light.mp3",
+      "ID": 835,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "City Ruins - Rays of Light"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "02. Emil (Addendum version).mp3",
+      "ID": 836,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil (Addendum version)"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 155,
+      "FileName": "02. Emil - Sacrifice.mp3",
+      "ID": 837,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil - Sacrifice"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 164,
+      "FileName": "02. Hills of Radiant Winds - Another Edit Version.mp3",
+      "ID": 838,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Hills of Radiant Winds - Another Edit Version"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "02. Inori (Prayers).mp3",
+      "ID": 839,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Inori (Prayers)"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 162,
+      "FileName": "02. Kainé - Escape.mp3",
+      "ID": 840,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé - Escape"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "02. Kainé.mp3",
+      "ID": 841,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "02. Pale Moonlight (Shadowlord_s Castle_Roar).mp3",
+      "ID": 842,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Pale Moonlight (Shadowlords Castle-Roar)"
+  },
+  {
+      "AlbumID": 426,
+      "ArtistID": 152,
+      "FileName": "02. Peaceful Sleep (Orchestral).mp3",
+      "ID": 843,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Peaceful Sleep"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "02. Peaceful Sleep.mp3",
+      "ID": 844,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Peaceful Sleep"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 165,
+      "FileName": "02. Piano - Amusement Park.mp3",
+      "ID": 845,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Amusement Park"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 166,
+      "FileName": "02. Song of the Ancients - Popola.mp3",
+      "ID": 846,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Popola"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "02. Song of the Ancients.mp3",
+      "ID": 847,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 162,
+      "FileName": "03. Emil - Piano.mp3",
+      "ID": 848,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil - Piano"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "03. Hills of Radiant Winds.mp3",
+      "ID": 849,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Hills of Radiant Winds"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "03. Kainé (Concert).mp3",
+      "ID": 850,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 162,
+      "FileName": "03. Kainé.mp3",
+      "ID": 851,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "03. Nightengale (Kain__Duet Ver).mp3",
+      "ID": 852,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Nightengale (Kainé-Duet Ver.)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "03. Peaceful Sleep.mp3",
+      "ID": 853,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Peaceful Sleep"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 162,
+      "FileName": "03. Piano - A Beautiful Song.mp3",
+      "ID": 854,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: A Beautiful Song"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 162,
+      "FileName": "03. Snow in Summer.mp3",
+      "ID": 855,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 418,
+      "ArtistID": 153,
+      "FileName": "03. Song of the Ancients - Devola.mp3",
+      "ID": 856,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Dev"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "03. Toki No Shizuku (Droplets Of Time).mp3",
+      "ID": 857,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Toki No Shizuku (Droplets Of Time)"
+  },
+  {
+      "AlbumID": 426,
+      "ArtistID": 152,
+      "FileName": "03. Vague Hope (Emi Evans Vocals).mp3",
+      "ID": 858,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Vague Hope (Emi Evans Vocals)"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "04 Peaceful Sleep.mp3",
+      "ID": 859,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Peaceful Sleep"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "04. Emil (Ochestral).mp3",
+      "ID": 860,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 167,
+      "FileName": "04. Kainé - Oboe and Bassoon Ensemble.mp3",
+      "ID": 861,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé - Oboe and Bassoon Ensemble"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "04. Kaze No Koe (Voice Of The Wind).mp3",
+      "ID": 862,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kaze No Koe (Voice Of The Wind)"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "04. Memories (Song Of The Ancients_Devola).mp3",
+      "ID": 863,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Memories (Song Of The Ancients-Devola)"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 168,
+      "FileName": "04. Piano - City Ruins.mp3",
+      "ID": 864,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: City Ruins"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 162,
+      "FileName": "04. Shadowlord.mp3",
+      "ID": 865,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "04. Snow in Summer.mp3",
+      "ID": 866,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "04. Song of the Ancients - Devola.mp3",
+      "ID": 867,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Devola"
+  },
+  {
+      "AlbumID": 429,
+      "ArtistID": 169,
+      "FileName": "04. Voice of no Return.mp3",
+      "ID": 868,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Voice of no Return"
+  },
+  {
+      "AlbumID": 430,
+      "ArtistID": 27,
+      "FileName": "04.Peaceful Sleep.mp3",
+      "ID": 869,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Peaceful Sleep"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "05. A Heart Not Forgotten (Emil_Karma).mp3",
+      "ID": 870,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "A Heart Not Forgotten (Emil-Karma)"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 170,
+      "FileName": "05. Emil - Recorder Ensemble.mp3",
+      "ID": 871,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil - Recorder Ensemble"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "05. Emil.mp3",
+      "ID": 872,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "05. Kaikyo (Homesick).mp3",
+      "ID": 873,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kaikyo (Homesick)"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "05. Kainé (Addendum version).mp3",
+      "ID": 874,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé (Addendum version)"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 162,
+      "FileName": "05. Kainé - Duet.mp3",
+      "ID": 875,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé - Duet"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 171,
+      "FileName": "05. Piano - Dependent Weakling.mp3",
+      "ID": 876,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Dependent Weakling"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "05. Repose.mp3",
+      "ID": 877,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Repose"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 172,
+      "FileName": "05. Song of the Ancients - Mandolin Ensemble.mp3",
+      "ID": 878,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Mandolin Ensemble"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "05. Song of the Ancients - Popola.mp3",
+      "ID": 879,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Popola"
+  },
+  {
+      "AlbumID": 431,
+      "ArtistID": 162,
+      "FileName": "06 Emil - Piano Ver.mp3",
+      "ID": 880,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil - Piano Ver."
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "06 Vague Hope.mp3",
+      "ID": 881,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Vague Hope"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "06. City Ruins (Addendum version).mp3",
+      "ID": 882,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "City Ruins (Addendum version)"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 173,
+      "FileName": "06. Emil.mp3",
+      "ID": 883,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 174,
+      "FileName": "06. Grandma (Piano).mp3",
+      "ID": 884,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "06. Grandma.mp3",
+      "ID": 885,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 167,
+      "FileName": "06. Kainé.mp3",
+      "ID": 886,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 176,
+      "FileName": "06. Piano - Peaceful Sleep.mp3",
+      "ID": 887,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Peaceful Sleep"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 162,
+      "FileName": "06. Song of the Ancients.mp3",
+      "ID": 888,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "06. The Color of Depression.mp3",
+      "ID": 889,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Color of Depression"
+  },
+  {
+      "AlbumID": 431,
+      "ArtistID": 162,
+      "FileName": "07 Kaine - Duet Ver.mp3",
+      "ID": 890,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kaine - Duet Ver."
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "07. Amusement Park.mp3",
+      "ID": 891,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Amusement Park"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "07. Grandma.mp3",
+      "ID": 892,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "07. Kaine.mp3",
+      "ID": 893,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kaine"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 167,
+      "FileName": "07. Kainé.mp3",
+      "ID": 894,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 177,
+      "FileName": "07. Piano - Copied City.mp3",
+      "ID": 895,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Copied City"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "07. Repose.mp3",
+      "ID": 896,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Repose"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 178,
+      "FileName": "07. Snow in Summer.mp3",
+      "ID": 897,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "07. Song of the Ancients (Devola).mp3",
+      "ID": 898,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients (Devola)"
+  },
+  {
+      "AlbumID": 430,
+      "ArtistID": 27,
+      "FileName": "07.Memories of Dust.mp3",
+      "ID": 899,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Memories of Dust"
+  },
+  {
+      "AlbumID": 431,
+      "ArtistID": 154,
+      "FileName": "08 The Wretched Automatons-a capella.mp3",
+      "ID": 900,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Wretched Automatons-a capella"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "08. Flower (Yonah_Piano ver.).mp3",
+      "ID": 901,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Flower (Yonah-Piano ver.)"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 168,
+      "FileName": "08. Piano - Voice of no Return.mp3",
+      "ID": 902,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Voice of no Return"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 157,
+      "FileName": "08. Vague Hope.mp3",
+      "ID": 903,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Vague Hope"
+  },
+  {
+      "AlbumID": 431,
+      "ArtistID": 162,
+      "FileName": "09 Song of the Ancients - Piano Ver.mp3",
+      "ID": 904,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Piano Ver."
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "09 The Sound of the End.mp3",
+      "ID": 905,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Sound of the End"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "09. Emil.mp3",
+      "ID": 906,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "09. Grandma.mp3",
+      "ID": 907,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 162,
+      "FileName": "09. Shadowlord.mp3",
+      "ID": 908,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "09. Song Of The Ancients - Atonement.mp3",
+      "ID": 909,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song Of The Ancients - Atonement"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "09. Veil (The Prestigious Mask).mp3",
+      "ID": 910,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Veil (The Prestigious Mask)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "09. Voice of no Return - Guitar.mp3",
+      "ID": 911,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Voice of no Return - Guitar"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "09. Yonah - Pluck Ver..mp3",
+      "ID": 912,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah - Pluck Ver."
+  },
+  {
+      "AlbumID": 430,
+      "ArtistID": 27,
+      "FileName": "09.Voice of NO Return.mp3",
+      "ID": 913,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Voice of NO Return"
+  },
+  {
+      "AlbumID": 431,
+      "ArtistID": 162,
+      "FileName": "10 Shadowlord-Music Box Ver.mp3",
+      "ID": 914,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Shadowlord-Music Box Ver."
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 176,
+      "FileName": "10. Piano - The Tower.mp3",
+      "ID": 915,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: The Tower"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 151,
+      "FileName": "10. The Wretched Automatons.mp3",
+      "ID": 916,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Wretched Automatons"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "10. Weight of the World (Emi Evans & J'Nique Nicole Vocals).mp3",
+      "ID": 917,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Weight of the World (Emi Evans & JNique Nicole Vocals)"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "11 The Tower.mp3",
+      "ID": 918,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Tower"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "11. Ashes of Dreams (Ochestral).mp3",
+      "ID": 919,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Orchestra: Ashes of Dreams"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "11. Ashes of Dreams.mp3",
+      "ID": 920,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "11. Faltering Prayer - Dawn Breeze.mp3",
+      "ID": 921,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Faltering Prayer - Dawn Breeze"
+  },
+  {
+      "AlbumID": 423,
+      "ArtistID": 163,
+      "FileName": "11. Heavy Heart (Emil_Piano ver.).mp3",
+      "ID": 922,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Heavy Heart (Emil-Piano ver.)"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "11. Hoshi No Mebuki (Nature's Blessing).mp3",
+      "ID": 923,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Hoshi No Mebuki (Natures Blessing)"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 179,
+      "FileName": "11. Piano - The Sound of the End.mp3",
+      "ID": 924,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: The Sound of the End"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "12. Grandma.mp3",
+      "ID": 925,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 419,
+      "ArtistID": 162,
+      "FileName": "12. Piano - Vague Hope.mp3",
+      "ID": 926,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Piano: Vague Hope"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "12. Sabigoe (Dignified Voice).mp3",
+      "ID": 927,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Sabigoe (Dignified Voice)"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 180,
+      "FileName": "13. The Wretched Automatons - Weiss Edition Arrangement.mp3",
+      "ID": 928,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Wretched Automatons - Weiss Edition Arrangement"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "13. Toki No Kane (Bell Of Time).mp3",
+      "ID": 929,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Toki No Kane (Bell Of Time)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "13. Treasured Times.mp3",
+      "ID": 930,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Treasured Times"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "14. Dispossession - Piano Ver..mp3",
+      "ID": 931,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession - Piano Ver."
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 181,
+      "FileName": "14. Grandma - Weiss Edition Arrangement.mp3",
+      "ID": 932,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Grandma - Weiss Edition Arrangement"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "14. The Ultimate Weapon.mp3",
+      "ID": 933,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Ultimate Weapon"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "14. Vague Hope - Cold Rain.mp3",
+      "ID": 934,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Vague Hope - Cold Rain"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "15 Kainé.mp3",
+      "ID": 935,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "15. Ashes of Dreams - New.mp3",
+      "ID": 936,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams - New"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "15. Aun (Breathe).mp3",
+      "ID": 937,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Aun (Breathe)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "15. Weight of the World English Version.mp3",
+      "ID": 938,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Weight of the World English Version"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "16 Ashes of Dreams.mp3",
+      "ID": 939,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "16. Dispossession (Piano Version).mp3",
+      "ID": 940,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession (Piano Version)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "16. Kainé - Premonition.mp3",
+      "ID": 941,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kainé - Premonition"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "16. Omokage (Vestige).mp3",
+      "ID": 942,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Omokage (Vestige)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "17. City Ruins - Shade.mp3",
+      "ID": 943,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "City Ruins - Shade"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "17. Dispossession (Strings Version).mp3",
+      "ID": 944,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession (Strings Version)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "17. Song of the Ancients - Devola.mp3",
+      "ID": 945,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Song of the Ancients - Devola"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "18. Dispossession (Pluck Version).mp3",
+      "ID": 946,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession (Pluck Version)"
+  },
+  {
+      "AlbumID": 417,
+      "ArtistID": 160,
+      "FileName": "18. Kyusai (Aid).mp3",
+      "ID": 947,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kyusai (Aid)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "18. The Ultimate Weapon.mp3",
+      "ID": 948,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Ultimate Weapon"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "19. Dispossession (Music Box Version).mp3",
+      "ID": 949,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession (Music Box Version)"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 182,
+      "FileName": "19. Fleeting Words - Weiss Edition Arrangement.mp3",
+      "ID": 950,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Fleeting Words - Weiss Edition Arrangement"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "19. Halua.mp3",
+      "ID": 951,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Halua"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "19. Voice of no Return - Normal.mp3",
+      "ID": 952,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Voice of no Return - Normal"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "20. Yonah (Piano Version).mp3",
+      "ID": 953,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah (Piano Version)"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "21. Yonah (Strings Version).mp3",
+      "ID": 954,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah (Strings Version)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "22. His Dream.mp3",
+      "ID": 955,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "His Dream"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "22. Yonah (Pluck Version 1).mp3",
+      "ID": 956,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah (Pluck Version 1)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "23. This Dream.mp3",
+      "ID": 957,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "This Dream"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "23. Yonah (Pluck Version 2).mp3",
+      "ID": 958,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah (Pluck Version 2)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "24. Dispossession - Strings Ver..mp3",
+      "ID": 959,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession - Strings Ver."
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "26. Broken Heart.mp3",
+      "ID": 960,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Broken Heart"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "27. Wretched Weaponry ：Quiet.mp3",
+      "ID": 961,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Wretched Weaponry: Quiet"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "27. Yonah - Piano Ver..mp3",
+      "ID": 962,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Yonah - Piano Ver."
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "28. Ashes of Dreams - Nouveau.mp3",
+      "ID": 963,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams - Nouveau"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "28. His Dream.mp3",
+      "ID": 964,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "His Dream"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "28. Mourning.mp3",
+      "ID": 965,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Mourning"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "29. Ashes of Dreams - Naudhaich.mp3",
+      "ID": 966,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams - Naudhaich"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "29. This Dream.mp3",
+      "ID": 967,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "This Dream"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "30. Ashes of Dreams - Lost Music Box Version.mp3",
+      "ID": 968,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams - Lost Music Box Version"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "30. Repose.mp3",
+      "ID": 969,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Repose"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "30. Weight of the World Kowaretasekainouta.mp3",
+      "ID": 970,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Weight of the World Kowaretasekainouta"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 154,
+      "FileName": "31. Fleeting Words - Family.mp3",
+      "ID": 971,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Fleeting Words - Family"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "31. Rebirth & Hope.mp3",
+      "ID": 972,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Rebirth & Hope"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "33. Repose.mp3",
+      "ID": 973,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Repose"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "34. Widespread Illness.mp3",
+      "ID": 974,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Widespread Illness"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "35. Dispossession - Music Box Ver..mp3",
+      "ID": 975,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Dispossession - Music Box Ver."
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "35. Fortress of Lies.mp3",
+      "ID": 976,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Fortress of Lies"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "36. Vague Hope - Spring Rain.mp3",
+      "ID": 977,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Vague Hope - Spring Rain"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "37. Emil (Sacrifice).mp3",
+      "ID": 978,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil (Sacrifice)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "38. Blissful Death.mp3",
+      "ID": 979,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Blissful Death"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "39. Ashes of Dreams (New).mp3",
+      "ID": 980,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams (New)"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "40. Ashes of Dreams (Nouveau).mp3",
+      "ID": 981,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams (Nouveau)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "40. Emil - Sacrifice.mp3",
+      "ID": 982,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Emil - Sacrifice"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "40. Faltering Prayer - Starry Sky.mp3",
+      "ID": 983,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Faltering Prayer - Starry Sky"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "41. Ashes of Dreams (Nuadhaich).mp3",
+      "ID": 984,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams (Nuadhaich)"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "42. Ashes of Dreams (Aratanaru).mp3",
+      "ID": 985,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams (Aratanaru)"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "42. The Tower.mp3",
+      "ID": 986,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "The Tower"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 151,
+      "FileName": "45. Ashes of Dreams - Aratanaru.mp3",
+      "ID": 987,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Ashes of Dreams - Aratanaru"
+  },
+  {
+      "AlbumID": 432,
+      "ArtistID": 183,
+      "FileName": "Kamura Song of Purification (Hinoe) - Japanese.mp3",
+      "ID": 988,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kamuras Song of Purification (Hinoe) - Japanese"
+  },
+  {
+      "AlbumID": 432,
+      "ArtistID": 183,
+      "FileName": "Kamuras Song of Purification.mp3",
+      "ID": 989,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 10,
+      "Title": "Kamuras Song of Purification"
+  },
+  {
+      "AlbumID": 426,
+      "ArtistID": 152,
+      "FileName": "01. Alien Manifestation (J'Nique Nicole Vocals).mp3",
+      "ID": 990,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Alien Manifestation (JNique Nicole Vocals)"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "01. City Ruins.mp3",
+      "ID": 991,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "City Ruins"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 155,
+      "FileName": "01. Emil - Karma.mp3",
+      "ID": 992,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil - Karma"
+  },
+  {
+      "AlbumID": 425,
+      "ArtistID": 162,
+      "FileName": "01. Kainé - Salvation.mp3",
+      "ID": 993,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé - Salvation"
+  },
+  {
+      "AlbumID": 408,
+      "ArtistID": 153,
+      "FileName": "01. Snow in Summer (Gestalt).mp3",
+      "ID": 994,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "01. Snow in Summer (Origin).mp3",
+      "ID": 995,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "01. Snow in Summer (Weiss).mp3",
+      "ID": 996,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 151,
+      "FileName": "01. Snow in Summer - Another Edit Version.mp3",
+      "ID": 997,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Snow in Summer - Another Edit Version"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 151,
+      "FileName": "01. Snow in Summer.mp3",
+      "ID": 998,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Snow in Summer"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 166,
+      "FileName": "01. Song of the Ancients - Devola.mp3",
+      "ID": 999,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Devola"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "02. Amusement Park.mp3",
+      "ID": 1000,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Amusement Park"
+  },
+  {
+      "AlbumID": 418,
+      "ArtistID": 153,
+      "FileName": "02. Hills of Radiant Wind.mp3",
+      "ID": 1001,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Wind"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "02. Hills of Radiant Winds (Gestalt).mp3",
+      "ID": 1002,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Winds"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 164,
+      "FileName": "02. Hills of Radiant Winds (Replicant).mp3",
+      "ID": 1003,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Winds"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "02. Hills of Radiant Winds (Weiss).mp3",
+      "ID": 1004,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Winds"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "02. Hills of Radiant Winds.mp3",
+      "ID": 1005,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Winds"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 155,
+      "FileName": "02. Shadowlord.mp3",
+      "ID": 1006,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "03 Memories of Dust.mp3",
+      "ID": 1007,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Memories of Dust"
+  },
+  {
+      "AlbumID": 429,
+      "ArtistID": 184,
+      "FileName": "03. Birth of a Wish.mp3",
+      "ID": 1008,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Birth of a Wish"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "03. Deep Crimson Foe.mp3",
+      "ID": 1009,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Deep Crimson Foe"
+  },
+  {
+      "AlbumID": 422,
+      "ArtistID": 185,
+      "FileName": "03. Hills of Radiant Wind.mp3",
+      "ID": 1010,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Hills of Radiant Wind"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 162,
+      "FileName": "03. Kainé - Another Edit Version.mp3",
+      "ID": 1011,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé - Another Edit Version"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "03. Kainé.mp3",
+      "ID": 1012,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kaine"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 162,
+      "FileName": "03. Song of the Ancients - Hollow Dreams.mp3",
+      "ID": 1013,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Hollow Dreams"
+  },
+  {
+      "AlbumID": 430,
+      "ArtistID": 27,
+      "FileName": "03.City Ruins (Shade).mp3",
+      "ID": 1014,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "City Ruins (Shade)"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "04. Alien Manifestation.mp3",
+      "ID": 1015,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Alien Manifestation"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 162,
+      "FileName": "04. Emil.mp3",
+      "ID": 1016,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "04. Memories of Dust.mp3",
+      "ID": 1017,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Memories of Dust"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "04. Song of the Ancients (Emi Evans & J'Nique Nicole Vocals).mp3",
+      "ID": 1018,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients (Emi Evans & JNique Nicole Vocals)"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 155,
+      "FileName": "04. Song of the Ancients - Fate.mp3",
+      "ID": 1019,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Fate"
+  },
+  {
+      "AlbumID": 418,
+      "ArtistID": 153,
+      "FileName": "04. The Dark Colossus Destroys All.mp3",
+      "ID": 1020,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Dark Colossus Destroys All"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "05. Birth of a Wish.mp3",
+      "ID": 1021,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Birth of a Wish"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "05. Cold Steel Coffin.mp3",
+      "ID": 1022,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Cold Steel Coffin"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "05. Deep Crimson Foe.mp3",
+      "ID": 1023,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Deep Crimson Foe"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "05. Gods Bound by Rules.mp3",
+      "ID": 1024,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Gods Bound by Rules"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "05. The Tower.mp3",
+      "ID": 1025,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Tower"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "06. Dependent Weakling.mp3",
+      "ID": 1026,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Dependent Weakling"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 155,
+      "FileName": "06. Emil - Another Edit Version.mp3",
+      "ID": 1027,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil - Another Edit Version"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "06. Emil.mp3",
+      "ID": 1028,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 428,
+      "ArtistID": 167,
+      "FileName": "06. Shadowlord.mp3",
+      "ID": 1029,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "06. The Wretched Automatons.mp3",
+      "ID": 1030,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Wretched Automatons"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "07. A Beautiful Song (Emi Evans & J'Nique Nicole Vocals).mp3",
+      "ID": 1031,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "A Beautiful Song (Emi Evans & JNique Nicole Vocals)"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "07. Bipolar Nightmare.mp3",
+      "ID": 1032,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Bipolar Nightmare"
+  },
+  {
+      "AlbumID": 424,
+      "ArtistID": 167,
+      "FileName": "07. Emil.mp3",
+      "ID": 1033,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 154,
+      "FileName": "07. Fleeting Words - Another Edit Version.mp3",
+      "ID": 1034,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Fleeting Words - Another Edit Version"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "07. Fleeting Words.mp3",
+      "ID": 1035,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Fleeting Words"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "07. Possessed by Disease.mp3",
+      "ID": 1036,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Possessed by Disease"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 178,
+      "FileName": "07. Song of the Ancients.mp3",
+      "ID": 1037,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "08 Pascal.mp3",
+      "ID": 1038,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Pascal"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "08. Copied City.mp3",
+      "ID": 1039,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Copied City"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "08. Mourning.mp3",
+      "ID": 1040,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Mourning"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "08. Song of the Ancients (Weiss).mp3",
+      "ID": 1041,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 186,
+      "FileName": "08. Song of the Ancients - Another Edit Version.mp3",
+      "ID": 1042,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Another Edit Version"
+  },
+  {
+      "AlbumID": 427,
+      "ArtistID": 187,
+      "FileName": "08. Song of the Ancients.mp3",
+      "ID": 1043,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "08. The Wretched Automatons.mp3",
+      "ID": 1044,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Wretched Automatons"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "08. Weight of the World.mp3",
+      "ID": 1045,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World"
+  },
+  {
+      "AlbumID": 430,
+      "ArtistID": 27,
+      "FileName": "08.Pascal.mp3",
+      "ID": 1046,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Pascal"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "09. City of Commerce.mp3",
+      "ID": 1047,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "City of Commerce"
+  },
+  {
+      "AlbumID": 416,
+      "ArtistID": 152,
+      "FileName": "09. Crumbling Lies.mp3",
+      "ID": 1048,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Crumbling Lies"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "09. The Sound of the End.mp3",
+      "ID": 1049,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Sound of the End"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "10 Alien Manifestation.mp3",
+      "ID": 1050,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Alien Manifestation"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "10. City of Commerce.mp3",
+      "ID": 1051,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "City of Commerce"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "10. Shadowlord -Live.mp3",
+      "ID": 1052,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 420,
+      "ArtistID": 152,
+      "FileName": "10. Shadowlord.mp3",
+      "ID": 1053,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "10. Song of the Ancients (Popola).mp3",
+      "ID": 1054,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients (Popola)"
+  },
+  {
+      "AlbumID": 407,
+      "ArtistID": 152,
+      "FileName": "10. Weight of the World.mp3",
+      "ID": 1055,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "11. Alien Manifestation.mp3",
+      "ID": 1056,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Alien Manifestation"
+  },
+  {
+      "AlbumID": 411,
+      "ArtistID": 188,
+      "FileName": "11. Kainé - Weiss Edition Arrangement.mp3",
+      "ID": 1057,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé - Weiss Edition Arrangement"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "11. Kainé.mp3",
+      "ID": 1058,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kaine"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "11. The Prestigious Mask (Gestalt).mp3",
+      "ID": 1059,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Prestigious Mask"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "11. The Prestigious Mask.mp3",
+      "ID": 1060,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Prestigious Mask"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "12. Temple of Drifting Sands (Gestalt).mp3",
+      "ID": 1061,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Temple of Drifting Sands"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "12. Temple of Drifting Sands.mp3",
+      "ID": 1062,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Temple of Drifting Sands"
+  },
+  {
+      "AlbumID": 413,
+      "ArtistID": 156,
+      "FileName": "12. Weight Of The World.mp3",
+      "ID": 1063,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight Of The World"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "13 Mourning.mp3",
+      "ID": 1064,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Mourning"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 175,
+      "FileName": "13. Gods Bound by Rules.mp3",
+      "ID": 1065,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Gods Bound by Rules"
+  },
+  {
+      "AlbumID": 421,
+      "ArtistID": 154,
+      "FileName": "13. Song of the Ancients - Fate.mp3",
+      "ID": 1066,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Fate"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "14 Weight of the World.mp3",
+      "ID": 1067,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "14. Grandma.mp3",
+      "ID": 1068,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Grandma"
+  },
+  {
+      "AlbumID": 409,
+      "ArtistID": 154,
+      "FileName": "17 Weight of the World - the End of YoRHa.mp3",
+      "ID": 1069,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World - the End of YoRHa"
+  },
+  {
+      "AlbumID": 412,
+      "ArtistID": 156,
+      "FileName": "19. Fleeting Words.mp3",
+      "ID": 1070,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Fleeting Words"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "20. Pascal.mp3",
+      "ID": 1071,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Pascal"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "21. Forest Kingdom.mp3",
+      "ID": 1072,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Forest Kingdom"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 166,
+      "FileName": "21. The Lost Forest.mp3",
+      "ID": 1073,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Lost Forest"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "23. Copied City.mp3",
+      "ID": 1074,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Copied City"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "24. The Dark Colossus Destroys All.mp3",
+      "ID": 1075,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Dark Colossus Destroys All"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "24. Wretched Weaponry ：Medium／Dynamic.mp3",
+      "ID": 1076,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Wretched Weaponry: Medium-Dynamic"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "25. Kainé - Salvation.mp3",
+      "ID": 1077,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé - Salvation"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "25. Song of the Ancients (Hollow Dreams).mp3",
+      "ID": 1078,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients (Hollow Dreams)"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "26. Kainé (Salvation).mp3",
+      "ID": 1079,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé (Salvation)"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "27. Kainé (Escape).mp3",
+      "ID": 1080,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé (Escape)"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "32. Fleeting Words - Outsider.mp3",
+      "ID": 1081,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Fleeting Words - Outsider"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "33. Crumbling Lies - Front.mp3",
+      "ID": 1082,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Crumbling Lies - Front"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "34. Dance of the Evanescent.mp3",
+      "ID": 1083,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Dance of the Evanescent"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "34. Song of the Ancients - Hollow Dreams.mp3",
+      "ID": 1084,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Hollow Dreams"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "37. Song of the Ancients - Atonement.mp3",
+      "ID": 1085,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Atonement"
+  },
+  {
+      "AlbumID": 414,
+      "ArtistID": 158,
+      "FileName": "38. Shadowlord.mp3",
+      "ID": 1086,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "38. Song of the Ancients - Fate.mp3",
+      "ID": 1087,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Song of the Ancients - Fate"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "39. Emil - Karma.mp3",
+      "ID": 1088,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Emil - Karma"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "41. Alien Manifestation.mp3",
+      "ID": 1089,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Alien Manifestation"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 155,
+      "FileName": "41. Shadowlord.mp3",
+      "ID": 1090,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Shadowlord"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "43. Grandma - Reunion.mp3",
+      "ID": 1091,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Grandma - Reunion"
+  },
+  {
+      "AlbumID": 406,
+      "ArtistID": 162,
+      "FileName": "44. Kainé - Escape.mp3",
+      "ID": 1092,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Kainé - Escape"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "44. The Sound of the End.mp3",
+      "ID": 1093,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "The Sound of the End"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "45. Weight of the World Nouveau - FR Version.mp3",
+      "ID": 1094,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World Nouveau - FR Version"
+  },
+  {
+      "AlbumID": 410,
+      "ArtistID": 154,
+      "FileName": "46. Weight of the World the End of YoRHa.mp3",
+      "ID": 1095,
+      "More": "",
+      "Private": "0",
+      "Rank": "4",
+      "TagID": 11,
+      "Title": "Weight of the World the End of YoRHa"
+  }
+];
+var Artists = [
+  {
+      "ID": 0,
+      "More": "",
+      "Name": "NIVIRO",
+      "Rank": "4",
+      "Thumb": "artists/NIVIRO.jpg"
+  },
+  {
+      "ID": 1,
+      "More": "",
+      "Name": "Defqwop",
+      "Rank": "4",
+      "Thumb": "artists/Defqwop.jpg"
+  },
+  {
+      "ID": 2,
+      "More": "",
+      "Name": "Brooks, Molly Ann, IZECOLD",
+      "Rank": "4",
+      "Thumb": "artists/Brooks, Molly Ann, IZECOLD.jpg"
+  },
+  {
+      "ID": 3,
+      "More": "",
+      "Name": "Tobu",
+      "Rank": "4",
+      "Thumb": "artists/Tobu.jpg"
+  },
+  {
+      "ID": 4,
+      "More": "",
+      "Name": "Virtual Riot",
+      "Rank": "4",
+      "Thumb": "artists/Virtual Riot.jpg"
+  },
+  {
+      "ID": 5,
+      "More": "",
+      "Name": "Elektronomia",
+      "Rank": "4",
+      "Thumb": "artists/Elektronomia.jpg"
+  },
+  {
+      "ID": 6,
+      "More": "",
+      "Name": "Jim Yosef",
+      "Rank": "4",
+      "Thumb": "artists/Jim Yosef.jpg"
+  },
+  {
+      "ID": 7,
+      "More": "",
+      "Name": "Ahxello",
+      "Rank": "4",
+      "Thumb": "artists/Ahxello.jpg"
+  },
+  {
+      "ID": 8,
+      "More": "",
+      "Name": "Doctor Vox",
+      "Rank": "4",
+      "Thumb": "artists/Doctor Vox.jpg"
+  },
+  {
+      "ID": 9,
+      "More": "",
+      "Name": "Panda Eyes",
+      "Rank": "4",
+      "Thumb": "artists/Panda Eyes.jpg"
+  },
+  {
+      "ID": 10,
+      "More": "",
+      "Name": "Razihel, TeamMate, Hyper Potions",
+      "Rank": "4",
+      "Thumb": "artists/Razihel, TeamMate, Hyper Potions.jpg"
+  },
+  {
+      "ID": 11,
+      "More": "",
+      "Name": "Ampyx",
+      "Rank": "4",
+      "Thumb": "artists/Ampyx.jpg"
+  },
+  {
+      "ID": 12,
+      "More": "",
+      "Name": "Distrion, Electro-Light",
+      "Rank": "4",
+      "Thumb": "artists/Distrion, Electro-Light.jpg"
+  },
+  {
+      "ID": 13,
+      "More": "",
+      "Name": "Hoaprox",
+      "Rank": "4",
+      "Thumb": "artists/Hoaprox.jpg"
+  },
+  {
+      "ID": 14,
+      "More": "",
+      "Name": "Steerner, Martell",
+      "Rank": "4",
+      "Thumb": "artists/Steerner, Martell.jpg"
+  },
+  {
+      "ID": 15,
+      "More": "",
+      "Name": "Alan Walker",
+      "Rank": "4",
+      "Thumb": "artists/Alan Walker.jpg"
+  },
+  {
+      "ID": 16,
+      "More": "",
+      "Name": "League of Legends",
+      "Rank": "4",
+      "Thumb": "artists/League of Legends.jpg"
+  },
+  {
+      "ID": 17,
+      "More": "",
+      "Name": "Sonbeat",
+      "Rank": "4",
+      "Thumb": "artists/Sonbeat.jpg"
+  },
+  {
+      "ID": 18,
+      "More": "",
+      "Name": "Vexento",
+      "Rank": "4",
+      "Thumb": "artists/Vexento.jpg"
+  },
+  {
+      "ID": 19,
+      "More": "",
+      "Name": "Tez Cadey",
+      "Rank": "4",
+      "Thumb": "artists/Tez Cadey.jpg"
+  },
+  {
+      "ID": 20,
+      "More": "",
+      "Name": "Mich",
+      "Rank": "4",
+      "Thumb": "artists/Mich.jpg"
+  },
+  {
+      "ID": 21,
+      "More": "",
+      "Name": "Jebase",
+      "Rank": "4",
+      "Thumb": "artists/Jebase.jpg"
+  },
+  {
+      "ID": 22,
+      "More": "",
+      "Name": "TheFatRat",
+      "Rank": "4",
+      "Thumb": "artists/TheFatRat.jpg"
+  },
+  {
+      "ID": 23,
+      "More": "",
+      "Name": "O M II N",
+      "Rank": "4",
+      "Thumb": "artists/O M II N.jpg"
+  },
+  {
+      "ID": 24,
+      "More": "",
+      "Name": "K-391",
+      "Rank": "4",
+      "Thumb": "artists/K-391.jpg"
+  },
+  {
+      "ID": 25,
+      "More": "",
+      "Name": "Eightfold X MKJ",
+      "Rank": "4",
+      "Thumb": "artists/Eightfold X MKJ.jpg"
+  },
+  {
+      "ID": 26,
+      "More": "",
+      "Name": "Contacreast, Diviners",
+      "Rank": "4",
+      "Thumb": "artists/Contacreast, Diviners.jpg"
+  },
+  {
+      "ID": 27,
+      "More": "",
+      "Name": "Eve",
+      "Rank": "4",
+      "Thumb": "artists/Eve.jpg"
+  },
+  {
+      "ID": 28,
+      "More": "",
+      "Name": "Giga",
+      "Rank": "4",
+      "Thumb": "artists/Giga.jpg"
+  },
+  {
+      "ID": 29,
+      "More": "",
+      "Name": "Azari",
+      "Rank": "4",
+      "Thumb": "artists/Azari.jpg"
+  },
+  {
+      "ID": 30,
+      "More": "",
+      "Name": "takayan",
+      "Rank": "4",
+      "Thumb": "artists/takayan.jpg"
+  },
+  {
+      "ID": 31,
+      "More": "",
+      "Name": "Ayase",
+      "Rank": "4",
+      "Thumb": "artists/Ayase.jpg"
+  },
+  {
+      "ID": 32,
+      "More": "",
+      "Name": "Kanaria",
+      "Rank": "4",
+      "Thumb": "artists/Kanaria.jpg"
+  },
+  {
+      "ID": 33,
+      "More": "",
+      "Name": "Chinozo",
+      "Rank": "4",
+      "Thumb": "artists/Chinozo.jpg"
+  },
+  {
+      "ID": 34,
+      "More": "",
+      "Name": "whaledontsleep",
+      "Rank": "4",
+      "Thumb": "artists/whaledontsleep.jpg"
+  },
+  {
+      "ID": 35,
+      "More": "",
+      "Name": "CHIHIRO",
+      "Rank": "4",
+      "Thumb": "artists/CHIHIRO.jpg"
+  },
+  {
+      "ID": 36,
+      "More": "",
+      "Name": "Kobasolo",
+      "Rank": "4",
+      "Thumb": "artists/Kobasolo.jpg"
+  },
+  {
+      "ID": 37,
+      "More": "",
+      "Name": "Ms.OOJA",
+      "Rank": "4",
+      "Thumb": "artists/Ms.OOJA.jpg"
+  },
+  {
+      "ID": 38,
+      "More": "",
+      "Name": "Akie",
+      "Rank": "4",
+      "Thumb": "artists/Akie.jpg"
+  },
+  {
+      "ID": 39,
+      "More": "",
+      "Name": "山田タマル",
+      "Rank": "4",
+      "Thumb": "artists/山田タマル.jpg"
+  },
+  {
+      "ID": 40,
+      "More": "",
+      "Name": "BENI",
+      "Rank": "4",
+      "Thumb": "artists/BENI.jpg"
+  },
+  {
+      "ID": 41,
+      "More": "",
+      "Name": "Tiara",
+      "Rank": "4",
+      "Thumb": "artists/Tiara.jpg"
+  },
+  {
+      "ID": 42,
+      "More": "",
+      "Name": "Duca",
+      "Rank": "4",
+      "Thumb": "artists/Duca.jpg"
+  },
+  {
+      "ID": 43,
+      "More": "",
+      "Name": "majiko",
+      "Rank": "4",
+      "Thumb": "artists/majiko.jpg"
+  },
+  {
+      "ID": 44,
+      "More": "",
+      "Name": "Uru",
+      "Rank": "4",
+      "Thumb": "artists/Uru.jpg"
+  },
+  {
+      "ID": 45,
+      "More": "",
+      "Name": "Riyu Renji",
+      "Rank": "4",
+      "Thumb": "artists/Riyu Renji.jpg"
+  },
+  {
+      "ID": 46,
+      "More": "",
+      "Name": "RSP",
+      "Rank": "4",
+      "Thumb": "artists/RSP.jpg"
+  },
+  {
+      "ID": 47,
+      "More": "",
+      "Name": "茅原実里",
+      "Rank": "4",
+      "Thumb": "artists/茅原実里.jpg"
+  },
+  {
+      "ID": 48,
+      "More": "",
+      "Name": "Rainych",
+      "Rank": "4",
+      "Thumb": "artists/Rainych.jpg"
+  },
+  {
+      "ID": 49,
+      "More": "",
+      "Name": "TEE",
+      "Rank": "4",
+      "Thumb": "artists/TEE.jpg"
+  },
+  {
+      "ID": 50,
+      "More": "",
+      "Name": "Rei Yasuda",
+      "Rank": "4",
+      "Thumb": "artists/Rei Yasuda.jpg"
+  },
+  {
+      "ID": 51,
+      "More": "",
+      "Name": "7!!",
+      "Rank": "4",
+      "Thumb": "artists/7!!.jpg"
+  },
+  {
+      "ID": 52,
+      "More": "",
+      "Name": "wacci",
+      "Rank": "4",
+      "Thumb": "artists/wacci.jpg"
+  },
+  {
+      "ID": 53,
+      "More": "",
+      "Name": "ShibayanRecords",
+      "Rank": "4",
+      "Thumb": "artists/ShibayanRecords.jpg"
+  },
+  {
+      "ID": 54,
+      "More": "",
+      "Name": "Happy Birthday",
+      "Rank": "4",
+      "Thumb": "artists/Happy Birthday.jpg"
+  },
+  {
+      "ID": 55,
+      "More": "",
+      "Name": "shimamo",
+      "Rank": "4",
+      "Thumb": "artists/shimamo.jpg"
+  },
+  {
+      "ID": 56,
+      "More": "",
+      "Name": "物語シリーズ",
+      "Rank": "4",
+      "Thumb": "artists/物語シリーズ.jpg"
+  },
+  {
+      "ID": 57,
+      "More": "",
+      "Name": "JUJU, JAY'ED",
+      "Rank": "4",
+      "Thumb": "artists/JUJU, JAYED.jpg"
+  },
+  {
+      "ID": 58,
+      "More": "",
+      "Name": "OFFICIAL HIGE DANDISM",
+      "Rank": "4",
+      "Thumb": "artists/OFFICIAL HIGE DANDISM.jpg"
+  },
+  {
+      "ID": 59,
+      "More": "",
+      "Name": "ALI, AKLO",
+      "Rank": "4",
+      "Thumb": "artists/ALI, AKLO.jpg"
+  },
+  {
+      "ID": 60,
+      "More": "",
+      "Name": "Mrs. GREEN APPLE",
+      "Rank": "4",
+      "Thumb": "artists/Mrs. GREEN APPLE.jpg"
+  },
+  {
+      "ID": 61,
+      "More": "",
+      "Name": "ZUTOMAYO",
+      "Rank": "4",
+      "Thumb": "artists/ZUTOMAYO.jpg"
+  },
+  {
+      "ID": 62,
+      "More": "",
+      "Name": "ヨルシカ",
+      "Rank": "4",
+      "Thumb": "artists/ヨルシカ.jpg"
+  },
+  {
+      "ID": 63,
+      "More": "",
+      "Name": "sumika",
+      "Rank": "4",
+      "Thumb": "artists/sumika.jpg"
+  },
+  {
+      "ID": 64,
+      "More": "",
+      "Name": "Aimer",
+      "Rank": "4",
+      "Thumb": "artists/Aimer.jpg"
+  },
+  {
+      "ID": 65,
+      "More": "",
+      "Name": "BRIGHT",
+      "Rank": "4",
+      "Thumb": "artists/BRIGHT.jpg"
+  },
+  {
+      "ID": 66,
+      "More": "",
+      "Name": "LiSA",
+      "Rank": "4",
+      "Thumb": "artists/LiSA.jpg"
+  },
+  {
+      "ID": 67,
+      "More": "",
+      "Name": "Masayuki Suzuki, 鈴木愛理",
+      "Rank": "4",
+      "Thumb": "artists/Masayuki Suzuki, 鈴木愛理.jpg"
+  },
+  {
+      "ID": 68,
+      "More": "",
+      "Name": "田所あずさ",
+      "Rank": "4",
+      "Thumb": "artists/田所あずさ.jpg"
+  },
+  {
+      "ID": 69,
+      "More": "",
+      "Name": "Shxne",
+      "Rank": "4",
+      "Thumb": "artists/Shxne.jpg"
+  },
+  {
+      "ID": 70,
+      "More": "",
+      "Name": "Selphius",
+      "Rank": "4",
+      "Thumb": "artists/Selphius.jpg"
+  },
+  {
+      "ID": 71,
+      "More": "",
+      "Name": "誘宵美九 (CV: 茅原実里)",
+      "Rank": "4",
+      "Thumb": "artists/誘宵美九 (CV 茅原実里).jpg"
+  },
+  {
+      "ID": 72,
+      "More": "",
+      "Name": "GARNiDELiA",
+      "Rank": "4",
+      "Thumb": "artists/GARNiDELiA.jpg"
+  },
+  {
+      "ID": 73,
+      "More": "",
+      "Name": "TRUE",
+      "Rank": "4",
+      "Thumb": "artists/TRUE.jpg"
+  },
+  {
+      "ID": 74,
+      "More": "",
+      "Name": "BUMP OF CHICKEN",
+      "Rank": "4",
+      "Thumb": "artists/BUMP OF CHICKEN.jpg"
+  },
+  {
+      "ID": 75,
+      "More": "",
+      "Name": "JUNNA",
+      "Rank": "4",
+      "Thumb": "artists/JUNNA.jpg"
+  },
+  {
+      "ID": 76,
+      "More": "",
+      "Name": "RADWIMPS",
+      "Rank": "4",
+      "Thumb": "artists/RADWIMPS.jpg"
+  },
+  {
+      "ID": 77,
+      "More": "",
+      "Name": "Kie Kitano",
+      "Rank": "4",
+      "Thumb": "artists/Kie Kitano.jpg"
+  },
+  {
+      "ID": 78,
+      "More": "",
+      "Name": "WEAVER",
+      "Rank": "4",
+      "Thumb": "artists/WEAVER.jpg"
+  },
+  {
+      "ID": 79,
+      "More": "",
+      "Name": "YOASOBI",
+      "Rank": "4",
+      "Thumb": "artists/YOASOBI.jpg"
+  },
+  {
+      "ID": 80,
+      "More": "",
+      "Name": "和ぬか",
+      "Rank": "4",
+      "Thumb": "artists/和ぬか.jpg"
+  },
+  {
+      "ID": 81,
+      "More": "",
+      "Name": "Yunomi",
+      "Rank": "4",
+      "Thumb": "artists/Yunomi.jpg"
+  },
+  {
+      "ID": 82,
+      "More": "",
+      "Name": "UNISON SQUARE GARDEN",
+      "Rank": "4",
+      "Thumb": "artists/UNISON SQUARE GARDEN.jpg"
+  },
+  {
+      "ID": 83,
+      "More": "",
+      "Name": "Goose house",
+      "Rank": "4",
+      "Thumb": "artists/Goose house.jpg"
+  },
+  {
+      "ID": 84,
+      "More": "",
+      "Name": "Htrol",
+      "Rank": "4",
+      "Thumb": "artists/Htrol.jpg"
+  },
+  {
+      "ID": 85,
+      "More": "",
+      "Name": "Anna Yvette",
+      "Rank": "4",
+      "Thumb": "artists/Anna Yvette.jpg"
+  },
+  {
+      "ID": 86,
+      "More": "",
+      "Name": "LZRD, Jake Miller",
+      "Rank": "4",
+      "Thumb": "artists/LZRD, Jake Miller.jpg"
+  },
+  {
+      "ID": 87,
+      "More": "",
+      "Name": "Vicetone",
+      "Rank": "4",
+      "Thumb": "artists/Vicetone.jpg"
+  },
+  {
+      "ID": 88,
+      "More": "",
+      "Name": "Zedd",
+      "Rank": "4",
+      "Thumb": "artists/Zedd.jpg"
+  },
+  {
+      "ID": 89,
+      "More": "",
+      "Name": "Gryffin",
+      "Rank": "4",
+      "Thumb": "artists/Gryffin.jpg"
+  },
+  {
+      "ID": 90,
+      "More": "",
+      "Name": "Galantis",
+      "Rank": "4",
+      "Thumb": "artists/Galantis.jpg"
+  },
+  {
+      "ID": 91,
+      "More": "",
+      "Name": "Tristam",
+      "Rank": "4",
+      "Thumb": "artists/Tristam.jpg"
+  },
+  {
+      "ID": 92,
+      "More": "",
+      "Name": "Jodex",
+      "Rank": "4",
+      "Thumb": "artists/Jodex.jpg"
+  },
+  {
+      "ID": 93,
+      "More": "",
+      "Name": "Mike Perry",
+      "Rank": "4",
+      "Thumb": "artists/Mike Perry.jpg"
+  },
+  {
+      "ID": 94,
+      "More": "",
+      "Name": "Unknow",
+      "Rank": "4",
+      "Thumb": null
+  },
+  {
+      "ID": 95,
+      "More": "",
+      "Name": "The Jane Doze, Curtains",
+      "Rank": "4",
+      "Thumb": "artists/The Jane Doze, Curtains.jpg"
+  },
+  {
+      "ID": 96,
+      "More": "",
+      "Name": "Caravan Palace",
+      "Rank": "4",
+      "Thumb": "artists/Caravan Palace.jpg"
+  },
+  {
+      "ID": 97,
+      "More": "",
+      "Name": "MORTEN",
+      "Rank": "4",
+      "Thumb": "artists/MORTEN.jpg"
+  },
+  {
+      "ID": 98,
+      "More": "",
+      "Name": "FWLR, KINLEY",
+      "Rank": "4",
+      "Thumb": "artists/FWLR, KINLEY.jpg"
+  },
+  {
+      "ID": 99,
+      "More": "",
+      "Name": "Nightcore",
+      "Rank": "4",
+      "Thumb": "artists/Nightcore.jpg"
+  },
+  {
+      "ID": 100,
+      "More": "",
+      "Name": "Prefekt, Johnning",
+      "Rank": "4",
+      "Thumb": "artists/Prefekt, Johnning.jpg"
+  },
+  {
+      "ID": 101,
+      "More": "",
+      "Name": "Angelika Vee, Goblins from Mars",
+      "Rank": "4",
+      "Thumb": "artists/Angelika Vee, Goblins from Mars.jpg"
+  },
+  {
+      "ID": 102,
+      "More": "",
+      "Name": "Mako",
+      "Rank": "4",
+      "Thumb": "artists/Mako.jpg"
+  },
+  {
+      "ID": 103,
+      "More": "",
+      "Name": "Netrum/Halvorsen",
+      "Rank": "4",
+      "Thumb": "artists/NetrumHalvorsen.jpg"
+  },
+  {
+      "ID": 104,
+      "More": "",
+      "Name": "Rhymastic",
+      "Rank": "4",
+      "Thumb": "artists/Rhymastic.jpg"
+  },
+  {
+      "ID": 105,
+      "More": "",
+      "Name": "Klaypex, Greta",
+      "Rank": "4",
+      "Thumb": "artists/Klaypex, Greta.jpg"
+  },
+  {
+      "ID": 106,
+      "More": "",
+      "Name": "Gareth Emery,STANDERWICK,HALIENE",
+      "Rank": "4",
+      "Thumb": "artists/Gareth Emery,STANDERWICK,HALIENE.jpg"
+  },
+  {
+      "ID": 107,
+      "More": "",
+      "Name": "Sub.Sound",
+      "Rank": "4",
+      "Thumb": "artists/Sub.Sound.jpg"
+  },
+  {
+      "ID": 108,
+      "More": "",
+      "Name": "ItaloBrothers",
+      "Rank": "4",
+      "Thumb": "artists/ItaloBrothers.jpg"
+  },
+  {
+      "ID": 109,
+      "More": "",
+      "Name": "Cash Cash",
+      "Rank": "4",
+      "Thumb": "artists/Cash Cash.jpg"
+  },
+  {
+      "ID": 110,
+      "More": "",
+      "Name": "Gabry Ponte, LUM!X, Prezioso",
+      "Rank": "4",
+      "Thumb": "artists/Gabry Ponte, LUM!X, Prezioso.jpg"
+  },
+  {
+      "ID": 111,
+      "More": "",
+      "Name": "Tritonal, Cash Cash",
+      "Rank": "4",
+      "Thumb": "artists/Tritonal, Cash Cash.jpg"
+  },
+  {
+      "ID": 112,
+      "More": "",
+      "Name": "Avicii, Sandro Cavazza",
+      "Rank": "4",
+      "Thumb": "artists/Avicii, Sandro Cavazza.jpg"
+  },
+  {
+      "ID": 113,
+      "More": "",
+      "Name": "Sơn Tùng M-TP",
+      "Rank": "4",
+      "Thumb": "artists/Sơn Tùng M-TP.jpg"
+  },
+  {
+      "ID": 114,
+      "More": "",
+      "Name": "SOOBIN",
+      "Rank": "4",
+      "Thumb": "artists/SOOBIN.jpg"
+  },
+  {
+      "ID": 115,
+      "More": "",
+      "Name": "Dabin, Dia Frampton",
+      "Rank": "4",
+      "Thumb": "artists/Dabin, Dia Frampton.jpg"
+  },
+  {
+      "ID": 116,
+      "More": "",
+      "Name": "Mr.Siro",
+      "Rank": "4",
+      "Thumb": "artists/Mr.Siro.jpg"
+  },
+  {
+      "ID": 117,
+      "More": "",
+      "Name": "Suni Hạ Linh",
+      "Rank": "4",
+      "Thumb": "artists/Suni Hạ Linh.jpg"
+  },
+  {
+      "ID": 118,
+      "More": "",
+      "Name": "Lou Hoàng",
+      "Rank": "4",
+      "Thumb": "artists/Lou Hoàng.jpg"
+  },
+  {
+      "ID": 119,
+      "More": "",
+      "Name": "911",
+      "Rank": "4",
+      "Thumb": "artists/911.jpg"
+  },
+  {
+      "ID": 120,
+      "More": "",
+      "Name": "Phạm Hồng Phước",
+      "Rank": "4",
+      "Thumb": "artists/Phạm Hồng Phước.jpg"
+  },
+  {
+      "ID": 121,
+      "More": "",
+      "Name": "Maroon 5",
+      "Rank": "4",
+      "Thumb": "artists/Maroon 5.jpg"
+  },
+  {
+      "ID": 122,
+      "More": "",
+      "Name": "Da LAB",
+      "Rank": "4",
+      "Thumb": "artists/Da LAB.jpg"
+  },
+  {
+      "ID": 123,
+      "More": "",
+      "Name": "Only C",
+      "Rank": "4",
+      "Thumb": "artists/Only C.jpg"
+  },
+  {
+      "ID": 124,
+      "More": "",
+      "Name": "Trịnh Thăng Bình",
+      "Rank": "4",
+      "Thumb": "artists/Trịnh Thăng Bình.jpg"
+  },
+  {
+      "ID": 125,
+      "More": "",
+      "Name": "Charlie Puth",
+      "Rank": "4",
+      "Thumb": "artists/Charlie Puth.jpg"
+  },
+  {
+      "ID": 126,
+      "More": "",
+      "Name": "FOE",
+      "Rank": "4",
+      "Thumb": "artists/FOE.jpg"
+  },
+  {
+      "ID": 127,
+      "More": "",
+      "Name": "Erik",
+      "Rank": "4",
+      "Thumb": "artists/Erik.jpg"
+  },
+  {
+      "ID": 128,
+      "More": "",
+      "Name": "ILLENIUM, MAX",
+      "Rank": "4",
+      "Thumb": "artists/ILLENIUM, MAX.jpg"
+  },
+  {
+      "ID": 129,
+      "More": "",
+      "Name": "DEAMN",
+      "Rank": "4",
+      "Thumb": "artists/DEAMN.jpg"
+  },
+  {
+      "ID": 130,
+      "More": "",
+      "Name": "Noo Phước Thịnh",
+      "Rank": "4",
+      "Thumb": "artists/Noo Phước Thịnh.jpg"
+  },
+  {
+      "ID": 131,
+      "More": "",
+      "Name": "Rival, Cadmium, Jon Becker",
+      "Rank": "4",
+      "Thumb": "artists/Rival, Cadmium, Jon Becker.jpg"
+  },
+  {
+      "ID": 132,
+      "More": "",
+      "Name": "Don Omar, Lucenzo",
+      "Rank": "4",
+      "Thumb": "artists/Don Omar, Lucenzo.jpg"
+  },
+  {
+      "ID": 133,
+      "More": "",
+      "Name": "Luis Fonsi, Daddy Yankee",
+      "Rank": "4",
+      "Thumb": "artists/Luis Fonsi, Daddy Yankee.jpg"
+  },
+  {
+      "ID": 134,
+      "More": "",
+      "Name": "Alle Farben, ILIRA",
+      "Rank": "4",
+      "Thumb": "artists/Alle Farben, ILIRA.jpg"
+  },
+  {
+      "ID": 135,
+      "More": "",
+      "Name": "UNDRESSD, Ellie May",
+      "Rank": "4",
+      "Thumb": "artists/UNDRESSD, Ellie May.jpg"
+  },
+  {
+      "ID": 136,
+      "More": "",
+      "Name": "Mike Posner, Seeb",
+      "Rank": "4",
+      "Thumb": "artists/Mike Posner, Seeb.jpg"
+  },
+  {
+      "ID": 137,
+      "More": "",
+      "Name": "Ava Max",
+      "Rank": "4",
+      "Thumb": "artists/Ava Max.jpg"
+  },
+  {
+      "ID": 138,
+      "More": "",
+      "Name": "Axel Johansson, Tina Stachowiak",
+      "Rank": "4",
+      "Thumb": "artists/Axel Johansson, Tina Stachowiak.jpg"
+  },
+  {
+      "ID": 139,
+      "More": "",
+      "Name": "Arc North, Krista Marina",
+      "Rank": "4",
+      "Thumb": "artists/Arc North, Krista Marina.jpg"
+  },
+  {
+      "ID": 140,
+      "More": "",
+      "Name": "Osad,VRT",
+      "Rank": "4",
+      "Thumb": "artists/Osad,VRT.jpg"
+  },
+  {
+      "ID": 141,
+      "More": "",
+      "Name": "Sam Feldt, RANI",
+      "Rank": "4",
+      "Thumb": "artists/Sam Feldt, RANI.jpg"
+  },
+  {
+      "ID": 142,
+      "More": "",
+      "Name": "Clean Bandit",
+      "Rank": "4",
+      "Thumb": "artists/Clean Bandit.jpg"
+  },
+  {
+      "ID": 143,
+      "More": "",
+      "Name": "Merk & Kremont, Ady Suleiman",
+      "Rank": "4",
+      "Thumb": "artists/Merk & Kremont, Ady Suleiman.jpg"
+  },
+  {
+      "ID": 144,
+      "More": "",
+      "Name": "Shawn Mendes, Camila Cabello",
+      "Rank": "4",
+      "Thumb": "artists/Shawn Mendes, Camila Cabello.jpg"
+  },
+  {
+      "ID": 145,
+      "More": "",
+      "Name": "Porter Robinson, Madeon",
+      "Rank": "4",
+      "Thumb": "artists/Porter Robinson, Madeon.jpg"
+  },
+  {
+      "ID": 146,
+      "More": "",
+      "Name": "Lil Nas X",
+      "Rank": "4",
+      "Thumb": "artists/Lil Nas X.jpg"
+  },
+  {
+      "ID": 147,
+      "More": "",
+      "Name": "YanBi,Hằng BingBoong,Mr. T",
+      "Rank": "4",
+      "Thumb": "artists/YanBi,Hằng BingBoong,Mr. T.jpg"
+  },
+  {
+      "ID": 148,
+      "More": "",
+      "Name": "Loote",
+      "Rank": "4",
+      "Thumb": "artists/Loote.jpg"
+  },
+  {
+      "ID": 149,
+      "More": "",
+      "Name": "CHROMANCE, Marcus Layton",
+      "Rank": "4",
+      "Thumb": "artists/CHROMANCE, Marcus Layton.jpg"
+  },
+  {
+      "ID": 150,
+      "More": "",
+      "Name": "Kevin Silvester, kidkatu, Julie Zorrilla",
+      "Rank": "4",
+      "Thumb": "artists/Kevin Silvester, kidkatu, Julie Zorrilla.jpg"
+  },
+  {
+      "ID": 151,
+      "More": "",
+      "Name": "Ryuichi Takada",
+      "Rank": "4",
+      "Thumb": "artists/Ryuichi Takada.jpg"
+  },
+  {
+      "ID": 152,
+      "More": "",
+      "Name": "岡部 啓一",
+      "Rank": "4",
+      "Thumb": "artists/岡部 啓一.jpg"
+  },
+  {
+      "ID": 153,
+      "More": "",
+      "Name": "MONACA",
+      "Rank": "4",
+      "Thumb": "artists/MONACA.jpg"
+  },
+  {
+      "ID": 154,
+      "More": "",
+      "Name": "Keiichi Okabe",
+      "Rank": "4",
+      "Thumb": "artists/Keiichi Okabe.jpg"
+  },
+  {
+      "ID": 155,
+      "More": "",
+      "Name": "Kuniyuki Takahashi",
+      "Rank": "4",
+      "Thumb": "artists/Kuniyuki Takahashi.jpg"
+  },
+  {
+      "ID": 156,
+      "More": "",
+      "Name": "岡部啓一",
+      "Rank": "4",
+      "Thumb": "artists/岡部啓一.jpg"
+  },
+  {
+      "ID": 157,
+      "More": "",
+      "Name": "帆足圭吾",
+      "Rank": "4",
+      "Thumb": "artists/帆足圭吾.jpg"
+  },
+  {
+      "ID": 158,
+      "More": "",
+      "Name": "Okabe Keiichi",
+      "Rank": "4",
+      "Thumb": "artists/Okabe Keiichi.jpg"
+  },
+  {
+      "ID": 159,
+      "More": "",
+      "Name": "上松範康",
+      "Rank": "4",
+      "Thumb": "artists/上松範康.jpg"
+  },
+  {
+      "ID": 160,
+      "More": "",
+      "Name": "Various",
+      "Rank": "4",
+      "Thumb": "artists/Various.jpg"
+  },
+  {
+      "ID": 161,
+      "More": "",
+      "Name": "Dai Sakakibara",
+      "Rank": "4",
+      "Thumb": "artists/Dai Sakakibara.jpg"
+  },
+  {
+      "ID": 162,
+      "More": "",
+      "Name": "Keigo Hoashi",
+      "Rank": "4",
+      "Thumb": "artists/Keigo Hoashi.jpg"
+  },
+  {
+      "ID": 163,
+      "More": "",
+      "Name": "Sean Schafianski",
+      "Rank": "4",
+      "Thumb": "artists/Sean Schafianski.jpg"
+  },
+  {
+      "ID": 164,
+      "More": "",
+      "Name": "Oliver Good",
+      "Rank": "4",
+      "Thumb": "artists/Oliver Good.jpg"
+  },
+  {
+      "ID": 165,
+      "More": "",
+      "Name": "marasy",
+      "Rank": "4",
+      "Thumb": "artists/marasy.jpg"
+  },
+  {
+      "ID": 166,
+      "More": "",
+      "Name": "Shotaro Seo",
+      "Rank": "4",
+      "Thumb": "artists/Shotaro Seo.jpg"
+  },
+  {
+      "ID": 167,
+      "More": "",
+      "Name": "Sachiko Miyano",
+      "Rank": "4",
+      "Thumb": "artists/Sachiko Miyano.jpg"
+  },
+  {
+      "ID": 168,
+      "More": "",
+      "Name": "yo suzuki (akisai)",
+      "Rank": "4",
+      "Thumb": "artists/yo suzuki (akisai).jpg"
+  },
+  {
+      "ID": 169,
+      "More": "",
+      "Name": "Tomoyuki Asakawa",
+      "Rank": "4",
+      "Thumb": "artists/Tomoyuki Asakawa.jpg"
+  },
+  {
+      "ID": 170,
+      "More": "",
+      "Name": "Kenji Kaneko",
+      "Rank": "4",
+      "Thumb": "artists/Kenji Kaneko.jpg"
+  },
+  {
+      "ID": 171,
+      "More": "",
+      "Name": "Mariko Taguchi",
+      "Rank": "4",
+      "Thumb": "artists/Mariko Taguchi.jpg"
+  },
+  {
+      "ID": 172,
+      "More": "",
+      "Name": "Ryo Aoyama",
+      "Rank": "4",
+      "Thumb": "artists/Ryo Aoyama.jpg"
+  },
+  {
+      "ID": 173,
+      "More": "",
+      "Name": "Mariam Abounnasr",
+      "Rank": "4",
+      "Thumb": "artists/Mariam Abounnasr.jpg"
+  },
+  {
+      "ID": 174,
+      "More": "",
+      "Name": "Masato Koda",
+      "Rank": "4",
+      "Thumb": "artists/Masato Koda.jpg"
+  },
+  {
+      "ID": 175,
+      "More": "",
+      "Name": "Unknown Artist",
+      "Rank": "4",
+      "Thumb": "artists/Unknown Artist.jpg"
+  },
+  {
+      "ID": 176,
+      "More": "",
+      "Name": "Yasumasa Kumagai",
+      "Rank": "4",
+      "Thumb": "artists/Yasumasa Kumagai.jpg"
+  },
+  {
+      "ID": 177,
+      "More": "",
+      "Name": "Taku Yabuki",
+      "Rank": "4",
+      "Thumb": "artists/Taku Yabuki.jpg"
+  },
+  {
+      "ID": 178,
+      "More": "",
+      "Name": "Daisuke Shinoda",
+      "Rank": "4",
+      "Thumb": "artists/Daisuke Shinoda.jpg"
+  },
+  {
+      "ID": 179,
+      "More": "",
+      "Name": "Duke of Pianeet",
+      "Rank": "4",
+      "Thumb": "artists/Duke of Pianeet.jpg"
+  },
+  {
+      "ID": 180,
+      "More": "",
+      "Name": "Shiryu Miyanoshita",
+      "Rank": "4",
+      "Thumb": "artists/Shiryu Miyanoshita.jpg"
+  },
+  {
+      "ID": 181,
+      "More": "",
+      "Name": "Christian Gulino",
+      "Rank": "4",
+      "Thumb": "artists/Christian Gulino.jpg"
+  },
+  {
+      "ID": 182,
+      "More": "",
+      "Name": "Akio Noguchi",
+      "Rank": "4",
+      "Thumb": "artists/Akio Noguchi.jpg"
+  },
+  {
+      "ID": 183,
+      "More": "",
+      "Name": "Reo Uratani",
+      "Rank": "4",
+      "Thumb": "artists/Reo Uratani.jpg"
+  },
+  {
+      "ID": 184,
+      "More": "",
+      "Name": "Daisuke Kadowaki",
+      "Rank": "4",
+      "Thumb": "artists/Daisuke Kadowaki.jpg"
+  },
+  {
+      "ID": 185,
+      "More": "",
+      "Name": "Kumi Tanioka",
+      "Rank": "4",
+      "Thumb": "artists/Kumi Tanioka.jpg"
+  },
+  {
+      "ID": 186,
+      "More": "",
+      "Name": "Kuniyuki Takahashi, Shotaro Seo",
+      "Rank": "4",
+      "Thumb": "artists/Kuniyuki Takahashi, Shotaro Seo.jpg"
+  },
+  {
+      "ID": 187,
+      "More": "",
+      "Name": "Kousuke Yamashita",
+      "Rank": "4",
+      "Thumb": "artists/Kousuke Yamashita.jpg"
+  },
+  {
+      "ID": 188,
+      "More": "",
+      "Name": "Ryu Kawamura",
+      "Rank": "4",
+      "Thumb": "artists/Ryu Kawamura.jpg"
+  }
+];
+
+var Albums = [
+  {
+      "ArtistID": 0,
+      "ID": 0,
+      "More": "",
+      "Name": "Flares",
+      "Rank": "4",
+      "Thumb": "albums/Flares.jpg"
+  },
+  {
+      "ArtistID": 1,
+      "ID": 1,
+      "More": "",
+      "Name": "Awakening",
+      "Rank": "4",
+      "Thumb": "albums/Awakening.jpg"
+  },
+  {
+      "ArtistID": 2,
+      "ID": 2,
+      "More": "",
+      "Name": "Close (Brooks Remix)",
+      "Rank": "4",
+      "Thumb": "albums/Close (Brooks Remix).jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 3,
+      "More": "",
+      "Name": "Cloud 9",
+      "Rank": "4",
+      "Thumb": "albums/Cloud 9.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 4,
+      "More": "",
+      "Name": "Colors",
+      "Rank": "4",
+      "Thumb": "albums/Colors.jpg"
+  },
+  {
+      "ArtistID": 4,
+      "ID": 5,
+      "More": "",
+      "Name": "The Classics",
+      "Rank": "4",
+      "Thumb": "albums/The Classics.jpg"
+  },
+  {
+      "ArtistID": 5,
+      "ID": 6,
+      "More": "",
+      "Name": "Energy",
+      "Rank": "4",
+      "Thumb": "albums/Energy.jpg"
+  },
+  {
+      "ArtistID": 6,
+      "ID": 7,
+      "More": "",
+      "Name": "Everlasting",
+      "Rank": "4",
+      "Thumb": "albums/Everlasting.jpg"
+  },
+  {
+      "ArtistID": 5,
+      "ID": 8,
+      "More": "",
+      "Name": "Fire",
+      "Rank": "4",
+      "Thumb": "albums/Fire.jpg"
+  },
+  {
+      "ArtistID": 7,
+      "ID": 9,
+      "More": "",
+      "Name": "Frisbee",
+      "Rank": "4",
+      "Thumb": "albums/Frisbee.jpg"
+  },
+  {
+      "ArtistID": 8,
+      "ID": 10,
+      "More": "",
+      "Name": "Level Up",
+      "Rank": "4",
+      "Thumb": "albums/Level Up.jpg"
+  },
+  {
+      "ArtistID": 9,
+      "ID": 11,
+      "More": "",
+      "Name": "KIKO",
+      "Rank": "4",
+      "Thumb": "albums/KIKO.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 12,
+      "More": "",
+      "Name": "Higher",
+      "Rank": "4",
+      "Thumb": "albums/Higher.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 13,
+      "More": "",
+      "Name": "Hope",
+      "Rank": "4",
+      "Thumb": "albums/Hope.jpg"
+  },
+  {
+      "ArtistID": 10,
+      "ID": 14,
+      "More": "",
+      "Name": "Legends (Hyper Potions Remix)",
+      "Rank": "4",
+      "Thumb": "albums/Legends (Hyper Potions Remix).jpg"
+  },
+  {
+      "ArtistID": 5,
+      "ID": 15,
+      "More": "",
+      "Name": "Limitless",
+      "Rank": "4",
+      "Thumb": "albums/Limitless.jpg"
+  },
+  {
+      "ArtistID": 11,
+      "ID": 16,
+      "More": "",
+      "Name": "Rise - Ampyx",
+      "Rank": "4",
+      "Thumb": "albums/Rise - Ampyx.jpg"
+  },
+  {
+      "ArtistID": 12,
+      "ID": 17,
+      "More": "",
+      "Name": "Rubik",
+      "Rank": "4",
+      "Thumb": "albums/Rubik.jpg"
+  },
+  {
+      "ArtistID": 13,
+      "ID": 18,
+      "More": "",
+      "Name": "S.K.Y.Prox",
+      "Rank": "4",
+      "Thumb": "albums/S.K.Y.Prox.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 19,
+      "More": "",
+      "Name": "Seven",
+      "Rank": "4",
+      "Thumb": "albums/Seven.jpg"
+  },
+  {
+      "ArtistID": 14,
+      "ID": 20,
+      "More": "",
+      "Name": "Sky (feat. Martell) [Radio Edit]",
+      "Rank": "4",
+      "Thumb": "albums/Sky (feat. Martell) [Radio Edit].jpg"
+  },
+  {
+      "ArtistID": 5,
+      "ID": 21,
+      "More": "",
+      "Name": "Sky High",
+      "Rank": "4",
+      "Thumb": "albums/Sky High.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 22,
+      "More": "",
+      "Name": "Origins",
+      "Rank": "4",
+      "Thumb": "albums/Origins.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 23,
+      "More": "",
+      "Name": "Sunburst",
+      "Rank": "4",
+      "Thumb": "albums/Sunburst.jpg"
+  },
+  {
+      "ArtistID": 5,
+      "ID": 24,
+      "More": "",
+      "Name": "Vision",
+      "Rank": "4",
+      "Thumb": "albums/Vision.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 25,
+      "More": "",
+      "Name": "Welcome to Planet Urf",
+      "Rank": "4",
+      "Thumb": "albums/Welcome to Planet Urf.jpg"
+  },
+  {
+      "ArtistID": 17,
+      "ID": 26,
+      "More": "",
+      "Name": "Muvik",
+      "Rank": "4",
+      "Thumb": "albums/Muvik.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 27,
+      "More": "",
+      "Name": "Guava Breeze",
+      "Rank": "4",
+      "Thumb": "albums/Guava Breeze.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 28,
+      "More": "",
+      "Name": "Home",
+      "Rank": "4",
+      "Thumb": "albums/Home.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 29,
+      "More": "",
+      "Name": "Classics 2014 - 2015",
+      "Rank": "4",
+      "Thumb": "albums/Classics 2014 - 2015.jpg"
+  },
+  {
+      "ArtistID": 19,
+      "ID": 30,
+      "More": "",
+      "Name": "Seve (Radio Edit)",
+      "Rank": "4",
+      "Thumb": "albums/Seve (Radio Edit).jpg"
+  },
+  {
+      "ArtistID": 20,
+      "ID": 31,
+      "More": "",
+      "Name": "Somero",
+      "Rank": "4",
+      "Thumb": "albums/Somero.jpg"
+  },
+  {
+      "ArtistID": 21,
+      "ID": 32,
+      "More": "",
+      "Name": "Turtle Beach",
+      "Rank": "4",
+      "Thumb": "albums/Turtle Beach.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 33,
+      "More": "",
+      "Name": "Candyland",
+      "Rank": "4",
+      "Thumb": "albums/Candyland.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 34,
+      "More": "",
+      "Name": "Close To The Sun",
+      "Rank": "4",
+      "Thumb": "albums/Close To The Sun.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 35,
+      "More": "",
+      "Name": "Cool",
+      "Rank": "4",
+      "Thumb": "albums/Cool.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 36,
+      "More": "",
+      "Name": "Jackpot",
+      "Rank": "4",
+      "Thumb": "albums/Jackpot.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 37,
+      "More": "",
+      "Name": "Fly Away",
+      "Rank": "4",
+      "Thumb": "albums/Fly Away.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 38,
+      "More": "",
+      "Name": "Happy Robot",
+      "Rank": "4",
+      "Thumb": "albums/Happy Robot.jpg"
+  },
+  {
+      "ArtistID": 11,
+      "ID": 39,
+      "More": "",
+      "Name": "Holo",
+      "Rank": "4",
+      "Thumb": "albums/Holo.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 40,
+      "More": "",
+      "Name": "Infectious",
+      "Rank": "4",
+      "Thumb": "albums/Infectious.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 41,
+      "More": "",
+      "Name": "Joy",
+      "Rank": "4",
+      "Thumb": "albums/Joy.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 42,
+      "More": "",
+      "Name": "Lets Go",
+      "Rank": "4",
+      "Thumb": "albums/Lets Go.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 43,
+      "More": "",
+      "Name": "Perpetuo",
+      "Rank": "4",
+      "Thumb": "albums/Perpetuo.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 44,
+      "More": "",
+      "Name": "Masked Heroes",
+      "Rank": "4",
+      "Thumb": "albums/Masked Heroes.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 45,
+      "More": "",
+      "Name": "Masked Raver",
+      "Rank": "4",
+      "Thumb": "albums/Masked Raver.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 46,
+      "More": "",
+      "Name": "Mesmerize",
+      "Rank": "4",
+      "Thumb": "albums/Mesmerize.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 47,
+      "More": "",
+      "Name": "Monody (feat. Laura Brehm)",
+      "Rank": "4",
+      "Thumb": "albums/Monody (feat. Laura Brehm).jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 48,
+      "More": "",
+      "Name": "Nostalgia",
+      "Rank": "4",
+      "Thumb": "albums/Nostalgia.jpg"
+  },
+  {
+      "ArtistID": 23,
+      "ID": 49,
+      "More": "",
+      "Name": "Sunset",
+      "Rank": "4",
+      "Thumb": "albums/Sunset.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 50,
+      "More": "",
+      "Name": "The Silent Miracle",
+      "Rank": "4",
+      "Thumb": "albums/The Silent Miracle.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 51,
+      "More": "",
+      "Name": "Warrior Songs",
+      "Rank": "4",
+      "Thumb": "albums/Warrior Songs.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 52,
+      "More": "",
+      "Name": "Piece Of Me (Vexento Remix)",
+      "Rank": "4",
+      "Thumb": "albums/Piece Of Me (Vexento Remix).jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 53,
+      "More": "",
+      "Name": "Sad Robot",
+      "Rank": "4",
+      "Thumb": "albums/Sad Robot.jpg"
+  },
+  {
+      "ArtistID": 24,
+      "ID": 54,
+      "More": "",
+      "Name": "Hello, World",
+      "Rank": "4",
+      "Thumb": "albums/Hello, World.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 55,
+      "More": "",
+      "Name": "Tevo",
+      "Rank": "4",
+      "Thumb": "albums/Tevo.jpg"
+  },
+  {
+      "ArtistID": 25,
+      "ID": 56,
+      "More": "",
+      "Name": "Trap Queen",
+      "Rank": "4",
+      "Thumb": "albums/Trap Queen.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 57,
+      "More": "",
+      "Name": "Trippy Love",
+      "Rank": "4",
+      "Thumb": "albums/Trippy Love.jpg"
+  },
+  {
+      "ArtistID": 26,
+      "ID": 58,
+      "More": "",
+      "Name": "Tropic Love",
+      "Rank": "4",
+      "Thumb": "albums/Tropic Love.jpg"
+  },
+  {
+      "ArtistID": 22,
+      "ID": 59,
+      "More": "",
+      "Name": "Unity",
+      "Rank": "4",
+      "Thumb": "albums/Unity.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 60,
+      "More": "",
+      "Name": "Verve",
+      "Rank": "4",
+      "Thumb": "albums/Verve.jpg"
+  },
+  {
+      "ArtistID": 18,
+      "ID": 61,
+      "More": "",
+      "Name": "Where We Belong",
+      "Rank": "4",
+      "Thumb": "albums/Where We Belong.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 62,
+      "More": "",
+      "Name": "Kaikai Kitan / Ao No Waltz",
+      "Rank": "4",
+      "Thumb": "albums/Kaikai Kitan  Ao No Waltz.jpg"
+  },
+  {
+      "ArtistID": 28,
+      "ID": 63,
+      "More": "",
+      "Name": "デスぺレート",
+      "Rank": "4",
+      "Thumb": "albums/デスぺレート.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 64,
+      "More": "",
+      "Name": "Bunka",
+      "Rank": "4",
+      "Thumb": "albums/Bunka.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 65,
+      "More": "",
+      "Name": "Gunjo Sanka / Yuseiboushi",
+      "Rank": "4",
+      "Thumb": "albums/Gunjo Sanka  Yuseiboushi.jpg"
+  },
+  {
+      "ArtistID": 28,
+      "ID": 66,
+      "More": "",
+      "Name": "Beyond the way",
+      "Rank": "4",
+      "Thumb": "albums/Beyond the way.jpg"
+  },
+  {
+      "ArtistID": 29,
+      "ID": 67,
+      "More": "",
+      "Name": "Casino",
+      "Rank": "4",
+      "Thumb": "albums/Casino.jpg"
+  },
+  {
+      "ArtistID": 30,
+      "ID": 68,
+      "More": "",
+      "Name": "Cheating is a crime",
+      "Rank": "4",
+      "Thumb": "albums/Cheating is a crime.jpg"
+  },
+  {
+      "ArtistID": 31,
+      "ID": 69,
+      "More": "",
+      "Name": "GHOST CITY TOKYO (digital edition)",
+      "Rank": "4",
+      "Thumb": "albums/GHOST CITY TOKYO (digital edition).jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 70,
+      "More": "",
+      "Name": "Demon Lord",
+      "Rank": "4",
+      "Thumb": "albums/Demon Lord.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 71,
+      "More": "",
+      "Name": "ENVY BABY",
+      "Rank": "4",
+      "Thumb": "albums/ENVY BABY.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 72,
+      "More": "",
+      "Name": "EYE",
+      "Rank": "4",
+      "Thumb": "albums/EYE.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 73,
+      "More": "",
+      "Name": "FightSong",
+      "Rank": "4",
+      "Thumb": "albums/FightSong.jpg"
+  },
+  {
+      "ArtistID": 28,
+      "ID": 74,
+      "More": "",
+      "Name": "GRAPHIX",
+      "Rank": "4",
+      "Thumb": "albums/GRAPHIX.jpg"
+  },
+  {
+      "ArtistID": 33,
+      "ID": 75,
+      "More": "",
+      "Name": "Good-bye Declaration",
+      "Rank": "4",
+      "Thumb": "albums/Good-bye Declaration.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 76,
+      "More": "",
+      "Name": "KING",
+      "Rank": "4",
+      "Thumb": "albums/KING.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 77,
+      "More": "",
+      "Name": "MIRA",
+      "Rank": "4",
+      "Thumb": "albums/MIRA.jpg"
+  },
+  {
+      "ArtistID": 29,
+      "ID": 78,
+      "More": "",
+      "Name": "Nightmare",
+      "Rank": "4",
+      "Thumb": "albums/Nightmare.jpg"
+  },
+  {
+      "ArtistID": 34,
+      "ID": 79,
+      "More": "",
+      "Name": "Nerenaiyoruni ka-tenwoakete",
+      "Rank": "4",
+      "Thumb": "albums/Nerenaiyoruni ka-tenwoakete.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 80,
+      "More": "",
+      "Name": "QUEEN",
+      "Rank": "4",
+      "Thumb": "albums/QUEEN.jpg"
+  },
+  {
+      "ArtistID": 28,
+      "ID": 81,
+      "More": "",
+      "Name": "Ready Steady (feat. Hatsune Miku, Kagamine Rin, Kagamine Len)",
+      "Rank": "4",
+      "Thumb": "albums/Ready Steady (feat. Hatsune Miku, Kagamine Rin, Kagamine Len).jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 82,
+      "More": "",
+      "Name": "Rendezvous",
+      "Rank": "4",
+      "Thumb": "albums/Rendezvous.jpg"
+  },
+  {
+      "ArtistID": 29,
+      "ID": 83,
+      "More": "",
+      "Name": "Shadow Shadow",
+      "Rank": "4",
+      "Thumb": "albums/Shadow Shadow.jpg"
+  },
+  {
+      "ArtistID": 29,
+      "ID": 84,
+      "More": "",
+      "Name": "Whisper Whisper Whisper",
+      "Rank": "4",
+      "Thumb": "albums/Whisper Whisper Whisper.jpg"
+  },
+  {
+      "ArtistID": 29,
+      "ID": 85,
+      "More": "",
+      "Name": "Witch Hunt",
+      "Rank": "4",
+      "Thumb": "albums/Witch Hunt.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 86,
+      "More": "",
+      "Name": "Yoidoreshirazu",
+      "Rank": "4",
+      "Thumb": "albums/Yoidoreshirazu.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 87,
+      "More": "",
+      "Name": "アイデンティティ",
+      "Rank": "4",
+      "Thumb": "albums/アイデンティティ.jpg"
+  },
+  {
+      "ArtistID": 32,
+      "ID": 88,
+      "More": "",
+      "Name": "エンヴィーベイビー x KING",
+      "Rank": "4",
+      "Thumb": "albums/エンヴィーベイビー x KING.jpg"
+  },
+  {
+      "ArtistID": 35,
+      "ID": 89,
+      "More": "",
+      "Name": "KOI",
+      "Rank": "4",
+      "Thumb": "albums/KOI.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 90,
+      "More": "",
+      "Name": "これくしょん３",
+      "Rank": "4",
+      "Thumb": "albums/これくしょん３.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 91,
+      "More": "",
+      "Name": "KOBASOLO",
+      "Rank": "4",
+      "Thumb": "albums/KOBASOLO.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 92,
+      "More": "",
+      "Name": "これくしょん",
+      "Rank": "4",
+      "Thumb": "albums/これくしょん.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 93,
+      "More": "",
+      "Name": "FAITH",
+      "Rank": "4",
+      "Thumb": "albums/FAITH.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 94,
+      "More": "",
+      "Name": "40",
+      "Rank": "4",
+      "Thumb": "albums/40.jpg"
+  },
+  {
+      "ArtistID": 38,
+      "ID": 95,
+      "More": "",
+      "Name": "Akie",
+      "Rank": "4",
+      "Thumb": "albums/Akie.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 96,
+      "More": "",
+      "Name": "WOMAN 2 ～Love Song Covers～",
+      "Rank": "4",
+      "Thumb": "albums/WOMAN 2 ～Love Song Covers～.jpg"
+  },
+  {
+      "ArtistID": 39,
+      "ID": 97,
+      "More": "",
+      "Name": "TVアニメ『終末なにしてますか?忙しいですか?救ってもらっていいですか?』オリジナルサウンドトラック「青い記憶」",
+      "Rank": "4",
+      "Thumb": "albums/TVアニメ『終末なにしてますか忙しいですか救ってもらっていいですか』オリジナルサウンドトラック「青い記憶」.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 98,
+      "More": "",
+      "Name": "Best & Coupling Covers",
+      "Rank": "4",
+      "Thumb": "albums/Best & Coupling Covers.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 99,
+      "More": "",
+      "Name": "Ms.OOJAの、いちばん泣けるドリカム",
+      "Rank": "4",
+      "Thumb": "albums/Ms.OOJAの、いちばん泣けるドリカム.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 100,
+      "More": "",
+      "Name": "Stories",
+      "Rank": "4",
+      "Thumb": "albums/Stories.jpg"
+  },
+  {
+      "ArtistID": 40,
+      "ID": 101,
+      "More": "",
+      "Name": "CINEMATIC",
+      "Rank": "4",
+      "Thumb": "albums/CINEMATIC.jpg"
+  },
+  {
+      "ArtistID": 41,
+      "ID": 102,
+      "More": "",
+      "Name": "All About Tiara Ⅲ / Fan Selection Best",
+      "Rank": "4",
+      "Thumb": "albums/All About Tiara Ⅲ  Fan Selection Best.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 103,
+      "More": "",
+      "Name": "MAN ＆ WOMAN",
+      "Rank": "4",
+      "Thumb": "albums/MAN ＆ WOMAN.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 104,
+      "More": "",
+      "Name": "Be...",
+      "Rank": "4",
+      "Thumb": "albums/Be....jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 105,
+      "More": "",
+      "Name": "PRESENT",
+      "Rank": "4",
+      "Thumb": "albums/PRESENT.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 106,
+      "More": "",
+      "Name": "また恋をすることなど",
+      "Rank": "4",
+      "Thumb": "albums/また恋をすることなど.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 107,
+      "More": "",
+      "Name": "VOICE",
+      "Rank": "4",
+      "Thumb": "albums/VOICE.jpg"
+  },
+  {
+      "ArtistID": 42,
+      "ID": 108,
+      "More": "",
+      "Name": "Collection",
+      "Rank": "4",
+      "Thumb": "albums/Collection.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 109,
+      "More": "",
+      "Name": "流しのOOJA〜VINTAGE SONG COVERS〜",
+      "Rank": "4",
+      "Thumb": "albums/流しのOOJA〜VINTAGE SONG COVERS〜.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 110,
+      "More": "",
+      "Name": "流しのOOJA 2 〜VINTAGE SONG COVERS〜",
+      "Rank": "4",
+      "Thumb": "albums/流しのOOJA 2 〜VINTAGE SONG COVERS〜.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 111,
+      "More": "",
+      "Name": "あなたに会えなくなる日まで / You are Beautiful",
+      "Rank": "4",
+      "Thumb": "albums/あなたに会えなくなる日まで  You are Beautiful.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 112,
+      "More": "",
+      "Name": "THE HITS ～NO.1 SONG COVERS～",
+      "Rank": "4",
+      "Thumb": "albums/THE HITS ～NO.1 SONG COVERS～.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 113,
+      "More": "",
+      "Name": "鐘が鳴る (Acoustic ver.)",
+      "Rank": "4",
+      "Thumb": "albums/鐘が鳴る (Acoustic ver.).jpg"
+  },
+  {
+      "ArtistID": 43,
+      "ID": 114,
+      "More": "",
+      "Name": "Contrast",
+      "Rank": "4",
+      "Thumb": "albums/Contrast.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 115,
+      "More": "",
+      "Name": "HEART",
+      "Rank": "4",
+      "Thumb": "albums/HEART.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 116,
+      "More": "",
+      "Name": "AGAIN",
+      "Rank": "4",
+      "Thumb": "albums/AGAIN.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 117,
+      "More": "",
+      "Name": "COLOR",
+      "Rank": "4",
+      "Thumb": "albums/COLOR.jpg"
+  },
+  {
+      "ArtistID": 44,
+      "ID": 118,
+      "More": "",
+      "Name": "remember",
+      "Rank": "4",
+      "Thumb": "albums/remember.jpg"
+  },
+  {
+      "ArtistID": 46,
+      "ID": 119,
+      "More": "",
+      "Name": "Low",
+      "Rank": "4",
+      "Thumb": "albums/Low.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 120,
+      "More": "",
+      "Name": "Re:Contact",
+      "Rank": "4",
+      "Thumb": "albums/ReContact.jpg"
+  },
+  {
+      "ArtistID": 48,
+      "ID": 121,
+      "More": "",
+      "Name": "summertime",
+      "Rank": "4",
+      "Thumb": "albums/summertime.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 122,
+      "More": "",
+      "Name": "SANCTUARYⅡ 〜Minori Chihara Best Album〜 (Artist Edition)",
+      "Rank": "4",
+      "Thumb": "albums/SANCTUARYⅡ 〜Minori Chihara Best Album〜 (Artist Edition).jpg"
+  },
+  {
+      "ArtistID": 40,
+      "ID": 123,
+      "More": "",
+      "Name": "BEST All Singles&Covers Hits",
+      "Rank": "4",
+      "Thumb": "albums/BEST All Singles&Covers Hits.jpg"
+  },
+  {
+      "ArtistID": 50,
+      "ID": 124,
+      "More": "",
+      "Name": "Re:I",
+      "Rank": "4",
+      "Thumb": "albums/ReI.jpg"
+  },
+  {
+      "ArtistID": 35,
+      "ID": 125,
+      "More": "",
+      "Name": "NAMIDA CARATS",
+      "Rank": "4",
+      "Thumb": "albums/NAMIDA CARATS.jpg"
+  },
+  {
+      "ArtistID": 51,
+      "ID": 126,
+      "More": "",
+      "Name": "アニップス",
+      "Rank": "4",
+      "Thumb": "albums/アニップス.jpg"
+  },
+  {
+      "ArtistID": 52,
+      "ID": 127,
+      "More": "",
+      "Name": "日常ドラマチック",
+      "Rank": "4",
+      "Thumb": "albums/日常ドラマチック.jpg"
+  },
+  {
+      "ArtistID": 53,
+      "ID": 128,
+      "More": "",
+      "Name": "TOHO BOSSA NOVA 2",
+      "Rank": "4",
+      "Thumb": "albums/TOHO BOSSA NOVA 2.jpg"
+  },
+  {
+      "ArtistID": 54,
+      "ID": 129,
+      "More": "",
+      "Name": "今夜きみが怖い夢を見ませんように",
+      "Rank": "4",
+      "Thumb": "albums/今夜きみが怖い夢を見ませんように.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 130,
+      "More": "",
+      "Name": "君に出逢えて",
+      "Rank": "4",
+      "Thumb": "albums/君に出逢えて.jpg"
+  },
+  {
+      "ArtistID": 31,
+      "ID": 131,
+      "More": "",
+      "Name": "夜撫でるメノウ / 幽霊東京",
+      "Rank": "4",
+      "Thumb": "albums/夜撫でるメノウ  幽霊東京.jpg"
+  },
+  {
+      "ArtistID": 56,
+      "ID": 132,
+      "More": "",
+      "Name": "Utamonogatari Special Edition (Original Soundtrack)",
+      "Rank": "4",
+      "Thumb": "albums/Utamonogatari Special Edition (Original Soundtrack).jpg"
+  },
+  {
+      "ArtistID": 57,
+      "ID": 133,
+      "More": "",
+      "Name": "明日がくるなら",
+      "Rank": "4",
+      "Thumb": "albums/明日がくるなら.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 134,
+      "More": "",
+      "Name": "百満開花",
+      "Rank": "4",
+      "Thumb": "albums/百満開花.jpg"
+  },
+  {
+      "ArtistID": 58,
+      "ID": 135,
+      "More": "",
+      "Name": "エスカパレード",
+      "Rank": "4",
+      "Thumb": "albums/エスカパレード.jpg"
+  },
+  {
+      "ArtistID": 59,
+      "ID": 136,
+      "More": "",
+      "Name": "LOST IN PARADISE",
+      "Rank": "4",
+      "Thumb": "albums/LOST IN PARADISE.jpg"
+  },
+  {
+      "ArtistID": 60,
+      "ID": 137,
+      "More": "",
+      "Name": "ダンスホール",
+      "Rank": "4",
+      "Thumb": "albums/ダンスホール.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 138,
+      "More": "",
+      "Name": "朗らかな皮膚とて不服",
+      "Rank": "4",
+      "Thumb": "albums/朗らかな皮膚とて不服.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 139,
+      "More": "",
+      "Name": "又三郎",
+      "Rank": "4",
+      "Thumb": "albums/又三郎.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 140,
+      "More": "",
+      "Name": "夜行",
+      "Rank": "4",
+      "Thumb": "albums/夜行.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 141,
+      "More": "",
+      "Name": "思想犯",
+      "Rank": "4",
+      "Thumb": "albums/思想犯.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 142,
+      "More": "",
+      "Name": "春泥棒",
+      "Rank": "4",
+      "Thumb": "albums/春泥棒.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 143,
+      "More": "",
+      "Name": "盗作",
+      "Rank": "4",
+      "Thumb": "albums/盗作.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 144,
+      "More": "",
+      "Name": "正しい偽りからの起床",
+      "Rank": "4",
+      "Thumb": "albums/正しい偽りからの起床.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 145,
+      "More": "",
+      "Name": "沈香学",
+      "Rank": "4",
+      "Thumb": "albums/沈香学.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 146,
+      "More": "",
+      "Name": "藍二乗",
+      "Rank": "4",
+      "Thumb": "albums/藍二乗.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 147,
+      "More": "",
+      "Name": "雨とカプチーノ",
+      "Rank": "4",
+      "Thumb": "albums/雨とカプチーノ.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 148,
+      "More": "",
+      "Name": "風を食む",
+      "Rank": "4",
+      "Thumb": "albums/風を食む.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 149,
+      "More": "",
+      "Name": "幻燈",
+      "Rank": "4",
+      "Thumb": "albums/幻燈.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 150,
+      "More": "",
+      "Name": "ぐされ",
+      "Rank": "4",
+      "Thumb": "albums/ぐされ.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 151,
+      "More": "",
+      "Name": "これくしょん2",
+      "Rank": "4",
+      "Thumb": "albums/これくしょん2.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 152,
+      "More": "",
+      "Name": "Smile",
+      "Rank": "4",
+      "Thumb": "albums/Smile.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 153,
+      "More": "",
+      "Name": "夏草が邪魔をする",
+      "Rank": "4",
+      "Thumb": "albums/夏草が邪魔をする.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 154,
+      "More": "",
+      "Name": "負け犬にアンコールはいらない",
+      "Rank": "4",
+      "Thumb": "albums/負け犬にアンコールはいらない.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 155,
+      "More": "",
+      "Name": "Clumsy",
+      "Rank": "4",
+      "Thumb": "albums/Clumsy.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 156,
+      "More": "",
+      "Name": "Kaizin",
+      "Rank": "4",
+      "Thumb": "albums/Kaizin.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 157,
+      "More": "",
+      "Name": "これくしょん ヴァイナル",
+      "Rank": "4",
+      "Thumb": "albums/これくしょん ヴァイナル.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 158,
+      "More": "",
+      "Name": "だから僕は音楽を辞めた",
+      "Rank": "4",
+      "Thumb": "albums/だから僕は音楽を辞めた.jpg"
+  },
+  {
+      "ArtistID": 60,
+      "ID": 159,
+      "More": "",
+      "Name": "Attitude",
+      "Rank": "4",
+      "Thumb": "albums/Attitude.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 160,
+      "More": "",
+      "Name": "Chime",
+      "Rank": "4",
+      "Thumb": "albums/Chime.jpg"
+  },
+  {
+      "ArtistID": 64,
+      "ID": 161,
+      "More": "",
+      "Name": "7月の翼",
+      "Rank": "4",
+      "Thumb": "albums/7月の翼.jpg"
+  },
+  {
+      "ArtistID": 64,
+      "ID": 162,
+      "More": "",
+      "Name": "Ref:rain / 眩いばかり",
+      "Rank": "4",
+      "Thumb": "albums/Refrain  眩いばかり.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 163,
+      "More": "",
+      "Name": "あなたが決めた今日なら",
+      "Rank": "4",
+      "Thumb": "albums/あなたが決めた今日なら.jpg"
+  },
+  {
+      "ArtistID": 58,
+      "ID": 164,
+      "More": "",
+      "Name": "Editorial",
+      "Rank": "4",
+      "Thumb": "albums/Editorial.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 165,
+      "More": "",
+      "Name": "PROUD",
+      "Rank": "4",
+      "Thumb": "albums/PROUD.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 166,
+      "More": "",
+      "Name": "collection vinyl",
+      "Rank": "4",
+      "Thumb": "albums/collection vinyl.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 167,
+      "More": "",
+      "Name": "My Way",
+      "Rank": "4",
+      "Thumb": "albums/My Way.jpg"
+  },
+  {
+      "ArtistID": 40,
+      "ID": 168,
+      "More": "",
+      "Name": "Y/our Song",
+      "Rank": "4",
+      "Thumb": "albums/Your Song.jpg"
+  },
+  {
+      "ArtistID": 64,
+      "ID": 169,
+      "More": "",
+      "Name": "星の消えた夜に",
+      "Rank": "4",
+      "Thumb": "albums/星の消えた夜に.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 170,
+      "More": "",
+      "Name": "Otogi",
+      "Rank": "4",
+      "Thumb": "albums/Otogi.jpg"
+  },
+  {
+      "ArtistID": 64,
+      "ID": 171,
+      "More": "",
+      "Name": "Bitter & Sweet",
+      "Rank": "4",
+      "Thumb": "albums/Bitter & Sweet.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 172,
+      "More": "",
+      "Name": "Kobasolo Cover",
+      "Rank": "4",
+      "Thumb": "albums/Kobasolo Cover.jpg"
+  },
+  {
+      "ArtistID": 66,
+      "ID": 173,
+      "More": "",
+      "Name": "LANDSPACE",
+      "Rank": "4",
+      "Thumb": "albums/LANDSPACE.jpg"
+  },
+  {
+      "ArtistID": 67,
+      "ID": 174,
+      "More": "",
+      "Name": "ALL TIME ROCK N ROLL",
+      "Rank": "4",
+      "Thumb": "albums/ALL TIME ROCK N ROLL.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 175,
+      "More": "",
+      "Name": "潜潜話",
+      "Rank": "4",
+      "Thumb": "albums/潜潜話.jpg"
+  },
+  {
+      "ArtistID": 68,
+      "ID": 176,
+      "More": "",
+      "Name": "So What?",
+      "Rank": "4",
+      "Thumb": "albums/So What.jpg"
+  },
+  {
+      "ArtistID": 69,
+      "ID": 177,
+      "More": "",
+      "Name": "Fukashigi No Carte \"Bunny Girl Senpai\"",
+      "Rank": "4",
+      "Thumb": "albums/Fukashigi No Carte Bunny Girl Senpai.jpg"
+  },
+  {
+      "ArtistID": 70,
+      "ID": 178,
+      "More": "",
+      "Name": "Shinsekai PLUS",
+      "Rank": "4",
+      "Thumb": "albums/Shinsekai PLUS.jpg"
+  },
+  {
+      "ArtistID": 71,
+      "ID": 179,
+      "More": "",
+      "Name": "選んでデート・ア・ライブ 〜DATE A LIVE BEST SELECTION〜",
+      "Rank": "4",
+      "Thumb": "albums/選んでデート・ア・ライブ 〜DATE A LIVE BEST SELECTION〜.jpg"
+  },
+  {
+      "ArtistID": 72,
+      "ID": 180,
+      "More": "",
+      "Name": "Linkage Ring",
+      "Rank": "4",
+      "Thumb": "albums/Linkage Ring.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 181,
+      "More": "",
+      "Name": "はじまりの時",
+      "Rank": "4",
+      "Thumb": "albums/はじまりの時.jpg"
+  },
+  {
+      "ArtistID": 73,
+      "ID": 182,
+      "More": "",
+      "Name": "Happy encount",
+      "Rank": "4",
+      "Thumb": "albums/Happy encount.jpg"
+  },
+  {
+      "ArtistID": 74,
+      "ID": 183,
+      "More": "",
+      "Name": "Butterflies",
+      "Rank": "4",
+      "Thumb": "albums/Butterflies.jpg"
+  },
+  {
+      "ArtistID": 75,
+      "ID": 184,
+      "More": "",
+      "Name": "Here",
+      "Rank": "4",
+      "Thumb": "albums/Here.jpg"
+  },
+  {
+      "ArtistID": 76,
+      "ID": 185,
+      "More": "",
+      "Name": "Weathering With You",
+      "Rank": "4",
+      "Thumb": "albums/Weathering With You.jpg"
+  },
+  {
+      "ArtistID": 30,
+      "ID": 186,
+      "More": "",
+      "Name": "Savior Takayan!",
+      "Rank": "4",
+      "Thumb": "albums/Savior Takayan!.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 187,
+      "More": "",
+      "Name": "Jasmine",
+      "Rank": "4",
+      "Thumb": "albums/Jasmine.jpg"
+  },
+  {
+      "ArtistID": 30,
+      "ID": 188,
+      "More": "",
+      "Name": "Just disappear",
+      "Rank": "4",
+      "Thumb": "albums/Just disappear.jpg"
+  },
+  {
+      "ArtistID": 78,
+      "ID": 189,
+      "More": "",
+      "Name": "Night Rainbow",
+      "Rank": "4",
+      "Thumb": "albums/Night Rainbow.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 190,
+      "More": "",
+      "Name": "AMUSIC",
+      "Rank": "4",
+      "Thumb": "albums/AMUSIC.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 191,
+      "More": "",
+      "Name": "Familia",
+      "Rank": "4",
+      "Thumb": "albums/Familia.jpg"
+  },
+  {
+      "ArtistID": 72,
+      "ID": 192,
+      "More": "",
+      "Name": "Violet Cry",
+      "Rank": "4",
+      "Thumb": "albums/Violet Cry.jpg"
+  },
+  {
+      "ArtistID": 50,
+      "ID": 193,
+      "More": "",
+      "Name": "Will",
+      "Rank": "4",
+      "Thumb": "albums/Will.jpg"
+  },
+  {
+      "ArtistID": 71,
+      "ID": 194,
+      "More": "",
+      "Name": "デート・ア・ライブ キャラクターソングコレクション",
+      "Rank": "4",
+      "Thumb": "albums/デート・ア・ライブ キャラクターソングコレクション.jpg"
+  },
+  {
+      "ArtistID": 36,
+      "ID": 195,
+      "More": "",
+      "Name": "Natsurenbo",
+      "Rank": "4",
+      "Thumb": "albums/Natsurenbo.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 196,
+      "More": "",
+      "Name": "翼",
+      "Rank": "4",
+      "Thumb": "albums/翼.jpg"
+  },
+  {
+      "ArtistID": 58,
+      "ID": 197,
+      "More": "",
+      "Name": "Traveler",
+      "Rank": "4",
+      "Thumb": "albums/Traveler.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 198,
+      "More": "",
+      "Name": "Minori with Strings Quartet 〜弦楽四重奏の調べ〜",
+      "Rank": "4",
+      "Thumb": "albums/Minori with Strings Quartet 〜弦楽四重奏の調べ〜.jpg"
+  },
+  {
+      "ArtistID": 66,
+      "ID": 199,
+      "More": "",
+      "Name": "Launcher",
+      "Rank": "4",
+      "Thumb": "albums/Launcher.jpg"
+  },
+  {
+      "ArtistID": 79,
+      "ID": 200,
+      "More": "",
+      "Name": "THE BOOK 2",
+      "Rank": "4",
+      "Thumb": "albums/THE BOOK 2.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 201,
+      "More": "",
+      "Name": "Shake & Shake",
+      "Rank": "4",
+      "Thumb": "albums/Shake & Shake.jpg"
+  },
+  {
+      "ArtistID": 31,
+      "ID": 202,
+      "More": "",
+      "Name": "SHOCK!",
+      "Rank": "4",
+      "Thumb": "albums/SHOCK!.jpg"
+  },
+  {
+      "ArtistID": 73,
+      "ID": 203,
+      "More": "",
+      "Name": "Lonely Queens Liberation Party",
+      "Rank": "4",
+      "Thumb": "albums/Lonely Queens Liberation Party.jpg"
+  },
+  {
+      "ArtistID": 76,
+      "ID": 204,
+      "More": "",
+      "Name": "Human Bloom",
+      "Rank": "4",
+      "Thumb": "albums/Human Bloom.jpg"
+  },
+  {
+      "ArtistID": 80,
+      "ID": 205,
+      "More": "",
+      "Name": "青二才",
+      "Rank": "4",
+      "Thumb": "albums/青二才.jpg"
+  },
+  {
+      "ArtistID": 30,
+      "ID": 206,
+      "More": "",
+      "Name": "Toy",
+      "Rank": "4",
+      "Thumb": "albums/Toy.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 207,
+      "More": "",
+      "Name": "Equal / Traveling",
+      "Rank": "4",
+      "Thumb": "albums/Equal  Traveling.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 208,
+      "More": "",
+      "Name": "SHINE",
+      "Rank": "4",
+      "Thumb": "albums/SHINE.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 209,
+      "More": "",
+      "Name": "Who Are You",
+      "Rank": "4",
+      "Thumb": "albums/Who Are You.jpg"
+  },
+  {
+      "ArtistID": 73,
+      "ID": 210,
+      "More": "",
+      "Name": "WILL",
+      "Rank": "4",
+      "Thumb": "albums/WILL.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 211,
+      "More": "",
+      "Name": "you",
+      "Rank": "4",
+      "Thumb": "albums/you.jpg"
+  },
+  {
+      "ArtistID": 81,
+      "ID": 212,
+      "More": "",
+      "Name": "ジェリーフィッシュ (feat. ローラーガール)",
+      "Rank": "4",
+      "Thumb": "albums/ジェリーフィッシュ (feat. ローラーガール).jpg"
+  },
+  {
+      "ArtistID": 79,
+      "ID": 213,
+      "More": "",
+      "Name": "THE BOOK",
+      "Rank": "4",
+      "Thumb": "albums/THE BOOK.jpg"
+  },
+  {
+      "ArtistID": 46,
+      "ID": 214,
+      "More": "",
+      "Name": "さくら 〜あなたに出会えてよかった〜",
+      "Rank": "4",
+      "Thumb": "albums/さくら 〜あなたに出会えてよかった〜.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 215,
+      "More": "",
+      "Name": "渋谷純愛物語",
+      "Rank": "4",
+      "Thumb": "albums/渋谷純愛物語.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 216,
+      "More": "",
+      "Name": "ふたりきりルームシアター",
+      "Rank": "4",
+      "Thumb": "albums/ふたりきりルームシアター.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 217,
+      "More": "",
+      "Name": "また君と",
+      "Rank": "4",
+      "Thumb": "albums/また君と.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 218,
+      "More": "",
+      "Name": "SPIRAL",
+      "Rank": "4",
+      "Thumb": "albums/SPIRAL.jpg"
+  },
+  {
+      "ArtistID": 79,
+      "ID": 219,
+      "More": "",
+      "Name": "THE BOOK 3",
+      "Rank": "4",
+      "Thumb": "albums/THE BOOK 3.jpg"
+  },
+  {
+      "ArtistID": 81,
+      "ID": 220,
+      "More": "",
+      "Name": "ゆのもきゅ",
+      "Rank": "4",
+      "Thumb": "albums/ゆのもきゅ.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 221,
+      "More": "",
+      "Name": "Harmonize e.p",
+      "Rank": "4",
+      "Thumb": "albums/Harmonize e.p.jpg"
+  },
+  {
+      "ArtistID": 3,
+      "ID": 222,
+      "More": "",
+      "Name": "スパイシーチョコレート BEST OF LOVE SONGS",
+      "Rank": "4",
+      "Thumb": "albums/スパイシーチョコレート BEST OF LOVE SONGS.jpg"
+  },
+  {
+      "ArtistID": 82,
+      "ID": 223,
+      "More": "",
+      "Name": "Dr.Izzy",
+      "Rank": "4",
+      "Thumb": "albums/Dr.Izzy.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 224,
+      "More": "",
+      "Name": "シンシアリー",
+      "Rank": "4",
+      "Thumb": "albums/シンシアリー.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 225,
+      "More": "",
+      "Name": "shimamo",
+      "Rank": "4",
+      "Thumb": "albums/shimamo.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 226,
+      "More": "",
+      "Name": "I co Y",
+      "Rank": "4",
+      "Thumb": "albums/I co Y.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 227,
+      "More": "",
+      "Name": "ツーアウトロマンス",
+      "Rank": "4",
+      "Thumb": "albums/ツーアウトロマンス.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 228,
+      "More": "",
+      "Name": "Shake & Shake / ナイトウォーカー",
+      "Rank": "4",
+      "Thumb": "albums/Shake & Shake  ナイトウォーカー.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 229,
+      "More": "",
+      "Name": "パレード",
+      "Rank": "4",
+      "Thumb": "albums/パレード.jpg"
+  },
+  {
+      "ArtistID": 73,
+      "ID": 230,
+      "More": "",
+      "Name": "フロム",
+      "Rank": "4",
+      "Thumb": "albums/フロム.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 231,
+      "More": "",
+      "Name": "ブレーメン",
+      "Rank": "4",
+      "Thumb": "albums/ブレーメン.jpg"
+  },
+  {
+      "ArtistID": 64,
+      "ID": 232,
+      "More": "",
+      "Name": "BEST SELECTION \"blanc\"",
+      "Rank": "4",
+      "Thumb": "albums/BEST SELECTION blanc.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 233,
+      "More": "",
+      "Name": "ありがとう、だいすき",
+      "Rank": "4",
+      "Thumb": "albums/ありがとう、だいすき.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 234,
+      "More": "",
+      "Name": "ミラーチューン",
+      "Rank": "4",
+      "Thumb": "albums/ミラーチューン.jpg"
+  },
+  {
+      "ArtistID": 47,
+      "ID": 235,
+      "More": "",
+      "Name": "Innocent Age",
+      "Rank": "4",
+      "Thumb": "albums/Innocent Age.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 236,
+      "More": "",
+      "Name": "リタルダンド",
+      "Rank": "4",
+      "Thumb": "albums/リタルダンド.jpg"
+  },
+  {
+      "ArtistID": 37,
+      "ID": 237,
+      "More": "",
+      "Name": "ワインレッドの心",
+      "Rank": "4",
+      "Thumb": "albums/ワインレッドの心.jpg"
+  },
+  {
+      "ArtistID": 83,
+      "ID": 238,
+      "More": "",
+      "Name": "Milk",
+      "Rank": "4",
+      "Thumb": "albums/Milk.jpg"
+  },
+  {
+      "ArtistID": 55,
+      "ID": 239,
+      "More": "",
+      "Name": "好きになってよかったな",
+      "Rank": "4",
+      "Thumb": "albums/好きになってよかったな.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 240,
+      "More": "",
+      "Name": "晴る",
+      "Rank": "4",
+      "Thumb": "albums/晴る.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 241,
+      "More": "",
+      "Name": "本音",
+      "Rank": "4",
+      "Thumb": "albums/本音.jpg"
+  },
+  {
+      "ArtistID": 61,
+      "ID": 242,
+      "More": "",
+      "Name": "正しくなれない (From THE FIRST TAKE)",
+      "Rank": "4",
+      "Thumb": "albums/正しくなれない (From THE FIRST TAKE).jpg"
+  },
+  {
+      "ArtistID": 40,
+      "ID": 243,
+      "More": "",
+      "Name": "四季うた summer",
+      "Rank": "4",
+      "Thumb": "albums/四季うた summer.jpg"
+  },
+  {
+      "ArtistID": 40,
+      "ID": 244,
+      "More": "",
+      "Name": "COVERS 3",
+      "Rank": "4",
+      "Thumb": "albums/COVERS 3.jpg"
+  },
+  {
+      "ArtistID": 80,
+      "ID": 245,
+      "More": "",
+      "Name": "真っ裸",
+      "Rank": "4",
+      "Thumb": "albums/真っ裸.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 246,
+      "More": "",
+      "Name": "祝祭",
+      "Rank": "4",
+      "Thumb": "albums/祝祭.jpg"
+  },
+  {
+      "ArtistID": 80,
+      "ID": 247,
+      "More": "",
+      "Name": "絶頂讃歌",
+      "Rank": "4",
+      "Thumb": "albums/絶頂讃歌.jpg"
+  },
+  {
+      "ArtistID": 62,
+      "ID": 248,
+      "More": "",
+      "Name": "花に亡霊",
+      "Rank": "4",
+      "Thumb": "albums/花に亡霊.jpg"
+  },
+  {
+      "ArtistID": 63,
+      "ID": 249,
+      "More": "",
+      "Name": "Negai / Higher Ground",
+      "Rank": "4",
+      "Thumb": "albums/Negai  Higher Ground.jpg"
+  },
+  {
+      "ArtistID": 31,
+      "ID": 250,
+      "More": "",
+      "Name": "飽和 / シネマ",
+      "Rank": "4",
+      "Thumb": "albums/飽和  シネマ.jpg"
+  },
+  {
+      "ArtistID": 84,
+      "ID": 251,
+      "More": "",
+      "Name": "Htrol Remix",
+      "Rank": "4",
+      "Thumb": "albums/Htrol Remix.jpg"
+  },
+  {
+      "ArtistID": 85,
+      "ID": 252,
+      "More": "",
+      "Name": "Against The Sun",
+      "Rank": "4",
+      "Thumb": "albums/Against The Sun.jpg"
+  },
+  {
+      "ArtistID": 86,
+      "ID": 253,
+      "More": "",
+      "Name": "Anything Anymore",
+      "Rank": "4",
+      "Thumb": "albums/Anything Anymore.jpg"
+  },
+  {
+      "ArtistID": 87,
+      "ID": 254,
+      "More": "",
+      "Name": "Anywhere I Go",
+      "Rank": "4",
+      "Thumb": "albums/Anywhere I Go.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 255,
+      "More": "",
+      "Name": "Are You Lonely",
+      "Rank": "4",
+      "Thumb": "albums/Are You Lonely.jpg"
+  },
+  {
+      "ArtistID": 88,
+      "ID": 256,
+      "More": "",
+      "Name": "True Colors",
+      "Rank": "4",
+      "Thumb": "albums/True Colors.jpg"
+  },
+  {
+      "ArtistID": 89,
+      "ID": 257,
+      "More": "",
+      "Name": "Body Back (feat. Maia Wright)",
+      "Rank": "4",
+      "Thumb": "albums/Body Back (feat. Maia Wright).jpg"
+  },
+  {
+      "ArtistID": 6,
+      "ID": 258,
+      "More": "",
+      "Name": "NCS is Love, NCS is Life, Vol. 1",
+      "Rank": "4",
+      "Thumb": "albums/NCS is Love, NCS is Life, Vol. 1.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 259,
+      "More": "",
+      "Name": "ALL OUT",
+      "Rank": "4",
+      "Thumb": "albums/ALL OUT.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 260,
+      "More": "",
+      "Name": "End of Time",
+      "Rank": "4",
+      "Thumb": "albums/End of Time.jpg"
+  },
+  {
+      "ArtistID": 90,
+      "ID": 261,
+      "More": "",
+      "Name": "Pharmacy",
+      "Rank": "4",
+      "Thumb": "albums/Pharmacy.jpg"
+  },
+  {
+      "ArtistID": 91,
+      "ID": 262,
+      "More": "",
+      "Name": "Frame of Mind",
+      "Rank": "4",
+      "Thumb": "albums/Frame of Mind.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 263,
+      "More": "",
+      "Name": "GIANTS",
+      "Rank": "4",
+      "Thumb": "albums/GIANTS.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 264,
+      "More": "",
+      "Name": "GODS",
+      "Rank": "4",
+      "Thumb": "albums/GODS.jpg"
+  },
+  {
+      "ArtistID": 92,
+      "ID": 265,
+      "More": "",
+      "Name": "heart afire",
+      "Rank": "4",
+      "Thumb": "albums/heart afire.jpg"
+  },
+  {
+      "ArtistID": 88,
+      "ID": 266,
+      "More": "",
+      "Name": "Ignite (2016 League Of Legends World Championship)",
+      "Rank": "4",
+      "Thumb": "albums/Ignite (2016 League Of Legends World Championship).jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 267,
+      "More": "",
+      "Name": "Ignite",
+      "Rank": "4",
+      "Thumb": "albums/Ignite.jpg"
+  },
+  {
+      "ArtistID": 93,
+      "ID": 268,
+      "More": "",
+      "Name": "Inside the Lines",
+      "Rank": "4",
+      "Thumb": "albums/Inside the Lines.jpg"
+  },
+  {
+      "ArtistID": 94,
+      "ID": 269,
+      "More": "",
+      "Name": "Unknow",
+      "Rank": "4",
+      "Thumb": null
+  },
+  {
+      "ArtistID": 95,
+      "ID": 270,
+      "More": "",
+      "Name": "Lights Go Down (Radio Mix) [feat. Curtains]",
+      "Rank": "4",
+      "Thumb": "albums/Lights Go Down (Radio Mix) [feat. Curtains].jpg"
+  },
+  {
+      "ArtistID": 6,
+      "ID": 271,
+      "More": "",
+      "Name": "Linked",
+      "Rank": "4",
+      "Thumb": "albums/Linked.jpg"
+  },
+  {
+      "ArtistID": 96,
+      "ID": 272,
+      "More": "",
+      "Name": "<I°_°I>",
+      "Rank": "4",
+      "Thumb": "albums/Sad Robot.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 273,
+      "More": "",
+      "Name": "This Is Acting (Deluxe Version)",
+      "Rank": "4",
+      "Thumb": "albums/This Is Acting (Deluxe Version).jpg"
+  },
+  {
+      "ArtistID": 17,
+      "ID": 274,
+      "More": "",
+      "Name": "Nen va Hoa",
+      "Rank": "4",
+      "Thumb": "albums/Nen va Hoa.jpg"
+  },
+  {
+      "ArtistID": 98,
+      "ID": 275,
+      "More": "",
+      "Name": "Never Coming Home (feat. Kinley)",
+      "Rank": "4",
+      "Thumb": "albums/Never Coming Home (feat. Kinley).jpg"
+  },
+  {
+      "ArtistID": 99,
+      "ID": 276,
+      "More": "",
+      "Name": "Nightcore",
+      "Rank": "4",
+      "Thumb": "albums/Nightcore.jpg"
+  },
+  {
+      "ArtistID": 87,
+      "ID": 277,
+      "More": "",
+      "Name": "Nothing Stopping Me",
+      "Rank": "4",
+      "Thumb": "albums/Nothing Stopping Me.jpg"
+  },
+  {
+      "ArtistID": 100,
+      "ID": 278,
+      "More": "",
+      "Name": "Numb (feat. Johnning)",
+      "Rank": "4",
+      "Thumb": "albums/Numb (feat. Johnning).jpg"
+  },
+  {
+      "ArtistID": 101,
+      "ID": 279,
+      "More": "",
+      "Name": "On the Line",
+      "Rank": "4",
+      "Thumb": "albums/On the Line.jpg"
+  },
+  {
+      "ArtistID": 102,
+      "ID": 280,
+      "More": "",
+      "Name": "Our Story (Radio Edit)",
+      "Rank": "4",
+      "Thumb": "albums/Our Story (Radio Edit).jpg"
+  },
+  {
+      "ArtistID": 103,
+      "ID": 281,
+      "More": "",
+      "Name": "Phoenix",
+      "Rank": "4",
+      "Thumb": "albums/Phoenix.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 282,
+      "More": "",
+      "Name": "Play",
+      "Rank": "4",
+      "Thumb": "albums/Play.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 283,
+      "More": "",
+      "Name": "POP/STARS",
+      "Rank": "4",
+      "Thumb": "albums/POPSTARS.jpg"
+  },
+  {
+      "ArtistID": 85,
+      "ID": 284,
+      "More": "",
+      "Name": "Red Line",
+      "Rank": "4",
+      "Thumb": "albums/Red Line.jpg"
+  },
+  {
+      "ArtistID": 104,
+      "ID": 285,
+      "More": "",
+      "Name": "Yêu 5",
+      "Rank": "4",
+      "Thumb": "albums/Yêu 5.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 286,
+      "More": "",
+      "Name": "RISE",
+      "Rank": "4",
+      "Thumb": "albums/RISE.jpg"
+  },
+  {
+      "ArtistID": 105,
+      "ID": 287,
+      "More": "",
+      "Name": "The Future",
+      "Rank": "4",
+      "Thumb": "albums/The Future.jpg"
+  },
+  {
+      "ArtistID": 106,
+      "ID": 288,
+      "More": "",
+      "Name": "Saving Light",
+      "Rank": "4",
+      "Thumb": "albums/Saving Light.jpg"
+  },
+  {
+      "ArtistID": 102,
+      "ID": 289,
+      "More": "",
+      "Name": "Hourglass",
+      "Rank": "4",
+      "Thumb": "albums/Hourglass.jpg"
+  },
+  {
+      "ArtistID": 107,
+      "ID": 290,
+      "More": "",
+      "Name": "Start Again",
+      "Rank": "4",
+      "Thumb": "albums/Start Again.jpg"
+  },
+  {
+      "ArtistID": 108,
+      "ID": 291,
+      "More": "",
+      "Name": "Summer Air",
+      "Rank": "4",
+      "Thumb": "albums/Summer Air.jpg"
+  },
+  {
+      "ArtistID": 109,
+      "ID": 292,
+      "More": "",
+      "Name": "Blood, Sweat & 3 Years",
+      "Rank": "4",
+      "Thumb": "albums/Blood, Sweat & 3 Years.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 293,
+      "More": "",
+      "Name": "The Spectre",
+      "Rank": "4",
+      "Thumb": "albums/The Spectre.jpg"
+  },
+  {
+      "ArtistID": 110,
+      "ID": 294,
+      "More": "",
+      "Name": "Thunder",
+      "Rank": "4",
+      "Thumb": "albums/Thunder.jpg"
+  },
+  {
+      "ArtistID": 91,
+      "ID": 295,
+      "More": "",
+      "Name": "Till Its Over",
+      "Rank": "4",
+      "Thumb": "albums/Till Its Over.jpg"
+  },
+  {
+      "ArtistID": 111,
+      "ID": 296,
+      "More": "",
+      "Name": "Untouchable",
+      "Rank": "4",
+      "Thumb": "albums/Untouchable.jpg"
+  },
+  {
+      "ArtistID": 87,
+      "ID": 297,
+      "More": "",
+      "Name": "Walk Thru Fire",
+      "Rank": "4",
+      "Thumb": "albums/Walk Thru Fire.jpg"
+  },
+  {
+      "ArtistID": 112,
+      "ID": 298,
+      "More": "",
+      "Name": "AVĪCI (01)",
+      "Rank": "4",
+      "Thumb": "albums/AVĪCI (01).jpg"
+  },
+  {
+      "ArtistID": 113,
+      "ID": 299,
+      "More": "",
+      "Name": "m-tp M-TP",
+      "Rank": "4",
+      "Thumb": "albums/m-tp M-TP.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 300,
+      "More": "",
+      "Name": "Anh Đã Quen Với Cô Đơn",
+      "Rank": "4",
+      "Thumb": "albums/Anh Đã Quen Với Cô Đơn.jpg"
+  },
+  {
+      "ArtistID": 115,
+      "ID": 301,
+      "More": "",
+      "Name": "Wild Youth",
+      "Rank": "4",
+      "Thumb": "albums/Wild Youth.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 302,
+      "More": "",
+      "Name": "Bức Tranh Từ Nước Mắt",
+      "Rank": "4",
+      "Thumb": "albums/Bức Tranh Từ Nước Mắt.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 303,
+      "More": "",
+      "Name": "Mr. Siro (Piano Version)",
+      "Rank": "4",
+      "Thumb": "albums/Mr. Siro (Piano Version).jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 304,
+      "More": "",
+      "Name": "Chạm Đáy Nỗi Đau",
+      "Rank": "4",
+      "Thumb": "albums/Chạm Đáy Nỗi Đau.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 305,
+      "More": "",
+      "Name": "Càng Níu Giữ Càng Dễ Mất",
+      "Rank": "4",
+      "Thumb": "albums/Càng Níu Giữ Càng Dễ Mất.jpg"
+  },
+  {
+      "ArtistID": 117,
+      "ID": 306,
+      "More": "",
+      "Name": "Hương Mùa Hè",
+      "Rank": "4",
+      "Thumb": "albums/Hương Mùa Hè.jpg"
+  },
+  {
+      "ArtistID": 118,
+      "ID": 307,
+      "More": "",
+      "Name": "Cảm Giác Lúc Ấy Sẽ Ra Sao",
+      "Rank": "4",
+      "Thumb": "albums/Cảm Giác Lúc Ấy Sẽ Ra Sao.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 308,
+      "More": "",
+      "Name": "Day Dứt Nỗi Đau",
+      "Rank": "4",
+      "Thumb": "albums/Day Dứt Nỗi Đau.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 309,
+      "More": "",
+      "Name": "Dưới Những Cơn Mưa",
+      "Rank": "4",
+      "Thumb": "albums/Dưới Những Cơn Mưa.jpg"
+  },
+  {
+      "ArtistID": 117,
+      "ID": 310,
+      "More": "",
+      "Name": "Em Đã Biết",
+      "Rank": "4",
+      "Thumb": "albums/Em Đã Biết.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 311,
+      "More": "",
+      "Name": "Gương Mặt Lạ Lẫm",
+      "Rank": "4",
+      "Thumb": "albums/Gương Mặt Lạ Lẫm.jpg"
+  },
+  {
+      "ArtistID": 119,
+      "ID": 312,
+      "More": "",
+      "Name": "Illuminate... (The Hits and More)",
+      "Rank": "4",
+      "Thumb": "albums/Illuminate... (The Hits and More).jpg"
+  },
+  {
+      "ArtistID": 120,
+      "ID": 313,
+      "More": "",
+      "Name": "Phạm Hồng Phước Collection",
+      "Rank": "4",
+      "Thumb": "albums/Phạm Hồng Phước Collection.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 314,
+      "More": "",
+      "Name": "Không Cần Thêm Một Ai Nữa",
+      "Rank": "4",
+      "Thumb": "albums/Không Cần Thêm Một Ai Nữa.jpg"
+  },
+  {
+      "ArtistID": 117,
+      "ID": 315,
+      "More": "",
+      "Name": "Không Sao Mà, Em Đây Rồi",
+      "Rank": "4",
+      "Thumb": "albums/Không Sao Mà, Em Đây Rồi.jpg"
+  },
+  {
+      "ArtistID": 121,
+      "ID": 316,
+      "More": "",
+      "Name": "JORDI (Deluxe)",
+      "Rank": "4",
+      "Thumb": "albums/JORDI (Deluxe).jpg"
+  },
+  {
+      "ArtistID": 118,
+      "ID": 317,
+      "More": "",
+      "Name": "Mình Là Gì Của Nhau",
+      "Rank": "4",
+      "Thumb": "albums/Mình Là Gì Của Nhau.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 318,
+      "More": "",
+      "Name": "Một Bước Yêu Vạn Dặm Đau",
+      "Rank": "4",
+      "Thumb": "albums/Một Bước Yêu Vạn Dặm Đau.jpg"
+  },
+  {
+      "ArtistID": 122,
+      "ID": 319,
+      "More": "",
+      "Name": "Một Nhà",
+      "Rank": "4",
+      "Thumb": "albums/Một Nhà.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 320,
+      "More": "",
+      "Name": "Người Đáng Thương Là Anh",
+      "Rank": "4",
+      "Thumb": "albums/Người Đáng Thương Là Anh.jpg"
+  },
+  {
+      "ArtistID": 124,
+      "ID": 321,
+      "More": "",
+      "Name": "Ca Sĩ Giấu Mặt",
+      "Rank": "4",
+      "Thumb": "albums/Ca Sĩ Giấu Mặt.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 322,
+      "More": "",
+      "Name": "Nếu Ngày Ấy",
+      "Rank": "4",
+      "Thumb": "albums/Nếu Ngày Ấy.jpg"
+  },
+  {
+      "ArtistID": 125,
+      "ID": 323,
+      "More": "",
+      "Name": "Nine Track Mind",
+      "Rank": "4",
+      "Thumb": "albums/Nine Track Mind.jpg"
+  },
+  {
+      "ArtistID": 126,
+      "ID": 324,
+      "More": "",
+      "Name": "Phieu be ngoan",
+      "Rank": "4",
+      "Thumb": "albums/Phieu be ngoan.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 325,
+      "More": "",
+      "Name": "Phía Sau Một Cô Gái",
+      "Rank": "4",
+      "Thumb": "albums/Phía Sau Một Cô Gái.jpg"
+  },
+  {
+      "ArtistID": 127,
+      "ID": 326,
+      "More": "",
+      "Name": "Sau Tất Cả - Single",
+      "Rank": "4",
+      "Thumb": "albums/Sau Tất Cả - Single.jpg"
+  },
+  {
+      "ArtistID": 124,
+      "ID": 327,
+      "More": "",
+      "Name": "The First Show",
+      "Rank": "4",
+      "Thumb": "albums/The First Show.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 328,
+      "More": "",
+      "Name": "Tìm Được Nhau Khó Thế Nào",
+      "Rank": "4",
+      "Thumb": "albums/Tìm Được Nhau Khó Thế Nào.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 329,
+      "More": "",
+      "Name": "Tình Yêu Chắp Vá",
+      "Rank": "4",
+      "Thumb": "albums/Tình Yêu Chắp Vá.jpg"
+  },
+  {
+      "ArtistID": 116,
+      "ID": 330,
+      "More": "",
+      "Name": "Tự Lau Nước Mắt",
+      "Rank": "4",
+      "Thumb": "albums/Tự Lau Nước Mắt.jpg"
+  },
+  {
+      "ArtistID": 126,
+      "ID": 331,
+      "More": "",
+      "Name": "Forever Lover",
+      "Rank": "4",
+      "Thumb": "albums/Forever Lover.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 332,
+      "More": "",
+      "Name": "Yêu Là Tha Thứ",
+      "Rank": "4",
+      "Thumb": "albums/Yêu Là Tha Thứ.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 333,
+      "More": "",
+      "Name": "Yêu Đơn Phương",
+      "Rank": "4",
+      "Thumb": "albums/Yêu Đơn Phương.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 334,
+      "More": "",
+      "Name": "Đau Để Trưởng Thành",
+      "Rank": "4",
+      "Thumb": "albums/Đau Để Trưởng Thành.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 335,
+      "More": "",
+      "Name": "Đi Để Trở Về",
+      "Rank": "4",
+      "Thumb": "albums/Đi Để Trở Về.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 336,
+      "More": "",
+      "Name": "All Falls Down (feat. Juliander)",
+      "Rank": "4",
+      "Thumb": "albums/All Falls Down (feat. Juliander).jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 337,
+      "More": "",
+      "Name": "Alone, Pt. II",
+      "Rank": "4",
+      "Thumb": "albums/Alone, Pt. II.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 338,
+      "More": "",
+      "Name": "Alone",
+      "Rank": "4",
+      "Thumb": "albums/Alone.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 339,
+      "More": "",
+      "Name": "Anh Không Đòi Quà",
+      "Rank": "4",
+      "Thumb": "albums/Anh Không Đòi Quà.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 340,
+      "More": "",
+      "Name": "Anh Đã Sai",
+      "Rank": "4",
+      "Thumb": "albums/Anh Đã Sai.jpg"
+  },
+  {
+      "ArtistID": 125,
+      "ID": 341,
+      "More": "",
+      "Name": "Voicenotes",
+      "Rank": "4",
+      "Thumb": "albums/Voicenotes.jpg"
+  },
+  {
+      "ArtistID": 128,
+      "ID": 342,
+      "More": "",
+      "Name": "Awake",
+      "Rank": "4",
+      "Thumb": "albums/Awake.jpg"
+  },
+  {
+      "ArtistID": 129,
+      "ID": 343,
+      "More": "",
+      "Name": "Save Me",
+      "Rank": "4",
+      "Thumb": "albums/Save Me.jpg"
+  },
+  {
+      "ArtistID": 89,
+      "ID": 344,
+      "More": "",
+      "Name": "Gravity",
+      "Rank": "4",
+      "Thumb": "albums/Gravity.jpg"
+  },
+  {
+      "ArtistID": 130,
+      "ID": 345,
+      "More": "",
+      "Name": "Cause I Love You",
+      "Rank": "4",
+      "Thumb": "albums/Cause I Love You.jpg"
+  },
+  {
+      "ArtistID": 117,
+      "ID": 346,
+      "More": "",
+      "Name": "Cứ Chill Thôi",
+      "Rank": "4",
+      "Thumb": "albums/Cứ Chill Thôi.jpg"
+  },
+  {
+      "ArtistID": 131,
+      "ID": 347,
+      "More": "",
+      "Name": "Daily (feat. Jon Becker)",
+      "Rank": "4",
+      "Thumb": "albums/Daily (feat. Jon Becker).jpg"
+  },
+  {
+      "ArtistID": 132,
+      "ID": 348,
+      "More": "",
+      "Name": "Meet The Orphans",
+      "Rank": "4",
+      "Thumb": "albums/Meet The Orphans.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 349,
+      "More": "",
+      "Name": "Darkside",
+      "Rank": "4",
+      "Thumb": "albums/Darkside.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 350,
+      "More": "",
+      "Name": "Daydream",
+      "Rank": "4",
+      "Thumb": "albums/Daydream.jpg"
+  },
+  {
+      "ArtistID": 133,
+      "ID": 351,
+      "More": "",
+      "Name": "VIDA",
+      "Rank": "4",
+      "Thumb": "albums/VIDA.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 352,
+      "More": "",
+      "Name": "Diamond Heart",
+      "Rank": "4",
+      "Thumb": "albums/Diamond Heart.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 353,
+      "More": "",
+      "Name": "Different World (feat. CORSAK)",
+      "Rank": "4",
+      "Thumb": "albums/Different World (feat. CORSAK).jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 354,
+      "More": "",
+      "Name": "Faded",
+      "Rank": "4",
+      "Thumb": "albums/Faded.jpg"
+  },
+  {
+      "ArtistID": 134,
+      "ID": 355,
+      "More": "",
+      "Name": "Fading",
+      "Rank": "4",
+      "Thumb": "albums/Fading.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 356,
+      "More": "",
+      "Name": "Fake A Smile",
+      "Rank": "4",
+      "Thumb": "albums/Fake A Smile.jpg"
+  },
+  {
+      "ArtistID": 135,
+      "ID": 357,
+      "More": "",
+      "Name": "Forever Young",
+      "Rank": "4",
+      "Thumb": "albums/Forever Young.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 358,
+      "More": "",
+      "Name": "Giá Như Anh Lặng Im",
+      "Rank": "4",
+      "Thumb": "albums/Giá Như Anh Lặng Im.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 359,
+      "More": "",
+      "Name": "Heading Home",
+      "Rank": "4",
+      "Thumb": "albums/Heading Home.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 360,
+      "More": "",
+      "Name": "Headlights (feat. KIDDO)",
+      "Rank": "4",
+      "Thumb": "albums/Headlights (feat. KIDDO).jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 361,
+      "More": "",
+      "Name": "Walkerverse Pt. I & II",
+      "Rank": "4",
+      "Thumb": "albums/Walkerverse Pt. I & II.jpg"
+  },
+  {
+      "ArtistID": 136,
+      "ID": 362,
+      "More": "",
+      "Name": "At Night, Alone.",
+      "Rank": "4",
+      "Thumb": "albums/At Night, Alone..jpg"
+  },
+  {
+      "ArtistID": 137,
+      "ID": 363,
+      "More": "",
+      "Name": "Heaven & Hell",
+      "Rank": "4",
+      "Thumb": "albums/Heaven & Hell.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 364,
+      "More": "",
+      "Name": "Lalala - Single",
+      "Rank": "4",
+      "Thumb": "albums/Lalala - Single.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 365,
+      "More": "",
+      "Name": "Legends Never Die",
+      "Rank": "4",
+      "Thumb": "albums/Legends Never Die.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 366,
+      "More": "",
+      "Name": "Different World",
+      "Rank": "4",
+      "Thumb": "albums/Different World.jpg"
+  },
+  {
+      "ArtistID": 138,
+      "ID": 367,
+      "More": "",
+      "Name": "Love How It Hurts (feat. Tina Stachowiak)",
+      "Rank": "4",
+      "Thumb": "albums/Love How It Hurts (feat. Tina Stachowiak).jpg"
+  },
+  {
+      "ArtistID": 121,
+      "ID": 368,
+      "More": "",
+      "Name": "V (Asia Tour Edition)",
+      "Rank": "4",
+      "Thumb": "albums/V (Asia Tour Edition).jpg"
+  },
+  {
+      "ArtistID": 139,
+      "ID": 369,
+      "More": "",
+      "Name": "Meant To Be",
+      "Rank": "4",
+      "Thumb": "albums/Meant To Be.jpg"
+  },
+  {
+      "ArtistID": 138,
+      "ID": 370,
+      "More": "",
+      "Name": "Miracles (feat. Tina Stachowiak)",
+      "Rank": "4",
+      "Thumb": "albums/Miracles (feat. Tina Stachowiak).jpg"
+  },
+  {
+      "ArtistID": 130,
+      "ID": 371,
+      "More": "",
+      "Name": "Mãi Mãi Bên Nhau",
+      "Rank": "4",
+      "Thumb": "albums/Mãi Mãi Bên Nhau.jpg"
+  },
+  {
+      "ArtistID": 138,
+      "ID": 372,
+      "More": "",
+      "Name": "Next To Me (feat. Tina Stachowiak)",
+      "Rank": "4",
+      "Thumb": "albums/Next To Me (feat. Tina Stachowiak).jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 373,
+      "More": "",
+      "Name": "Ngày Mai Em Đi",
+      "Rank": "4",
+      "Thumb": "albums/Ngày Mai Em Đi.jpg"
+  },
+  {
+      "ArtistID": 140,
+      "ID": 374,
+      "More": "",
+      "Name": "Người Âm Phủ",
+      "Rank": "4",
+      "Thumb": "albums/Người Âm Phủ.jpg"
+  },
+  {
+      "ArtistID": 130,
+      "ID": 375,
+      "More": "",
+      "Name": "Như Phút Ban Đầu",
+      "Rank": "4",
+      "Thumb": "albums/Như Phút Ban Đầu.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 376,
+      "More": "",
+      "Name": "Não Cá Vàng",
+      "Rank": "4",
+      "Thumb": "albums/Não Cá Vàng.jpg"
+  },
+  {
+      "ArtistID": 104,
+      "ID": 377,
+      "More": "",
+      "Name": "Nến Và Hoa",
+      "Rank": "4",
+      "Thumb": "albums/Nến Và Hoa.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 378,
+      "More": "",
+      "Name": "World Of Walker",
+      "Rank": "4",
+      "Thumb": "albums/World Of Walker.jpg"
+  },
+  {
+      "ArtistID": 121,
+      "ID": 379,
+      "More": "",
+      "Name": "Overexposed Track By Track",
+      "Rank": "4",
+      "Thumb": "albums/Overexposed Track By Track.jpg"
+  },
+  {
+      "ArtistID": 141,
+      "ID": 380,
+      "More": "",
+      "Name": "Magnets EP",
+      "Rank": "4",
+      "Thumb": "albums/Magnets EP.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 381,
+      "More": "",
+      "Name": "PS5 (with TOMORROW X TOGETHER & Alan Walker)",
+      "Rank": "4",
+      "Thumb": "albums/PS5 (with TOMORROW X TOGETHER & Alan Walker).jpg"
+  },
+  {
+      "ArtistID": 142,
+      "ID": 382,
+      "More": "",
+      "Name": "New Eyes",
+      "Rank": "4",
+      "Thumb": "albums/New Eyes.jpg"
+  },
+  {
+      "ArtistID": 142,
+      "ID": 383,
+      "More": "",
+      "Name": "What Is Love? (Deluxe Edition)",
+      "Rank": "4",
+      "Thumb": "albums/What Is Love (Deluxe Edition).jpg"
+  },
+  {
+      "ArtistID": 143,
+      "ID": 384,
+      "More": "",
+      "Name": "Sad Story (Out Of Luck)",
+      "Rank": "4",
+      "Thumb": "albums/Sad Story (Out Of Luck).jpg"
+  },
+  {
+      "ArtistID": 144,
+      "ID": 385,
+      "More": "",
+      "Name": "Shawn Mendes (Deluxe)",
+      "Rank": "4",
+      "Thumb": "albums/Shawn Mendes (Deluxe).jpg"
+  },
+  {
+      "ArtistID": 145,
+      "ID": 386,
+      "More": "",
+      "Name": "Shelter",
+      "Rank": "4",
+      "Thumb": "albums/Shelter.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 387,
+      "More": "",
+      "Name": "Sing Me to Sleep",
+      "Rank": "4",
+      "Thumb": "albums/Sing Me to Sleep.jpg"
+  },
+  {
+      "ArtistID": 146,
+      "ID": 388,
+      "More": "",
+      "Name": "STAR WALKIN (League of Legends Worlds Anthem)",
+      "Rank": "4",
+      "Thumb": "albums/STAR WALKIN (League of Legends Worlds Anthem).jpg"
+  },
+  {
+      "ArtistID": 93,
+      "ID": 389,
+      "More": "",
+      "Name": "Stay Young",
+      "Rank": "4",
+      "Thumb": "albums/Stay Young.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 390,
+      "More": "",
+      "Name": "Strongest (Alan Walker Remix)",
+      "Rank": "4",
+      "Thumb": "albums/Strongest (Alan Walker Remix).jpg"
+  },
+  {
+      "ArtistID": 93,
+      "ID": 391,
+      "More": "",
+      "Name": "The Ocean (feat. Shy Martin)",
+      "Rank": "4",
+      "Thumb": "albums/The Ocean (feat. Shy Martin).jpg"
+  },
+  {
+      "ArtistID": 147,
+      "ID": 392,
+      "More": "",
+      "Name": "Tuyển Tập Những Ca Khúc Hay Nhất",
+      "Rank": "4",
+      "Thumb": "albums/Tuyển Tập Những Ca Khúc Hay Nhất.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 393,
+      "More": "",
+      "Name": "Tired",
+      "Rank": "4",
+      "Thumb": "albums/Tired.jpg"
+  },
+  {
+      "ArtistID": 148,
+      "ID": 394,
+      "More": "",
+      "Name": "lost",
+      "Rank": "4",
+      "Thumb": "albums/lost.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 395,
+      "More": "",
+      "Name": "Tạm Biệt Em",
+      "Rank": "4",
+      "Thumb": "albums/Tạm Biệt Em.jpg"
+  },
+  {
+      "ArtistID": 114,
+      "ID": 396,
+      "More": "",
+      "Name": "Vai Lan Don Dua",
+      "Rank": "4",
+      "Thumb": "albums/Vai Lan Don Dua.jpg"
+  },
+  {
+      "ArtistID": 87,
+      "ID": 397,
+      "More": "",
+      "Name": "Waiting",
+      "Rank": "4",
+      "Thumb": "albums/Waiting.jpg"
+  },
+  {
+      "ArtistID": 87,
+      "ID": 398,
+      "More": "",
+      "Name": "Way Back",
+      "Rank": "4",
+      "Thumb": "albums/Way Back.jpg"
+  },
+  {
+      "ArtistID": 15,
+      "ID": 399,
+      "More": "",
+      "Name": "World We Used To Know",
+      "Rank": "4",
+      "Thumb": "albums/World We Used To Know.jpg"
+  },
+  {
+      "ArtistID": 16,
+      "ID": 400,
+      "More": "",
+      "Name": "Worlds Collide",
+      "Rank": "4",
+      "Thumb": "albums/Worlds Collide.jpg"
+  },
+  {
+      "ArtistID": 149,
+      "ID": 401,
+      "More": "",
+      "Name": "Wrap Me In Plastic (Marcus Layton Radio Edit)",
+      "Rank": "4",
+      "Thumb": "albums/Wrap Me In Plastic (Marcus Layton Radio Edit).jpg"
+  },
+  {
+      "ArtistID": 150,
+      "ID": 402,
+      "More": "",
+      "Name": "You and I",
+      "Rank": "4",
+      "Thumb": "albums/You and I.jpg"
+  },
+  {
+      "ArtistID": 118,
+      "ID": 403,
+      "More": "",
+      "Name": "Yêu Em Dại Khờ",
+      "Rank": "4",
+      "Thumb": "albums/Yêu Em Dại Khờ.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 404,
+      "More": "",
+      "Name": "Đắng Lòng Thanh Niên",
+      "Rank": "4",
+      "Thumb": "albums/Đắng Lòng Thanh Niên.jpg"
+  },
+  {
+      "ArtistID": 123,
+      "ID": 405,
+      "More": "",
+      "Name": "Đếm Ngày Xa Em",
+      "Rank": "4",
+      "Thumb": "albums/Đếm Ngày Xa Em.jpg"
+  },
+  {
+      "ArtistID": 151,
+      "ID": 406,
+      "More": "",
+      "Name": "NieR Replicant ver.1.22 - Original Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant ver.1.22 - Original Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 152,
+      "ID": 407,
+      "More": "",
+      "Name": "NieR Automata - Orchestral Arrangement Album",
+      "Rank": "4",
+      "Thumb": "albums/NieR Automata - Orchestral Arrangement Album.jpg"
+  },
+  {
+      "ArtistID": 153,
+      "ID": 408,
+      "More": "",
+      "Name": "NieR Gestalt - Owari no Uta Mini Album",
+      "Rank": "4",
+      "Thumb": "albums/NieR Gestalt - Owari no Uta Mini Album.jpg"
+  },
+  {
+      "ArtistID": 154,
+      "ID": 409,
+      "More": "",
+      "Name": "NieR - Music Concert CD (The Memories of Puppets)",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Music Concert CD (The Memories of Puppets).jpg"
+  },
+  {
+      "ArtistID": 154,
+      "ID": 410,
+      "More": "",
+      "Name": "NieR Automata - Original Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Automata - Original Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 155,
+      "ID": 411,
+      "More": "",
+      "Name": "NieR Replicant ver.1.22 - Lunar Tear Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant ver.1.22 - Lunar Tear Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 156,
+      "ID": 412,
+      "More": "",
+      "Name": "NieR Replicant ver.1.22 - Weiss Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant ver.1.22 - Weiss Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 157,
+      "ID": 413,
+      "More": "",
+      "Name": "NieR Automata - Arranged & Unreleased",
+      "Rank": "4",
+      "Thumb": "albums/NieR Automata - Arranged & Unreleased.jpg"
+  },
+  {
+      "ArtistID": 158,
+      "ID": 414,
+      "More": "",
+      "Name": "NieR Gestalt & Replicant - Original Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Gestalt & Replicant - Original Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 159,
+      "ID": 415,
+      "More": "",
+      "Name": "FINAL FANTASY BRAVE EXVIUS Original Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/FINAL FANTASY BRAVE EXVIUS Original Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 152,
+      "ID": 416,
+      "More": "",
+      "Name": "NieR - Orchestral Arrangement Album - Addendum",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Orchestral Arrangement Album - Addendum.jpg"
+  },
+  {
+      "ArtistID": 160,
+      "ID": 417,
+      "More": "",
+      "Name": "NieR Re[in]carnation - Original Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR Re[in]carnation - Original Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 153,
+      "ID": 418,
+      "More": "",
+      "Name": "NieR Replicant - Uragiri no Koe Mini Album",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant - Uragiri no Koe Mini Album.jpg"
+  },
+  {
+      "ArtistID": 161,
+      "ID": 419,
+      "More": "",
+      "Name": "Piano Collections NieR:Automata",
+      "Rank": "4",
+      "Thumb": "albums/Piano Collections NieRAutomata.jpg"
+  },
+  {
+      "ArtistID": 152,
+      "ID": 420,
+      "More": "",
+      "Name": "NieR Gestalt & Replicant - Orchestral Arrangement Album",
+      "Rank": "4",
+      "Thumb": "albums/NieR Gestalt & Replicant - Orchestral Arrangement Album.jpg"
+  },
+  {
+      "ArtistID": 154,
+      "ID": 421,
+      "More": "",
+      "Name": "NieR - Music Concert & Talk Live Soundtrack",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Music Concert & Talk Live Soundtrack.jpg"
+  },
+  {
+      "ArtistID": 162,
+      "ID": 422,
+      "More": "",
+      "Name": "Piano Collections NieR Gestalt & Replicant",
+      "Rank": "4",
+      "Thumb": "albums/Piano Collections NieR Gestalt & Replicant.jpg"
+  },
+  {
+      "ArtistID": 163,
+      "ID": 423,
+      "More": "",
+      "Name": "NieR Gestalt & Replicant - Jazz Arrange Version [EP]",
+      "Rank": "4",
+      "Thumb": "albums/NieR Gestalt & Replicant - Jazz Arrange Version [EP].jpg"
+  },
+  {
+      "ArtistID": 155,
+      "ID": 424,
+      "More": "",
+      "Name": "NieR Replicant - 10+1 Years - Emil",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant - 10+1 Years - Emil.jpg"
+  },
+  {
+      "ArtistID": 162,
+      "ID": 425,
+      "More": "",
+      "Name": "NieR Replicant - 10+1 Years - Kainé",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant - 10+1 Years - Kainé.jpg"
+  },
+  {
+      "ArtistID": 152,
+      "ID": 426,
+      "More": "",
+      "Name": "NieR - Orchestral Arrangement Album - Addendum Special Disc",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Orchestral Arrangement Album - Addendum Special Disc.jpg"
+  },
+  {
+      "ArtistID": 166,
+      "ID": 427,
+      "More": "",
+      "Name": "NieR Replicant - 10+1 Years - Devola & Popola",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant - 10+1 Years - Devola & Popola.jpg"
+  },
+  {
+      "ArtistID": 162,
+      "ID": 428,
+      "More": "",
+      "Name": "NieR Replicant - 10+1 Years - Nier",
+      "Rank": "4",
+      "Thumb": "albums/NieR Replicant - 10+1 Years - Nier.jpg"
+  },
+  {
+      "ArtistID": 169,
+      "ID": 429,
+      "More": "",
+      "Name": "NieR - Orchestral Arrangement Special Disc",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Orchestral Arrangement Special Disc.jpg"
+  },
+  {
+      "ArtistID": 27,
+      "ID": 430,
+      "More": "",
+      "Name": "NieR - Become As Gods",
+      "Rank": "4",
+      "Thumb": "albums/NieR - Become As Gods.jpg"
+  },
+  {
+      "ArtistID": 162,
+      "ID": 431,
+      "More": "",
+      "Name": "NieR Gestalt & Replicant - 15 Nightmares & Arrange Tracks",
+      "Rank": "4",
+      "Thumb": "albums/NieR Gestalt & Replicant - 15 Nightmares & Arrange Tracks.jpg"
+  },
+  {
+      "ArtistID": 183,
+      "ID": 432,
+      "More": "",
+      "Name": "MONSTER HUNTER RISE ORIGINAL SOUNDTRACK",
+      "Rank": "4",
+      "Thumb": "albums/MONSTER HUNTER RISE ORIGINAL SOUNDTRACK.jpg"
+  }
+];
+
 var Tags = [
   {
     "ID": 0,
@@ -26,7 +16874,7 @@ var Tags = [
   {
     "ID": 3,
     "Name": "J-Pop-High",
-    "Url": "https://null-library2.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 4,
@@ -36,12 +16884,12 @@ var Tags = [
   {
     "ID": 5,
     "Name": "J-Pop-Mid",
-    "Url": "https://null-library2.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 6,
     "Name": "Pop-High",
-    "Url": "https://null-library2.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 7,
@@ -51,22 +16899,22 @@ var Tags = [
   {
     "ID": 8,
     "Name": "Pop-Mid",
-    "Url": "https://null-library3.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 9,
     "Name": "Symphony-High",
-    "Url": "https://null-library3.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 10,
     "Name": "Symphony-Low",
-    "Url": "https://null-music.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 11,
     "Name": "Symphony-Mid",
-    "Url": "https://null-library3.github.io/n/u/l/l/lib/"
+    "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   }
 ];
 //#endregion
