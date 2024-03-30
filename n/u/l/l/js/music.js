@@ -17311,7 +17311,7 @@ function getRandomFavAlbum(){
   return wrapRender(favAlbumHTML,"Random Album",'animate__fadeIn animate__slow');
 }
 function showListAlbum(artistID) {
-  showHome();
+  showHome();  
   let albums = artistID?.length > 0 ? Albums.filter(x => x.ArtistID == artistID) : Albums;
   let cardAlbumHTML = "";
   albums.forEach(album => {
@@ -17319,7 +17319,6 @@ function showListAlbum(artistID) {
   });
   view_home.innerHTML = wrapRender(cardAlbumHTML);
 }
-
 function showListArtist() {
   showHome();
   let cardArtistHTML = "";
@@ -17517,8 +17516,18 @@ function cardGroupInfoRender(groupID) {
   //&nbsp;Play All&nbsp;
   return item;
 }
+
+function calcHeight(){
+    let div = document.getElementById('content-view');
+    let body = document.getElementById('body');
+    let header = document.getElementById('header');
+    let minusHeight = header?.offsetHeight > 0 ? 250 : 150;
+    let height = "height:" + (body.offsetHeight - minusHeight) + 'px';
+    div.setAttribute("style", height);  
+}
 function showHome() {
   clearAddress();
+  calcHeight();
   play_list.setAttribute("style", 'display:none;overflow-x: hidden;')
   view_list.setAttribute("style", 'display:none;overflow-x: hidden;');
   view_home.setAttribute("style", 'display:block;overflow-x: hidden;');  

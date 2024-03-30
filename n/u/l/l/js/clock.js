@@ -34,15 +34,27 @@ var btnSHP = document.getElementById('btn-show-home-panel');
 var BGIndex = 0;
 var BGIndexNext = 1;
 BG = shuffleList(BG);
-for (let index = 0; index < BG.length; index++) {
-    const img = BG[index];
-    let opacity = index == 0 ? "opacity:1;" : "opacity:0;";
-    BGPanel.innerHTML += `
-        <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
-            style='background-image: url("assets/imgs/backgrounds/`+ img + `");` + opacity + `'>
-        </div>`;
+BGPanel.innerHTML += `
+    <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
+        style='background-image: url("assets/imgs/backgrounds/`+ BG.pop() + `"); opacity:1;'>
+    </div>
+    <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
+        style='background-image: url("assets/imgs/backgrounds/`+ BG.pop() + `"); opacity:0;'>
+    </div>    
+    <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
+        style='background-image: url("assets/imgs/backgrounds/`+ BG.pop() + `"); opacity:0;'>
+    </div>`;
+function addBG(){
+    if(BG?.length>0){
+        let div = document.createElement('div');
+        div.classList.add('position-absolute' ,'w-100' ,'h-100' ,'display-transition' ,'background-img' ,'bg-zoom');
+        let style =`background-image: url("assets/imgs/backgrounds/`+ BG.pop()+`");opacity:0;`;
+        div.setAttribute('style',style);
+        BGPanel.appendChild(div);
+        let t = setTimeout(function () { addBG() }, 15000);
+    }
 }
-
+addBG();
 var clocks = document.getElementsByClassName("date-time__clock");
 var days = document.getElementsByClassName("date-time__calendar");
 var lite_clock = document.getElementById("clock-lite");
@@ -74,12 +86,13 @@ function currentTime() {
     // days[0].innerText = calendar;
     lite_clock.innerHTML = hh + `<span style="display:block;line-height:40px;">:</span>` + mm;
     lite_day.innerText = calendar;
-    if (BGIndexNext >= BG?.length) BGIndexNext = 0;
+    
+    if (BGIndexNext >= BGPanel?.children?.length) BGIndexNext = 0;
     BGPanel.children[BGIndexNext].style.opacity = 1;
     BGPanel.children[BGIndex].style.opacity = 0;
     BGIndex += 1;
     BGIndexNext += 1;
-    if (BGIndex >= BG?.length) {
+    if (BGIndex >= BGPanel?.children?.length) {
         BGIndex = 0;
     }
     let t = setTimeout(function () { currentTime() }, 15000);
