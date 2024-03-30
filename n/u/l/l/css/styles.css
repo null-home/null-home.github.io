@@ -49,39 +49,39 @@ hr {
 	    -ms-animation-timing-function: ease-out;
 	}
 	10% {
-	    transform: scale(1.05);
+	    transform: scale(1.04);
 	    -ms-animation-timing-function: ease-out;
 	}
     20% {
-	    transform: scale(1.1);
+	    transform: scale(1.8);
 	    -ms-animation-timing-function: ease-out;
 	}
     30% {
-	    transform: scale(1.15);
+	    transform: scale(1.12);
 	    -ms-animation-timing-function: ease-out;
 	}
     40% {
-	    transform: scale(1.2);
+	    transform: scale(1.16);
 	    -ms-animation-timing-function: ease-out;
 	}
     50% {
-	    transform: scale(1.25);
+	    transform: scale(1.20);
 	    -ms-animation-timing-function: ease-out;
 	}
     60% {
-	    transform: scale(1.2);
+	    transform: scale(1.16);
 	    -ms-animation-timing-function: ease-out;
 	}
     70% {
-	    transform: scale(1.15);
+	    transform: scale(1.12);
 	    -ms-animation-timing-function: ease-out;
 	}
     80% {
-	    transform: scale(1.1);
+	    transform: scale(1.8);
 	    -ms-animation-timing-function: ease-out;
 	}
     90% {
-	    transform: scale(1.05);
+	    transform: scale(1.04);
 	    -ms-animation-timing-function: ease-out;
 	}
     100% {
