@@ -81,7 +81,7 @@ function currentTime() {
     if (BGIndex >= BG?.length) {
         BGIndex = 0;
     }
-    let t = setTimeout(function () { currentTime() }, 11115000);
+    let t = setTimeout(function () { currentTime() }, 15000);
 }
 currentTime();
 
