@@ -13,7 +13,7 @@
     <link href="css/animate.css" rel="stylesheet">
 </head>
 
-<body id="body">    
+<body id="body">
     <!-- <div class="position-absolute w-100 h-50 justify-content-center align-items-center" style="z-index: 1000;">
         <div id="fileWrapper" class="file_wrapper">
             <div id="info"></div>
@@ -24,44 +24,42 @@
           </div>
     </div> -->
     <!--Background-->
-    <div id="background-panel" class="position-absolute w-100 h-100 slideshow-container ui-transition overflow-hidden" style="z-index: -1;opacity: 0.4;"></div>
+    <div id="background-panel" class="position-absolute w-100 h-100 slideshow-container ui-transition overflow-hidden"
+        style="z-index: -1;opacity: 0.4;"></div>
     <!--Lite Page-->
-    <div class="position-absolute w-100 text-center bottom-0 ui-transition" id="lite-ui" style="visibility: hidden;z-index: 999;">
+    <div class="position-absolute w-100 text-center bottom-0 ui-transition" id="lite-ui"
+        style="visibility: hidden;z-index: 999;">
         <div class=" w-100 flex-column d-flex justify-content-center align-items-center pb-5">
             <div id="clock-lite" class="d-flex flex-row" style="line-height: 60px;"></div>
             <div id="day-lite" class=""></div>
         </div>
-        <span role="button" class="bi bi-chevron-compact-up" id="show-ui-button" onclick="hideUI(false)" ></span>
+        <span role="button" class="bi bi-chevron-compact-up" id="show-ui-button" onclick="hideUI(false)"></span>
     </div>
     <!--Links-->
-    <div class="position-absolute top-50 end-0 box-shadow animate__animated animate__fadeInRight rounded-3" id="menu-panel" style="display: none; z-index: 999;background-color: rgba(0, 0, 0, 0.85);">
+    <div class="position-absolute top-50 end-0 box-shadow animate__animated animate__fadeInRight rounded-3"
+        id="menu-panel" style="display: none; z-index: 999;background-color: rgba(0, 0, 0, 0.85);">
         <div class="d-flex flex-row justify-content-start align-items-center">
             <div class="d-flex flex-column px-3 py-3">
-                <div class="flex-row d-flex pt-2" onclick="redirect('Library')">                 
+                <div class="flex-row d-flex pt-2" onclick="redirect('Library')">
                     <i class="bi bi-journal-bookmark pe-2"></i>
                     <div>Library</div>
-                </div>    
-                <div class="flex-row d-flex pt-2" onclick="redirect('Music')">                 
+                </div>
+                <div class="flex-row d-flex pt-2" onclick="redirect('Music')">
                     <i class="bi bi-music-note-beamed pe-2"></i>
                     <div>Music</div>
-                </div>  
+                </div>
             </div>
-            <i class="bi bi-chevron-right pe-2" onclick="showHomePanel()" ></i>
+            <i class="bi bi-chevron-right pe-2" onclick="showHomePanel()"></i>
         </div>
-    </div>    
-    <span class="bi bi-chevron-compact-left position-absolute top-50 end-0 animate__animated animate__fadeInRight " onclick="showHomePanel()" id="btn-show-home-panel" style="opacity: 0.5; z-index: 999;"></span>
-    
+    </div>
+    <span class="bi bi-chevron-compact-left position-absolute top-50 end-0 animate__animated animate__fadeInRight "
+        onclick="showHomePanel()" id="btn-show-home-panel" style="opacity: 0.5; z-index: 999;"></span>
+
     <!--Main Page-->
     <div class="main flex-column d-flex justify-content-between ui-transition" id="main-ui">
-        <div id="header" class="main__header animate__animated animate__fadeInDown flex-row d-flex justify-content-between hide-on-mobile ">
-            <div class="header__date-time">
-            </div>
-            <div class="header__title">Null Music</div>
-
-            <div class="header__date-time">
-                <!-- <div class="date-time__clock "></div>
-                <div class="date-time__calendar"></div> -->
-            </div>
+        <div id="header"
+            class="main__header animate__animated animate__fadeInDown flex-row d-flex justify-content-center hide-on-mobile ">
+            <div class="header__title fs-1">Null Music</div>
         </div>
 
         <script src="js/clock.js" async></script>
@@ -73,16 +71,16 @@
                         <div class="d-flex flex-row justify-content-start align-items-center">
                             <button class="fs-2 bi bi-arrow-left-short" onclick="goBack()"></button>
                             <button class="px-2 fs-3 bi bi-house-heart-fill" onclick="showHome()"></button>
-                            <div id="address-title-1" class="align-items-center d-flex flex-row hide-on-mobile">                                
+                            <div id="address-title-1" class="align-items-center d-flex flex-row hide-on-mobile">
                             </div>
                             <div id="address-title-2" class="align-items-center d-flex flex-row hide-on-mobile">
                             </div>
                         </div>
                         <div class="d-flex flex-row justify-content-end align-items-center">
-                            <button class="bi bi-list-ul mx-3" id="btn-play-list"
-                                onclick="loadPlayList()"></button>
+                            <button class="bi bi-list-ul mx-3" id="btn-play-list" onclick="loadPlayList()"></button>
                             <div class="d-flex flex-row border-bottom border-light pb-1">
-                                <input class="search-box cursor-arrow default" id="input-search" role="button" type="text">
+                                <input class="search-box cursor-arrow default" id="input-search" role="button"
+                                    type="text">
                                 <button class="bi bi-search-heart mx-1 " id="btn-search" onclick="search()"></button>
                             </div>
                         </div>
@@ -100,27 +98,28 @@
                                     div.setAttribute("style", height);  
                                 </script>
                                 <div id="view-home" class="overflow-x-hidden" style="display: block; ">
-                                    
+
                                 </div>
                                 <div id="view-list" class="overflow-x-hidden" style="display: none;">
-                                    
+
                                 </div>
 
                                 <div id="play-list" class="overflow-x-hidden" style="display: none;">
 
                                 </div>
-                                
+
                                 <div id="seach-list" class="overflow-x-hidden" style="display: none;">
 
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main__footer d-flex flex-column justify-content-between align-items-center animate__animated animate__fadeInUp">
+        <div
+            class="main__footer d-flex flex-column justify-content-between align-items-center animate__animated animate__fadeInUp">
             <div id="player-container" class="w-100 pt-2 d-flex justify-content-center align-items-center">
                 <audio id="music-player" autoplay>
 
@@ -133,39 +132,35 @@
             <div class="d-flex flex-row justify-content-between align-items-end w-100 h-100">
                 <div class="h-100 col-3 d-flex flex-row align-items-end ps-3 pb-3">
                     <div class=" h-100 d-flex flex-row align-items-end playing-info" id="playing-info">
-                        
+
                     </div>
                 </div>
 
                 <div class="h-100 col-6 d-flex flex-row justify-content-center align-items-center">
                     <!-- <img src="assets/imgs/cat_3.gif" class="hide-on-mobile me-5" style="height: 75px;" alt=""> -->
-                    <img src="assets/imgs/cat_1.gif" class="hide-on-mobile me-5" style="height: 75px; width: 75px;" alt="">
+                    <img src="assets/imgs/cat_1.gif" class="hide-on-mobile me-5" style="height: 75px; width: 75px;"
+                        alt="">
                     <button class="bi bi-skip-start-fill fs-2" onclick="prevSong()"></button>
                     <button class="bi bi-play-circle fs-1 mx-5" id="play-button"></button>
-                    <button class="bi bi-skip-end-fill fs-2" onclick="nextSong()"></button>                    
-                    <img src="assets/imgs/cat_2.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt="">
+                    <button class="bi bi-skip-end-fill fs-2" onclick="nextSong()"></button>
+                    <img src="assets/imgs/cat_2.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;"
+                        alt="">
                     <!-- <img src="assets/imgs/cat_4.gif" class="ms-5 hide-on-mobile" style="height: 75px; width: 75px;" alt=""> -->
                 </div>
 
                 <div class="h-100 col-3 d-flex flex-row justify-content-end align-items-center pe-3">
-                    <div class=" d-flex flex-row justify-content-end align-items-center pe-3">                        
+                    <div class=" d-flex flex-row justify-content-end align-items-center pe-3">
                         <button class="bi bi-volume-up fs-4" id="mute-button"></button>
                         <input class="hide-on-mobile mx-2" type="range" id="volume-slider" max="100" value="90">
                     </div>
-                    
+
                     <button class="bi bi-eye-slash" id="hide-ui-button" onclick="hideUI(true)"></button>
                 </div>
             </div>
-
         </div>
     </div>
-    
-    
 </body>
-
-    
-
-
 
 </html>
 <script src="js/music.js" async></script>
+<script src="js/common.js" async></script>

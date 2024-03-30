@@ -29,8 +29,6 @@
     "Space (17).png",
 ];
 var BGPanel = document.getElementById('background-panel');
-var MenuPanel = document.getElementById('menu-panel');
-var btnSHP = document.getElementById('btn-show-home-panel');
 var BGIndex = 0;
 var BGIndexNext = 1;
 BG = shuffleList(BG);
@@ -55,8 +53,9 @@ function addBG(){
     }
 }
 addBG();
-var clocks = document.getElementsByClassName("date-time__clock");
-var days = document.getElementsByClassName("date-time__calendar");
+
+// var clocks = document.getElementsByClassName("date-time__clock");
+// var days = document.getElementsByClassName("date-time__calendar");
 var lite_clock = document.getElementById("clock-lite");
 var lite_day = document.getElementById("day-lite");
 
@@ -80,8 +79,7 @@ function currentTime() {
     hh = (hh < 10) ? "0" + hh : hh;
     mm = (mm < 10) ? "0" + mm : mm;
 
-    let time = hh + ":" + mm;
-
+    //let time = hh + ":" + mm;
     // clocks[0].innerText = time;
     // days[0].innerText = calendar;
     lite_clock.innerHTML = hh + `<span style="display:block;line-height:40px;">:</span>` + mm;
@@ -105,31 +103,4 @@ function shuffleList(list) {
         .sort((a, b) => a.sort - b.sort)
         .map(({ value }) => value);
     return shuffledList;
-}
-var isShow = false;
-function showHomePanel() {
-    if (isShow) {
-        MenuPanel.style.display = 'none';
-        btnSHP.style.display = 'block';
-    }
-    else {
-        MenuPanel.style.display = 'block';
-        btnSHP.style.display = 'none';
-    }
-    isShow = !isShow;
-}
-
-function redirect(type) {
-    showHomePanel();
-    switch (type) {
-        case "Music":
-            window.open("https://null-home.github.io/n/u/l/l/music.html");
-            break;
-
-        case "Library":
-            window.open("https://null-home.github.io/n/u/l/l/library.html");
-            break;
-        default:
-            break;
-    }
 }
