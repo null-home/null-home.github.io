@@ -16952,6 +16952,7 @@ const main_ui = document.getElementById('main-ui');
 const lite_ui = document.getElementById('lite-ui');
 const show_ui_button = document.getElementById('show-ui-button');
 var btnSHP = document.getElementById('btn-show-home-panel');
+var BGPanel = document.getElementById('background-panel');
 
 var playList = [];
 var playListGroup = [];
@@ -17589,11 +17590,13 @@ function hideUI(isHide) {
         main_ui.setAttribute("style", 'visibility:hidden;opacity:0');
         lite_ui.setAttribute("style", 'visibility:visible;opacity:1');
         btnSHP.style.display='none';
+        BGPanel.style.opacity=0.9;
     }
     else{
         main_ui.setAttribute("style", 'visibility:visible;opacity:1');
         lite_ui.setAttribute("style", 'visibility:hidden;opacity:0');
         btnSHP.style.display='block';
+        BGPanel.style.opacity=0.4;
     }
 }
 function shuffleList(list) {

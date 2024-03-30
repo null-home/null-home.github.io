@@ -1,29 +1,32 @@
 ﻿var BG = [
-    // "A_GUWEIZ (1).jpg",
-    // "A_GUWEIZ (24).jpg",
-    // "A_GUWEIZ (37).jpg",
-    // "A_GUWEIZ (72).jpg",
-    // "A_GUWEIZ (73).jpg",
-    // "A_GUWEIZ (79).jpg",
-    "LS (1).jpg",
-    "LS (2).jpg",
-    "LS (3).jpg",
-    "LS (5).jpg",
-    "LS (6).jpg",
-    "LS (8).jpg",
-    "LS (9).jpg",
-    "LS (10).jpg",
-    "LS (11).jpg",
-    "LS (12).jpg",
-    "LS (13).jpg",
-    "LS (14).jpg",
-    "LS (15).jpg",
-    "LS (16).jpg",
-    "LS (17).jpg",
-    "LS (18).jpg",
-    "LS (19).jpg",
-    "LS (21).jpg",
-    "LS (22).jpg",
+    "Space (1).jpg",
+    "Space (1).png",
+    "Space (2).jpg",
+    "Space (2).png",
+    "Space (3).jpg",
+    "Space (3).png",
+    "Space (4).jpg",
+    "Space (4).png",
+    "Space (5).jpg",
+    "Space (5).png",
+    "Space (6).jpg",
+    "Space (6).png",
+    "Space (7).jpg",
+    "Space (7).png",
+    "Space (8).jpg",
+    "Space (8).png",
+    "Space (9).jpg",
+    "Space (9).png",
+    "Space (10).jpg",
+    "Space (10).png",
+    "Space (11).jpg",
+    "Space (11).png",
+    "Space (12).png",
+    "Space (13).png",
+    "Space (14).png",
+    "Space (15).png",
+    "Space (16).png",
+    "Space (17).png",
 ];
 var BGPanel = document.getElementById('background-panel');
 var MenuPanel = document.getElementById('menu-panel');
@@ -32,20 +35,18 @@ var BGIndex = 0;
 var BGIndexNext = 1;
 BG = shuffleList(BG);
 for (let index = 0; index < BG.length; index++) {
-    const img = BG[index];    
-    let opacity = index ==0 ? "opacity:1;" : "opacity:0;";
-        BGPanel.innerHTML += `
+    const img = BG[index];
+    let opacity = index == 0 ? "opacity:1;" : "opacity:0;";
+    BGPanel.innerHTML += `
         <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
-            style='background-image: url("assets/imgs/backgrounds/`+ img + `");`+opacity+`'>
+            style='background-image: url("assets/imgs/backgrounds/`+ img + `");` + opacity + `'>
         </div>`;
-
-    
 }
 
-var clocks =document.getElementsByClassName("date-time__clock");
-var days =document.getElementsByClassName("date-time__calendar");
-var lite_clock =document.getElementById("clock-lite");
-var lite_day =document.getElementById("day-lite");
+var clocks = document.getElementsByClassName("date-time__clock");
+var days = document.getElementsByClassName("date-time__calendar");
+var lite_clock = document.getElementById("clock-lite");
+var lite_day = document.getElementById("day-lite");
 
 function currentTime() {
     let date = new Date();
@@ -71,8 +72,8 @@ function currentTime() {
 
     // clocks[0].innerText = time;
     // days[0].innerText = calendar;
-    lite_clock.innerHTML=hh+`<span style="display:block;line-height:40px;">:</span>`+mm;
-    lite_day.innerText=calendar;
+    lite_clock.innerHTML = hh + `<span style="display:block;line-height:40px;">:</span>` + mm;
+    lite_day.innerText = calendar;
     if (BGIndexNext >= BG?.length) BGIndexNext = 0;
     BGPanel.children[BGIndexNext].style.opacity = 1;
     BGPanel.children[BGIndex].style.opacity = 0;
@@ -96,13 +97,13 @@ var isShow = false;
 function showHomePanel() {
     if (isShow) {
         MenuPanel.style.display = 'none';
-        btnSHP.style.display='block';
+        btnSHP.style.display = 'block';
     }
     else {
         MenuPanel.style.display = 'block';
-        btnSHP.style.display='none';
+        btnSHP.style.display = 'none';
     }
-    isShow=!isShow;
+    isShow = !isShow;
 }
 
 function redirect(type) {
