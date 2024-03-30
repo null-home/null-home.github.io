@@ -12724,9 +12724,9 @@ var Artists = [
   {
       "ID": 94,
       "More": "",
-      "Name": "Unknow",
+      "Name": "Unknown",
       "Rank": "4",
-      "Thumb": null
+      "Thumb": "artists/Unknown.jpg"
   },
   {
       "ID": 95,
@@ -15545,9 +15545,9 @@ var Albums = [
       "ArtistID": 94,
       "ID": 269,
       "More": "",
-      "Name": "Unknow",
+      "Name": "Unknown",
       "Rank": "4",
-      "Thumb": null
+      "Thumb": "albums/Unknown.jpg"
   },
   {
       "ArtistID": 95,
@@ -16859,61 +16859,73 @@ var Tags = [
   {
     "ID": 0,
     "Name": "EDM-High",
+    "Thumb": "tags/EDM-High.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 1,
     "Name": "EDM-Low",
+    "Thumb": "tags/EDM-Low.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 2,
     "Name": "EDM-Mid",
+    "Thumb": "tags/EDM-Mid.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 3,
     "Name": "J-Pop-High",
+    "Thumb": "tags/J-Pop-High.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 4,
     "Name": "J-Pop-Low",
+    "Thumb": "tags/J-Pop-Low.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 5,
     "Name": "J-Pop-Mid",
+    "Thumb": "tags/J-Pop-Mid.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 6,
     "Name": "Pop-High",
+    "Thumb": "tags/Pop-High.jpg",
     "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 7,
     "Name": "Pop-Low",
+    "Thumb": "tags/Pop-Low.jpg",
     "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 8,
     "Name": "Pop-Mid",
+    "Thumb": "tags/Pop-Mid.jpg",
     "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 9,
     "Name": "Symphony-High",
+    "Thumb": "tags/Symphony-High.jpg",
     "Url": "https://null-music.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 10,
     "Name": "Symphony-Low",
+    "Thumb": "tags/Symphony-Low.jpg",
     "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   },
   {
     "ID": 11,
     "Name": "Symphony-Mid",
+    "Thumb": "tags/Symphony-Mid.jpg",
     "Url": "https://null-music2.github.io/n/u/l/l/lib/"
   }
 ];
@@ -17057,10 +17069,10 @@ volume_slider?.addEventListener('input', (e) => {
 });
 function changePlayingSong(){  
   ps_info.innerHTML=`
-    <div class="animate__animated  animate__fadeIn bg-image" style="height: 60px; width: 60px;background-image: url('` + thumbPath + Albums[PlayingSong?.AlbumID]?.Thumb + `')"></div>
+    <div role="button" onclick="clickCard(`+ PlayingSong?.AlbumID + ',\'' + CONST.TYPE.Albums + `')" class="animate__animated  animate__fadeIn bg-image" style="height: 60px; width: 60px;background-image: url('` + thumbPath + Albums[PlayingSong?.AlbumID]?.Thumb + `')"></div>
     <div class="text-truncate animate__animated  animate__fadeIn d-flex flex-column justify-content-center align-items-start ps-2 " style="height: 60px;">
         <span class="hide-on-mobile text-truncate">`+PlayingSong?.Title+`</span>
-        <span class="hide-on-mobile text-truncate">`+Artists[PlayingSong?.ArtistID]?.Name+`</span>
+        <a onclick="clickCard(`+ PlayingSong?.ArtistID + ',\'' + CONST.TYPE.Artists + `')" class="hide-on-mobile text-truncate">`+Artists[PlayingSong?.ArtistID]?.Name+`</a>
     </div>`;
 }
 function playSong(id) {
@@ -17134,7 +17146,6 @@ function loadPlayList() {
 function clickCard(cardID, type) {
   showList();
   let songs = [];
-  let cardName = "";
   let cardHTML = "";
   let listHTML = "";
   let albumInfo = "";
@@ -17142,8 +17153,9 @@ function clickCard(cardID, type) {
   let tagHeader = "";
   if (type == CONST.TYPE.Tags) {
     songs = Songs.filter(x => x.TagID == cardID);
-    cardName = Tags[cardID]?.Name;
-    address_title_1.innerHTML = getAddressTitle(cardName, cardID, CONST.TYPE.Tags, '1');
+    let tag = Tags[cardID];
+    address_title_1.innerHTML = getAddressTitle(tag.Name, cardID, CONST.TYPE.Tags, '1');
+    cardInfo = cardInfoRender(tag, CONST.TYPE.Tags);
   }
   if (type == CONST.TYPE.Albums) {
     songs = Songs.filter(x => x.AlbumID == cardID);
@@ -17352,11 +17364,11 @@ function wrapRender(htmlItem, title ,cssAnimate) {
   return item;
 }
 function cardRender(model, type) {
-  let thumb = type == CONST.TYPE.Tags ? "assets/thumbs/music/default/tag.jpg" : thumbPath + model.Thumb;
-  var item = `
+    let cardAvataClas = type == CONST.TYPE.Artists? "rounded-circle" : "rounded-3"
+  let item = `
   <div class="card-border d-flex flex-column align-items-center my-2" >
-    <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative box-shadow" onclick="clickCard(`+ model.ID + ',\'' + type + `')"
-        style='background-image: url("`+ thumb + `");'>
+    <div role="button" class=" w-75 card-thumb border-2 border-secondary position-relative box-shadow `+cardAvataClas+`" onclick="clickCard(`+ model.ID + ',\'' + type + `')"
+        style='background-image: url("`+ thumbPath + model.Thumb + `");'>
         <div class="w-100 d-flex justify-content-center align-items-center">        
         <a class="w-100 position-absolute top-100 text-center text-truncate pt-2 fs-5 ">
             `+ model.Name + `
@@ -17371,7 +17383,7 @@ function cardRender(model, type) {
   //       </div>
 }
 function cardGroupRender(groupID,title, thumb=[]) {
-  var item = `
+    let item = `
   <div class="card-border d-flex flex-column align-items-center my-2" >
     <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative box-shadow" onclick="clickGroup(`+ groupID +`)" >
         <div class=" d-flex flex-wrap h-100 w-100 rounded-3  ">
@@ -17392,7 +17404,7 @@ function cardGroupRender(groupID,title, thumb=[]) {
 }
 
 function listRender(model) {
-  var item = `
+    let item = `
   <div class="list-border py-2 w-100 d-flex flex-row align-items-center box-shadow">
     <button class="bi bi-play-circle fs-5 px-3 col-2" onclick="playThisSong('`+ model.ID + `')" style="min-width:50px;max-width:70px;"></button>
     <div class="bg-image col-3" onclick="clickCard(`+ model.AlbumID + ',\'' + CONST.TYPE.Albums + `')"
@@ -17406,7 +17418,7 @@ function listRender(model) {
   return item;
 }
 function playListRender(model) {
-  var item = `
+    let item = `
   <div class="list-border py-2 w-100 d-flex flex-row align-items-center box-shadow">
     <button class="bi bi-play-circle fs-5 px-3 col-2" onclick="playSong('`+ model.ID + `')"style="min-width:50px;max-width:70px;"></button>
     <div class="bg-image col-3" onclick="clickCard(`+ model.AlbumID + ',\'' + CONST.TYPE.Albums + `')"
