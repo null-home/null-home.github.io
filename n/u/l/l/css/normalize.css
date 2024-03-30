@@ -9,6 +9,7 @@
  */
 *{
     color:#eaeaea;
+    transition: 1s all;
 }
 html {
     -webkit-text-size-adjust: 100%; /* 2 */

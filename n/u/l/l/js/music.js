@@ -16948,6 +16948,10 @@ const current_time = document.getElementById('current-time');
 const ps_info = document.getElementById('playing-info');
 const address_title_1 = document.getElementById('address-title-1');
 const address_title_2 = document.getElementById('address-title-2');
+const main_ui = document.getElementById('main-ui');
+const lite_ui = document.getElementById('lite-ui');
+const show_ui_button = document.getElementById('show-ui-button');
+var btnSHP = document.getElementById('btn-show-home-panel');
 
 var playList = [];
 var playListGroup = [];
@@ -17094,6 +17098,18 @@ function playThisSong(id) {
   PlayingSong = Songs[id];
   playList=[PlayingSong];
   let tag = Tags[PlayingSong.TagID];
+//   fetch(tag?.Url + tag?.Name?.toLowerCase() + '/' + PlayingSong?.FileName)
+//   .then(res => res.blob()) // Gets the response and returns it as a blob
+//   .then(blob => {
+//     // Here's where you get access to the blob
+//     // And you can use it for whatever you want
+//     // Like calling ref().put(blob)
+
+//     // Here, I use it to make an image appear on the page
+//     let fr = new FileReader();
+//     fr.readAsDataURL(blob);
+//     Visualizer._start()
+// });
   music_player.src = tag?.Url + tag?.Name?.toLowerCase() + '/' + PlayingSong?.FileName;
   music_player?.play();
   play_button.classList.replace("bi-play-circle","bi-pause-circle");
@@ -17243,6 +17259,10 @@ function addGroupToPlayList(groupID, mode = '1') {
 }
 //#endregion
 
+
+//#region Visualizer
+
+//#endregion
 //#region Page Loading Function
 
 function renderPage() {
@@ -17564,7 +17584,18 @@ function clearAddress() {
   address_title_2.innerHTML = '';
   content_view.scrollTop = 0;
 }
-
+function hideUI(isHide) {
+    if(isHide){ 
+        main_ui.setAttribute("style", 'visibility:hidden;opacity:0');
+        lite_ui.setAttribute("style", 'visibility:visible;opacity:1');
+        btnSHP.style.display='none';
+    }
+    else{
+        main_ui.setAttribute("style", 'visibility:visible;opacity:1');
+        lite_ui.setAttribute("style", 'visibility:hidden;opacity:0');
+        btnSHP.style.display='block';
+    }
+}
 function shuffleList(list) {
   let shuffledList = list
     .map(value => ({ value, sort: Math.random() }))

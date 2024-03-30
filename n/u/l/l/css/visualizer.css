@@ -1,0 +1,11 @@
+
+#fileWrapper {
+	transition: all 0.5s ease;
+}
+#fileWrapper:hover {
+	opacity: 1 !important;
+}
+
+#visualizer_wrapper {
+	text-align: center;
+}

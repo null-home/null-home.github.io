@@ -8,22 +8,22 @@
     "LS (1).jpg",
     "LS (2).jpg",
     "LS (3).jpg",
-    // "LS (5).jpg",
-    // "LS (6).jpg",
-    // "LS (8).jpg",
-    // "LS (9).jpg",
-    // "LS (10).jpg",
-    // "LS (11).jpg",
-    // "LS (12).jpg",
-    // "LS (13).jpg",
-    // "LS (14).jpg",
-    // "LS (15).jpg",
-    // "LS (16).jpg",
-    // "LS (17).jpg",
-    // "LS (18).jpg",
-    // "LS (19).jpg",
-    // "LS (21).jpg",
-    // "LS (22).jpg",
+    "LS (5).jpg",
+    "LS (6).jpg",
+    "LS (8).jpg",
+    "LS (9).jpg",
+    "LS (10).jpg",
+    "LS (11).jpg",
+    "LS (12).jpg",
+    "LS (13).jpg",
+    "LS (14).jpg",
+    "LS (15).jpg",
+    "LS (16).jpg",
+    "LS (17).jpg",
+    "LS (18).jpg",
+    "LS (19).jpg",
+    "LS (21).jpg",
+    "LS (22).jpg",
 ];
 var BGPanel = document.getElementById('background-panel');
 var MenuPanel = document.getElementById('menu-panel');
@@ -32,15 +32,20 @@ var BGIndex = 0;
 var BGIndexNext = 1;
 BG = shuffleList(BG);
 for (let index = 0; index < BG.length; index++) {
-    const img = BG[index];
+    const img = BG[index];    
+    let opacity = index ==0 ? "opacity:1;" : "opacity:0;";
         BGPanel.innerHTML += `
-        <div class= "w-100 h-100 slide fade background-img"
-            style='background-image: url("assets/imgs/backgrounds/`+ img + `");'>
+        <div class= "position-absolute w-100 h-100 display-transition background-img bg-zoom"
+            style='background-image: url("assets/imgs/backgrounds/`+ img + `");`+opacity+`'>
         </div>`;
+
     
 }
 
-
+var clocks =document.getElementsByClassName("date-time__clock");
+var days =document.getElementsByClassName("date-time__calendar");
+var lite_clock =document.getElementById("clock-lite");
+var lite_day =document.getElementById("day-lite");
 
 function currentTime() {
     let date = new Date();
@@ -64,18 +69,19 @@ function currentTime() {
 
     let time = hh + ":" + mm;
 
-    document.getElementsByClassName("date-time__clock")[0].innerText = time;
-
-    document.getElementsByClassName("date-time__calendar")[0].innerText = calendar;
+    // clocks[0].innerText = time;
+    // days[0].innerText = calendar;
+    lite_clock.innerHTML=hh+`<span style="display:block;line-height:40px;">:</span>`+mm;
+    lite_day.innerText=calendar;
     if (BGIndexNext >= BG?.length) BGIndexNext = 0;
-    // BGPanel.children[BGIndexNext].style.display = 'block';
-    // BGPanel.children[BGIndex].style.display = 'none';
-    // BGIndex += 1;
-    // BGIndexNext += 1;
-    // if (BGIndex >= BG?.length) {
-    //     BGIndex = 0;
-    // }
-    let t = setTimeout(function () { currentTime() }, 13000);
+    BGPanel.children[BGIndexNext].style.opacity = 1;
+    BGPanel.children[BGIndex].style.opacity = 0;
+    BGIndex += 1;
+    BGIndexNext += 1;
+    if (BGIndex >= BG?.length) {
+        BGIndex = 0;
+    }
+    let t = setTimeout(function () { currentTime() }, 11115000);
 }
 currentTime();
 
