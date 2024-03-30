@@ -17069,7 +17069,7 @@ volume_slider?.addEventListener('input', (e) => {
 });
 function changePlayingSong(){  
   ps_info.innerHTML=`
-    <div role="button" onclick="clickCard(`+ PlayingSong?.AlbumID + ',\'' + CONST.TYPE.Albums + `')" class="animate__animated  animate__fadeIn bg-image" style="height: 60px; width: 60px;background-image: url('` + thumbPath + Albums[PlayingSong?.AlbumID]?.Thumb + `')"></div>
+    <div role="button" onclick="clickCard(`+ PlayingSong?.AlbumID + ',\'' + CONST.TYPE.Albums + `')" class="animate__animated  animate__fadeIn bg-image playing-song-thumb" style="background-image: url('` + thumbPath + Albums[PlayingSong?.AlbumID]?.Thumb + `')"></div>
     <div class="text-truncate animate__animated  animate__fadeIn d-flex flex-column justify-content-center align-items-start ps-2 " style="height: 60px;">
         <span class="hide-on-mobile text-truncate">`+PlayingSong?.Title+`</span>
         <a onclick="clickCard(`+ PlayingSong?.ArtistID + ',\'' + CONST.TYPE.Artists + `')" class="hide-on-mobile text-truncate">`+Artists[PlayingSong?.ArtistID]?.Name+`</a>
