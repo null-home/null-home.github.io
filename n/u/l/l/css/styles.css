@@ -53,7 +53,7 @@ hr {
 	    -ms-animation-timing-function: ease-out;
 	}
     20% {
-	    transform: scale(1.8);
+	    transform: scale(1.08);
 	    -ms-animation-timing-function: ease-out;
 	}
     30% {
@@ -77,7 +77,7 @@ hr {
 	    -ms-animation-timing-function: ease-out;
 	}
     80% {
-	    transform: scale(1.8);
+	    transform: scale(1.08);
 	    -ms-animation-timing-function: ease-out;
 	}
     90% {
