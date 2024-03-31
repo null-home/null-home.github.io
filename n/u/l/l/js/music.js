@@ -17597,13 +17597,13 @@ function clearAddress() {
 function hideUI(isHide) {
     if(isHide){ 
         main_ui.setAttribute("style", 'visibility:hidden;opacity:0');
-        lite_ui.setAttribute("style", 'visibility:visible;opacity:1');
+        lite_ui.setAttribute("style", 'visibility:visible;opacity:1;z-index: 20;');
         btnSHP.style.display='none';
         BGPanel.style.opacity=0.9;
     }
     else{
         main_ui.setAttribute("style", 'visibility:visible;opacity:1');
-        lite_ui.setAttribute("style", 'visibility:hidden;opacity:0');
+        lite_ui.setAttribute("style", 'visibility:hidden;opacity:0;z-index: -1;');
         btnSHP.style.display='block';
         BGPanel.style.opacity=0.4;
     }
