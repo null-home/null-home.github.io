@@ -17478,7 +17478,6 @@ function cardInfoRender(model, type, artist) {
     </div>
   </div>
   `;
-  //&nbsp;Play All&nbsp;
   return item;
 }
 function cardGroupInfoRender(groupID) {
@@ -17513,7 +17512,6 @@ function cardGroupInfoRender(groupID) {
     </div>
   </div>
   `;
-  //&nbsp;Play All&nbsp;
   return item;
 }
 
@@ -17634,6 +17632,9 @@ function getRandom(list,count) {
   else return shuffledList.slice(0,count);
 }
 
+window.onhashchange = function() {
+    goBack();
+}
 //#endregion
 
 
