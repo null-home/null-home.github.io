@@ -10,6 +10,58 @@ class BookModel {
 }
 var DB = [
     {
+        "Name": "oregairu","Status":'1',
+        "Vol": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "06.5",
+            "07",
+            "07.5",
+            "08",
+            "09",
+            "10",
+            "10.5",
+            "11",
+            "12",
+            "13",
+            "14",
+            "14.5",
+            "15"
+        ],
+        "Lang": "en",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "1",
+        "Public": "1"
+    },
+    {
+        "Name": "aobuta","Status":'2',
+        "Vol": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+        ],
+        "Lang": "en",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "1",
+        "Public": "1"
+    },
+
+    {
         "Name": "you-jitsu","Status":'1',
         "Vol": [
             "01",
@@ -788,6 +840,48 @@ var DB = [
             "31",
             "32"
         ],
+        "Lang": "en",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "5",
+        "Public": "0"
+    },
+    {
+        "Name": "mahouka-koukou","Status":'2',
+        "Vol": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            // "22",
+            // "23",
+            // "24",
+            // "25",
+            // "26",
+            // "27",
+            // "28",
+            // "29",
+            // "30",
+            // "31",
+            // "32"
+        ],
         "Lang": "vn",
         "OneShot": false,
         "Title": "",
@@ -1501,14 +1595,15 @@ var DB = [
         "Title": "",
         "Favorite": "5",
         "Public": "0"
-    },
+    }
 ];
 
 
 
+var host = "https://null-library.github.io/lib/";
+var thumbHost = "https://null-home.github.io/n/u/l/l/assets/thumbs/lightnovel/";
 function pageRender() {
     if (!window.location.href.includes('private.html')) DB = DB.filter(x => x.Public == '1');
-    var host = "https://null-library.github.io/lib/";
     var content_wrap = document.getElementById("content-wrap");
     let htmlOneShot = "";
     DB.sort((x, y) => x.Favorite - y.Favorite).forEach(data => {
@@ -1587,7 +1682,7 @@ function itemRender(href,thumbnail,lang,volName){
         <a class="item-border" style="text-decoration:none" href="` + href+ `" >
             <div class="item">
                 <div class="item-thumbnail">
-                    <div class="item-img" style="background-image:url('https://null-library.github.io/assets/thumbs/` +  thumbnail + `')"></div>
+                    <div class="item-img" style="background-image:url('`+thumbHost +  thumbnail + `')"></div>
                     <span class="item-rate">` +lang.toUpperCase() + `</span>
                 </div>
                 <div class="title-wrap">
