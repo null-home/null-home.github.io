@@ -51,7 +51,7 @@ body {
     top: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom,rgb(0,0,0,1),rgb(0,0,0,1));
 }
