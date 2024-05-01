@@ -1339,7 +1339,7 @@ body {
 }
 .null-img{
     margin: 1rem 0 1rem 0 !important;
-    max-width: 1200px !important;
+    max-width: 100% !important;
 }
 .null-img-border{
     display: flex;
