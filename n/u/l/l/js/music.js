@@ -16931,19 +16931,19 @@ var Tags = [
     {
         "ID": 12,
         "Name": "VC-Pop-High",
-        "Thumb": "tags/Pop-High.jpg",
+        "Thumb": "tags/VC-Pop-High.jpg",
         "Url": "https://null-music2.github.io/n/u/l/l/lib/"
     },
     {
         "ID": 13,
         "Name": "VC-Pop-Low",
-        "Thumb": "tags/Pop-Low.jpg",
+        "Thumb": "tags/VC-Pop-Low.jpg",
         "Url": "https://null-music2.github.io/n/u/l/l/lib/"
     },
     {
         "ID": 14,
         "Name": "VC-Pop-Mid",
-        "Thumb": "tags/Pop-Mid.jpg",
+        "Thumb": "tags/VC-Pop-Mid.jpg",
         "Url": "https://null-music2.github.io/n/u/l/l/lib/"
     },
 ];
@@ -17425,10 +17425,10 @@ function cardGroupRender(groupID, title, thumb = []) {
   <div class="card-border d-flex flex-column align-items-center my-2" >
     <div class=" w-75 card-thumb border-2 border-secondary rounded-3 position-relative box-shadow" onclick="clickGroup(`+ groupID + `)" >
         <div class=" d-flex flex-wrap h-100 w-100 rounded-3  ">
-        <img src="`+ thumbPath + Albums[thumb[0]].Thumb + `" style="height:50%;width:50%; border-top-left-radius:var(--bs-border-radius) !important" class="bg-image ">        
-        <img src="`+ thumbPath + Albums[thumb[1]].Thumb + `" style="height:50%;width:50%;border-top-right-radius:var(--bs-border-radius) !important" class="bg-image">
-        <img src="`+ thumbPath + Albums[thumb[2]].Thumb + `" style="height:50%;width:50%;border-bottom-left-radius:var(--bs-border-radius) !important" class="bg-image">
-        <img src="`+ thumbPath + Albums[thumb[3]].Thumb + `" style="height:50%;width:50%;border-bottom-right-radius:var(--bs-border-radius) !important" class="bg-image">
+        <img src="`+ thumbPath + Albums[thumb[0] ?? thumb[0]].Thumb + `" style="height:50%;width:50%; border-top-left-radius:var(--bs-border-radius) !important" class="bg-image ">        
+        <img src="`+ thumbPath + Albums[thumb[1] ?? thumb[0]].Thumb + `" style="height:50%;width:50%;border-top-right-radius:var(--bs-border-radius) !important" class="bg-image">
+        <img src="`+ thumbPath + Albums[thumb[2] ?? thumb[0]].Thumb + `" style="height:50%;width:50%;border-bottom-left-radius:var(--bs-border-radius) !important" class="bg-image">
+        <img src="`+ thumbPath + Albums[thumb[3] ?? thumb[0]].Thumb + `" style="height:50%;width:50%;border-bottom-right-radius:var(--bs-border-radius) !important" class="bg-image">
       </div>
         <div class="w-100 d-flex justify-content-center align-items-center">        
         <a class="w-100 position-absolute top-100 text-center text-truncate pt-2 fs-5 ">
