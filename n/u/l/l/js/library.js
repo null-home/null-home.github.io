@@ -125,7 +125,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -141,7 +141,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -178,7 +178,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -200,7 +200,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -229,7 +229,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -290,7 +290,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -341,7 +341,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -370,7 +370,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -415,7 +415,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -450,7 +450,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -479,7 +479,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -523,20 +523,12 @@ var DB = [
             "02",
             "03",
             "04",
-            "04",
-            "05",
             "05",
             "06",
-            "06",
-            "07",
             "07",
             "08",
-            "08",
-            "09",
             "09",
             "10",
-            "10",
-            "11",
             "11",
             "12",
             "13",
@@ -546,7 +538,24 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
+        "Public": "0"
+    },{
+        "Name": "hensuki","Status":'1',
+        "Vol": [
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+        ],
+        "Lang": "vn",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -584,7 +593,7 @@ var DB = [
         "Lang": "vn",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "1"
     },
     {
@@ -619,7 +628,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -745,7 +754,7 @@ var DB = [
         "Lang": "vn",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "0"
     },
     {
@@ -828,22 +837,22 @@ var DB = [
             "19",
             "20",
             "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-            "32"
+            // "22",
+            // "23",
+            // "24",
+            // "25",
+            // "26",
+            // "27",
+            // "28",
+            // "29",
+            // "30",
+            // "31",
+            // "32"
         ],
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "0"
     },
     {
@@ -870,22 +879,22 @@ var DB = [
             "19",
             "20",
             "21",
-            // "22",
-            // "23",
-            // "24",
-            // "25",
-            // "26",
-            // "27",
-            // "28",
-            // "29",
-            // "30",
-            // "31",
-            // "32"
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
         ],
         "Lang": "vn",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "0"
     },
     {
@@ -974,7 +983,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -1014,7 +1023,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "1"
     },
     {
@@ -1077,7 +1086,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -1174,7 +1183,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -1191,7 +1200,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -1254,7 +1263,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "1"
     },
     {
@@ -1275,7 +1284,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -1305,7 +1314,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "1"
     },
     {
@@ -1339,7 +1348,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "1"
     },
     {
@@ -1388,7 +1397,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -1412,7 +1421,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "1"
     },
     {
@@ -1479,7 +1488,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "1"
     },
     {
@@ -1515,7 +1524,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "2",
         "Public": "0"
     },
     {
@@ -1547,7 +1556,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
@@ -1580,7 +1589,7 @@ var DB = [
         "Lang": "en",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "3",
         "Public": "0"
     },
     {
