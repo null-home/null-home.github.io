@@ -528,3 +528,6 @@ input[type="range"]:active::-ms-thumb {
 .content-view-home {
     height: calc(100% - 0.1px);
 }
+.max-width-250{
+    max-width:250px;
+}

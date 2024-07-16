@@ -21804,7 +21804,7 @@ var Albums = [
 	{
 		"ID": 272,
 		"Name": "Unknown",
-		"Thumb": "Unknown",
+		"Thumb": "Unknown.jpg",
 		"ArtistID": 95,
 		"Rank": "4",
 		"More": ""
@@ -23443,8 +23443,8 @@ function changePlayingSong() {
     ps_info.innerHTML = `
     <div role="button" onclick="clickCard(`+ PlayingSong?.AlbumID + ',\'' + CONST.TYPE.Albums + `')" class="animate__animated  animate__fadeIn bg-image playing-song-thumb" style="background-image: url('` + thumbPath + Albums[PlayingSong?.AlbumID]?.Thumb + `')"></div>
     <div class="text-truncate animate__animated  animate__fadeIn d-flex flex-column justify-content-center align-items-start ps-2 " style="height: 60px;">
-        <span class="hide-on-mobile text-truncate">`+ PlayingSong?.Title + `</span>
-        <a onclick="clickCard(`+ PlayingSong?.ArtistID + ',\'' + CONST.TYPE.Artists + `')" class="hide-on-mobile text-truncate">` + Artists[PlayingSong?.ArtistID]?.Name + `</a>
+        <span class="hide-on-mobile text-truncate max-width-250">`+ PlayingSong?.Title + `</span>
+        <a onclick="clickCard(`+ PlayingSong?.ArtistID + ',\'' + CONST.TYPE.Artists + `')" class="max-width-250 hide-on-mobile text-truncate">` + Artists[PlayingSong?.ArtistID]?.Name + `</a>
     </div>`;
 }
 function playSong(id) {
