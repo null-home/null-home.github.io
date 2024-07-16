@@ -18855,7 +18855,7 @@ var Artists = [
 	{
 		"ID": 95,
 		"Name": "Unknown",
-		"Thumb": null,
+		"Thumb": "Unknown",
 		"Rank": "4",
 		"More": ""
 	},
@@ -21804,7 +21804,7 @@ var Albums = [
 	{
 		"ID": 272,
 		"Name": "Unknown",
-		"Thumb": null,
+		"Thumb": "Unknown",
 		"ArtistID": 95,
 		"Rank": "4",
 		"More": ""
@@ -23200,31 +23200,31 @@ var Tags = [
         "ID": 0,
         "Name": "EDM-High",
         "Thumb": "tags/EDM-High.jpg",
-        "Url": "https://null-music.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 1,
         "Name": "EDM-Low",
         "Thumb": "tags/EDM-Low.jpg",
-        "Url": "https://null-music.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 2,
         "Name": "EDM-Mid",
         "Thumb": "tags/EDM-Mid.jpg",
-        "Url": "https://null-music.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 3,
         "Name": "J-Pop-High",
         "Thumb": "tags/J-Pop-High.jpg",
-        "Url": "https://null-music.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 4,
         "Name": "J-Pop-Low",
         "Thumb": "tags/J-Pop-Low.jpg",
-        "Url": "https://null-music.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 5,
@@ -23236,19 +23236,19 @@ var Tags = [
         "ID": 6,
         "Name": "Pop-High",
         "Thumb": "tags/Pop-High.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 7,
         "Name": "Pop-Low",
         "Thumb": "tags/Pop-Low.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 8,
         "Name": "Pop-Mid",
         "Thumb": "tags/Pop-Mid.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 9,
@@ -23272,25 +23272,25 @@ var Tags = [
         "ID": 12,
         "Name": "Symphony-Under",
         "Thumb": "tags/Symphony-Under.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music.github.io/n/u/l/l/"
     },
     {
         "ID": 13,
         "Name": "VC-Pop-High",
         "Thumb": "tags/VC-Pop-High.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 14,
         "Name": "VC-Pop-Low",
         "Thumb": "tags/VC-Pop-Low.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     },
     {
         "ID": 15,
         "Name": "VC-Pop-Mid",
         "Thumb": "tags/VC-Pop-Mid.jpg",
-        "Url": "https://null-music2.github.io/n/u/l/l/"
+        "Url": "https://null-music3.github.io/n/u/l/l/"
     }
     
     
