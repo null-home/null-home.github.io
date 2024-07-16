@@ -19554,8 +19554,8 @@ var Artists = [
 	},
 	{
 		"ID": 195,
-		"Name": "ERIK",
-		"Thumb": "artists/ERIK.jpg",
+		"Name": "Erik",
+		"Thumb": "artists/Erik.jpg",
 		"Rank": "4",
 		"More": ""
 	},
@@ -22853,7 +22853,7 @@ var Albums = [
 		"ID": 403,
 		"Name": "Em Không Sai Chúng Ta Sai",
 		"Thumb": "albums/Em Không Sai Chúng Ta Sai.jpg",
-		"ArtistID": 195,
+		"ArtistID": 201,
 		"Rank": "4",
 		"More": ""
 	},
