@@ -18855,7 +18855,7 @@ var Artists = [
 	{
 		"ID": 95,
 		"Name": "Unknown",
-		"Thumb": "Unknown",
+		"Thumb": "artists/Unknown",
 		"Rank": "4",
 		"More": ""
 	},
@@ -21804,7 +21804,7 @@ var Albums = [
 	{
 		"ID": 272,
 		"Name": "Unknown",
-		"Thumb": "Unknown.jpg",
+		"Thumb": "albums/Unknown.jpg",
 		"ArtistID": 95,
 		"Rank": "4",
 		"More": ""
@@ -23713,6 +23713,7 @@ function search() {
         Songs.filter(x => x.Title.toLowerCase()?.includes(keyword.toLowerCase())).forEach(song => {
             songCard += listRender(song);
         });
+		this.tempPlayList =[...Songs.filter(x => x.Title.toLowerCase()?.includes(keyword.toLowerCase()))];
         if (songCard?.length > 0) songSearch = wrapRender(songCard, "Song", 'animate__fadeIn');
 
         Albums.filter(x => x.Name.toLowerCase()?.includes(keyword.toLowerCase())).forEach(album => {
