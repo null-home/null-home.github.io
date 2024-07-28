@@ -18186,7 +18186,6 @@ var Songs = [
 		"More": ""
 	}
 ];
-///Note: artists/Unknown.jpg , albums/Unknown.jpg
 var Artists = [
 	{
 		"ID": 0,
@@ -18856,7 +18855,7 @@ var Artists = [
 	{
 		"ID": 95,
 		"Name": "Unknown",
-		"Thumb": "artists/Unknown.jpg",
+		"Thumb": "artists/Unknown",
 		"Rank": "4",
 		"More": ""
 	},
