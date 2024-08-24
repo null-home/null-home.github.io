@@ -8,7 +8,7 @@
             let arr = ['','2','3','4'];
             for (let index = 0; index < arr?.length; index++) {
                 let host = arr[index];
-                let checkURl = "https://null-library"+host+".github.io/n/u/l/l/";
+                let checkURl = "https://null-library"+host+".github.io/n/u/l/l/"+baseUrl;
                 request?.open('GET', checkURl, false);
                 request?.send(); 
                 if (request.status === 200) {
